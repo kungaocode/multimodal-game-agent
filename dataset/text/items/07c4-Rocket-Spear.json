@@ -1,0 +1,41 @@
+{
+  "id": "07c4",
+  "link": "07c4-Rocket-Spear",
+  "tab": "英雄",
+  "section": "装备（飞盾战神）",
+  "name": "火箭飞矛",
+  "title": "部落冲突 coc 火箭飞矛装备升级数据",
+  "description": "火箭飞矛是飞盾战神的第一件史诗装备，它在 2024 年 6 月的超级炸弹人大舞台活动中首次开放购买。火箭飞矛装备可以让飞盾战神在接下来的几次攻击中威力更强，范围更远，并且拥有范围伤害。除此之外，火箭飞矛还可以增加飞盾战神不开技能时的每秒伤害和生命值。",
+  "module": "upgrade-home",
+  "img_folder": "home_heroes/07c4",
+  "canonical": "/upgrade/07c4-Rocket-Spear",
+  "wiki": "https://clashofclans.fandom.com/wiki/Rocket_Spear",
+  "info_image": {
+    "level": "info",
+    "src": "Rocket_Spear_info.png",
+    "url": "https://static.clashpost.com/upgrade/home_heroes/07c4/Rocket_Spear_info.png"
+  },
+  "image_groups": [],
+  "building_num": [],
+  "properties": [
+    {
+      "key": "技能类型",
+      "value": "主动技能"
+    },
+    {
+      "key": "装备稀有度",
+      "value": "史诗"
+    },
+    {
+      "key": "飞矛射程",
+      "value": "10 格"
+    },
+    {
+      "key": "飞矛的伤害半径",
+      "value": "0.8 格"
+    }
+  ],
+  "tables": [],
+  "timeline": [],
+  "notes": []
+}

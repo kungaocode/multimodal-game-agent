@@ -1,0 +1,73 @@
+{
+  "id": "0204",
+  "link": "0204-Minion-Prince",
+  "tab": "英雄",
+  "section": "英雄",
+  "name": "亡灵王子",
+  "title": "部落冲突 coc 亡灵王子（苍蝇王、大苍蝇）升级数据",
+  "description": "这个自称暗黑王子的家伙是个狠角色！亡灵王子会在空中发射暗黑粘液，对防御建筑和部队造成伤害！防守时，他会在自己的英雄战旗附近盘旋。",
+  "module": "upgrade-home",
+  "img_folder": "home_heroes/0204",
+  "canonical": "/upgrade/0204-Minion-Prince",
+  "wiki": "https://clashofclans.fandom.com/wiki/Minion_Prince",
+  "info_image": {
+    "level": "info",
+    "src": "Minion_Prince_info.png",
+    "url": "https://static.clashpost.com/upgrade/home_heroes/0204/Minion_Prince_info.png"
+  },
+  "image_groups": [],
+  "building_num": [],
+  "properties": [
+    {
+      "key": "英雄类型",
+      "value": "空中单位"
+    },
+    {
+      "key": "攻击偏好",
+      "value": "无"
+    },
+    {
+      "key": "伤害类型",
+      "value": "单体伤害"
+    },
+    {
+      "key": "攻击的目标",
+      "value": "地面和空中目标"
+    },
+    {
+      "key": "占据人口",
+      "value": "25"
+    },
+    {
+      "key": "移动速度",
+      "value": "3 格/秒"
+    },
+    {
+      "key": "攻击速度",
+      "value": "0.85 秒/次"
+    },
+    {
+      "key": "攻击距离",
+      "value": "4.5 格"
+    },
+    {
+      "key": "所需英雄殿堂等级",
+      "value": "3"
+    },
+    {
+      "key": "所需大本等级",
+      "value": "9"
+    },
+    {
+      "key": "搜索半径",
+      "value": "10 格<sup>①</sup>"
+    },
+    {
+      "key": "巡逻半径",
+      "value": "3 格<sup>②</sup>"
+    }
+  ],
+  "tables": [],
+  "timeline": [],
+  "notes": []
+}

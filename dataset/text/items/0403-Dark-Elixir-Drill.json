@@ -1,0 +1,402 @@
+{
+  "id": "0403",
+  "link": "0403-Dark-Elixir-Drill",
+  "tab": "建筑",
+  "section": "资源类建筑",
+  "name": "暗黑重油钻井",
+  "title": "部落冲突 coc 暗黑重油钻井（黑水采集器）升级数据",
+  "description": "建筑工人们终于找到了提炼纯净暗黑重油的方法，这是一种非常稀有的魔法物质。",
+  "module": "upgrade-home",
+  "img_folder": "home_buildings/0403",
+  "canonical": "/upgrade/0403-Dark-Elixir-Drill",
+  "wiki": "https://clashofclans.fandom.com/wiki/Dark_Elixir_Drill",
+  "info_image": {
+    "level": "info",
+    "src": "Dark_Elixir_Drill11.png",
+    "url": "https://static.clashpost.com/upgrade/home_buildings/0403/Dark_Elixir_Drill11.png"
+  },
+  "image_groups": [
+    {
+      "group": "",
+      "images": [
+        {
+          "level": "1 级",
+          "src": "Dark_Elixir_Drill1.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0403/Dark_Elixir_Drill1.png"
+        },
+        {
+          "level": "2 级",
+          "src": "Dark_Elixir_Drill2.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0403/Dark_Elixir_Drill2.png"
+        },
+        {
+          "level": "3 级",
+          "src": "Dark_Elixir_Drill3.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0403/Dark_Elixir_Drill3.png"
+        },
+        {
+          "level": "4 级",
+          "src": "Dark_Elixir_Drill4.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0403/Dark_Elixir_Drill4.png"
+        },
+        {
+          "level": "5 级",
+          "src": "Dark_Elixir_Drill5.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0403/Dark_Elixir_Drill5.png"
+        },
+        {
+          "level": "6 级",
+          "src": "Dark_Elixir_Drill6.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0403/Dark_Elixir_Drill6.png"
+        },
+        {
+          "level": "7 级",
+          "src": "Dark_Elixir_Drill7.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0403/Dark_Elixir_Drill7.png"
+        },
+        {
+          "level": "8 级",
+          "src": "Dark_Elixir_Drill8.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0403/Dark_Elixir_Drill8.png"
+        },
+        {
+          "level": "9 级",
+          "src": "Dark_Elixir_Drill9.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0403/Dark_Elixir_Drill9.png"
+        },
+        {
+          "level": "10 级",
+          "src": "Dark_Elixir_Drill10.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0403/Dark_Elixir_Drill10.png"
+        },
+        {
+          "level": "11 级",
+          "src": "Dark_Elixir_Drill11.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0403/Dark_Elixir_Drill11.png"
+        }
+      ]
+    }
+  ],
+  "building_num": [
+    {
+      "title": "大本等级",
+      "num": "1 - 6, 7, 8, 9 - 18"
+    },
+    {
+      "title": "建筑数量",
+      "num": "    0, 1, 2,      3"
+    }
+  ],
+  "properties": [
+    {
+      "key": "占地面积",
+      "value": "3×3"
+    },
+    {
+      "key": "判定面积",
+      "value": "2×2"
+    },
+    {
+      "key": "掠夺比例",
+      "value": "75% (无上限)"
+    }
+  ],
+  "tables": [
+    {
+      "label": "升级数据",
+      "headers": [
+        "等级",
+        "每小时产量",
+        "采集器容量*",
+        "填满容量所需时间",
+        "出现收集标志时的储量",
+        "每个采集器提速所需宝石",
+        "生命值",
+        "升级费用",
+        "升级时间",
+        "升级后可获得的经验",
+        "所需大本等级"
+      ],
+      "rows": [
+        [
+          "1",
+          "20",
+          "160",
+          "0, 8",
+          "1",
+          "7",
+          "800",
+          "180k",
+          "0, 4",
+          "",
+          "7"
+        ],
+        [
+          "2",
+          "30",
+          "300",
+          "0,10",
+          "1",
+          "10",
+          "860",
+          "270k",
+          "0, 6",
+          "",
+          "7"
+        ],
+        [
+          "3",
+          "45",
+          "540",
+          "0,12",
+          "1",
+          "15",
+          "920",
+          "540k",
+          "0,12",
+          "",
+          "7"
+        ],
+        [
+          "4",
+          "60",
+          "840",
+          "0,14",
+          "2",
+          "20",
+          "980",
+          "900k",
+          "0,18",
+          "",
+          "9"
+        ],
+        [
+          "5",
+          "80",
+          "1280",
+          "0,16",
+          "2",
+          "25",
+          "1060",
+          "1.2M",
+          "1",
+          "",
+          "9"
+        ],
+        [
+          "6",
+          "100",
+          "1800",
+          "0,18",
+          "3",
+          "30",
+          "1160",
+          "1.8M",
+          "1,12",
+          "",
+          "9"
+        ],
+        [
+          "7",
+          "120",
+          "2400",
+          "0,20",
+          "4",
+          "35",
+          "1280",
+          "2.1M",
+          "1,18",
+          "",
+          "10"
+        ],
+        [
+          "8",
+          "140",
+          "3000",
+          "0,21,25,43",
+          "5",
+          "40",
+          "1380",
+          "2.4M",
+          "2",
+          "",
+          "11"
+        ],
+        [
+          "9",
+          "160",
+          "3600",
+          "0,22,30",
+          "6",
+          "45",
+          "1480",
+          "3.7M",
+          "2,12",
+          "",
+          "12"
+        ],
+        [
+          "10",
+          "180",
+          "4200",
+          "0,23,20",
+          "7",
+          "50",
+          "1550",
+          "5.3M",
+          "3",
+          "",
+          "14"
+        ],
+        [
+          "11",
+          "200",
+          "4600",
+          "0,23",
+          "8",
+          "55",
+          "1600",
+          "12M",
+          "6",
+          "",
+          "16"
+        ],
+        [
+          "⚡1",
+          "209",
+          "4807",
+          "0,23",
+          "8",
+          "55",
+          "1600",
+          "5.1M",
+          "3",
+          "",
+          "18"
+        ],
+        [
+          "⚡2",
+          "218",
+          "5014",
+          "0,23",
+          "8",
+          "55",
+          "1600",
+          "4.5M",
+          "4",
+          "",
+          "18"
+        ],
+        [
+          "⚡3",
+          "218",
+          "5014",
+          "0,23",
+          "8",
+          "55",
+          "1650",
+          "3.9M",
+          "5",
+          "",
+          "18"
+        ]
+      ],
+      "extra_info": [
+        {
+          "column": 2,
+          "type": "number",
+          "icon": "Dark_Elixir",
+          "noGoldPass": true
+        },
+        {
+          "column": 3,
+          "type": "time",
+          "gpClass": "building",
+          "noGoldPass": true
+        },
+        {
+          "column": 7,
+          "type": "cost",
+          "gpClass": "building",
+          "icon": "Elixir"
+        },
+        {
+          "column": 8,
+          "type": "time",
+          "gpClass": "building"
+        },
+        {
+          "column": 9,
+          "type": "exp",
+          "icon": "Exp"
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2025/11/17",
+      "rows": [
+        "新增 11 级暗黑重油钻井，16 本可解锁。"
+      ]
+    },
+    {
+      "date": "2025/10/06",
+      "rows": [
+        "9 ~ 10 级暗黑重油钻井的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2025/03/24",
+      "rows": [
+        "1 ~ 5、7 ~ 10 级暗黑重油钻井的升级费用降低。",
+        "7 ~ 10 级暗黑重油钻井的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2024/11/25",
+      "rows": [
+        "1 ~ 6、9 级暗黑重油钻井的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2024/09/09",
+      "rows": [
+        "超级充能推出，暗黑重油钻井是第一批可以充能的建筑之一。"
+      ]
+    },
+    {
+      "date": "2024/02/27",
+      "rows": [
+        "新增 10 级暗黑重油钻井，14 本可解锁。"
+      ]
+    },
+    {
+      "date": "2021/12/09",
+      "rows": [
+        "新增 9 级暗黑重油钻井，12 本可解锁。"
+      ]
+    },
+    {
+      "date": "2021/04/12",
+      "rows": [
+        "所有等级暗黑重油钻井的升级费用和升级时间减少。"
+      ]
+    },
+    {
+      "date": "2020/03/30",
+      "rows": [
+        "新增 8 级暗黑重油钻井，11 本可解锁。",
+        "9 本（之前是 10 本）即可建造第 3 个暗黑重油钻井。"
+      ]
+    },
+    {
+      "date": "2019/04/02",
+      "rows": [
+        "2 ~ 7 级暗黑重油钻井的升级费用降低。",
+        "所有等级暗黑重油钻井的升级时间减少。"
+      ]
+    }
+  ],
+  "notes": []
+}

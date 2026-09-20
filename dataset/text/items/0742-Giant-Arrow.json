@@ -1,0 +1,41 @@
+{
+  "id": "0742",
+  "link": "0742-Giant-Arrow",
+  "tab": "英雄",
+  "section": "装备（弓箭女皇）",
+  "name": "巨型箭矢",
+  "title": "部落冲突 coc 巨型箭矢（穿云箭）装备升级数据",
+  "description": "巨型箭矢是弓箭女皇的一件普通装备。巨型箭矢装备可以让女王在使用技能时发射一支非常大的箭，这支箭可以穿透整个阵型。除了射出一支巨大的箭之外，巨型箭矢装备还可以给女王提供额外的每秒伤害和生命值。",
+  "module": "upgrade-home",
+  "img_folder": "home_heroes/0742",
+  "canonical": "/upgrade/0742-Giant-Arrow",
+  "wiki": "https://clashofclans.fandom.com/wiki/Giant_Arrow",
+  "info_image": {
+    "level": "info",
+    "src": "Giant_Arrow_info.png",
+    "url": "https://static.clashpost.com/upgrade/home_heroes/0742/Giant_Arrow_info.png"
+  },
+  "image_groups": [],
+  "building_num": [],
+  "properties": [
+    {
+      "key": "技能类型",
+      "value": "主动技能"
+    },
+    {
+      "key": "装备稀有度",
+      "value": "普通"
+    },
+    {
+      "key": "所需铁匠铺等级",
+      "value": "2"
+    },
+    {
+      "key": "所需大本等级",
+      "value": "9"
+    }
+  ],
+  "tables": [],
+  "timeline": [],
+  "notes": []
+}

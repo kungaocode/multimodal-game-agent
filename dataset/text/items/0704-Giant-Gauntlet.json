@@ -1,0 +1,37 @@
+{
+  "id": "0704",
+  "link": "0704-Giant-Gauntlet",
+  "tab": "英雄",
+  "section": "装备（野蛮人之王）",
+  "name": "巨型手套",
+  "title": "部落冲突 coc 巨型手套装备升级数据",
+  "description": "巨型手套是野蛮人之王的第一件史诗装备，它在 2023 年 12 月的饼干大作战活动中首次开放购买。当蛮王带上巨型手套装备时，开启技能后蛮王受到的伤害减少，而且会造成范围伤害。另外，巨型手套还会增加蛮王的每秒伤害，并给予他自愈的能力。",
+  "module": "upgrade-home",
+  "img_folder": "home_heroes/0704",
+  "canonical": "/upgrade/0704-Giant-Gauntlet",
+  "wiki": "https://clashofclans.fandom.com/wiki/Giant_Gauntlet",
+  "info_image": {
+    "level": "info",
+    "src": "Giant_Gauntlet_info.png",
+    "url": "https://static.clashpost.com/upgrade/home_heroes/0704/Giant_Gauntlet_info.png"
+  },
+  "image_groups": [],
+  "building_num": [],
+  "properties": [
+    {
+      "key": "技能类型",
+      "value": "主动技能"
+    },
+    {
+      "key": "装备稀有度",
+      "value": "史诗"
+    },
+    {
+      "key": "范围伤害半径",
+      "value": "2.5 格"
+    }
+  ],
+  "tables": [],
+  "timeline": [],
+  "notes": []
+}

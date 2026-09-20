@@ -1,0 +1,41 @@
+{
+  "id": "07c2",
+  "link": "07c2-Hog-Rider-Puppet",
+  "tab": "英雄",
+  "section": "装备（飞盾战神）",
+  "name": "野猪骑士木偶",
+  "title": "部落冲突 coc 野猪骑士木偶（野猪骑士玩偶）装备升级数据",
+  "description": "野猪骑士木偶是飞盾战神的一件普通装备。野猪骑士木偶装备可以让飞盾战神使用技能时召唤出一定数量的野猪骑士。带上野猪骑士木偶时，开启技能后，飞盾战神会在短时间内隐形，因此野猪骑士可以为她扛伤害。",
+  "module": "upgrade-home",
+  "img_folder": "home_heroes/07c2",
+  "canonical": "/upgrade/07c2-Hog-Rider-Puppet",
+  "wiki": "https://clashofclans.fandom.com/wiki/Hog_Rider_Puppet",
+  "info_image": {
+    "level": "info",
+    "src": "Hog_Rider_Puppet_info.png",
+    "url": "https://static.clashpost.com/upgrade/home_heroes/07c2/Hog_Rider_Puppet_info.png"
+  },
+  "image_groups": [],
+  "building_num": [],
+  "properties": [
+    {
+      "key": "技能类型",
+      "value": "主动技能"
+    },
+    {
+      "key": "装备稀有度",
+      "value": "普通"
+    },
+    {
+      "key": "所需铁匠铺等级",
+      "value": "7"
+    },
+    {
+      "key": "所需大本等级",
+      "value": "14"
+    }
+  ],
+  "tables": [],
+  "timeline": [],
+  "notes": []
+}

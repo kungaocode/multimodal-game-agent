@@ -1,0 +1,85 @@
+{
+  "id": "0282",
+  "link": "0282-Mighty-Yak",
+  "tab": "英雄",
+  "section": "战宠",
+  "name": "大牦",
+  "title": "部落冲突 coc 大牦（牛）升级数据",
+  "description": "大牦像攻城机器一样坚实，有着不撞倒城墙不罢休的毅力。大牦会在跟随的英雄被击倒时陷入狂怒。",
+  "module": "upgrade-home",
+  "img_folder": "home_heroes/0282",
+  "canonical": "/upgrade/0282-Mighty-Yak",
+  "wiki": "https://clashofclans.fandom.com/wiki/Mighty_Yak",
+  "info_image": {
+    "level": "info",
+    "src": "Mighty_Yak_info.png",
+    "url": "https://static.clashpost.com/upgrade/home_heroes/0282/Mighty_Yak_info.png"
+  },
+  "image_groups": [],
+  "building_num": [],
+  "properties": [
+    {
+      "key": "攻击偏好",
+      "value": "距离英雄 7 格内的目标"
+    },
+    {
+      "key": "伤害类型",
+      "value": "单体伤害"
+    },
+    {
+      "key": "攻击的目标",
+      "value": "仅地面目标"
+    },
+    {
+      "key": "伤害加成",
+      "value": "对墙 20 倍伤害"
+    },
+    {
+      "key": "占据人口",
+      "value": "20"
+    },
+    {
+      "key": "移动速度",
+      "value": "3 格/秒"
+    },
+    {
+      "key": "攻击速度",
+      "value": "2.1 秒/次"
+    },
+    {
+      "key": "攻击距离",
+      "value": "1.2 格"
+    },
+    {
+      "key": "重新锁定目标的延时",
+      "value": "0.1 秒"
+    },
+    {
+      "key": "主人死亡后的加成",
+      "value": "狂暴法术"
+    },
+    {
+      "key": "狂暴持续时间",
+      "value": "8 秒"
+    },
+    {
+      "key": "移动速度增加",
+      "value": "2 格/秒"
+    },
+    {
+      "key": "伤害增加",
+      "value": "70%"
+    },
+    {
+      "key": "所需战宠小屋等级",
+      "value": "3"
+    },
+    {
+      "key": "所需大本等级",
+      "value": "14"
+    }
+  ],
+  "tables": [],
+  "timeline": [],
+  "notes": []
+}

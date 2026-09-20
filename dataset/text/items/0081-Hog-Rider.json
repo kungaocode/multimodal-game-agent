@@ -1,0 +1,460 @@
+{
+  "id": "0081",
+  "link": "0081-Hog-Rider",
+  "tab": "科技",
+  "section": "黑水兵",
+  "name": "野猪骑士",
+  "title": "部落冲突 coc 野猪骑士升级数据",
+  "description": "驯服了狂暴的跳跳猪后，野猪骑士可以直接攻击那些躲在城墙后面的鼠辈了！有暗黑重油的滋养，这些勇士战无不胜！",
+  "module": "upgrade-home",
+  "img_folder": "home_tech/0081",
+  "canonical": "/upgrade/0081-Hog-Rider",
+  "wiki": "https://clashofclans.fandom.com/wiki/Hog_Rider",
+  "info_image": {
+    "level": "info",
+    "src": "Hog_Rider_info.png",
+    "url": "https://static.clashpost.com/upgrade/home_tech/0081/Hog_Rider_info.png"
+  },
+  "image_groups": [
+    {
+      "group": "",
+      "images": [
+        {
+          "level": "1 - 2 级",
+          "src": "Hog_Rider1.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0081/Hog_Rider1.png"
+        },
+        {
+          "level": "3 - 4 级",
+          "src": "Hog_Rider3.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0081/Hog_Rider3.png"
+        },
+        {
+          "level": "5 级",
+          "src": "Hog_Rider5.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0081/Hog_Rider5.png"
+        },
+        {
+          "level": "6 级",
+          "src": "Hog_Rider6.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0081/Hog_Rider6.png"
+        },
+        {
+          "level": "7 级",
+          "src": "Hog_Rider7.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0081/Hog_Rider7.png"
+        },
+        {
+          "level": "8 级",
+          "src": "Hog_Rider8.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0081/Hog_Rider8.png"
+        },
+        {
+          "level": "9 级",
+          "src": "Hog_Rider9.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0081/Hog_Rider9.png"
+        },
+        {
+          "level": "10 级",
+          "src": "Hog_Rider10.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0081/Hog_Rider10.png"
+        },
+        {
+          "level": "11 级",
+          "src": "Hog_Rider11.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0081/Hog_Rider11.png"
+        },
+        {
+          "level": "12 级",
+          "src": "Hog_Rider12.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0081/Hog_Rider12.png"
+        },
+        {
+          "level": "13 级",
+          "src": "Hog_Rider13.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0081/Hog_Rider13.png"
+        },
+        {
+          "level": "14 级",
+          "src": "Hog_Rider14.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0081/Hog_Rider14.png"
+        },
+        {
+          "level": "15 级",
+          "src": "Hog_Rider15.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0081/Hog_Rider15.png"
+        }
+      ]
+    }
+  ],
+  "building_num": [],
+  "properties": [
+    {
+      "key": "部队类型",
+      "value": "地面近战单位"
+    },
+    {
+      "key": "攻击偏好",
+      "value": "防御建筑 (偏好类型 1)"
+    },
+    {
+      "key": "伤害类型",
+      "value": "单体伤害"
+    },
+    {
+      "key": "攻击的目标",
+      "value": "仅地面目标"
+    },
+    {
+      "key": "占据人口",
+      "value": "5"
+    },
+    {
+      "key": "移动速度",
+      "value": "3 格/秒"
+    },
+    {
+      "key": "攻击速度",
+      "value": "1 秒/次"
+    },
+    {
+      "key": "攻击距离",
+      "value": "0.6 格"
+    },
+    {
+      "key": "所需暗黑训练营等级",
+      "value": "2"
+    },
+    {
+      "key": "所需大本等级",
+      "value": "7"
+    },
+    {
+      "key": "训练时间",
+      "value": "无"
+    },
+    {
+      "key": "捐赠费用",
+      "value": "3,3,135,Dark_Elixir"
+    }
+  ],
+  "tables": [
+    {
+      "label": "升级数据",
+      "headers": [
+        "等级",
+        "每秒伤害",
+        "每次伤害",
+        "生命值",
+        "升级花费",
+        "升级时间",
+        "所需实验室等级",
+        "所需大本等级"
+      ],
+      "rows": [
+        [
+          "1",
+          "60",
+          "60",
+          "270",
+          "\\",
+          "\\",
+          "1",
+          "7"
+        ],
+        [
+          "2",
+          "70",
+          "70",
+          "312",
+          "2K",
+          "0,10",
+          "5",
+          "7"
+        ],
+        [
+          "3",
+          "80",
+          "80",
+          "370",
+          "3.5K",
+          "0,18",
+          "6",
+          "8"
+        ],
+        [
+          "4",
+          "92",
+          "92",
+          "430",
+          "5K",
+          "1",
+          "6",
+          "8"
+        ],
+        [
+          "5",
+          "105",
+          "105",
+          "500",
+          "10K",
+          "2",
+          "7",
+          "9"
+        ],
+        [
+          "6",
+          "118",
+          "118",
+          "590",
+          "18.5K",
+          "2, 6",
+          "8",
+          "10"
+        ],
+        [
+          "7",
+          "140",
+          "140",
+          "700",
+          "35K",
+          "2,12",
+          "9",
+          "11"
+        ],
+        [
+          "8",
+          "155",
+          "155",
+          "810",
+          "47.5K",
+          "3",
+          "10",
+          "12"
+        ],
+        [
+          "9",
+          "165",
+          "165",
+          "890",
+          "50K",
+          "3,12",
+          "10",
+          "12"
+        ],
+        [
+          "10",
+          "176",
+          "176",
+          "970",
+          "85K",
+          "4",
+          "11",
+          "13"
+        ],
+        [
+          "11",
+          "187",
+          "187",
+          "1080",
+          "107.5K",
+          "5",
+          "12",
+          "14"
+        ],
+        [
+          "12",
+          "200",
+          "200",
+          "1230",
+          "125K",
+          "5,12",
+          "13",
+          "15"
+        ],
+        [
+          "13",
+          "213",
+          "213",
+          "1380",
+          "175K",
+          "6,12",
+          "14",
+          "16"
+        ],
+        [
+          "14",
+          "225",
+          "225",
+          "1500",
+          "240K",
+          "10",
+          "15",
+          "17"
+        ],
+        [
+          "15",
+          "250",
+          "250",
+          "1750",
+          "340K",
+          "14,12",
+          "16",
+          "18"
+        ]
+      ],
+      "extra_info": [
+        {
+          "column": 4,
+          "type": "cost",
+          "gpClass": "research",
+          "icon": "Dark_Elixir"
+        },
+        {
+          "column": 5,
+          "type": "time",
+          "gpClass": "research"
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026/02/23",
+      "rows": [
+        "在 18 本新增 15 级野猪骑士。"
+      ]
+    },
+    {
+      "date": "2025/11/17",
+      "rows": [
+        "14 级野猪骑士的升级时间和升级费用减少。"
+      ]
+    },
+    {
+      "date": "2025/10/06",
+      "rows": [
+        "9 ~ 13 级野猪骑士的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2025/03/27",
+      "rows": [
+        "部队的训练时间取消，但增加了捐赠费用。"
+      ]
+    },
+    {
+      "date": "2025/03/24",
+      "rows": [
+        "在 17 本新增 14 级野猪骑士。",
+        "7 ~ 13 级野猪骑士的升级时间减少。",
+        "10 级野猪骑士的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2025/02/10",
+      "rows": [
+        "野猪骑士的训练时间由 0:45 改为 0:42"
+      ]
+    },
+    {
+      "date": "2024/11/25",
+      "rows": [
+        "3、4、6、10 ~ 13 级野猪骑士的升级时间减少。",
+        "2 ~ 13 级野猪骑士的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2024/06/18",
+      "rows": [
+        "6 ~ 9、11 ~ 12 级野猪骑士的升级时间减少。",
+        "9、11 ~ 12 级野猪骑士的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2024/06/03",
+      "rows": [
+        "7 ~ 10 级野猪骑士的每秒伤害提升。"
+      ]
+    },
+    {
+      "date": "2024/02/27",
+      "rows": [
+        "16 本新增 13 级野猪骑士。"
+      ]
+    },
+    {
+      "date": "2023/12/12",
+      "rows": [
+        "6 ~ 12 级野猪骑士的升级时间减少。",
+        "2 ~ 6、11 级野猪骑士的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2023/06/12",
+      "rows": [
+        "15 本新增 12 级野猪骑士。",
+        "8 ~ 10 级野猪骑士的升级费用和升级时间减少。"
+      ]
+    },
+    {
+      "date": "2022/10/10",
+      "rows": [
+        "6 ~ 11 级野猪骑士的升级费用和升级时间减少。"
+      ]
+    },
+    {
+      "date": "2021/12/09",
+      "rows": [
+        "2 ~ 6 级野猪骑士的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2021/09/27",
+      "rows": [
+        "14 本新增 11 级野猪骑士。",
+        "3 ~ 5 级野猪骑士的生命值提升。"
+      ]
+    },
+    {
+      "date": "2021/04/12",
+      "rows": [
+        "2 ~ 5、8 级野猪骑士的升级费用降低。",
+        "2 ~ 8 级野猪骑士的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2020/10/12",
+      "rows": [
+        "2 ~ 8 级野猪骑士的升级费用和升级时间减少。"
+      ]
+    },
+    {
+      "date": "2020/03/30",
+      "rows": [
+        "6 级野猪骑士的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2019/12/09",
+      "rows": [
+        "13 本开放，并且新增 10 级野猪骑士。"
+      ]
+    },
+    {
+      "date": "2019/09/11",
+      "rows": [
+        "9 级野猪骑士的生命值由 920 降低至 890。"
+      ]
+    },
+    {
+      "date": "2019/04/02",
+      "rows": [
+        "1 ~ 8 级野猪骑士的升级时间减少。",
+        "4 ~ 6 级野猪骑士的训练费用降低。",
+        "新增 9 级野猪骑士，10 级实验室可解锁。"
+      ]
+    }
+  ],
+  "notes": []
+}

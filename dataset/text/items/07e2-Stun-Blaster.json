@@ -1,0 +1,49 @@
+{
+  "id": "07e2",
+  "link": "07e2-Stun-Blaster",
+  "tab": "英雄",
+  "section": "装备（飞龙公爵）",
+  "name": "爆震器",
+  "title": "部落冲突 coc 爆震器装备升级数据",
+  "description": "释放冲击波，对周围的敌人和建筑造成伤害并附带击晕/瘫痪效果。",
+  "module": "upgrade-home",
+  "img_folder": "home_heroes/07e2",
+  "canonical": "/upgrade/07e2-Stun-Blaster",
+  "wiki": "https://clashofclans.fandom.com/wiki/Stun_Blaster",
+  "info_image": {
+    "level": "info",
+    "src": "Stun_Blaster_info.png",
+    "url": "https://static.clashpost.com/upgrade/home_heroes/07e2/Stun_Blaster_info.png"
+  },
+  "image_groups": [],
+  "building_num": [],
+  "properties": [
+    {
+      "key": "技能类型",
+      "value": "主动技能"
+    },
+    {
+      "key": "装备稀有度",
+      "value": "普通"
+    },
+    {
+      "key": "所需铁匠铺等级",
+      "value": "9"
+    },
+    {
+      "key": "所需大本等级",
+      "value": "16"
+    },
+    {
+      "key": "伤害和眩晕半径",
+      "value": "8 格"
+    },
+    {
+      "key": "眩晕时长",
+      "value": "4.5 秒"
+    }
+  ],
+  "tables": [],
+  "timeline": [],
+  "notes": []
+}

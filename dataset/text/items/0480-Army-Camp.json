@@ -1,0 +1,350 @@
+{
+  "id": "0480",
+  "link": "0480-Army-Camp",
+  "tab": "建筑",
+  "section": "军事建筑",
+  "name": "兵营",
+  "title": "部落冲突 coc 兵营升级数据",
+  "description": "部队驻扎在兵营。建造并升级兵营以容纳更多部队。",
+  "module": "upgrade-home",
+  "img_folder": "home_buildings/0480",
+  "canonical": "/upgrade/0480-Army-Camp",
+  "wiki": "https://clashofclans.fandom.com/wiki/Army_Camp",
+  "info_image": {
+    "level": "info",
+    "src": "Army_Camp13_hd.png",
+    "url": "https://static.clashpost.com/upgrade/home_buildings/0480/Army_Camp13_hd.png"
+  },
+  "image_groups": [
+    {
+      "group": "",
+      "images": [
+        {
+          "level": "1 级",
+          "src": "Army_Camp1.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0480/Army_Camp1.png"
+        },
+        {
+          "level": "2 级",
+          "src": "Army_Camp2.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0480/Army_Camp2.png"
+        },
+        {
+          "level": "3 级",
+          "src": "Army_Camp3.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0480/Army_Camp3.png"
+        },
+        {
+          "level": "4 级",
+          "src": "Army_Camp4.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0480/Army_Camp4.png"
+        },
+        {
+          "level": "5 级",
+          "src": "Army_Camp5.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0480/Army_Camp5.png"
+        },
+        {
+          "level": "6 级",
+          "src": "Army_Camp6.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0480/Army_Camp6.png"
+        },
+        {
+          "level": "7 级",
+          "src": "Army_Camp7.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0480/Army_Camp7.png"
+        },
+        {
+          "level": "8 级",
+          "src": "Army_Camp8.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0480/Army_Camp8.png"
+        },
+        {
+          "level": "9 级",
+          "src": "Army_Camp9.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0480/Army_Camp9.png"
+        },
+        {
+          "level": "10 级",
+          "src": "Army_Camp10.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0480/Army_Camp10.png"
+        },
+        {
+          "level": "11 级",
+          "src": "Army_Camp11.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0480/Army_Camp11.png"
+        },
+        {
+          "level": "12 级",
+          "src": "Army_Camp12.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0480/Army_Camp12.png"
+        },
+        {
+          "level": "13 级",
+          "src": "Army_Camp13.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0480/Army_Camp13.png"
+        }
+      ]
+    }
+  ],
+  "building_num": [
+    {
+      "title": "大本等级",
+      "num": "1 - 2, 3 - 4, 5 - 6, 7 - 18"
+    },
+    {
+      "title": "建筑数量",
+      "num": "    1,     2,     3,      4"
+    }
+  ],
+  "properties": [
+    {
+      "key": "占地面积",
+      "value": "4×4"
+    },
+    {
+      "key": "判定面积",
+      "value": "2×2"
+    }
+  ],
+  "tables": [
+    {
+      "label": "升级数据",
+      "headers": [
+        "等级",
+        "可容纳的部队人口",
+        "生命值",
+        "升级费用",
+        "升级时间",
+        "升级后可获得的经验",
+        "所需大本等级"
+      ],
+      "rows": [
+        [
+          "1",
+          "20",
+          "100",
+          "200",
+          "0, 0, 1",
+          "",
+          "1"
+        ],
+        [
+          "2",
+          "30",
+          "150",
+          "2k",
+          "0, 0, 5",
+          "",
+          "2"
+        ],
+        [
+          "3",
+          "35",
+          "200",
+          "10k",
+          "0, 0,30",
+          "",
+          "3"
+        ],
+        [
+          "4",
+          "40",
+          "250",
+          "100k",
+          "0, 2",
+          "",
+          "4"
+        ],
+        [
+          "5",
+          "45",
+          "300",
+          "250k",
+          "0, 6",
+          "",
+          "5"
+        ],
+        [
+          "6",
+          "50",
+          "330",
+          "500k",
+          "0,12",
+          "",
+          "6"
+        ],
+        [
+          "7",
+          "55",
+          "400",
+          "1.5M",
+          "2",
+          "",
+          "9"
+        ],
+        [
+          "8",
+          "60",
+          "500",
+          "2.5M",
+          "3",
+          "",
+          "10"
+        ],
+        [
+          "9",
+          "65",
+          "600",
+          "4.2M",
+          "3,12",
+          "",
+          "11"
+        ],
+        [
+          "10",
+          "70",
+          "700",
+          "4.5M",
+          "4",
+          "",
+          "12"
+        ],
+        [
+          "11",
+          "75",
+          "800",
+          "7.5M",
+          "5",
+          "",
+          "13"
+        ],
+        [
+          "12",
+          "80",
+          "850",
+          "10M",
+          "6",
+          "",
+          "15"
+        ],
+        [
+          "13",
+          "85",
+          "900",
+          "17M",
+          "10",
+          "",
+          "17"
+        ]
+      ],
+      "extra_info": [
+        {
+          "column": 3,
+          "type": "cost",
+          "gpClass": "building",
+          "icon": "Elixir"
+        },
+        {
+          "column": 4,
+          "type": "time",
+          "gpClass": "building"
+        },
+        {
+          "column": 5,
+          "type": "exp",
+          "icon": "Exp"
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2025/11/17",
+      "rows": [
+        "13 级兵营的升级时间和升级费用减少。"
+      ]
+    },
+    {
+      "date": "2025/10/06",
+      "rows": [
+        "9 ~ 12 级兵营的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2025/06/16",
+      "rows": [
+        "1 ~ 6 级兵营的生命值减少。"
+      ]
+    },
+    {
+      "date": "2025/03/24",
+      "rows": [
+        "17 本新增 13 级兵营。",
+        "1 ~ 5 级兵营的升级时间减少。",
+        "6、11、12 级兵营的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2024/11/25",
+      "rows": [
+        "9 ~ 12 级兵营的升级时间减少。",
+        "10、12 级兵营的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2024/06/18",
+      "rows": [
+        "12 级兵营的升级时间减少。",
+        "12 级兵营的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2023/12/12",
+      "rows": [
+        "12 级兵营的升级时间 16 天减少到 12 天 12 小时。"
+      ]
+    },
+    {
+      "date": "2023/06/12",
+      "rows": [
+        "10 ~ 11 级兵营的升级时间减少。",
+        "10 ~ 11 级兵营的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2022/10/10",
+      "rows": [
+        "15 本推出，并在 15 本新增 12 级兵营。",
+        "8 ~ 11 级兵营的升级费用和升级时间减少。"
+      ]
+    },
+    {
+      "date": "2021/04/12",
+      "rows": [
+        "14 本推出，并在 14 本新增 15 级兵营。",
+        "2 ~ 3 级兵营的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2020/10/12",
+      "rows": [
+        "13 本新增 11 级兵营。"
+      ]
+    },
+    {
+      "date": "2019/12/09",
+      "rows": [
+        "兵营的占地面积由 5*5 改为 4*4。"
+      ]
+    },
+    {
+      "date": "2019/04/02",
+      "rows": [
+        "8 ~ 9 级兵营的升级费用降低。",
+        "5 ~ 9 级兵营的升级时间减少。"
+      ]
+    }
+  ],
+  "notes": []
+}

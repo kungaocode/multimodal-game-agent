@@ -1,0 +1,800 @@
+{
+  "id": "030a",
+  "link": "030a-Inferno-Tower",
+  "tab": "建筑",
+  "section": "防御建筑",
+  "name": "地狱之塔",
+  "title": "部落冲突 coc 地狱之塔升级数据",
+  "description": "建造有暗黑重油加持火焰的地狱之塔，可以对单一目标造成难以估算的伤害，或者一次对多重目标进行持续攻击。",
+  "module": "upgrade-home",
+  "img_folder": "home_buildings/030a",
+  "canonical": "/upgrade/030a-Inferno-Tower",
+  "wiki": "https://clashofclans.fandom.com/wiki/Inferno_Tower/Home_Village",
+  "info_image": {
+    "level": "info",
+    "src": "Inferno_Tower12.png",
+    "url": "https://static.clashpost.com/upgrade/home_buildings/030a/Inferno_Tower12.png"
+  },
+  "image_groups": [
+    {
+      "group": "单头",
+      "images": [
+        {
+          "level": "1 级",
+          "src": "Inferno_Tower1.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/030a/Inferno_Tower1.png"
+        },
+        {
+          "level": "2 级",
+          "src": "Inferno_Tower2.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/030a/Inferno_Tower2.png"
+        },
+        {
+          "level": "3 级",
+          "src": "Inferno_Tower3.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/030a/Inferno_Tower3.png"
+        },
+        {
+          "level": "4 级",
+          "src": "Inferno_Tower4.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/030a/Inferno_Tower4.png"
+        },
+        {
+          "level": "5 级",
+          "src": "Inferno_Tower5.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/030a/Inferno_Tower5.png"
+        },
+        {
+          "level": "6 级",
+          "src": "Inferno_Tower6.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/030a/Inferno_Tower6.png"
+        },
+        {
+          "level": "7 级",
+          "src": "Inferno_Tower7.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/030a/Inferno_Tower7.png"
+        },
+        {
+          "level": "8 级",
+          "src": "Inferno_Tower8.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/030a/Inferno_Tower8.png"
+        },
+        {
+          "level": "9 级",
+          "src": "Inferno_Tower9.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/030a/Inferno_Tower9.png"
+        },
+        {
+          "level": "10 级",
+          "src": "Inferno_Tower10.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/030a/Inferno_Tower10.png"
+        },
+        {
+          "level": "11 级",
+          "src": "Inferno_Tower11.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/030a/Inferno_Tower11.png"
+        },
+        {
+          "level": "12 级",
+          "src": "Inferno_Tower12.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/030a/Inferno_Tower12.png"
+        }
+      ]
+    },
+    {
+      "group": "熄火的单头",
+      "images": [
+        {
+          "level": "1 级",
+          "src": "Inferno_Tower1_Depleted.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/030a/Inferno_Tower1_Depleted.png"
+        },
+        {
+          "level": "2 级",
+          "src": "Inferno_Tower2_Depleted.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/030a/Inferno_Tower2_Depleted.png"
+        },
+        {
+          "level": "3 级",
+          "src": "Inferno_Tower3_Depleted.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/030a/Inferno_Tower3_Depleted.png"
+        },
+        {
+          "level": "4 级",
+          "src": "Inferno_Tower4_Depleted.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/030a/Inferno_Tower4_Depleted.png"
+        },
+        {
+          "level": "5 级",
+          "src": "Inferno_Tower5_Depleted.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/030a/Inferno_Tower5_Depleted.png"
+        },
+        {
+          "level": "6 级",
+          "src": "Inferno_Tower6_Depleted.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/030a/Inferno_Tower6_Depleted.png"
+        },
+        {
+          "level": "7 级",
+          "src": "Inferno_Tower7_Depleted.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/030a/Inferno_Tower7_Depleted.png"
+        },
+        {
+          "level": "8 级",
+          "src": "Inferno_Tower8_Depleted.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/030a/Inferno_Tower8_Depleted.png"
+        },
+        {
+          "level": "9 级",
+          "src": "Inferno_Tower9_Depleted.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/030a/Inferno_Tower9_Depleted.png"
+        },
+        {
+          "level": "10 级",
+          "src": "Inferno_Tower10_Depleted.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/030a/Inferno_Tower10_Depleted.png"
+        },
+        {
+          "level": "11 级",
+          "src": "Inferno_Tower11_Depleted.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/030a/Inferno_Tower11_Depleted.png"
+        },
+        {
+          "level": "12 级",
+          "src": "Inferno_Tower12_Depleted.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/030a/Inferno_Tower12_Depleted.png"
+        }
+      ]
+    },
+    {
+      "group": "多头",
+      "images": [
+        {
+          "level": "1 级",
+          "src": "Inferno_Tower1_Multi.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/030a/Inferno_Tower1_Multi.png"
+        },
+        {
+          "level": "2 级",
+          "src": "Inferno_Tower2_Multi.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/030a/Inferno_Tower2_Multi.png"
+        },
+        {
+          "level": "3 级",
+          "src": "Inferno_Tower3_Multi.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/030a/Inferno_Tower3_Multi.png"
+        },
+        {
+          "level": "4 级",
+          "src": "Inferno_Tower4_Multi.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/030a/Inferno_Tower4_Multi.png"
+        },
+        {
+          "level": "5 级",
+          "src": "Inferno_Tower5_Multi.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/030a/Inferno_Tower5_Multi.png"
+        },
+        {
+          "level": "6 级",
+          "src": "Inferno_Tower6_Multi.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/030a/Inferno_Tower6_Multi.png"
+        },
+        {
+          "level": "7 级",
+          "src": "Inferno_Tower7_Multi.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/030a/Inferno_Tower7_Multi.png"
+        },
+        {
+          "level": "8 级",
+          "src": "Inferno_Tower8_Multi.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/030a/Inferno_Tower8_Multi.png"
+        },
+        {
+          "level": "9 级",
+          "src": "Inferno_Tower9_Multi.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/030a/Inferno_Tower9_Multi.png"
+        },
+        {
+          "level": "10 级",
+          "src": "Inferno_Tower10_Multi.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/030a/Inferno_Tower10_Multi.png"
+        },
+        {
+          "level": "11 级",
+          "src": "Inferno_Tower11_Multi.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/030a/Inferno_Tower11_Multi.png"
+        },
+        {
+          "level": "12 级",
+          "src": "Inferno_Tower12_Multi.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/030a/Inferno_Tower12_Multi.png"
+        }
+      ]
+    },
+    {
+      "group": "熄火的多头",
+      "images": [
+        {
+          "level": "1 级",
+          "src": "Inferno_Tower1_Multi_Depleted.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/030a/Inferno_Tower1_Multi_Depleted.png"
+        },
+        {
+          "level": "2 级",
+          "src": "Inferno_Tower2_Multi_Depleted.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/030a/Inferno_Tower2_Multi_Depleted.png"
+        },
+        {
+          "level": "3 级",
+          "src": "Inferno_Tower3_Multi_Depleted.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/030a/Inferno_Tower3_Multi_Depleted.png"
+        },
+        {
+          "level": "4 级",
+          "src": "Inferno_Tower4_Multi_Depleted.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/030a/Inferno_Tower4_Multi_Depleted.png"
+        },
+        {
+          "level": "5 级",
+          "src": "Inferno_Tower5_Multi_Depleted.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/030a/Inferno_Tower5_Multi_Depleted.png"
+        },
+        {
+          "level": "6 级",
+          "src": "Inferno_Tower6_Multi_Depleted.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/030a/Inferno_Tower6_Multi_Depleted.png"
+        },
+        {
+          "level": "7 级",
+          "src": "Inferno_Tower7_Multi_Depleted.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/030a/Inferno_Tower7_Multi_Depleted.png"
+        },
+        {
+          "level": "8 级",
+          "src": "Inferno_Tower8_Multi_Depleted.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/030a/Inferno_Tower8_Multi_Depleted.png"
+        },
+        {
+          "level": "9 级",
+          "src": "Inferno_Tower9_Multi_Depleted.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/030a/Inferno_Tower9_Multi_Depleted.png"
+        },
+        {
+          "level": "10 级",
+          "src": "Inferno_Tower10_Multi_Depleted.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/030a/Inferno_Tower10_Multi_Depleted.png"
+        },
+        {
+          "level": "11 级",
+          "src": "Inferno_Tower11_Multi_Depleted.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/030a/Inferno_Tower11_Multi_Depleted.png"
+        },
+        {
+          "level": "12 级",
+          "src": "Inferno_Tower12_Multi_Depleted.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/030a/Inferno_Tower12_Multi_Depleted.png"
+        }
+      ]
+    }
+  ],
+  "building_num": [
+    {
+      "title": "大本等级",
+      "num": "1 - 9, 10 - 11, 12 - 18"
+    },
+    {
+      "title": "建筑数量",
+      "num": "    0,       2,       3"
+    },
+    {
+      "title": "大本等级",
+      "num": "1 - 9, 10 - 11, 12 - 18"
+    },
+    {
+      "title": "建筑数量",
+      "num": "    0,       2,       3"
+    }
+  ],
+  "properties": [
+    {
+      "key": "占地面积",
+      "value": "2×2"
+    },
+    {
+      "key": "判定面积",
+      "value": "1×1"
+    },
+    {
+      "key": "伤害类型",
+      "value": "可调整<sup>*</sup>"
+    },
+    {
+      "key": "攻击的目标",
+      "value": "地面和空中目标"
+    },
+    {
+      "key": "射程",
+      "value": "9 格"
+    },
+    {
+      "key": "攻速",
+      "value": "0.128 秒/次"
+    },
+    {
+      "key": "切换目标延时",
+      "value": "0.05 秒"
+    },
+    {
+      "key": "弹药数量",
+      "value": "1000"
+    },
+    {
+      "key": "占地面积",
+      "value": "2×2"
+    },
+    {
+      "key": "判定面积",
+      "value": "1×1"
+    },
+    {
+      "key": "伤害类型",
+      "value": "可调整<sup>*</sup>"
+    },
+    {
+      "key": "攻击的目标",
+      "value": "地面和空中目标"
+    },
+    {
+      "key": "射程",
+      "value": "10 格"
+    },
+    {
+      "key": "攻速",
+      "value": "0.128 秒/次"
+    },
+    {
+      "key": "切换目标延时",
+      "value": "0.05 秒"
+    },
+    {
+      "key": "弹药数量",
+      "value": "1000"
+    }
+  ],
+  "tables": [
+    {
+      "label": "升级数据",
+      "headers": [
+        "等级",
+        "初始每秒伤害",
+        "1.25 秒后每秒伤害",
+        "5.25 秒后每秒伤害",
+        "生命值",
+        "升级费用",
+        "升级时间",
+        "升级后可获得的经验",
+        "所需大本等级"
+      ],
+      "rows": [
+        [
+          "1",
+          "30",
+          "80",
+          "800",
+          "1500",
+          "1M",
+          "0,12",
+          "",
+          "10"
+        ],
+        [
+          "2",
+          "35",
+          "100",
+          "1000",
+          "1800",
+          "1.2M",
+          "1",
+          "",
+          "10"
+        ],
+        [
+          "3",
+          "40",
+          "120",
+          "1200",
+          "2100",
+          "2.4M",
+          "2",
+          "",
+          "10"
+        ],
+        [
+          "4",
+          "45",
+          "140",
+          "1400",
+          "2400",
+          "3.4M",
+          "2,12",
+          "",
+          "11"
+        ],
+        [
+          "5",
+          "50",
+          "150",
+          "1500",
+          "2700",
+          "4M",
+          "3",
+          "",
+          "11"
+        ],
+        [
+          "6",
+          "55",
+          "160",
+          "1600",
+          "3000",
+          "6M",
+          "4",
+          "",
+          "12"
+        ],
+        [
+          "7",
+          "65",
+          "180",
+          "1800",
+          "3300",
+          "8M",
+          "5",
+          "",
+          "13"
+        ],
+        [
+          "8",
+          "80",
+          "210",
+          "2100",
+          "3700",
+          "9.5M",
+          "6",
+          "",
+          "14"
+        ],
+        [
+          "9",
+          "100",
+          "230",
+          "2300",
+          "4000",
+          "10M",
+          "6,12",
+          "",
+          "15"
+        ],
+        [
+          "10",
+          "120",
+          "260",
+          "2600",
+          "4400",
+          "11M",
+          "7",
+          "",
+          "16"
+        ],
+        [
+          "11",
+          "140",
+          "290",
+          "2900",
+          "4800",
+          "16M",
+          "12",
+          "",
+          "17"
+        ],
+        [
+          "12",
+          "155",
+          "330",
+          "3300",
+          "5100",
+          "26.5M",
+          "13,12",
+          "",
+          "18"
+        ]
+      ],
+      "extra_info": []
+    },
+    {
+      "label": "升级数据",
+      "headers": [
+        "等级",
+        "每秒伤害",
+        "目标数量",
+        "生命值",
+        "升级费用",
+        "升级时间",
+        "升级后可获得的经验",
+        "所需大本等级"
+      ],
+      "rows": [
+        [
+          "1",
+          "30",
+          "5",
+          "1500",
+          "1M",
+          "0,12",
+          "",
+          "10"
+        ],
+        [
+          "2",
+          "35",
+          "5",
+          "1800",
+          "1.2M",
+          "1",
+          "",
+          "10"
+        ],
+        [
+          "3",
+          "40",
+          "5",
+          "2100",
+          "2.4M",
+          "2",
+          "",
+          "10"
+        ],
+        [
+          "4",
+          "45",
+          "5",
+          "2400",
+          "3.4M",
+          "2,12",
+          "",
+          "11"
+        ],
+        [
+          "5",
+          "50",
+          "5",
+          "2700",
+          "4M",
+          "3",
+          "",
+          "11"
+        ],
+        [
+          "6",
+          "55",
+          "5",
+          "3000",
+          "6M",
+          "4",
+          "",
+          "12"
+        ],
+        [
+          "7",
+          "65",
+          "5",
+          "3300",
+          "8M",
+          "5",
+          "",
+          "13"
+        ],
+        [
+          "8",
+          "80",
+          "6",
+          "3700",
+          "9.5M",
+          "6",
+          "",
+          "14"
+        ],
+        [
+          "9",
+          "100",
+          "6",
+          "4000",
+          "10M",
+          "6,12",
+          "",
+          "15"
+        ],
+        [
+          "10",
+          "120",
+          "6",
+          "4400",
+          "11M",
+          "7",
+          "",
+          "16"
+        ],
+        [
+          "11",
+          "140",
+          "6",
+          "4800",
+          "16M",
+          "12",
+          "",
+          "17"
+        ],
+        [
+          "12",
+          "155",
+          "6",
+          "5100",
+          "26.5M",
+          "13,12",
+          "",
+          "18"
+        ]
+      ],
+      "extra_info": []
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026/02/23",
+      "rows": [
+        "在 18 本添加了 12 级地狱之塔。",
+        "移除了地狱之塔的充能等级。"
+      ]
+    },
+    {
+      "date": "2025/11/17",
+      "rows": [
+        "11 级及两个充能等级的地狱之塔的升级时间和升级费用减少。"
+      ]
+    },
+    {
+      "date": "2025/10/06",
+      "rows": [
+        "6 ~ 10 级地狱之塔的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2025/03/24",
+      "rows": [
+        "17 本新增 11 级地狱之塔。",
+        "1 ~ 4、6、8 ~ 10 级地狱之塔的升级时间减少。",
+        "1 ~ 3、6、8 ~ 10 级地狱之塔的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2025/02/10",
+      "rows": [
+        "5 级地狱之塔的升级时间减少。",
+        "5 级地狱之塔的升级费用降低。",
+        "地狱之塔的充能时间和充能费用减少。"
+      ]
+    },
+    {
+      "date": "2024/11/25",
+      "rows": [
+        "4、6 ~ 10 级地狱之塔的升级时间减少。",
+        "7 ~ 10 级地狱之塔的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2024/09/09",
+      "rows": [
+        "超级充能推出，地狱之塔是第一批可以充能的建筑之一。"
+      ]
+    },
+    {
+      "date": "2024/06/18",
+      "rows": [
+        "6 ~ 9 级地狱之塔的升级时间减少。",
+        "8 ~ 9 级地狱之塔的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2024/06/03",
+      "rows": [
+        "4 ~ 9 级多头塔地狱塔的每秒伤害降低。",
+        "4 级单头塔的初始伤害降低，5 ~ 9 级单头塔的三段伤害都有降低。"
+      ]
+    },
+    {
+      "date": "2024/02/27",
+      "rows": [
+        "16 本新增 10 级地狱之塔。"
+      ]
+    },
+    {
+      "date": "2023/12/12",
+      "rows": [
+        "所有等级地狱之塔的升级时间减少。",
+        "1 ~ 6、8 级地狱之塔的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2023/09/28",
+      "rows": [
+        "所有等级地狱之塔的每秒伤害降低（含单头和多头模式）。"
+      ]
+    },
+    {
+      "date": "2023/06/12",
+      "rows": [
+        "6 ~ 7 级地狱之塔的升级时间减少。",
+        "6 ~ 7 级地狱之塔的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2022/10/10",
+      "rows": [
+        "15 本推出，并在 15 本新增 9 级地狱之塔。",
+        "1 ~ 8 级地狱之塔的升级费用和升级时间减少。"
+      ]
+    },
+    {
+      "date": "2022/06/27",
+      "rows": [
+        "6 级地狱之塔的伤害降低。"
+      ]
+    },
+    {
+      "date": "2021/12/09",
+      "rows": [
+        "1 ~ 7 级 地狱之塔的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2021/04/12",
+      "rows": [
+        "14 本推出，并在 14 本新增 8 级地狱之塔。",
+        "地狱塔在多目标模式下不再固定为 5 个目标了，8 级地狱塔最多可以攻击 6 个目标。",
+        "1 ~ 5 级地狱塔的升级费用和升级时间减少。"
+      ]
+    },
+    {
+      "date": "2020/05/20",
+      "rows": [
+        "7 级地狱之塔处于单一目标模式时的每秒伤害（第三段伤害）降低 100。"
+      ]
+    },
+    {
+      "date": "2019/12/09",
+      "rows": [
+        "13 本推出，并在 13 本新增 7 级地狱之塔。"
+      ]
+    },
+    {
+      "date": "2019/09/11",
+      "rows": [
+        "2 ~ 3 级地狱塔的伤害降低。"
+      ]
+    },
+    {
+      "date": "2019/04/02",
+      "rows": [
+        "4 级地狱之塔的升级费用降低。",
+        "玩家上线后，地狱之塔的弹药将自动被填充，填充不再需要花费暗黑重油。然而，如果玩家不上线， 地狱之塔的弹药就不会被填充，所以你仍然可以攻击到地狱之塔的弹药用完的村庄。"
+      ]
+    }
+  ],
+  "notes": [
+    "单头地狱塔是三段伤害，初始伤害切二段需要 1.5 秒，二段切三段是 3.75 秒，因此单头塔锁定目标 1.5 + 3.75 = 5.25 秒后到达最高伤害。",
+    "地狱之塔必须装弹才能工作，这个装弹操作会在玩家登录游戏时自动进行，但如果玩家长时间不登录，弹药就会用完，从而导致防御失效。",
+    "地狱之塔有 1000 发弹药，每一发 0.128 秒，所以它的弹药在 2 分 08 秒内可以用完。",
+    "冰牙和小冰怪的减速效果可以延后单一目标模式的 [地狱塔](/upgrade/030a-Inferno-Tower) 和 [地狱飞龙](/upgrade/0604-Inferno-Dragon) 达到最高伤害的时间。",
+    "[雷电法术](/upgrade/0100-Lightning-Spell) 的伤害、[灵狐](/upgrade/0288-Spirit-Fox)、[隐形药水瓶](/upgrade/0741-Invisibility-Vial) 和 [隐形法术](/upgrade/0106-Invisibility-Spell) 的隐形效果可以打断单头地狱之塔的攻击，使其伤害从头开始累积。"
+  ]
+}

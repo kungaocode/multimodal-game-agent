@@ -1,0 +1,45 @@
+{
+  "id": "07c0",
+  "link": "07c0-Seeking-Shield",
+  "tab": "英雄",
+  "section": "装备（飞盾战神）",
+  "name": "寻踪飞盾",
+  "title": "部落冲突 coc 寻踪飞盾（追踪神盾）装备升级数据",
+  "description": "寻踪飞盾是飞盾战神的两件初始装备之一。寻踪飞盾装备可以让飞盾战神在使用技能时投掷一个盾牌，盾牌会击中四个不同的目标，对每个目标造成固定伤害。盾牌优先攻击防御建筑的特点使它非常适合用来清理阵型中间的关键防御，它攻击距离无限的特点使它十分适合用来在战斗结束时清理角落的建筑工人小屋。",
+  "module": "upgrade-home",
+  "img_folder": "home_heroes/07c0",
+  "canonical": "/upgrade/07c0-Seeking-Shield",
+  "wiki": "https://clashofclans.fandom.com/wiki/Seeking_Shield",
+  "info_image": {
+    "level": "info",
+    "src": "Seeking_Shield_info.png",
+    "url": "https://static.clashpost.com/upgrade/home_heroes/07c0/Seeking_Shield_info.png"
+  },
+  "image_groups": [],
+  "building_num": [],
+  "properties": [
+    {
+      "key": "技能类型",
+      "value": "主动技能"
+    },
+    {
+      "key": "装备稀有度",
+      "value": "普通"
+    },
+    {
+      "key": "解锁条件",
+      "value": "有飞盾战神即可"
+    },
+    {
+      "key": "目标数量",
+      "value": "4"
+    },
+    {
+      "key": "目标类型",
+      "value": "地面和空中目标"
+    }
+  ],
+  "tables": [],
+  "timeline": [],
+  "notes": []
+}

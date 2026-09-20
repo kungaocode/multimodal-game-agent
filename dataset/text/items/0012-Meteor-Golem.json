@@ -1,0 +1,289 @@
+{
+  "id": "0012",
+  "link": "0012-Meteor-Golem",
+  "tab": "科技",
+  "section": "圣水兵",
+  "name": "陨石戈仑",
+  "title": "部落冲突 coc 陨石戈仑升级数据",
+  "description": "来自宇宙的它们，将加入您的军队！这对热衷投掷的组合，会将自己扔向任何目标，造成近战伤害。当它们分开时，小陨石戈仑会攻击附近目标，或者寻找同伴重新合体变成陨石戈仑！",
+  "module": "upgrade-home",
+  "img_folder": "home_tech/0012",
+  "canonical": "/upgrade/0012-Meteor-Golem",
+  "wiki": "https://clashofclans.fandom.com/wiki/Meteor_Golem",
+  "info_image": {
+    "level": "info",
+    "src": "Meteor_Golem_info.png",
+    "url": "https://static.clashpost.com/upgrade/home_tech/0012/Meteor_Golem_info.png"
+  },
+  "image_groups": [
+    {
+      "group": "",
+      "images": [
+        {
+          "level": "1 级",
+          "src": "Meteor_Golem1.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0012/Meteor_Golem1.png"
+        },
+        {
+          "level": "2 级",
+          "src": "Meteor_Golem2.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0012/Meteor_Golem2.png"
+        },
+        {
+          "level": "3 级",
+          "src": "Meteor_Golem3.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0012/Meteor_Golem3.png"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "images": [
+        {
+          "level": "1 级",
+          "src": "Meteormite1.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0012/Meteormite1.png"
+        },
+        {
+          "level": "2 级",
+          "src": "Meteormite2.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0012/Meteormite2.png"
+        },
+        {
+          "level": "3 级",
+          "src": "Meteormite3.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0012/Meteormite3.png"
+        }
+      ]
+    }
+  ],
+  "building_num": [],
+  "properties": [
+    {
+      "key": "部队类型",
+      "value": "地面单位"
+    },
+    {
+      "key": "攻击偏好",
+      "value": "无"
+    },
+    {
+      "key": "伤害加成",
+      "value": "对墙 5 倍伤害"
+    },
+    {
+      "key": "伤害类型",
+      "value": "投掷后造成范围伤害"
+    },
+    {
+      "key": "伤害半径",
+      "value": "1 格"
+    },
+    {
+      "key": "攻击的目标",
+      "value": "地面和空中目标"
+    },
+    {
+      "key": "占据人口",
+      "value": "40"
+    },
+    {
+      "key": "移动速度",
+      "value": "1.5 格/秒"
+    },
+    {
+      "key": "进攻时机",
+      "value": "到达目标 1 秒后"
+    },
+    {
+      "key": "最远投掷距离",
+      "value": "5 格"
+    },
+    {
+      "key": "所需训练营等级",
+      "value": "19"
+    },
+    {
+      "key": "所需大本等级",
+      "value": "17"
+    },
+    {
+      "key": "训练时间",
+      "value": "无"
+    },
+    {
+      "key": "捐赠费用",
+      "value": "20,20,60000,Elixir"
+    },
+    {
+      "key": "部队类型",
+      "value": "地面单位"
+    },
+    {
+      "key": "攻击偏好",
+      "value": "无"
+    },
+    {
+      "key": "伤害类型",
+      "value": "单体伤害"
+    },
+    {
+      "key": "攻击的目标",
+      "value": "仅地面目标"
+    },
+    {
+      "key": "占据人口",
+      "value": "20"
+    },
+    {
+      "key": "移动速度",
+      "value": "2 格/秒"
+    },
+    {
+      "key": "攻击速度",
+      "value": "1.5 秒/次"
+    },
+    {
+      "key": "攻击距离",
+      "value": "0.8 格"
+    },
+    {
+      "key": "合体时的最大距离",
+      "value": "0.5 格"
+    }
+  ],
+  "tables": [
+    {
+      "label": "升级数据",
+      "headers": [
+        "等级",
+        "投掷伤害",
+        "生命值",
+        "升级花费",
+        "升级时间",
+        "所需实验室等级",
+        "所需大本等级"
+      ],
+      "rows": [
+        [
+          "1",
+          "450",
+          "13000",
+          "\\",
+          "\\",
+          "1",
+          "17"
+        ],
+        [
+          "2",
+          "500",
+          "14500",
+          "28M",
+          "14",
+          "15",
+          "17"
+        ],
+        [
+          "3",
+          "550",
+          "16000",
+          "30M",
+          "16",
+          "16",
+          "18"
+        ]
+      ],
+      "extra_info": [
+        {
+          "column": 3,
+          "type": "cost",
+          "gpClass": "research",
+          "icon": "Elixir"
+        },
+        {
+          "column": 4,
+          "type": "time",
+          "gpClass": "research"
+        }
+      ]
+    },
+    {
+      "label": "升级数据",
+      "headers": [
+        "等级",
+        "每秒伤害",
+        "每次伤害",
+        "生命值"
+      ],
+      "rows": [
+        [
+          "1",
+          "180",
+          "270",
+          "6500"
+        ],
+        [
+          "2",
+          "200",
+          "300",
+          "7250"
+        ],
+        [
+          "3",
+          "220",
+          "330",
+          "8000"
+        ]
+      ],
+      "extra_info": [
+        {
+          "column": 3,
+          "type": "cost",
+          "gpClass": "research",
+          "icon": "Elixir"
+        },
+        {
+          "column": 4,
+          "type": "time",
+          "gpClass": "research"
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026/01/28",
+      "rows": [
+        "所有等级陨石戈仑和小陨石戈仑的生命值和伤害降低。"
+      ]
+    },
+    {
+      "date": "2026/01/12",
+      "rows": [
+        "陨石戈仑对城墙的伤害降低 50%（现在对墙只有 5 倍伤害了）。"
+      ]
+    },
+    {
+      "date": "2025/11/17",
+      "rows": [
+        "18 本推出，陨石戈仑成为永久兵种，共推出 3 个等级。"
+      ]
+    },
+    {
+      "date": "2025/10/10",
+      "rows": [
+        "推出临时兵种：陨石戈仑，有效期至 2025/11/01."
+      ]
+    }
+  ],
+  "notes": [
+    "陨石戈仑最初在 2025/10 的宇宙摇滚活动中作为临时兵种推出，在 2025/11 的 18 本版本更新后成为永久兵种。",
+    "陨石戈仑由两只小陨石戈仑组成，其攻击方式是让其中一只小陨石戈仑将另一只投掷到目标身上，造成范围伤害。这种攻击方式会使两只小陨石戈仑分开，但只要两只小陨石戈仑相遇即可再次合体。",
+    "任意两只小陨石戈仑都能合体，不需要来自同一母体。",
+    "小陨石戈仑的生命值为陨石戈仑分离那一刻的一半生命值。",
+    "小陨石戈仑合体后的生命值由两只小陨石戈仑的剩余生命值决定，如果其中一个或两个受到伤害，则总生命值减少。",
+    "[镜像法术](/upgrade/0105-Clone-Spell) 复制的陨石戈仑一旦分离就不能再合体。",
+    "小陨石戈仑可以跳过 [城墙](/upgrade/0300-Walls)，但陨石戈仑不能。",
+    "两只小陨石戈仑合体后有短暂的无敌状态。"
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "id": "0246",
+  "link": "0246-Battle-Drill",
+  "tab": "科技",
+  "section": "攻城机器",
+  "name": "攻城钻机",
+  "title": "部落冲突 coc 攻城钻机升级数据",
+  "description": "攻城钻机完美体现了哥布林的聪明才智。它能够深入地底，钻向距离最近的防御建筑。到达目的地后，它会冒出地面，使用威力十足的钻头瘫痪并摧毁目标。",
+  "module": "upgrade-home",
+  "img_folder": "home_tech/0246",
+  "canonical": "/upgrade/0246-Battle-Drill",
+  "wiki": "https://clashofclans.fandom.com/wiki/Battle_Drill",
+  "info_image": {
+    "level": "info",
+    "src": "Battle_Drill_info.png",
+    "url": "https://static.clashpost.com/upgrade/home_tech/0246/Battle_Drill_info.png"
+  },
+  "image_groups": [
+    {
+      "group": "",
+      "images": [
+        {
+          "level": "1 级",
+          "src": "Battle_Drill1.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0246/Battle_Drill1.png"
+        },
+        {
+          "level": "2 级",
+          "src": "Battle_Drill2.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0246/Battle_Drill2.png"
+        },
+        {
+          "level": "3 级",
+          "src": "Battle_Drill3.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0246/Battle_Drill3.png"
+        },
+        {
+          "level": "4 级",
+          "src": "Battle_Drill4.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0246/Battle_Drill4.png"
+        },
+        {
+          "level": "5 级",
+          "src": "Battle_Drill5.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0246/Battle_Drill5.png"
+        }
+      ]
+    }
+  ],
+  "building_num": [],
+  "properties": [
+    {
+      "key": "攻击方式",
+      "value": "寻找防御建筑攻击"
+    },
+    {
+      "key": "攻击偏好",
+      "value": "防御建筑 (偏好类型 1)"
+    },
+    {
+      "key": "伤害类型",
+      "value": "单体伤害"
+    },
+    {
+      "key": "攻击的目标",
+      "value": "仅地面目标"
+    },
+    {
+      "key": "占据人口",
+      "value": "30"
+    },
+    {
+      "key": "攻击距离",
+      "value": "1 格"
+    },
+    {
+      "key": "攻击速度",
+      "value": "1.7 秒/次"
+    },
+    {
+      "key": "眩晕时间",
+      "value": "2 秒"
+    },
+    {
+      "key": "移动速度",
+      "value": "3 格/秒"
+    },
+    {
+      "key": "所需攻城机器工坊等级",
+      "value": "7"
+    },
+    {
+      "key": "所需大本等级",
+      "value": "15"
+    },
+    {
+      "key": "建造时间",
+      "value": "无"
+    },
+    {
+      "key": "捐赠费用",
+      "value": "15,15,45000,Elixir"
+    }
+  ],
+  "tables": [
+    {
+      "label": "升级数据",
+      "headers": [
+        "等级",
+        "每秒伤害",
+        "每次伤害",
+        "生命值",
+        "升级花费",
+        "升级时间",
+        "所需实验室等级",
+        "所需大本等级"
+      ],
+      "rows": [
+        [
+          "1",
+          "430",
+          "731",
+          "4600",
+          "\\",
+          "\\",
+          "1",
+          "15"
+        ],
+        [
+          "2",
+          "470",
+          "799",
+          "4900",
+          "6M",
+          "4",
+          "13",
+          "15"
+        ],
+        [
+          "3",
+          "510",
+          "867",
+          "5200",
+          "8.5M",
+          "5",
+          "13",
+          "15"
+        ],
+        [
+          "4",
+          "550",
+          "935",
+          "5500",
+          "10M",
+          "8",
+          "13",
+          "15"
+        ],
+        [
+          "5",
+          "590",
+          "1003",
+          "5800",
+          "17M",
+          "9",
+          "15",
+          "17"
+        ]
+      ],
+      "extra_info": [
+        {
+          "column": 4,
+          "type": "cost",
+          "gpClass": "research",
+          "icon": "Elixir"
+        },
+        {
+          "column": 5,
+          "type": "time",
+          "gpClass": "research"
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2025/11/17",
+      "rows": [
+        "5 级攻城钻机的升级时间和升级费用减少。"
+      ]
+    },
+    {
+      "date": "2025/03/27",
+      "rows": [
+        "攻城机器的建造时间被取消。"
+      ]
+    },
+    {
+      "date": "2025/03/24",
+      "rows": [
+        "3 ~ 4 级攻城钻机的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2024/11/25",
+      "rows": [
+        "17 本推出，并在 17 本新增 5 级攻城钻机。",
+        "2 ~ 4 级攻城钻机的升级费用和升级时间减少。"
+      ]
+    },
+    {
+      "date": "2024/06/18",
+      "rows": [
+        "2 ~ 4 级攻城钻机的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2023/12/12",
+      "rows": [
+        "3 ~ 4 级攻城钻机的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2022/10/10",
+      "rows": [
+        "15 本推出，并在 15 本新增攻城机器：攻城钻机。"
+      ]
+    }
+  ],
+  "notes": [
+    "如果你不了解攻城机器的基础设定，请阅读这篇文章：[浅谈攻城机器的一些基础设定](/p/6912)。",
+    "和 [掘地矿工](/upgrade/000b-Miner) 类似，部署攻城钻机后，它会在地下行进，避开路线上的一系列防御建筑，之后在目标建筑附近破土而出，直接攻击目标建筑。",
+    "攻城钻机从地下出来的一瞬间可以破掉两层墙，也就是说当 [城墙](/upgrade/0300-Walls) 和防御中间隔着一格时可以破墙，隔两格不行。",
+    "攻城钻机从地下钻出时可以对建筑造成眩晕效果。",
+    "当攻城钻机的血量清零时，攻城钻机就会自动解体并释放部落城堡内的部队。",
+    "攻城钻机能免疫 [飓风陷阱](/upgrade/0386-Tornado-Trap) 的转圈效果。"
+  ]
+}

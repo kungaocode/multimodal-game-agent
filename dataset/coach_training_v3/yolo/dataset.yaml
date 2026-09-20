@@ -1,0 +1,21 @@
+path: /home/kun/Desktop/app_for_Harmony_Android/dataset/coach_training_v3/yolo
+train: images/train
+val: images/val
+names:
+  0: 圣水收集器
+  1: 金矿
+  2: 圣水瓶
+  3: 储金罐
+  4: 暗黑重油罐
+  5: 暗黑重油钻井
+  6: 进攻按钮
+  7: 返回按钮
+  8: 搜索对手按钮
+  9: 下一个按钮
+  10: 结束战斗按钮
+  11: 增援按钮
+  12: 消息列表按钮
+  13: 请求条目
+  14: 关闭按钮
+  15: 捐赠确认按钮
+  16: 兵种选择栏

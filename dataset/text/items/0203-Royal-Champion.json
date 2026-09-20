@@ -1,0 +1,69 @@
+{
+  "id": "0203",
+  "link": "0203-Royal-Champion",
+  "tab": "英雄",
+  "section": "英雄",
+  "name": "飞盾战神",
+  "title": "部落冲突 coc 飞盾战神（神盾勇者、闰土）升级数据",
+  "description": "翻越城墙，无往不利！飞盾战神一生只怕四件事，但敌军不在其列。她的近距离攻击非常适合用来摧毁近处的防御建筑。",
+  "module": "upgrade-home",
+  "img_folder": "home_heroes/0203",
+  "canonical": "/upgrade/0203-Royal-Champion",
+  "wiki": "https://clashofclans.fandom.com/wiki/Royal_Champion",
+  "info_image": {
+    "level": "info",
+    "src": "Royal_Champion_info.png",
+    "url": "https://static.clashpost.com/upgrade/home_heroes/0203/Royal_Champion_info.png"
+  },
+  "image_groups": [],
+  "building_num": [],
+  "properties": [
+    {
+      "key": "英雄类型",
+      "value": "地面远程单位"
+    },
+    {
+      "key": "攻击偏好",
+      "value": "防御建筑 (偏好类型 2)"
+    },
+    {
+      "key": "伤害类型",
+      "value": "单体伤害"
+    },
+    {
+      "key": "攻击的目标",
+      "value": "地面和空中目标"
+    },
+    {
+      "key": "占据人口",
+      "value": "25"
+    },
+    {
+      "key": "移动速度",
+      "value": "3 格/秒"
+    },
+    {
+      "key": "攻击速度",
+      "value": "1.2 秒/次"
+    },
+    {
+      "key": "攻击距离",
+      "value": "3 格"
+    },
+    {
+      "key": "所需大本等级",
+      "value": "13"
+    },
+    {
+      "key": "搜索半径",
+      "value": "10 格<sup>①</sup>"
+    },
+    {
+      "key": "巡逻半径",
+      "value": "3 格<sup>②</sup>"
+    }
+  ],
+  "tables": [],
+  "timeline": [],
+  "notes": []
+}

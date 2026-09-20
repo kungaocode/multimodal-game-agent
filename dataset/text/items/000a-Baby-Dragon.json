@@ -1,0 +1,418 @@
+{
+  "id": "000a",
+  "link": "000a-Baby-Dragon",
+  "tab": "科技",
+  "section": "圣水兵",
+  "name": "飞龙宝宝",
+  "title": "部落冲突 coc 飞龙宝宝（小龙）升级数据",
+  "description": "会喷火的飞龙宝宝在其他空中部队旁边时显得有些害羞，不过要是落单了，它可会大发雷霆。当周围没有其他空中部队时，飞龙宝宝会变得狂暴，攻击伤害和攻击速度都会提升。",
+  "module": "upgrade-home",
+  "img_folder": "home_tech/000a",
+  "canonical": "/upgrade/000a-Baby-Dragon",
+  "wiki": "https://clashofclans.fandom.com/wiki/Baby_Dragon",
+  "info_image": {
+    "level": "info",
+    "src": "Baby_Dragon_info.png",
+    "url": "https://static.clashpost.com/upgrade/home_tech/000a/Baby_Dragon_info.png"
+  },
+  "image_groups": [
+    {
+      "group": "",
+      "images": [
+        {
+          "level": "1 - 2 级",
+          "src": "Baby_Dragon1.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/000a/Baby_Dragon1.png"
+        },
+        {
+          "level": "3 级",
+          "src": "Baby_Dragon3.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/000a/Baby_Dragon3.png"
+        },
+        {
+          "level": "4 级",
+          "src": "Baby_Dragon4.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/000a/Baby_Dragon4.png"
+        },
+        {
+          "level": "5 级",
+          "src": "Baby_Dragon5.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/000a/Baby_Dragon5.png"
+        },
+        {
+          "level": "6 级",
+          "src": "Baby_Dragon6.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/000a/Baby_Dragon6.png"
+        },
+        {
+          "level": "7 级",
+          "src": "Baby_Dragon7.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/000a/Baby_Dragon7.png"
+        },
+        {
+          "level": "8 级",
+          "src": "Baby_Dragon8.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/000a/Baby_Dragon8.png"
+        },
+        {
+          "level": "9 级",
+          "src": "Baby_Dragon9.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/000a/Baby_Dragon9.png"
+        },
+        {
+          "level": "10 级",
+          "src": "Baby_Dragon10.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/000a/Baby_Dragon10.png"
+        },
+        {
+          "level": "11 级",
+          "src": "Baby_Dragon11.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/000a/Baby_Dragon11.png"
+        },
+        {
+          "level": "12 级",
+          "src": "Baby_Dragon12.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/000a/Baby_Dragon12.png"
+        }
+      ]
+    }
+  ],
+  "building_num": [],
+  "properties": [
+    {
+      "key": "部队类型",
+      "value": "空中单位"
+    },
+    {
+      "key": "攻击偏好",
+      "value": "无"
+    },
+    {
+      "key": "伤害类型",
+      "value": "范围伤害"
+    },
+    {
+      "key": "伤害半径",
+      "value": "0.3 格"
+    },
+    {
+      "key": "攻击的目标",
+      "value": "地面和空中目标"
+    },
+    {
+      "key": "占据人口",
+      "value": "10"
+    },
+    {
+      "key": "移动速度",
+      "value": "2.5 格/秒"
+    },
+    {
+      "key": "攻击速度",
+      "value": "1 秒/次"
+    },
+    {
+      "key": "攻击距离",
+      "value": "2.25 格"
+    },
+    {
+      "key": "所需训练营等级",
+      "value": "11"
+    },
+    {
+      "key": "所需大本等级",
+      "value": "9"
+    },
+    {
+      "key": "训练时间",
+      "value": "无"
+    },
+    {
+      "key": "捐赠费用",
+      "value": "5,5,15000,Elixir"
+    }
+  ],
+  "tables": [
+    {
+      "label": "升级数据",
+      "headers": [
+        "等级",
+        "每秒伤害",
+        "狂暴状态下每秒伤害",
+        "狂暴状态下每次伤害",
+        "生命值",
+        "升级花费",
+        "升级时间",
+        "所需实验室等级",
+        "所需大本等级"
+      ],
+      "rows": [
+        [
+          "1",
+          "75",
+          "225",
+          "150",
+          "1200",
+          "\\",
+          "\\",
+          "1",
+          "9"
+        ],
+        [
+          "2",
+          "85",
+          "255",
+          "170",
+          "1300",
+          "1.5M",
+          "1, 6",
+          "7",
+          "9"
+        ],
+        [
+          "3",
+          "95",
+          "285",
+          "190",
+          "1400",
+          "2M",
+          "1,12",
+          "8",
+          "10"
+        ],
+        [
+          "4",
+          "105",
+          "315",
+          "210",
+          "1500",
+          "2.8M",
+          "2",
+          "8",
+          "10"
+        ],
+        [
+          "5",
+          "115",
+          "345",
+          "230",
+          "1600",
+          "3.7M",
+          "2,18",
+          "9",
+          "11"
+        ],
+        [
+          "6",
+          "125",
+          "375",
+          "250",
+          "1700",
+          "4.8M",
+          "3",
+          "10",
+          "12"
+        ],
+        [
+          "7",
+          "135",
+          "405",
+          "270",
+          "1800",
+          "6.2M",
+          "4",
+          "11",
+          "13"
+        ],
+        [
+          "8",
+          "145",
+          "435",
+          "290",
+          "1900",
+          "9.5M",
+          "6",
+          "12",
+          "14"
+        ],
+        [
+          "9",
+          "155",
+          "465",
+          "310",
+          "2000",
+          "11M",
+          "7",
+          "13",
+          "15"
+        ],
+        [
+          "10",
+          "165",
+          "495",
+          "330",
+          "2100",
+          "13.5M",
+          "7, 6",
+          "14",
+          "16"
+        ],
+        [
+          "11",
+          "175",
+          "525",
+          "350",
+          "2200",
+          "16.5M",
+          "10",
+          "15",
+          "17"
+        ],
+        [
+          "12",
+          "185",
+          "555",
+          "370",
+          "2350",
+          "29M",
+          "15, 6",
+          "16",
+          "18"
+        ]
+      ],
+      "extra_info": [
+        {
+          "column": 5,
+          "type": "cost",
+          "gpClass": "research",
+          "icon": "Elixir"
+        },
+        {
+          "column": 6,
+          "type": "time",
+          "gpClass": "research"
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026/02/23",
+      "rows": [
+        "在 18 本新增 12 级飞龙宝宝。"
+      ]
+    },
+    {
+      "date": "2025/11/17",
+      "rows": [
+        "11 级飞龙宝宝的升级时间和升级费用减少。"
+      ]
+    },
+    {
+      "date": "2025/10/06",
+      "rows": [
+        "5 ~ 10 级飞龙宝宝的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2025/03/27",
+      "rows": [
+        "部队的训练时间取消，但增加了捐赠费用。"
+      ]
+    },
+    {
+      "date": "2025/03/24",
+      "rows": [
+        "3 ~ 10 级飞龙宝宝的升级时间减少。",
+        "2 ~ 7、9 ~ 10 级飞龙宝宝的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2025/02/10",
+      "rows": [
+        "飞龙宝宝的训练时间由 1:30 改为 1:25"
+      ]
+    },
+    {
+      "date": "2024/11/25",
+      "rows": [
+        "17 本推出，并在 17 本新增 11 级飞龙宝宝。",
+        "2 ~ 10 级飞龙宝宝的升级时间减少。",
+        "5、8 ~ 10 级飞龙宝宝的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2024/06/18",
+      "rows": [
+        "9 级飞龙宝宝的升级时间减少。",
+        "9 级飞龙宝宝的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2024/02/27",
+      "rows": [
+        "16 本新增 10 级飞龙宝宝。"
+      ]
+    },
+    {
+      "date": "2023/12/12",
+      "rows": [
+        "4 ~ 9 级飞龙宝宝的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2023/06/12",
+      "rows": [
+        "15 本新增 9 级飞龙宝宝。",
+        "6 ~ 7 级飞龙宝宝的升级费用和升级时间减少。"
+      ]
+    },
+    {
+      "date": "2022/10/10",
+      "rows": [
+        "3 ~ 8 级飞龙宝宝的升级费用和升级时间减少。"
+      ]
+    },
+    {
+      "date": "2022/05/02",
+      "rows": [
+        "家乡所有空军的攻击距离减少 0.5 格（超级飞龙除外，这玩意削了 1 格）。"
+      ]
+    },
+    {
+      "date": "2021/12/09",
+      "rows": [
+        "2 ~ 5、7 级飞龙宝宝的升级费用降低。",
+        "2 ~ 4、7 级飞龙宝宝的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2021/04/12",
+      "rows": [
+        "14 本推出，并在 14 本新增 8 级飞龙宝宝。",
+        "2 ~ 5 级飞龙宝宝的升级费用降低。",
+        "2 ~ 3、5 ~ 6 级飞龙宝宝的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2020/06/22",
+      "rows": [
+        "13 本新增 7 级飞龙宝宝。"
+      ]
+    },
+    {
+      "date": "2020/03/30",
+      "rows": [
+        "2 ~ 4 级飞龙宝宝的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2019/04/02",
+      "rows": [
+        "2 ~ 6 级飞龙宝宝的升级时间减少。",
+        "所有等级飞龙宝宝的训练费用降低。"
+      ]
+    }
+  ],
+  "notes": []
+}

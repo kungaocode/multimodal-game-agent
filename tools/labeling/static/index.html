@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>CoC 半自动标注工具</title>
+<style>
+  :root { --accent: #1e7e34; --err: #c0392b; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: system-ui, sans-serif; background: #f3f4f6; color: #222; }
+  header { display: flex; align-items: center; gap: 12px; padding: 8px 16px; background: #fff; border-bottom: 1px solid #ddd; }
+  header h1 { font-size: 16px; margin: 0; }
+  header .btn, #toolbar .btn { padding: 6px 12px; border: 1px solid #bbb; border-radius: 6px; background: #fff; cursor: pointer; font-size: 13px; }
+  header .btn:hover, #toolbar .btn:hover { background: #eee; }
+  header .btn.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+  header .btn.primary:hover { background: #166b29; }
+  #toolbar { display: flex; align-items: center; gap: 10px; padding: 8px 16px; background: #fff; border-bottom: 1px solid #ddd; flex-wrap: wrap; }
+  #toolbar select { padding: 5px; font-size: 13px; }
+  #toolbar .spacer { flex: 1; }
+  #status { font-size: 13px; color: #555; }
+  main { display: flex; gap: 12px; padding: 12px; height: calc(100vh - 110px); }
+  #sidebar { width: 220px; overflow-y: auto; background: #fff; border: 1px solid #ddd; border-radius: 8px; padding: 8px; }
+  #sidebar .img-item { padding: 6px 8px; border-radius: 6px; cursor: pointer; font-size: 13px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  #sidebar .img-item:hover { background: #eef5ee; }
+  #sidebar .img-item.active { background: var(--accent); color: #fff; }
+  #sidebar .done { color: var(--err); font-weight: 600; }
+  #canvas-wrap { flex: 1; background: #e2e3e5; border: 1px solid #ddd; border-radius: 8px; overflow: auto; display: flex; align-items: center; justify-content: center; }
+  #editor { position: relative; }
+  #editor canvas { display: block; }
+  #hint { position: absolute; top: 6px; left: 6px; background: rgba(0,0,0,.65); color: #fff; font-size: 12px; padding: 4px 8px; border-radius: 4px; }
+  .legend { position: absolute; bottom: 6px; right: 6px; background: rgba(0,0,0,.7); color: #fff; font-size: 11px; padding: 6px 8px; border-radius: 4px; max-width: 320px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>🏰 CoC 半自动标注工具</h1>
+  <button class="btn primary" id="saveBtn">💾 保存标注</button>
+  <button class="btn" id="prevBtn">← 上一张</button>
+  <button class="btn" id="nextBtn">下一张 →</button>
+  <span id="status">加载中…</span>
+</header>
+<div id="toolbar">
+  <button class="btn" id="addBtn">＋添加框</button>
+  <label>类别：
+    <select id="classSel"></select>
+  </label>
+  <button class="btn" id="delBtn">🗑 删除选中</button>
+  <span class="spacer"></span>
+  <span id="boxCount"></span>
+</div>
+<main>
+  <div id="sidebar"></div>
+  <div id="canvas-wrap">
+    <div id="editor">
+      <canvas id="canvas"></canvas>
+      <div id="hint">拖动移动 · 角点缩放 · 点击选中 · 双击空白取消</div>
+      <div class="legend" id="legend"></div>
+    </div>
+  </div>
+</main>
+
+<script>
+"use strict";
+const state = {
+  images: [], classes: {}, name: null,
+  imgW: 0, imgH: 0, scale: 1, ox: 0, oy: 0,
+  boxes: [], selected: -1, drawMode: false,
+  saved: false,
+};
+const canvas = document.getElementById("canvas");
+const ctx = canvas.getContext("2d");
+let imgEl = null;
+
+function fit() {
+  const wrap = document.getElementById("canvas-wrap");
+  const availW = wrap.clientWidth - 24, availH = wrap.clientHeight - 24;
+  state.scale = Math.min(availW / state.imgW, availH / state.imgH, 1);
+  canvas.width = state.imgW * state.scale;
+  canvas.height = state.imgH * state.scale;
+  state.ox = 0; state.oy = 0;
+}
+
+function toImgPt(ev) {
+  const r = canvas.getBoundingClientRect();
+  return {
+    x: (ev.clientX - r.left - state.ox) / state.scale,
+    y: (ev.clientY - r.top - state.oy) / state.scale,
+  };
+}
+
+function clamp(v, lo, hi) { return Math.max(lo, Math.min(hi, v)); }
+
+function draw() {
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  if (imgEl) ctx.drawImage(imgEl, 0, 0, canvas.width, canvas.height);
+  state.boxes.forEach((b, i) => {
+    const [sx, sy] = [b.x1 * state.scale + state.ox, b.y1 * state.scale + state.oy];
+    const [sw, sh] = [(b.x2 - b.x1) * state.scale, (b.y2 - b.y1) * state.scale];
+    const sel = i === state.selected;
+    ctx.strokeStyle = sel ? "#ff3b30" : "#2fbf71";
+    ctx.lineWidth = sel ? 3 : 2;
+    ctx.strokeRect(sx, sy, sw, sh);
+    ctx.fillStyle = sel ? "rgba(255,59,48,.15)" : "rgba(47,191,113,.12)";
+    ctx.fillRect(sx, sy, sw, sh);
+    const label = (state.classes[b.class_id] || "?") + " [" + b.class_id + "]";
+    ctx.font = "13px system-ui";
+    const tw = ctx.measureText(label).width + 8;
+    ctx.fillStyle = "rgba(0,0,0,.65)";
+    ctx.fillRect(sx, Math.max(0, sy - 18), tw, 16);
+    ctx.fillStyle = "#fff";
+    ctx.fillText(label, sx + 4, Math.max(13, sy - 5));
+    if (sel) {
+      const hs = 6;
+      ctx.fillStyle = "#ff3b30";
+      [[sx, sy], [sx + sw, sy], [sx, sy + sh], [sx + sw, sy + sh]].forEach(([hx, hy]) => {
+        ctx.fillRect(hx - hs / 2, hy - hs / 2, hs, hs);
+      });
+    }
+  });
+  document.getElementById("boxCount").textContent = "框数: " + state.boxes.length + (state.saved ? "（已保存）" : "");
+  updateLegend();
+}
+
+function updateLegend() {
+  const el = document.getElementById("legend");
+  const selected = state.selected >= 0 ? state.boxes[state.selected] : null;
+  el.innerHTML = selected
+    ? "选中: " + (state.classes[selected.class_id] || "?") + " <b>[" + selected.class_id + "]</b>"
+    : "点「添加框」后拖动空白处画新框";
+}
+
+function hitTest(pt) {
+  for (let i = state.boxes.length - 1; i >= 0; i--) {
+    const b = state.boxes[i];
+    if (pt.x >= b.x1 && pt.x <= b.x2 && pt.y >= b.y1 && pt.y <= b.y2) return i;
+  }
+  return -1;
+}
+
+function cornerHit(pt, b) {
+  const R = 8 / state.scale;
+  const corners = [[b.x1, b.y1], [b.x2, b.y1], [b.x1, b.y2], [b.x2, b.y2]];
+  for (let i = 0; i < 4; i++) {
+    if (Math.abs(pt.x - corners[i][0]) <= R && Math.abs(pt.y - corners[i][1]) <= R) return i;
+  }
+  return -1;
+}
+
+let drag = null; // {mode, idx, corner, startPt, orig}
+
+canvas.addEventListener("mousedown", (ev) => {
+  const pt = toImgPt(ev);
+  if (state.drawMode) {
+    const idx = state.boxes.length;
+    state.boxes.push({ class_id: +document.getElementById("classSel").value, x1: pt.x, y1: pt.y, x2: pt.x, y2: pt.y });
+    state.selected = idx;
+    drag = { mode: "resize", idx, corner: 3, startPt: pt, orig: state.boxes[idx] };
+    return;
+  }
+  const sel = state.selected >= 0 ? state.boxes[state.selected] : null;
+  if (sel) {
+    const corner = cornerHit(pt, sel);
+    if (corner >= 0) {
+      drag = { mode: "resize", idx: state.selected, corner, startPt: pt, orig: { ...sel } };
+      return;
+    }
+  }
+  const hit = hitTest(pt);
+  if (hit >= 0) {
+    state.selected = hit;
+    drag = { mode: "move", idx: hit, startPt: pt, orig: { ...state.boxes[hit] } };
+  } else {
+    state.selected = -1;
+  }
+  draw();
+});
+
+canvas.addEventListener("mousemove", (ev) => {
+  if (!drag) return;
+  const pt = toImgPt(ev);
+  const b = state.boxes[drag.idx];
+  const dx = pt.x - drag.startPt.x, dy = pt.y - drag.startPt.y;
+  if (drag.mode === "move") {
+    b.x1 = clamp(drag.orig.x1 + dx, 0, state.imgW - 1);
+    b.y1 = clamp(drag.orig.y1 + dy, 0, state.imgH - 1);
+    b.x2 = clamp(drag.orig.x2 + dx, 1, state.imgW);
+    b.y2 = clamp(drag.orig.y2 + dy, 1, state.imgH);
+  } else { // resize by corner
+    let { x1, y1, x2, y2 } = drag.orig;
+    const c = drag.corner;
+    if (c === 0) { x1 = clamp(pt.x, 0, x2 - 1); y1 = clamp(pt.y, 0, y2 - 1); }
+    if (c === 1) { x2 = clamp(pt.x, x1 + 1, state.imgW); y1 = clamp(pt.y, 0, y2 - 1); }
+    if (c === 2) { x1 = clamp(pt.x, 0, x2 - 1); y2 = clamp(pt.y, y1 + 1, state.imgH); }
+    if (c === 3) { x2 = clamp(pt.x, x1 + 1, state.imgW); y2 = clamp(pt.y, y1 + 1, state.imgH); }
+    Object.assign(b, { x1, y1, x2, y2 });
+  }
+  draw();
+});
+
+canvas.addEventListener("mouseup", () => { drag = null; });
+canvas.addEventListener("mouseleave", () => { drag = null; });
+
+function loadImage(name) {
+  state.name = name; state.selected = -1; state.drawMode = false;
+  state.saved = false;
+  document.querySelectorAll(".img-item").forEach(el => el.classList.toggle("active", el.dataset.name === name));
+  fetch("/api/boxes/" + encodeURIComponent(name))
+    .then(r => r.json())
+    .then(data => {
+      state.imgW = data.width; state.imgH = data.height;
+      state.boxes = data.boxes.map(b => ({ class_id: b.class_id, x1: b.x1, y1: b.y1, x2: b.x2, y2: b.y2 }));
+      state.saved = data.saved;
+      imgEl = new Image();
+      imgEl.onload = () => { fit(); draw(); };
+      imgEl.src = "/img/" + encodeURIComponent(name);
+      document.getElementById("status").textContent = name + (data.saved ? "（已有标注，可继续改）" : "（检测器预标注，请修正）");
+    });
+}
+
+function save() {
+  if (!state.name) return;
+  const payload = { boxes: state.boxes.map(b => ({ class_id: b.class_id, x1: Math.round(b.x1), y1: Math.round(b.y1), x2: Math.round(b.x2), y2: Math.round(b.y2) })) };
+  fetch("/api/save/" + encodeURIComponent(state.name), {
+    method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(payload),
+  }).then(r => r.json()).then(res => {
+    state.saved = true;
+    document.getElementById("status").textContent = "已保存 " + res.saved + " 个框 → " + res.path;
+    const item = document.querySelector(`.img-item[data-name="${CSS.escape(state.name)}"]`);
+    if (item) item.classList.add("done");
+  });
+}
+
+function renderSidebar() {
+  const sb = document.getElementById("sidebar");
+  sb.innerHTML = "";
+  state.images.forEach(name => {
+    const el = document.createElement("div");
+    el.className = "img-item";
+    el.dataset.name = name;
+    el.textContent = name;
+    el.addEventListener("click", () => loadImage(name));
+    sb.appendChild(el);
+  });
+}
+
+function step(dir) {
+  const i = state.images.indexOf(state.name);
+  const next = (i + dir + state.images.length) % state.images.length;
+  loadImage(state.images[next]);
+}
+
+document.getElementById("addBtn").addEventListener("click", () => {
+  state.drawMode = !state.drawMode;
+  document.getElementById("addBtn").textContent = state.drawMode ? "✋ 取消加框" : "＋添加框";
+});
+document.getElementById("delBtn").addEventListener("click", () => {
+  if (state.selected >= 0) { state.boxes.splice(state.selected, 1); state.selected = -1; draw(); }
+});
+document.getElementById("classSel").addEventListener("change", (ev) => {
+  if (state.selected >= 0) { state.boxes[state.selected].class_id = +ev.target.value; draw(); }
+});
+document.getElementById("saveBtn").addEventListener("click", save);
+document.getElementById("prevBtn").addEventListener("click", () => step(-1));
+document.getElementById("nextBtn").addEventListener("click", () => step(1));
+
+fetch("/api/meta").then(r => r.json()).then(meta => {
+  state.images = meta.images;
+  state.classes = meta.classes;
+  const sel = document.getElementById("classSel");
+  Object.entries(meta.classes).forEach(([id, name]) => {
+    const opt = document.createElement("option");
+    opt.value = id; opt.textContent = `[${id}] ${name}`;
+    sel.appendChild(opt);
+  });
+  renderSidebar();
+  if (state.images.length) loadImage(state.images[0]);
+  else document.getElementById("status").textContent = "「--raw 目录」没有截图，请放到该目录后刷新";
+});
+</script>
+</body>
+</html>

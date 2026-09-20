@@ -1,0 +1,448 @@
+{
+  "id": "0500",
+  "link": "0500-Builders-Hut",
+  "tab": "建筑",
+  "section": "防御建筑",
+  "name": "建筑工人小屋",
+  "title": "部落冲突 coc 建筑工人小屋升级数据",
+  "description": "没有建筑工人一切都免谈！您可以雇佣多个建筑工人同时开始多个项目的建造或升级，或者使用宝石加快施工速度。",
+  "module": "upgrade-home",
+  "img_folder": "home_buildings/0500",
+  "canonical": "/upgrade/0500-Builders-Hut",
+  "wiki": "https://clashofclans.fandom.com/wiki/Builder%27s_Hut",
+  "info_image": {
+    "level": "info",
+    "src": "Builders_Hut7_hd.png",
+    "url": "https://static.clashpost.com/upgrade/home_buildings/0500/Builders_Hut7_hd.png"
+  },
+  "image_groups": [
+    {
+      "group": "日常状态",
+      "images": [
+        {
+          "level": "1 级",
+          "src": "Builders_Hut1.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0500/Builders_Hut1.png"
+        },
+        {
+          "level": "2 级",
+          "src": "Builders_Hut2.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0500/Builders_Hut2.png"
+        },
+        {
+          "level": "3 级",
+          "src": "Builders_Hut3.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0500/Builders_Hut3.png"
+        },
+        {
+          "level": "4 级",
+          "src": "Builders_Hut4.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0500/Builders_Hut4.png"
+        },
+        {
+          "level": "5 级",
+          "src": "Builders_Hut5.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0500/Builders_Hut5.png"
+        },
+        {
+          "level": "6 级",
+          "src": "Builders_Hut6.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0500/Builders_Hut6.png"
+        },
+        {
+          "level": "7 级",
+          "src": "Builders_Hut7.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0500/Builders_Hut7.png"
+        }
+      ]
+    },
+    {
+      "group": "激活状态",
+      "images": [
+        {
+          "level": "1 级",
+          "src": "Builders_Hut1.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0500/Builders_Hut1.png"
+        },
+        {
+          "level": "2 级",
+          "src": "Builders_Hut2_Active.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0500/Builders_Hut2_Active.png"
+        },
+        {
+          "level": "3 级",
+          "src": "Builders_Hut3_Active.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0500/Builders_Hut3_Active.png"
+        },
+        {
+          "level": "4 级",
+          "src": "Builders_Hut4_Active.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0500/Builders_Hut4_Active.png"
+        },
+        {
+          "level": "5 级",
+          "src": "Builders_Hut5_Active.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0500/Builders_Hut5_Active.png"
+        },
+        {
+          "level": "6 级",
+          "src": "Builders_Hut6_Active.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0500/Builders_Hut6_Active.png"
+        },
+        {
+          "level": "7 级",
+          "src": "Builders_Hut7_Active.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0500/Builders_Hut7_Active.png"
+        }
+      ]
+    }
+  ],
+  "building_num": [
+    {
+      "title": "大本等级",
+      "num": "1, 2 - 18"
+    },
+    {
+      "title": "建筑数量",
+      "num": "2,      5"
+    }
+  ],
+  "properties": [
+    {
+      "key": "占地面积",
+      "value": "2×2"
+    },
+    {
+      "key": "判定面积",
+      "value": "1×1"
+    },
+    {
+      "key": "伤害类型",
+      "value": "单体伤害"
+    },
+    {
+      "key": "攻击的目标",
+      "value": "地面和空中目标"
+    },
+    {
+      "key": "建筑工人小屋的最大数量",
+      "value": "5"
+    },
+    {
+      "key": "射程",
+      "value": "7 格"
+    },
+    {
+      "key": "建筑工人小屋的攻速",
+      "value": "0.4 秒/次"
+    },
+    {
+      "key": "建筑工人的移动速度",
+      "value": "2.5 秒/格"
+    },
+    {
+      "key": "建筑工人的修复速度",
+      "value": "0.75 秒/次"
+    }
+  ],
+  "tables": [
+    {
+      "label": "升级数据",
+      "headers": [
+        "等级",
+        "每秒伤害",
+        "每次伤害",
+        "每秒修复值",
+        "每次敲锤子的修复值",
+        "生命值",
+        "升级费用",
+        "升级时间",
+        "升级后可获得的经验",
+        "所需大本等级"
+      ],
+      "rows": [
+        [
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "250",
+          "见下方",
+          "0",
+          "",
+          "1"
+        ],
+        [
+          "2",
+          "80",
+          "32",
+          "50",
+          "37.5",
+          "1000",
+          "3M",
+          "2",
+          "",
+          "14"
+        ],
+        [
+          "3",
+          "100",
+          "40",
+          "60",
+          "45",
+          "1300",
+          "4M",
+          "3",
+          "",
+          "14"
+        ],
+        [
+          "4",
+          "120",
+          "48",
+          "70",
+          "52.5",
+          "1600",
+          "6M",
+          "4",
+          "",
+          "14"
+        ],
+        [
+          "5",
+          "135",
+          "54",
+          "80",
+          "60",
+          "1800",
+          "7M",
+          "5",
+          "",
+          "15"
+        ],
+        [
+          "6",
+          "150",
+          "60",
+          "85",
+          "63.75",
+          "1900",
+          "8M",
+          "5,12",
+          "",
+          "16"
+        ],
+        [
+          "7",
+          "165",
+          "66",
+          "90",
+          "67.5",
+          "2000",
+          "15.5M",
+          "9,12",
+          "",
+          "17"
+        ],
+        [
+          "⚡1",
+          "172",
+          "68.8",
+          "90",
+          "67.5",
+          "2000",
+          "10M",
+          "4",
+          "",
+          "17"
+        ],
+        [
+          "⚡2",
+          "172",
+          "68.8",
+          "90",
+          "67.5",
+          "2050",
+          "5M",
+          "6",
+          "",
+          "17"
+        ]
+      ],
+      "extra_info": [
+        {
+          "column": 6,
+          "type": "cost",
+          "gpClass": "building",
+          "icon": "Gold"
+        },
+        {
+          "column": 7,
+          "type": "time",
+          "gpClass": "building"
+        },
+        {
+          "column": 8,
+          "type": "exp",
+          "icon": "Exp"
+        }
+      ]
+    },
+    {
+      "label": "新建费用",
+      "headers": [
+        "建筑工人小屋数量",
+        "建造所需宝石"
+      ],
+      "rows": [
+        [
+          "第 1 个",
+          "无（玩家注册账号后有一个）"
+        ],
+        [
+          "第 2 个",
+          "250（新手教程中要求玩家必须购买一个）"
+        ],
+        [
+          "第 3 个",
+          "500"
+        ],
+        [
+          "第 4 个",
+          "1000"
+        ],
+        [
+          "第 5 个",
+          "2000"
+        ]
+      ],
+      "extra_info": [
+        {
+          "column": 6,
+          "type": "cost",
+          "gpClass": "building",
+          "icon": "Gold"
+        },
+        {
+          "column": 7,
+          "type": "time",
+          "gpClass": "building"
+        },
+        {
+          "column": 8,
+          "type": "exp",
+          "icon": "Exp"
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026/01/28",
+      "rows": [
+        "建筑工人的移动速度由 3.5 格/秒 降低到 2.5 格/秒。"
+      ]
+    },
+    {
+      "date": "2025/11/17",
+      "rows": [
+        "7 级建筑工人小屋的升级时间和升级费用减少。"
+      ]
+    },
+    {
+      "date": "2025/10/06",
+      "rows": [
+        "2 ~ 6 级建筑工人小屋的升级时间减少。",
+        "2 ~ 6 级建筑工人小屋的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2025/03/24",
+      "rows": [
+        "17 本新增 7 级建筑工人小屋。",
+        "2 ~ 6 级建筑工人小屋的升级费用和升级时间减少。"
+      ]
+    },
+    {
+      "date": "2025/02/10",
+      "rows": [
+        "建筑工人小屋的充能时间和充能费用减少。"
+      ]
+    },
+    {
+      "date": "2024/11/25",
+      "rows": [
+        "2 ~ 6 级建筑工人小屋的升级费用和升级时间减少。"
+      ]
+    },
+    {
+      "date": "2024/09/09",
+      "rows": [
+        "超级充能推出，建筑工人小屋是第一批可以充能的建筑之一。"
+      ]
+    },
+    {
+      "date": "2024/06/18",
+      "rows": [
+        "2 ~ 5 级建筑工人小屋的升级时间减少。",
+        "5 级建筑工人小屋的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2024/04/17",
+      "rows": [
+        "16 本新增 6 级建筑工人小屋。"
+      ]
+    },
+    {
+      "date": "2023/12/12",
+      "rows": [
+        "2 ~ 4 级建筑工人小屋的升级费用减少。",
+        "5 级建筑工人小屋的升级时间 14 天 12 小时 减少至 14 天 6 小时。"
+      ]
+    },
+    {
+      "date": "2023/06/12",
+      "rows": [
+        "15 本新增 5 级建筑工人小屋。"
+      ]
+    },
+    {
+      "date": "2022/10/10",
+      "rows": [
+        "2 ~ 4 级建筑工人小屋的升级费用和升级时间减少。"
+      ]
+    },
+    {
+      "date": "2022/05/02",
+      "rows": [
+        "3/4 级的建筑工人小屋加入防守时，建筑工人的每秒修复值从 55/60 提升至 60/70。"
+      ]
+    },
+    {
+      "date": "2021/04/29",
+      "rows": [
+        "建筑工人小屋的攻击半径从 6 格增加到 7 格。",
+        "防守状态下，建筑工人的移动速度从 24 提升到 28。"
+      ]
+    },
+    {
+      "date": "2021/04/12",
+      "rows": [
+        "从 14 本开始，建筑工人小屋可以升级了，升级后建筑工人会在战斗时修复建筑。此外，升级后建筑工人小屋将变成防御建筑，气球兵、野猪骑士等兵种会优先攻击它。"
+      ]
+    }
+  ],
+  "notes": [
+    "建筑工人小屋的建造不限制大本营等级，也就是说你可以在刚注册游戏账号时就买够 5 个建筑工人。",
+    "2021 年 4 月更新后，建筑工人小屋可以升级了。升级后，建筑工人小屋自带武器，可以反击了，同时建筑工人会在战斗过程中围绕受损的建筑敲敲打打，尽力修复建筑。",
+    "**激活后的建筑工人小屋属于防御建筑**，[气球兵](/upgrade/0005-Balloon)、[野猪骑士](/upgrade/0081-Hog-Rider) 等兵种会优先攻击它。",
+    "尽管建筑工人在战场上不会有生命危险，也不能被进攻方的部队锁定为目标，但是**法术可以对他造成影响。**[毒药法术](/upgrade/0180-Poison-Spell) 会减缓他修复建筑的速度，[冰冻法术](/upgrade/0104-Freeze-Spell)",
+    "建筑工人小屋被摧毁后，建筑工人将停止修复建筑。",
+    "**多个建筑工人可以同时修复一个建筑**，同时修复时效率会降低，衰减机制同 [治疗单位的衰减](/p/6925)。",
+    "建筑工人会优先修复自己的小屋，其次修复离自己最近的建筑。如果你想玩闪震，但是你要打的建筑旁边有工人小屋，那么你需要先放 [地震](/upgrade/0181-Earthquake-Spell)",
+    "即使工人正在升级建筑，战斗过程中他仍然会修复建筑。",
+    "当你解锁第 6 个工人后，村庄内会多出一个类似于建筑工人小屋的建筑，但那实际上是 [小博木屋](/upgrade/0501-B.O.Bs-Hut)。战斗过程中，小博**不会**像其他建筑工人一样修复建筑。关于第 6 个工人的解锁条件，请参考 [这篇文章](/p/977)。"
+  ]
+}

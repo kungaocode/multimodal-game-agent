@@ -1,0 +1,33 @@
+{
+  "id": "0784",
+  "link": "0784-Fireball",
+  "tab": "英雄",
+  "section": "装备（大守护者）",
+  "name": "巨大火球",
+  "title": "部落冲突 coc 巨大火球装备升级数据",
+  "description": "巨大火球是大守护者的第一件史诗装备，它在 2024 年 3 月的超级飞龙大舞台活动中首次开放购买。巨大火球装备可以让大守护者在开启技能时投掷一个巨大的火球，造成巨大的溅射伤害。该火球会瞄准最近的防御建筑，没有距离限制。",
+  "module": "upgrade-home",
+  "img_folder": "home_heroes/0784",
+  "canonical": "/upgrade/0784-Fireball",
+  "wiki": "https://clashofclans.fandom.com/wiki/Fireball",
+  "info_image": {
+    "level": "info",
+    "src": "Fireball_info.png",
+    "url": "https://static.clashpost.com/upgrade/home_heroes/0784/Fireball_info.png"
+  },
+  "image_groups": [],
+  "building_num": [],
+  "properties": [
+    {
+      "key": "技能类型",
+      "value": "主动技能"
+    },
+    {
+      "key": "装备稀有度",
+      "value": "史诗"
+    }
+  ],
+  "tables": [],
+  "timeline": [],
+  "notes": []
+}

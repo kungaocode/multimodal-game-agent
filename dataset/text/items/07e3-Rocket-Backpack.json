@@ -1,0 +1,37 @@
+{
+  "id": "07e3",
+  "link": "07e3-Rocket-Backpack",
+  "tab": "英雄",
+  "section": "装备（飞龙公爵）",
+  "name": "火箭背包",
+  "title": "部落冲突 coc 火箭背包装备升级数据",
+  "description": "火箭背包是飞龙公爵的第一件史诗装备。使用后，飞龙公爵会沿直线飞向基地中心并穿越整座基地，对路径上的目标造成伤害。除此之外，火箭背包还会提升飞龙公爵的每秒伤害、生命值和开启技能后的生命值恢复。",
+  "module": "upgrade-home",
+  "img_folder": "home_heroes/07e3",
+  "canonical": "/upgrade/07e3-Rocket-Backpack",
+  "wiki": "https://clashofclans.fandom.com/wiki/Rocket_Backpack",
+  "info_image": {
+    "level": "info",
+    "src": "Rocket_Backpack_info.png",
+    "url": "https://static.clashpost.com/upgrade/home_heroes/07e3/Rocket_Backpack_info.png"
+  },
+  "image_groups": [],
+  "building_num": [],
+  "properties": [
+    {
+      "key": "技能类型",
+      "value": "主动技能"
+    },
+    {
+      "key": "装备稀有度",
+      "value": "史诗"
+    },
+    {
+      "key": "伤害半径",
+      "value": "4 格"
+    }
+  ],
+  "tables": [],
+  "timeline": [],
+  "notes": []
+}

@@ -1,0 +1,33 @@
+{
+  "id": "0707",
+  "link": "0707-Stick-Horse",
+  "tab": "英雄",
+  "section": "装备（野蛮人之王）",
+  "name": "木棍马驹",
+  "title": "部落冲突 coc 木棍马驹装备升级数据",
+  "description": "木棍马驹是野蛮人之王的第四件史诗装备，它在 2026 年 2 月的智慧勇士活动中首次开放购买。带上木棍马驹装备后，野蛮人之王可直接跃过城墙，且移动速度与攻击速度加快、伤害和生命值提高，这些加成与蛮王是否开启技能无关。",
+  "module": "upgrade-home",
+  "img_folder": "home_heroes/0707",
+  "canonical": "/upgrade/0707-Stick-Horse",
+  "wiki": "https://clashofclans.fandom.com/wiki/Stick_Horse",
+  "info_image": {
+    "level": "info",
+    "src": "Stick_Horse_info.png",
+    "url": "https://static.clashpost.com/upgrade/home_heroes/0707/Stick_Horse_info.png"
+  },
+  "image_groups": [],
+  "building_num": [],
+  "properties": [
+    {
+      "key": "技能类型",
+      "value": "被动技能"
+    },
+    {
+      "key": "装备稀有度",
+      "value": "史诗"
+    }
+  ],
+  "tables": [],
+  "timeline": [],
+  "notes": []
+}

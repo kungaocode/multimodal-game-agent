@@ -1,0 +1,41 @@
+{
+  "id": "07c3",
+  "link": "07c3-Haste-Vial",
+  "tab": "英雄",
+  "section": "装备（飞盾战神）",
+  "name": "急速药水瓶",
+  "title": "部落冲突 coc 急速药水瓶装备升级数据",
+  "description": "急速药水瓶是飞盾战神的一件普通装备。急速药水瓶可以让飞盾战神在开启技能后获得更快的移动速度和攻击速度。即使不开启技能，急速药水瓶也可以提升飞盾战神在常规状态下的每秒伤害和攻击速度。",
+  "module": "upgrade-home",
+  "img_folder": "home_heroes/07c3",
+  "canonical": "/upgrade/07c3-Haste-Vial",
+  "wiki": "https://clashofclans.fandom.com/wiki/Haste_Vial",
+  "info_image": {
+    "level": "info",
+    "src": "Haste_Vial_info.png",
+    "url": "https://static.clashpost.com/upgrade/home_heroes/07c3/Haste_Vial_info.png"
+  },
+  "image_groups": [],
+  "building_num": [],
+  "properties": [
+    {
+      "key": "技能类型",
+      "value": "主动技能"
+    },
+    {
+      "key": "装备稀有度",
+      "value": "普通"
+    },
+    {
+      "key": "所需铁匠铺等级",
+      "value": "8"
+    },
+    {
+      "key": "所需大本等级",
+      "value": "15"
+    }
+  ],
+  "tables": [],
+  "timeline": [],
+  "notes": []
+}

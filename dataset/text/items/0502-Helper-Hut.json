@@ -1,0 +1,93 @@
+{
+  "id": "0502",
+  "link": "0502-Helper-Hut",
+  "tab": "建筑",
+  "section": "其他建筑",
+  "name": "帮手小屋",
+  "title": "部落冲突 coc 帮手小屋升级数据",
+  "description": "在这个舒适的小屋里，帮手们躺在暖和的高低床上休息！前往帮手小屋，给帮手们指派村庄里的工作。",
+  "module": "upgrade-home",
+  "img_folder": "home_buildings/0502",
+  "canonical": "/upgrade/0502-Helper-Hut",
+  "wiki": "https://clashofclans.fandom.com/wiki/Helper_Hut",
+  "info_image": {
+    "level": "info",
+    "src": "Helper_Hut_hd.png",
+    "url": "https://static.clashpost.com/upgrade/home_buildings/0502/Helper_Hut_hd.png"
+  },
+  "image_groups": [],
+  "building_num": [
+    {
+      "title": "大本等级",
+      "num": "1 - 8, 9 - 18"
+    },
+    {
+      "title": "建筑数量",
+      "num": "    0,      1"
+    }
+  ],
+  "properties": [
+    {
+      "key": "占地面积",
+      "value": "3×3"
+    },
+    {
+      "key": "判定面积",
+      "value": "2×2"
+    },
+    {
+      "key": "建造花费",
+      "value": "1000000"
+    },
+    {
+      "key": "建造时间",
+      "value": "瞬间完成"
+    },
+    {
+      "key": "生命值",
+      "value": "500"
+    }
+  ],
+  "tables": [
+    {
+      "label": "升级信息",
+      "headers": [
+        "解锁帮手",
+        "所需大本等级"
+      ],
+      "rows": [
+        [
+          "实验助手",
+          "9"
+        ],
+        [
+          "建筑工人学徒",
+          "10"
+        ],
+        [
+          "炼金术士",
+          "11"
+        ]
+      ],
+      "extra_info": []
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2025/02/10",
+      "rows": [
+        "新帮手：炼金术士。"
+      ]
+    },
+    {
+      "date": "2024/11/25",
+      "rows": [
+        "新建筑：帮手小屋。现在你可以在帮手小屋里给帮手们分配任务。最初帮手小屋总共有两个帮手：实验助手和建筑工人学徒。"
+      ]
+    }
+  ],
+  "notes": [
+    "你可以在帮手小屋里给帮手们分配任务。",
+    "升级帮手小屋无需宝石，但升级帮手需要宝石。"
+  ]
+}

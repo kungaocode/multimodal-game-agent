@@ -1,0 +1,406 @@
+{
+  "id": "0005",
+  "link": "0005-Balloon",
+  "tab": "科技",
+  "section": "圣水兵",
+  "name": "气球兵",
+  "title": "部落冲突 coc 气球兵升级数据",
+  "description": "这些乘着气球的高级骷髅兵对于摧毁敌人的防御乐此不疲。精心部署气球兵，他们将为您扫除各种障碍！",
+  "module": "upgrade-home",
+  "img_folder": "home_tech/0005",
+  "canonical": "/upgrade/0005-Balloon",
+  "wiki": "https://clashofclans.fandom.com/wiki/Balloon",
+  "info_image": {
+    "level": "info",
+    "src": "Balloon_info.png",
+    "url": "https://static.clashpost.com/upgrade/home_tech/0005/Balloon_info.png"
+  },
+  "image_groups": [
+    {
+      "group": "",
+      "images": [
+        {
+          "level": "1 - 2 级",
+          "src": "Balloon1.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0005/Balloon1.png"
+        },
+        {
+          "level": "3 - 4 级",
+          "src": "Balloon3.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0005/Balloon3.png"
+        },
+        {
+          "level": "5 级",
+          "src": "Balloon5.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0005/Balloon5.png"
+        },
+        {
+          "level": "6 级",
+          "src": "Balloon6.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0005/Balloon6.png"
+        },
+        {
+          "level": "7 级",
+          "src": "Balloon7.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0005/Balloon7.png"
+        },
+        {
+          "level": "8 级",
+          "src": "Balloon8.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0005/Balloon8.png"
+        },
+        {
+          "level": "9 级",
+          "src": "Balloon9.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0005/Balloon9.png"
+        },
+        {
+          "level": "10 级",
+          "src": "Balloon10.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0005/Balloon10.png"
+        },
+        {
+          "level": "11 级",
+          "src": "Balloon11.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0005/Balloon11.png"
+        },
+        {
+          "level": "12 级",
+          "src": "Balloon12.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0005/Balloon12.png"
+        }
+      ]
+    }
+  ],
+  "building_num": [],
+  "properties": [
+    {
+      "key": "部队类型",
+      "value": "空中单位"
+    },
+    {
+      "key": "攻击偏好",
+      "value": "防御建筑 (偏好类型 1)"
+    },
+    {
+      "key": "伤害类型",
+      "value": "范围伤害 (仅地面)"
+    },
+    {
+      "key": "攻击的目标",
+      "value": "仅地面目标"
+    },
+    {
+      "key": "占据人口",
+      "value": "5"
+    },
+    {
+      "key": "移动速度",
+      "value": "1.3 格/秒"
+    },
+    {
+      "key": "攻击速度",
+      "value": "3 秒/次"
+    },
+    {
+      "key": "首次进攻时机",
+      "value": "到达目标后 0.75 秒"
+    },
+    {
+      "key": "攻击距离",
+      "value": "0 格 (建筑头顶)"
+    },
+    {
+      "key": "普攻伤害半径",
+      "value": "1.2 格"
+    },
+    {
+      "key": "死亡伤害半径",
+      "value": "1.2 格"
+    },
+    {
+      "key": "死亡伤害延时",
+      "value": "0.146 秒"
+    },
+    {
+      "key": "所需训练营等级",
+      "value": "6"
+    },
+    {
+      "key": "所需大本等级",
+      "value": "4"
+    },
+    {
+      "key": "训练时间",
+      "value": "无"
+    },
+    {
+      "key": "捐赠费用",
+      "value": "3,3,9000,Elixir"
+    }
+  ],
+  "tables": [
+    {
+      "label": "升级数据",
+      "headers": [
+        "等级",
+        "每秒伤害",
+        "每次伤害",
+        "死亡溅射伤害",
+        "生命值",
+        "升级花费",
+        "升级时间",
+        "所需实验室等级",
+        "所需大本等级"
+      ],
+      "rows": [
+        [
+          "1",
+          "25",
+          "75",
+          "25",
+          "150",
+          "\\",
+          "\\",
+          "1",
+          "4"
+        ],
+        [
+          "2",
+          "32",
+          "96",
+          "32",
+          "180",
+          "100k",
+          "0, 4",
+          "2",
+          "4"
+        ],
+        [
+          "3",
+          "48",
+          "144",
+          "48",
+          "216",
+          "400k",
+          "0, 6",
+          "4",
+          "6"
+        ],
+        [
+          "4",
+          "72",
+          "216",
+          "72",
+          "280",
+          "720k",
+          "0,18",
+          "5",
+          "7"
+        ],
+        [
+          "5",
+          "108",
+          "324",
+          "108",
+          "390",
+          "1.3M",
+          "1",
+          "6",
+          "8"
+        ],
+        [
+          "6",
+          "162",
+          "486",
+          "162",
+          "545",
+          "2.75M",
+          "3",
+          "7",
+          "9"
+        ],
+        [
+          "7",
+          "198",
+          "594",
+          "214",
+          "690",
+          "4.4M",
+          "3, 6",
+          "9",
+          "11"
+        ],
+        [
+          "8",
+          "236",
+          "708",
+          "268",
+          "840",
+          "5M",
+          "3,12",
+          "10",
+          "12"
+        ],
+        [
+          "9",
+          "256",
+          "768",
+          "322",
+          "940",
+          "7M",
+          "4,12",
+          "11",
+          "13"
+        ],
+        [
+          "10",
+          "276",
+          "828",
+          "352",
+          "1040",
+          "10M",
+          "7",
+          "12",
+          "14"
+        ],
+        [
+          "11",
+          "290",
+          "870",
+          "375",
+          "1140",
+          "14M",
+          "8,12",
+          "14",
+          "16"
+        ],
+        [
+          "12",
+          "304",
+          "912",
+          "398",
+          "1240",
+          "17.5M",
+          "11",
+          "15",
+          "17"
+        ]
+      ],
+      "extra_info": [
+        {
+          "column": 5,
+          "type": "cost",
+          "gpClass": "research",
+          "icon": "Elixir"
+        },
+        {
+          "column": 6,
+          "type": "time",
+          "gpClass": "research"
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2025/11/17",
+      "rows": [
+        "12 级气球兵的升级时间和升级费用减少。"
+      ]
+    },
+    {
+      "date": "2025/10/06",
+      "rows": [
+        "7 ~ 10 级气球兵的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2025/06/16",
+      "rows": [
+        "在 17 本新增 12 级气球兵。"
+      ]
+    },
+    {
+      "date": "2025/03/27",
+      "rows": [
+        "部队的训练时间取消，但增加了捐赠费用。"
+      ]
+    },
+    {
+      "date": "2025/03/24",
+      "rows": [
+        "2 ~ 3、9 ~ 11 级气球兵的升级时间减少。",
+        "2、7、9、11 级气球兵的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2024/11/25",
+      "rows": [
+        "6 ~ 11 级气球兵的升级时间减少。",
+        "8 ~ 11 级气球兵的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2023/12/12",
+      "rows": [
+        "16 本推出，同时在 16 本新增 11 级气球兵。",
+        "7 ~ 10 级气球兵的升级时间减少。",
+        "4 ~ 5 级气球兵的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2023/06/12",
+      "rows": [
+        "8 ~ 9 级气球兵的升级时间减少。",
+        "8 ~ 9 级气球兵的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2022/10/10",
+      "rows": [
+        "7 ~ 10 级气球兵的升级费用和升级时间减少。"
+      ]
+    },
+    {
+      "date": "2022/05/02",
+      "rows": [
+        "家乡所有空军的攻击距离减少 0.5 格（超级飞龙除外，这玩意削了 1 格）。"
+      ]
+    },
+    {
+      "date": "2021/12/09",
+      "rows": [
+        "2 ~ 8 级气球兵的升级费用降低。",
+        "2 ~ 8 级气球兵的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2021/06/15",
+      "rows": [
+        "14 本新增 10 级气球兵。"
+      ]
+    },
+    {
+      "date": "2020/03/30",
+      "rows": [
+        "6 级气球兵的升级费用降低。",
+        "3、6、7 级气球兵的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2019/12/09",
+      "rows": [
+        "13 本开放，新增 9 级气球兵。"
+      ]
+    },
+    {
+      "date": "2019/04/02",
+      "rows": [
+        "5 ~ 7 级气球兵的升级时间减少。",
+        "1 ~ 3 级气球兵的训练费用降低。"
+      ]
+    }
+  ],
+  "notes": []
+}

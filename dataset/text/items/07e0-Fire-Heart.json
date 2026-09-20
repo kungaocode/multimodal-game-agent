@@ -1,0 +1,41 @@
+{
+  "id": "07e0",
+  "link": "07e0-Fire-Heart",
+  "tab": "英雄",
+  "section": "装备（飞龙公爵）",
+  "name": "烈焰之心",
+  "title": "部落冲突 coc 烈焰之心装备升级数据",
+  "description": "烈焰之心是飞龙公爵的两件初始装备之一，另一件是助燃器。烈焰之心装备的死亡爆炸效果只会在飞龙公爵第一次死亡时触发。如果他被凤凰复活后再次死亡，则不会再触发爆炸效果。除死亡爆炸外，烈焰之心装备还可以增加飞龙公爵的生命值和攻击力。",
+  "module": "upgrade-home",
+  "img_folder": "home_heroes/07e0",
+  "canonical": "/upgrade/07e0-Fire-Heart",
+  "wiki": "https://clashofclans.fandom.com/wiki/Fire_Heart",
+  "info_image": {
+    "level": "info",
+    "src": "Fire_Heart_info.png",
+    "url": "https://static.clashpost.com/upgrade/home_heroes/07e0/Fire_Heart_info.png"
+  },
+  "image_groups": [],
+  "building_num": [],
+  "properties": [
+    {
+      "key": "技能类型",
+      "value": "被动技能"
+    },
+    {
+      "key": "装备稀有度",
+      "value": "普通"
+    },
+    {
+      "key": "解锁条件",
+      "value": "有飞龙公爵即可"
+    },
+    {
+      "key": "死亡爆炸半径",
+      "value": "4 格"
+    }
+  ],
+  "tables": [],
+  "timeline": [],
+  "notes": []
+}

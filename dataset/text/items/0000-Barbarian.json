@@ -1,0 +1,382 @@
+{
+  "id": "0000",
+  "link": "0000-Barbarian",
+  "tab": "科技",
+  "section": "圣水兵",
+  "name": "野蛮人",
+  "title": "部落冲突 coc 野蛮人升级数据",
+  "description": "这些无畏的勇士长着引人注目的胡子，凭借一身壮硕的肌肉在敌人的村庄肆虐。训练一队野蛮人，他们将为您出生入死！",
+  "module": "upgrade-home",
+  "img_folder": "home_tech/0000",
+  "canonical": "/upgrade/0000-Barbarian",
+  "wiki": "https://clashofclans.fandom.com/wiki/Barbarian",
+  "info_image": {
+    "level": "info",
+    "src": "Barbarian_info.png",
+    "url": "https://static.clashpost.com/upgrade/home_tech/0000/Barbarian_info.png"
+  },
+  "image_groups": [
+    {
+      "group": "",
+      "images": [
+        {
+          "level": "1 - 2 级",
+          "src": "Barbarian1.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0000/Barbarian1.png"
+        },
+        {
+          "level": "3 - 4 级",
+          "src": "Barbarian3.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0000/Barbarian3.png"
+        },
+        {
+          "level": "5 级",
+          "src": "Barbarian5.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0000/Barbarian5.png"
+        },
+        {
+          "level": "6 级",
+          "src": "Barbarian6.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0000/Barbarian6.png"
+        },
+        {
+          "level": "7 级",
+          "src": "Barbarian7.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0000/Barbarian7.png"
+        },
+        {
+          "level": "8 级",
+          "src": "Barbarian8.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0000/Barbarian8.png"
+        },
+        {
+          "level": "9 级",
+          "src": "Barbarian9.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0000/Barbarian9.png"
+        },
+        {
+          "level": "10 级",
+          "src": "Barbarian10.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0000/Barbarian10.png"
+        },
+        {
+          "level": "11 级",
+          "src": "Barbarian11.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0000/Barbarian11.png"
+        },
+        {
+          "level": "12 级",
+          "src": "Barbarian12.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0000/Barbarian12.png"
+        }
+      ]
+    }
+  ],
+  "building_num": [],
+  "properties": [
+    {
+      "key": "部队类型",
+      "value": "地面近战单位"
+    },
+    {
+      "key": "攻击偏好",
+      "value": "无"
+    },
+    {
+      "key": "伤害类型",
+      "value": "单体伤害"
+    },
+    {
+      "key": "攻击的目标",
+      "value": "仅地面目标"
+    },
+    {
+      "key": "占据人口",
+      "value": "1"
+    },
+    {
+      "key": "移动速度",
+      "value": "2 格/秒"
+    },
+    {
+      "key": "攻击速度",
+      "value": "1 秒/次"
+    },
+    {
+      "key": "攻击距离",
+      "value": "0.4 格"
+    },
+    {
+      "key": "所需训练营等级",
+      "value": "1"
+    },
+    {
+      "key": "所需大本等级",
+      "value": "1"
+    },
+    {
+      "key": "训练时间",
+      "value": "无"
+    },
+    {
+      "key": "捐赠费用",
+      "value": "1,1,3000,Elixir"
+    }
+  ],
+  "tables": [
+    {
+      "label": "升级数据",
+      "headers": [
+        "等级",
+        "每秒伤害",
+        "每次伤害",
+        "生命值",
+        "升级花费",
+        "升级时间",
+        "所需实验室等级",
+        "所需大本等级"
+      ],
+      "rows": [
+        [
+          "1",
+          "9",
+          "9",
+          "45",
+          "\\",
+          "\\",
+          "1",
+          "1"
+        ],
+        [
+          "2",
+          "12",
+          "12",
+          "54",
+          "10k",
+          "0, 0,30",
+          "1",
+          "3"
+        ],
+        [
+          "3",
+          "15",
+          "15",
+          "65",
+          "50k",
+          "0, 1",
+          "3",
+          "5"
+        ],
+        [
+          "4",
+          "18",
+          "18",
+          "85",
+          "130k",
+          "0, 2",
+          "5",
+          "7"
+        ],
+        [
+          "5",
+          "23",
+          "23",
+          "105",
+          "300k",
+          "0, 4",
+          "6",
+          "8"
+        ],
+        [
+          "6",
+          "26",
+          "26",
+          "125",
+          "800k",
+          "0, 8",
+          "7",
+          "9"
+        ],
+        [
+          "7",
+          "30",
+          "30",
+          "160",
+          "1M",
+          "0,12",
+          "8",
+          "10"
+        ],
+        [
+          "8",
+          "34",
+          "34",
+          "205",
+          "1.5M",
+          "1",
+          "9",
+          "11"
+        ],
+        [
+          "9",
+          "38",
+          "38",
+          "230",
+          "2.5M",
+          "1,12",
+          "10",
+          "12"
+        ],
+        [
+          "10",
+          "42",
+          "42",
+          "250",
+          "4.3M",
+          "2",
+          "12",
+          "14"
+        ],
+        [
+          "11",
+          "45",
+          "45",
+          "270",
+          "6M",
+          "3",
+          "13",
+          "15"
+        ],
+        [
+          "12",
+          "48",
+          "48",
+          "290",
+          "8M",
+          "4,12",
+          "14",
+          "16"
+        ]
+      ],
+      "extra_info": [
+        {
+          "column": 4,
+          "type": "cost",
+          "gpClass": "research",
+          "icon": "Elixir"
+        },
+        {
+          "column": 5,
+          "type": "time",
+          "gpClass": "research"
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2025/10/06",
+      "rows": [
+        "9 ~ 12 级野蛮人的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2025/06/16",
+      "rows": [
+        "1 ~ 3 级野蛮人的每秒伤害值提升。"
+      ]
+    },
+    {
+      "date": "2025/03/27",
+      "rows": [
+        "部队的训练时间取消，但增加了捐赠费用。"
+      ]
+    },
+    {
+      "date": "2025/03/24",
+      "rows": [
+        "2 ~ 12 级野蛮人的升级时间减少。",
+        "2 ~ 9、12 级野蛮人的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2025/02/10",
+      "rows": [
+        "2 级野蛮人的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2024/11/25",
+      "rows": [
+        "3 ~ 7、9 ~ 12 级野蛮人的升级时间减少。",
+        "9 ~ 12 级野蛮人的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2024/06/18",
+      "rows": [
+        "7 ~ 11 级野蛮人的升级时间减少。",
+        "10 ~ 11 级野蛮人的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2023/12/12",
+      "rows": [
+        "16 本推出，同时在 16 本新增 12 级野蛮人。",
+        "7 ~ 11 级野蛮人的升级时间减少。",
+        "8 ~ 10 级野蛮人的升级花费降低。"
+      ]
+    },
+    {
+      "date": "2023/06/12",
+      "rows": [
+        "9 级野蛮人的升级时间减少。",
+        "9 级野蛮人的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2022/10/10",
+      "rows": [
+        "15 本推出，并在 15 本新增 11 级野蛮人。",
+        "7 ~ 10 级野蛮人的升级费用和升级时间减少。"
+      ]
+    },
+    {
+      "date": "2021/12/09",
+      "rows": [
+        "2 ~ 9 级野蛮人的升级费用降低。",
+        "2 ~ 9 级野蛮人的升级时间减少。",
+        "4 ~ 7 级野蛮人的生命值提升。"
+      ]
+    },
+    {
+      "date": "2021/04/12",
+      "rows": [
+        "14 本新增 10 级野蛮人。",
+        "1 ~ 2 级野蛮人的训练费用：25/40 圣水 → 15/30 圣水",
+        "2 ~ 9 级野蛮人的升级费用降低。",
+        "3 ~ 8 级野蛮人的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2020/03/30",
+      "rows": [
+        "5 ~ 8 级野蛮人的升级费用降低。",
+        "12 本新增 9 级野蛮人。"
+      ]
+    },
+    {
+      "date": "2019/04/02",
+      "rows": [
+        "包含大量降低发展成本和提高发展速度的调整，其中 5 ~ 8 级野蛮人的升级时间下调。"
+      ]
+    },
+    {
+      "date": "2019/02/22",
+      "rows": [
+        "7 ~ 8 级野蛮人的生命值提高。"
+      ]
+    }
+  ],
+  "notes": []
+}

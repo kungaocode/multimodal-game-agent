@@ -1,0 +1,41 @@
+{
+  "id": "0722",
+  "link": "0722-Metal-Pants",
+  "tab": "英雄",
+  "section": "装备（亡灵王子）",
+  "name": "铁甲短裤",
+  "title": "部落冲突 coc 铁甲短裤（铁裤衩）装备升级数据",
+  "description": "铁甲短裤是亡灵王子的一件普通装备。带上铁甲短裤装备后，亡灵王子在开技能后的一段时间内受到的伤害会减少。除了减少伤害外，铁甲短裤装备还可以增加开启技能时的回血量以及日常状态下的生命值。",
+  "module": "upgrade-home",
+  "img_folder": "home_heroes/0722",
+  "canonical": "/upgrade/0722-Metal-Pants",
+  "wiki": "https://clashofclans.fandom.com/wiki/Metal_Pants",
+  "info_image": {
+    "level": "info",
+    "src": "Metal_Pants_info.png",
+    "url": "https://static.clashpost.com/upgrade/home_heroes/0722/Metal_Pants_info.png"
+  },
+  "image_groups": [],
+  "building_num": [],
+  "properties": [
+    {
+      "key": "技能类型",
+      "value": "主动技能"
+    },
+    {
+      "key": "装备稀有度",
+      "value": "普通"
+    },
+    {
+      "key": "所需铁匠铺等级",
+      "value": "3"
+    },
+    {
+      "key": "所需大本等级",
+      "value": "10"
+    }
+  ],
+  "tables": [],
+  "timeline": [],
+  "notes": []
+}

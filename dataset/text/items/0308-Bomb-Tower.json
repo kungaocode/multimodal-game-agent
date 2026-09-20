@@ -1,0 +1,442 @@
+{
+  "id": "0308",
+  "link": "0308-Bomb-Tower",
+  "tab": "建筑",
+  "section": "防御建筑",
+  "name": "炸弹塔",
+  "title": "部落冲突 coc 炸弹塔升级数据",
+  "description": "炸弹塔可以投掷炸弹轰炸附近的地面部队，被摧毁后会产生一个大爆炸！近战部队最好离它远点吧！",
+  "module": "upgrade-home",
+  "img_folder": "home_buildings/0308",
+  "canonical": "/upgrade/0308-Bomb-Tower",
+  "wiki": "https://clashofclans.fandom.com/wiki/Bomb_Tower",
+  "info_image": {
+    "level": "info",
+    "src": "Bomb_Tower13.png",
+    "url": "https://static.clashpost.com/upgrade/home_buildings/0308/Bomb_Tower13.png"
+  },
+  "image_groups": [
+    {
+      "group": "",
+      "images": [
+        {
+          "level": "1 级",
+          "src": "Bomb_Tower1.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0308/Bomb_Tower1.png"
+        },
+        {
+          "level": "2 级",
+          "src": "Bomb_Tower2.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0308/Bomb_Tower2.png"
+        },
+        {
+          "level": "3 级",
+          "src": "Bomb_Tower3.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0308/Bomb_Tower3.png"
+        },
+        {
+          "level": "4 级",
+          "src": "Bomb_Tower4.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0308/Bomb_Tower4.png"
+        },
+        {
+          "level": "5 级",
+          "src": "Bomb_Tower5.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0308/Bomb_Tower5.png"
+        },
+        {
+          "level": "6 级",
+          "src": "Bomb_Tower6.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0308/Bomb_Tower6.png"
+        },
+        {
+          "level": "7 级",
+          "src": "Bomb_Tower7.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0308/Bomb_Tower7.png"
+        },
+        {
+          "level": "8 级",
+          "src": "Bomb_Tower8.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0308/Bomb_Tower8.png"
+        },
+        {
+          "level": "9 级",
+          "src": "Bomb_Tower9.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0308/Bomb_Tower9.png"
+        },
+        {
+          "level": "10 级",
+          "src": "Bomb_Tower10.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0308/Bomb_Tower10.png"
+        },
+        {
+          "level": "11 级",
+          "src": "Bomb_Tower11.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0308/Bomb_Tower11.png"
+        },
+        {
+          "level": "12 级",
+          "src": "Bomb_Tower12.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0308/Bomb_Tower12.png"
+        },
+        {
+          "level": "13 级",
+          "src": "Bomb_Tower13.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0308/Bomb_Tower13.png"
+        }
+      ]
+    }
+  ],
+  "building_num": [
+    {
+      "title": "大本等级",
+      "num": "1 - 7, 8 - 9, 11 - 18"
+    },
+    {
+      "title": "建筑数量",
+      "num": "    0,     1,       2"
+    }
+  ],
+  "properties": [
+    {
+      "key": "占地面积",
+      "value": "3×3"
+    },
+    {
+      "key": "判定面积",
+      "value": "2×2"
+    },
+    {
+      "key": "伤害类型",
+      "value": "范围伤害"
+    },
+    {
+      "key": "伤害半径",
+      "value": "1.5 格"
+    },
+    {
+      "key": "攻击的目标",
+      "value": "仅地面目标"
+    },
+    {
+      "key": "射程",
+      "value": "6 格"
+    },
+    {
+      "key": "攻速",
+      "value": "1.1 秒/次"
+    },
+    {
+      "key": "被摧毁时的自爆半径",
+      "value": "2.75 格"
+    },
+    {
+      "key": "自爆延时",
+      "value": "1 秒"
+    }
+  ],
+  "tables": [
+    {
+      "label": "升级数据",
+      "headers": [
+        "等级",
+        "每秒伤害",
+        "每次伤害",
+        "被摧毁后的自爆伤害",
+        "生命值",
+        "升级费用",
+        "升级时间",
+        "升级后可获得的经验",
+        "所需大本等级"
+      ],
+      "rows": [
+        [
+          "1",
+          "24",
+          "26.4",
+          "150",
+          "650",
+          "700k",
+          "0,12",
+          "",
+          "8"
+        ],
+        [
+          "2",
+          "28",
+          "30.8",
+          "180",
+          "700",
+          "1M",
+          "0,18",
+          "",
+          "8"
+        ],
+        [
+          "3",
+          "32",
+          "35.2",
+          "220",
+          "750",
+          "1.3M",
+          "1",
+          "",
+          "9"
+        ],
+        [
+          "4",
+          "40",
+          "44",
+          "260",
+          "850",
+          "1.8M",
+          "1,12",
+          "",
+          "10"
+        ],
+        [
+          "5",
+          "48",
+          "52.8",
+          "300",
+          "1050",
+          "1.9M",
+          "1,18",
+          "",
+          "11"
+        ],
+        [
+          "6",
+          "56",
+          "61.6",
+          "350",
+          "1300",
+          "2M",
+          "2",
+          "",
+          "11"
+        ],
+        [
+          "7",
+          "64",
+          "70.4",
+          "400",
+          "1600",
+          "4M",
+          "3",
+          "",
+          "12"
+        ],
+        [
+          "8",
+          "72",
+          "79.2",
+          "450",
+          "1900",
+          "5M",
+          "4",
+          "",
+          "13"
+        ],
+        [
+          "9",
+          "84",
+          "92.4",
+          "500",
+          "2300",
+          "6M",
+          "4,12",
+          "",
+          "14"
+        ],
+        [
+          "10",
+          "94",
+          "103.4",
+          "550",
+          "2500",
+          "7M",
+          "4,18",
+          "",
+          "15"
+        ],
+        [
+          "11",
+          "104",
+          "114.4",
+          "600",
+          "2700",
+          "8.5M",
+          "5",
+          "",
+          "16"
+        ],
+        [
+          "12",
+          "114",
+          "125.4",
+          "650",
+          "2900",
+          "14.5M",
+          "9",
+          "",
+          "17"
+        ],
+        [
+          "13",
+          "122",
+          "134.2",
+          "700",
+          "3050",
+          "25M",
+          "13",
+          "",
+          "18"
+        ],
+        [
+          "⚡1",
+          "127",
+          "139.7",
+          "700",
+          "3050",
+          "6M",
+          "2,12",
+          "",
+          "18"
+        ],
+        [
+          "⚡2",
+          "127",
+          "139.7",
+          "700",
+          "3150",
+          "3M",
+          "4",
+          "",
+          "18"
+        ]
+      ],
+      "extra_info": [
+        {
+          "column": 5,
+          "type": "cost",
+          "gpClass": "building",
+          "icon": "Gold"
+        },
+        {
+          "column": 6,
+          "type": "time",
+          "gpClass": "building"
+        },
+        {
+          "column": 7,
+          "type": "exp",
+          "icon": "Exp"
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2025/11/17",
+      "rows": [
+        "18 本推出，并在 18 本新增 13 级炸弹塔。",
+        "12 级炸弹塔的升级时间和升级费用减少。"
+      ]
+    },
+    {
+      "date": "2025/10/06",
+      "rows": [
+        "10 ~ 11 级炸弹塔的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2025/03/24",
+      "rows": [
+        "1 ~ 5、7 ~ 11 级炸弹塔的升级时间减少。",
+        "3 ~ 5、7 ~ 11 级炸弹塔的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2025/02/10",
+      "rows": [
+        "6 级炸弹塔的升级时间减少。",
+        "6 级炸弹塔的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2024/11/25",
+      "rows": [
+        "17 本推出，并在 17 本新增 12 级炸弹塔。",
+        "5、7 ~ 11 级炸弹塔的升级时间减少。",
+        "6、8 ~ 11 级炸弹塔的升级费用降低。",
+        "炸弹塔成为第二批可以充能的建筑。"
+      ]
+    },
+    {
+      "date": "2024/06/18",
+      "rows": [
+        "7 ~ 10 级炸弹塔的升级时间减少。",
+        "7 ~ 10 级炸弹塔的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2023/12/12",
+      "rows": [
+        "16 本推出，并在 16 本新增 11 级炸弹塔。",
+        "所有等级炸弹塔的升级时间减少。",
+        "1 ~ 6、9 级炸弹塔的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2023/06/12",
+      "rows": [
+        "7 ~ 8 级炸弹塔的升级时间减少。",
+        "7 ~ 8 级炸弹塔的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2022/10/10",
+      "rows": [
+        "15 本推出，并在 15 本新增 10 级炸弹塔。",
+        "4 ~ 9 级炸弹塔的升级费用和升级时间减少。"
+      ]
+    },
+    {
+      "date": "2021/12/09",
+      "rows": [
+        "1 ~ 8 级炸弹塔的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2021/04/12",
+      "rows": [
+        "14 本推出，并在 14 本新增 9 级炸弹塔。",
+        "2 ~ 6 级炸弹塔的升级时间减少。",
+        "1 ~ 6 级炸弹塔的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2020/03/30",
+      "rows": [
+        "13 本新增 8 级炸弹塔。"
+      ]
+    },
+    {
+      "date": "2020/02/28",
+      "rows": [
+        "5 ~ 7 级炸弹塔的血量由 1000/1200/1400 调整为 1050/1300/1600。",
+        "5 ~ 7 级炸弹塔的每秒伤害由 46/52/60 调整为 48/56/64。",
+        "6 ~ 7 级炸弹塔的摧毁爆炸伤害由 340/380 调整为 350/400。"
+      ]
+    },
+    {
+      "date": "2019/04/02",
+      "rows": [
+        "1 ~ 6 级炸弹塔的升级费用降低。",
+        "1 ~ 5 级炸弹塔的升级时间减少。"
+      ]
+    }
+  ],
+  "notes": []
+}

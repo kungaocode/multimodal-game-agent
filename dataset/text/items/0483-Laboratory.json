@@ -1,0 +1,364 @@
+{
+  "id": "0483",
+  "link": "0483-Laboratory",
+  "tab": "建筑",
+  "section": "军事建筑",
+  "name": "实验室",
+  "title": "部落冲突 coc 实验室（研究所）升级数据",
+  "description": "法师们在实验室里隐藏着什么秘密呢？没人敢去瞧一眼。我们只知道他们的研究可以使部队和法术变得更强！",
+  "module": "upgrade-home",
+  "img_folder": "home_buildings/0483",
+  "canonical": "/upgrade/0483-Laboratory",
+  "wiki": "https://clashofclans.fandom.com/wiki/Laboratory",
+  "info_image": {
+    "level": "info",
+    "src": "Laboratory16_hd.png",
+    "url": "https://static.clashpost.com/upgrade/home_buildings/0483/Laboratory16_hd.png"
+  },
+  "image_groups": [
+    {
+      "group": "实验室",
+      "images": [
+        {
+          "level": "1 级",
+          "src": "Laboratory1.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0483/Laboratory1.png"
+        },
+        {
+          "level": "2 级",
+          "src": "Laboratory2.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0483/Laboratory2.png"
+        },
+        {
+          "level": "3 级",
+          "src": "Laboratory3.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0483/Laboratory3.png"
+        },
+        {
+          "level": "4 级",
+          "src": "Laboratory4.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0483/Laboratory4.png"
+        },
+        {
+          "level": "5 级",
+          "src": "Laboratory5.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0483/Laboratory5.png"
+        },
+        {
+          "level": "6 级",
+          "src": "Laboratory6.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0483/Laboratory6.png"
+        },
+        {
+          "level": "7 级",
+          "src": "Laboratory7.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0483/Laboratory7.png"
+        },
+        {
+          "level": "8 级",
+          "src": "Laboratory8.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0483/Laboratory8.png"
+        },
+        {
+          "level": "9 级",
+          "src": "Laboratory9.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0483/Laboratory9.png"
+        },
+        {
+          "level": "10 级",
+          "src": "Laboratory10.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0483/Laboratory10.png"
+        },
+        {
+          "level": "11 级",
+          "src": "Laboratory11.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0483/Laboratory11.png"
+        },
+        {
+          "level": "12 级",
+          "src": "Laboratory12.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0483/Laboratory12.png"
+        },
+        {
+          "level": "13 级",
+          "src": "Laboratory13.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0483/Laboratory13.png"
+        },
+        {
+          "level": "14 级",
+          "src": "Laboratory14.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0483/Laboratory14.png"
+        },
+        {
+          "level": "15 级",
+          "src": "Laboratory15.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0483/Laboratory15.png"
+        },
+        {
+          "level": "16 级",
+          "src": "Laboratory16.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0483/Laboratory16.png"
+        }
+      ]
+    }
+  ],
+  "building_num": [
+    {
+      "title": "大本等级",
+      "num": "1 - 2, 3 - 18"
+    },
+    {
+      "title": "建筑数量",
+      "num": "    0,      1"
+    }
+  ],
+  "properties": [
+    {
+      "key": "占地面积",
+      "value": "3×3"
+    },
+    {
+      "key": "判定面积",
+      "value": "3×3"
+    }
+  ],
+  "tables": [
+    {
+      "label": "升级数据",
+      "headers": [
+        "等级",
+        "生命值",
+        "升级费用",
+        "升级时间",
+        "升级后可获得的经验",
+        "所需大本等级"
+      ],
+      "rows": [
+        [
+          "1",
+          "500",
+          "5k",
+          "0, 0, 1",
+          "",
+          "3"
+        ],
+        [
+          "2",
+          "550",
+          "25k",
+          "0, 0,30",
+          "",
+          "4"
+        ],
+        [
+          "3",
+          "600",
+          "50k",
+          "0, 2",
+          "",
+          "5"
+        ],
+        [
+          "4",
+          "650",
+          "100k",
+          "0, 4",
+          "",
+          "6"
+        ],
+        [
+          "5",
+          "700",
+          "200k",
+          "0, 8",
+          "",
+          "7"
+        ],
+        [
+          "6",
+          "750",
+          "400k",
+          "0,16",
+          "",
+          "8"
+        ],
+        [
+          "7",
+          "830",
+          "800k",
+          "1",
+          "",
+          "9"
+        ],
+        [
+          "8",
+          "950",
+          "1.3M",
+          "1,18",
+          "",
+          "10"
+        ],
+        [
+          "9",
+          "1070",
+          "2.1M",
+          "2,18",
+          "",
+          "11"
+        ],
+        [
+          "10",
+          "1140",
+          "3.8M",
+          "4",
+          "",
+          "12"
+        ],
+        [
+          "11",
+          "1210",
+          "5.5M",
+          "6",
+          "",
+          "13"
+        ],
+        [
+          "12",
+          "1280",
+          "8.1M",
+          "7",
+          "",
+          "14"
+        ],
+        [
+          "13",
+          "1350",
+          "10.8M",
+          "8",
+          "",
+          "15"
+        ],
+        [
+          "14",
+          "1400",
+          "13M",
+          "9",
+          "",
+          "16"
+        ],
+        [
+          "15",
+          "1450",
+          "18M",
+          "10",
+          "",
+          "17"
+        ],
+        [
+          "16",
+          "1500",
+          "27M",
+          "16",
+          "",
+          "18"
+        ]
+      ],
+      "extra_info": [
+        {
+          "column": 2,
+          "type": "cost",
+          "gpClass": "building",
+          "icon": "Elixir"
+        },
+        {
+          "column": 3,
+          "type": "time",
+          "gpClass": "building"
+        },
+        {
+          "column": 4,
+          "type": "exp",
+          "icon": "Exp"
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2025/11/17",
+      "rows": [
+        "18 本推出，并在 18 本新增 16 级实验室。",
+        "15 级实验室的升级时间和升级费用减少。"
+      ]
+    },
+    {
+      "date": "2025/03/24",
+      "rows": [
+        "2、14 级实验室的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2024/11/25",
+      "rows": [
+        "17 本推出，并在 17 本新增 15 级实验室。",
+        "12 ~ 14 级实验室的升级时间减少。",
+        "13 级实验室的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2024/06/18",
+      "rows": [
+        "13 ~ 14 级实验室的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2023/12/12",
+      "rows": [
+        "新增 14 级实验室，16 级大本营可解锁。",
+        "12 级实验室的升级费用 1150 万减少至 810 万。"
+      ]
+    },
+    {
+      "date": "2022/12/12",
+      "rows": [
+        "升级实验室的同时也可以开始升级兵种/法术/攻城机器。"
+      ]
+    },
+    {
+      "date": "2022/10/10",
+      "rows": [
+        "新增 13 级实验室，15 级大本营可解锁。",
+        "8 ~ 12 级实验室的升级费用和升级时间减少。"
+      ]
+    },
+    {
+      "date": "2021/12/09",
+      "rows": [
+        "3 ~ 11 级实验室的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2021/04/12",
+      "rows": [
+        "新增 12 级实验室，14 级大本营可解锁。",
+        "1 ~ 9 级实验室的升级费用降低。。",
+        "2 ~ 11 级实验室的升级时间减少。",
+        "升级实验室期间，之前在实验室内正在进行的升级会正常继续，且实验室的升级和实验室内的项目升级都可以使用宝石或魔法书完成。但实验室正在升级时，无法开始新的兵种或法术升级。"
+      ]
+    },
+    {
+      "date": "2019/12/09",
+      "rows": [
+        "新增 11 级实验室，13 级大本营可解锁。"
+      ]
+    },
+    {
+      "date": "2019/04/02",
+      "rows": [
+        "1 ~ 2、4 ~ 8 级实验室的升级时间减少。",
+        "7 ~ 8 级实验室的升级费用降低。"
+      ]
+    }
+  ],
+  "notes": []
+}

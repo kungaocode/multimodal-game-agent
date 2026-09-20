@@ -1,0 +1,300 @@
+{
+  "id": "0489",
+  "link": "0489-Hero-Hall",
+  "tab": "建筑",
+  "section": "军事建筑",
+  "name": "英雄殿堂",
+  "title": "部落冲突 coc 英雄殿堂升级数据",
+  "description": "这座华丽的殿堂是为了颂扬村庄里最强大的勇士！前往英雄殿堂，查看所有与英雄相关的信息，并升级英雄。升级英雄殿堂可解锁更多英雄！",
+  "module": "upgrade-home",
+  "img_folder": "home_buildings/0489",
+  "canonical": "/upgrade/0489-Hero-Hall",
+  "wiki": "https://clashofclans.fandom.com/wiki/Hero_Hall",
+  "info_image": {
+    "level": "info",
+    "src": "Hero_Hall12_hd.png",
+    "url": "https://static.clashpost.com/upgrade/home_buildings/0489/Hero_Hall12_hd.png"
+  },
+  "image_groups": [
+    {
+      "group": "",
+      "images": [
+        {
+          "level": "1 级",
+          "src": "Hero_Hall1.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0489/Hero_Hall1.png"
+        },
+        {
+          "level": "2 级",
+          "src": "Hero_Hall2.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0489/Hero_Hall2.png"
+        },
+        {
+          "level": "3 级",
+          "src": "Hero_Hall3.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0489/Hero_Hall3.png"
+        },
+        {
+          "level": "4 级",
+          "src": "Hero_Hall4.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0489/Hero_Hall4.png"
+        },
+        {
+          "level": "5 级",
+          "src": "Hero_Hall5.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0489/Hero_Hall5.png"
+        },
+        {
+          "level": "6 级",
+          "src": "Hero_Hall6.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0489/Hero_Hall6.png"
+        },
+        {
+          "level": "7 级",
+          "src": "Hero_Hall7.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0489/Hero_Hall7.png"
+        },
+        {
+          "level": "8 级",
+          "src": "Hero_Hall8.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0489/Hero_Hall8.png"
+        },
+        {
+          "level": "9 级",
+          "src": "Hero_Hall9.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0489/Hero_Hall9.png"
+        },
+        {
+          "level": "10 级",
+          "src": "Hero_Hall10.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0489/Hero_Hall10.png"
+        },
+        {
+          "level": "11 级",
+          "src": "Hero_Hall11.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0489/Hero_Hall11.png"
+        },
+        {
+          "level": "12 级",
+          "src": "Hero_Hall12.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0489/Hero_Hall12.png"
+        }
+      ]
+    }
+  ],
+  "building_num": [
+    {
+      "title": "大本等级",
+      "num": "1 - 6, 7 - 18"
+    },
+    {
+      "title": "建筑数量",
+      "num": "    0,      1"
+    }
+  ],
+  "properties": [
+    {
+      "key": "占地面积",
+      "value": "4×4"
+    },
+    {
+      "key": "判定面积",
+      "value": "3×3"
+    }
+  ],
+  "tables": [
+    {
+      "label": "升级数据",
+      "headers": [
+        "等级",
+        "英雄栏位数量",
+        "生命值",
+        "升级费用",
+        "升级时间",
+        "升级后可获得的经验",
+        "所需大本等级",
+        "解锁英雄"
+      ],
+      "rows": [
+        [
+          "1",
+          "1",
+          "2000",
+          "800k",
+          "1",
+          "",
+          "7",
+          "野蛮人之王"
+        ],
+        [
+          "2",
+          "1",
+          "2400",
+          "1.6M",
+          "2",
+          "",
+          "8",
+          "弓箭女皇"
+        ],
+        [
+          "3",
+          "2",
+          "2800",
+          "2.3M",
+          "3",
+          "",
+          "9",
+          "亡灵王子"
+        ],
+        [
+          "4",
+          "2",
+          "3200",
+          "2.5M",
+          "4",
+          "",
+          "10",
+          "无"
+        ],
+        [
+          "5",
+          "3",
+          "3600",
+          "4.5M",
+          "4,12",
+          "",
+          "11",
+          "大守护者"
+        ],
+        [
+          "6",
+          "3",
+          "3800",
+          "5.5M",
+          "5",
+          "",
+          "12",
+          "无"
+        ],
+        [
+          "7",
+          "4",
+          "4200",
+          "8.5M",
+          "6",
+          "",
+          "13",
+          "飞盾战神"
+        ],
+        [
+          "8",
+          "4",
+          "4600",
+          "9.5M",
+          "6,12",
+          "",
+          "14",
+          "无"
+        ],
+        [
+          "9",
+          "4",
+          "5000",
+          "11M",
+          "7",
+          "",
+          "15",
+          "飞龙公爵"
+        ],
+        [
+          "10",
+          "4",
+          "5400",
+          "13M",
+          "8",
+          "",
+          "16",
+          "无"
+        ],
+        [
+          "11",
+          "4",
+          "5800",
+          "17M",
+          "9,12",
+          "",
+          "17",
+          "无"
+        ],
+        [
+          "12",
+          "4",
+          "6000",
+          "26M",
+          "13,12",
+          "",
+          "18",
+          "无"
+        ]
+      ],
+      "extra_info": [
+        {
+          "column": 3,
+          "type": "cost",
+          "gpClass": "building",
+          "icon": "Elixir"
+        },
+        {
+          "column": 4,
+          "type": "time",
+          "gpClass": "building"
+        },
+        {
+          "column": 5,
+          "type": "exp",
+          "icon": "Exp"
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2025/11/17",
+      "rows": [
+        "18 本推出，并在 18 本新增 12 级英雄殿堂。",
+        "11 级英雄殿堂的升级时间和升级费用减少。"
+      ]
+    },
+    {
+      "date": "2025/10/06",
+      "rows": [
+        "4 ~ 10 级英雄殿堂的升级时间减少。",
+        "4 ~ 10 级英雄殿堂的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2025/03/24",
+      "rows": [
+        "3、7 ~ 10 级英雄殿堂的升级时间减少。",
+        "8 ~ 10 级英雄殿堂的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2024/11/25",
+      "rows": [
+        "17 本推出，新建筑：英雄殿堂。",
+        "现在你需要在英雄殿堂升级和管理英雄，不能和以前一样直接在阵型中找到英雄升级。"
+      ]
+    }
+  ],
+  "notes": [
+    "2024 年 11 月更新后，你需要在英雄殿堂升级和管理英雄，不能和以前一样直接在阵型中找到英雄升级。",
+    "所谓的管理英雄指的是在英雄殿堂中分配战宠、管理装备、查看皮肤、修改防守英雄等快捷方式。",
+    "虽然官方将升级操作整合进了英雄殿堂，但升级英雄仍然需要占用建筑工人。",
+    "现在 [大本](/upgrade/0400-Town-Hall) 等级不再是限制英雄升级的参数，能不能升级只看英雄殿堂等级。",
+    "随着英雄殿堂推出，游戏引入了英雄栏位的概念。",
+    "在进攻时，英雄栏位的数量代表可同时上场的英雄数量。",
+    "在防守时，英雄栏位会以战旗的形式放置在阵型中，你可以指派一名英雄保卫战旗附近的区域。",
+    "如想详细了解英雄系统，请移步：[目前 coc 的英雄系统是什么样的？](/p/6827)"
+  ]
+}

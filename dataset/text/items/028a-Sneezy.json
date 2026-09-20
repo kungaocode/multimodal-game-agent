@@ -1,0 +1,97 @@
+{
+  "id": "028a",
+  "link": "028a-Sneezy",
+  "tab": "英雄",
+  "section": "战宠",
+  "name": "阿啾",
+  "title": "部落冲突 coc 阿啾升级数据",
+  "description": "她的鼻子堵住了，随时准备打喷嚏！阿啾因过敏躲在英雄身后，朝建筑喷出黏糊糊的鼻涕小怪。跟随的英雄被击倒后，她仍会继续战斗！",
+  "module": "upgrade-home",
+  "img_folder": "home_heroes/028a",
+  "canonical": "/upgrade/028a-Sneezy",
+  "wiki": "https://clashofclans.fandom.com/wiki/Sneezy",
+  "info_image": {
+    "level": "info",
+    "src": "Sneezy_info.png",
+    "url": "https://static.clashpost.com/upgrade/home_heroes/028a/Sneezy_info.png"
+  },
+  "image_groups": [],
+  "building_num": [],
+  "properties": [
+    {
+      "key": "攻击偏好",
+      "value": "防御建筑"
+    },
+    {
+      "key": "伤害类型",
+      "value": "单体伤害"
+    },
+    {
+      "key": "攻击的目标",
+      "value": "地面和空中目标"
+    },
+    {
+      "key": "占据人口",
+      "value": "20"
+    },
+    {
+      "key": "移动速度",
+      "value": "3 格/秒"
+    },
+    {
+      "key": "攻击速度",
+      "value": "0.8 秒/次"
+    },
+    {
+      "key": "攻击距离",
+      "value": "见说明<sup>①</sup>"
+    },
+    {
+      "key": "每次召唤的鼻涕小怪数量",
+      "value": "2"
+    },
+    {
+      "key": "召唤频率",
+      "value": "10 秒/次"
+    },
+    {
+      "key": "所需战宠小屋等级",
+      "value": "11"
+    },
+    {
+      "key": "所需大本等级",
+      "value": "17"
+    },
+    {
+      "key": "攻击偏好",
+      "value": "无"
+    },
+    {
+      "key": "伤害类型",
+      "value": "单体伤害"
+    },
+    {
+      "key": "攻击的目标",
+      "value": "地面和空中目标"
+    },
+    {
+      "key": "占据人口",
+      "value": "4"
+    },
+    {
+      "key": "移动速度",
+      "value": "2 格/秒"
+    },
+    {
+      "key": "攻击速度",
+      "value": "1 秒/次"
+    },
+    {
+      "key": "攻击距离",
+      "value": "0.9 格"
+    }
+  ],
+  "tables": [],
+  "timeline": [],
+  "notes": []
+}

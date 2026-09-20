@@ -1,0 +1,441 @@
+{
+  "id": "0404",
+  "link": "0404-Gold-Storage",
+  "tab": "建筑",
+  "section": "资源类建筑",
+  "name": "储金罐",
+  "title": "部落冲突 coc 储金罐升级数据",
+  "description": "您珍贵的金币都存在这里！不要让狡猾的哥布林有机可乘！升级储金罐，提高它们的容量和抗打击能力。",
+  "module": "upgrade-home",
+  "img_folder": "home_buildings/0404",
+  "canonical": "/upgrade/0404-Gold-Storage",
+  "wiki": "https://clashofclans.fandom.com/wiki/Gold_Storage",
+  "info_image": {
+    "level": "info",
+    "src": "Gold_Storage19.png",
+    "url": "https://static.clashpost.com/upgrade/home_buildings/0404/Gold_Storage19.png"
+  },
+  "image_groups": [
+    {
+      "group": "",
+      "images": [
+        {
+          "level": "1 级",
+          "src": "Gold_Storage1.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0404/Gold_Storage1.png"
+        },
+        {
+          "level": "2 级",
+          "src": "Gold_Storage2.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0404/Gold_Storage2.png"
+        },
+        {
+          "level": "3 级",
+          "src": "Gold_Storage3.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0404/Gold_Storage3.png"
+        },
+        {
+          "level": "4 级",
+          "src": "Gold_Storage4.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0404/Gold_Storage4.png"
+        },
+        {
+          "level": "5 级",
+          "src": "Gold_Storage5.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0404/Gold_Storage5.png"
+        },
+        {
+          "level": "6 级",
+          "src": "Gold_Storage6.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0404/Gold_Storage6.png"
+        },
+        {
+          "level": "7 级",
+          "src": "Gold_Storage7.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0404/Gold_Storage7.png"
+        },
+        {
+          "level": "8 级",
+          "src": "Gold_Storage8.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0404/Gold_Storage8.png"
+        },
+        {
+          "level": "9 级",
+          "src": "Gold_Storage9.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0404/Gold_Storage9.png"
+        },
+        {
+          "level": "10 级",
+          "src": "Gold_Storage10.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0404/Gold_Storage10.png"
+        },
+        {
+          "level": "11 级",
+          "src": "Gold_Storage11.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0404/Gold_Storage11.png"
+        },
+        {
+          "level": "12 级",
+          "src": "Gold_Storage12.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0404/Gold_Storage12.png"
+        },
+        {
+          "level": "13 级",
+          "src": "Gold_Storage13.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0404/Gold_Storage13.png"
+        },
+        {
+          "level": "14 级",
+          "src": "Gold_Storage14.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0404/Gold_Storage14.png"
+        },
+        {
+          "level": "15 级",
+          "src": "Gold_Storage15.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0404/Gold_Storage15.png"
+        },
+        {
+          "level": "16 级",
+          "src": "Gold_Storage16.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0404/Gold_Storage16.png"
+        },
+        {
+          "level": "17 级",
+          "src": "Gold_Storage17.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0404/Gold_Storage17.png"
+        },
+        {
+          "level": "18 级",
+          "src": "Gold_Storage18.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0404/Gold_Storage18.png"
+        },
+        {
+          "level": "19 级",
+          "src": "Gold_Storage19.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0404/Gold_Storage19.png"
+        }
+      ]
+    }
+  ],
+  "building_num": [
+    {
+      "title": "大本等级",
+      "num": "1 - 2, 3 - 7, 8, 9 - 18"
+    },
+    {
+      "title": "建筑数量",
+      "num": "    1,     2, 3,      4"
+    }
+  ],
+  "properties": [
+    {
+      "key": "占地面积",
+      "value": "3×3"
+    },
+    {
+      "key": "判定面积",
+      "value": "2×2"
+    },
+    {
+      "key": "掠夺比例",
+      "value": "点击查看"
+    }
+  ],
+  "tables": [
+    {
+      "label": "升级数据",
+      "headers": [
+        "等级",
+        "最大储量",
+        "生命值",
+        "升级费用",
+        "升级时间",
+        "升级后可获得的经验",
+        "所需大本等级"
+      ],
+      "rows": [
+        [
+          "1",
+          "1.5k",
+          "150",
+          "300",
+          "0, 0, 0,10",
+          "",
+          "1"
+        ],
+        [
+          "2",
+          "3.0k",
+          "300",
+          "750",
+          "0, 0, 2",
+          "",
+          "2"
+        ],
+        [
+          "3",
+          "6.0k",
+          "450",
+          "1500",
+          "0, 0, 5",
+          "",
+          "2"
+        ],
+        [
+          "4",
+          "12k",
+          "600",
+          "3000",
+          "0, 0,15",
+          "",
+          "3"
+        ],
+        [
+          "5",
+          "25k",
+          "800",
+          "6000",
+          "0, 0,30",
+          "",
+          "3"
+        ],
+        [
+          "6",
+          "45k",
+          "1000",
+          "12k",
+          "0, 1",
+          "",
+          "3"
+        ],
+        [
+          "7",
+          "100k",
+          "1250",
+          "25k",
+          "0, 2",
+          "",
+          "4"
+        ],
+        [
+          "8",
+          "225k",
+          "1500",
+          "50k",
+          "0, 3",
+          "",
+          "4"
+        ],
+        [
+          "9",
+          "450k",
+          "1700",
+          "100k",
+          "0, 4",
+          "",
+          "5"
+        ],
+        [
+          "10",
+          "850k",
+          "1900",
+          "250k",
+          "0, 5",
+          "",
+          "6"
+        ],
+        [
+          "11",
+          "1.75M",
+          "2100",
+          "500k",
+          "0, 6",
+          "",
+          "7"
+        ],
+        [
+          "12",
+          "2M",
+          "2500",
+          "1M",
+          "0,12",
+          "",
+          "11"
+        ],
+        [
+          "13",
+          "3M",
+          "2900",
+          "1.8M",
+          "1",
+          "",
+          "12"
+        ],
+        [
+          "14",
+          "4M",
+          "3300",
+          "2.8M",
+          "2",
+          "",
+          "13"
+        ],
+        [
+          "15",
+          "4.5M",
+          "3700",
+          "3M",
+          "3",
+          "",
+          "14"
+        ],
+        [
+          "16",
+          "5M",
+          "3900",
+          "4M",
+          "4",
+          "",
+          "15"
+        ],
+        [
+          "17",
+          "5.5M",
+          "4050",
+          "5.5M",
+          "5",
+          "",
+          "16"
+        ],
+        [
+          "18",
+          "6M",
+          "4200",
+          "10M",
+          "7",
+          "",
+          "17"
+        ],
+        [
+          "19",
+          "6.5M",
+          "4300",
+          "18M",
+          "12,12",
+          "",
+          "18"
+        ]
+      ],
+      "extra_info": [
+        {
+          "column": 1,
+          "type": "number",
+          "icon": "Gold",
+          "noGoldPass": true
+        },
+        {
+          "column": 3,
+          "type": "cost",
+          "gpClass": "building",
+          "icon": "Elixir"
+        },
+        {
+          "column": 4,
+          "type": "time",
+          "gpClass": "building"
+        },
+        {
+          "column": 5,
+          "type": "exp",
+          "icon": "Exp"
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2025/11/17",
+      "rows": [
+        "18 本推出，并在 18 本新增 19 级储金罐。",
+        "18 级储金罐的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2025/06/16",
+      "rows": [
+        "1 ~ 9 级储金罐的生命值减少。"
+      ]
+    },
+    {
+      "date": "2025/03/24",
+      "rows": [
+        "3 ~ 6、8 ~ 17 级储金罐的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2025/02/10",
+      "rows": [
+        "17 ~ 18 级储金罐的资源储量增加。",
+        "2 ~ 8 级储金罐的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2024/11/25",
+      "rows": [
+        "17 本推出，并在 17 本新增 18 级储金罐。",
+        "15 ~ 17 级储金罐的升级费用降低。",
+        "17 级储金罐的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2024/06/18",
+      "rows": [
+        "12 ~ 16 级储金罐的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2023/12/12",
+      "rows": [
+        "新增 17 级储金罐，16 级大本营可解锁。",
+        "15 级储金罐的升级费由 550 万降低到 450 万。"
+      ]
+    },
+    {
+      "date": "2023/06/12",
+      "rows": [
+        "13 ~ 14 级储金罐的升级时间减少。",
+        "13 ~ 14 级储金罐的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2022/10/10",
+      "rows": [
+        "15 本推出，并在 15 本新增 16 级储金罐。",
+        "12 ~ 15 级储金罐的升级费用和升级时间减少。"
+      ]
+    },
+    {
+      "date": "2021/04/12",
+      "rows": [
+        "14 本推出，并在 14 本新增 15 级储金罐。",
+        "2 ~ 3 级储金罐的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2019/12/09",
+      "rows": [
+        "新增 14 级储金罐，13 级大本营可解锁。",
+        "13 级储金罐的容量增加 50 万。",
+        "12 级大本营可掠夺的金币增加至 50 万（不含采集器和城堡）。"
+      ]
+    },
+    {
+      "date": "2019/04/02",
+      "rows": [
+        "10 ~ 13 级储金罐的升级时间减少。",
+        "12 ~ 13 级储金罐的升级费用降低。"
+      ]
+    }
+  ],
+  "notes": []
+}

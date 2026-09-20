@@ -1,0 +1,33 @@
+{
+  "id": "0745",
+  "link": "0745-Magic-Mirror",
+  "tab": "英雄",
+  "section": "装备（弓箭女皇）",
+  "name": "克隆魔镜",
+  "title": "部落冲突 coc 克隆魔镜（复制魔镜）装备升级数据",
+  "description": "克隆魔镜弓箭女皇的第二件史诗装备，它在 2024 年 8 月 7 日的镜像克隆神技活动中首次亮相，并在 8 月 9 日的动漫与部落活动中开放购买。带上克隆魔镜装备后，使用技能时会召唤女王的临时分身并使女王本体隐形一秒。",
+  "module": "upgrade-home",
+  "img_folder": "home_heroes/0745",
+  "canonical": "/upgrade/0745-Magic-Mirror",
+  "wiki": "https://clashofclans.fandom.com/wiki/Magic_Mirror",
+  "info_image": {
+    "level": "info",
+    "src": "Magic_Mirror_info.png",
+    "url": "https://static.clashpost.com/upgrade/home_heroes/0745/Magic_Mirror_info.png"
+  },
+  "image_groups": [],
+  "building_num": [],
+  "properties": [
+    {
+      "key": "技能类型",
+      "value": "主动技能"
+    },
+    {
+      "key": "装备稀有度",
+      "value": "史诗"
+    }
+  ],
+  "tables": [],
+  "timeline": [],
+  "notes": []
+}

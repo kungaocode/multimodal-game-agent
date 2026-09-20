@@ -1,0 +1,241 @@
+{
+  "id": "0312",
+  "link": "0312-Monolith",
+  "tab": "建筑",
+  "section": "防御建筑",
+  "name": "巨石碑",
+  "title": "部落冲突 coc 巨石碑（擎天巨柱、黑油塔）升级数据",
+  "description": "建筑工人首次尝试使用暗黑重油，建造出了一个极其可怕的庞然大物。巨石碑面对的目标越强，造成的伤害就越高。它是保卫村庄的利器，也是敌人的噩梦。",
+  "module": "upgrade-home",
+  "img_folder": "home_buildings/0312",
+  "canonical": "/upgrade/0312-Monolith",
+  "wiki": "https://clashofclans.fandom.com/wiki/Monolith",
+  "info_image": {
+    "level": "info",
+    "src": "Monolith4_info.png",
+    "url": "https://static.clashpost.com/upgrade/home_buildings/0312/Monolith4_info.png"
+  },
+  "image_groups": [
+    {
+      "group": "",
+      "images": [
+        {
+          "level": "1 级",
+          "src": "Monolith1.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0312/Monolith1.png"
+        },
+        {
+          "level": "2 级",
+          "src": "Monolith2.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0312/Monolith2.png"
+        },
+        {
+          "level": "3 级",
+          "src": "Monolith3.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0312/Monolith3.png"
+        },
+        {
+          "level": "4 级",
+          "src": "Monolith4.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0312/Monolith4.png"
+        }
+      ]
+    }
+  ],
+  "building_num": [
+    {
+      "title": "大本等级",
+      "num": "1 - 14, 15 - 18"
+    },
+    {
+      "title": "建筑数量",
+      "num": "     0,       1"
+    }
+  ],
+  "properties": [
+    {
+      "key": "占地面积",
+      "value": "3×3"
+    },
+    {
+      "key": "判定面积",
+      "value": "2×2"
+    },
+    {
+      "key": "伤害类型",
+      "value": "单体伤害"
+    },
+    {
+      "key": "攻击的目标",
+      "value": "地面和空中目标"
+    },
+    {
+      "key": "射程",
+      "value": "11 格"
+    },
+    {
+      "key": "攻速",
+      "value": "1.5 秒/次"
+    }
+  ],
+  "tables": [
+    {
+      "label": "升级数据",
+      "headers": [
+        "等级",
+        "基础伤害(每秒)",
+        "基础伤害(每次)",
+        "额外伤害",
+        "生命值",
+        "升级费用",
+        "升级时间",
+        "升级后可获得的经验",
+        "所需大本等级"
+      ],
+      "rows": [
+        [
+          "1",
+          "150",
+          "225",
+          "11%",
+          "4747",
+          "200k",
+          "7",
+          "",
+          "15"
+        ],
+        [
+          "2",
+          "175",
+          "262.5",
+          "12%",
+          "5050",
+          "250k",
+          "8",
+          "",
+          "15"
+        ],
+        [
+          "3",
+          "193",
+          "289.5",
+          "13%",
+          "5353",
+          "260k",
+          "9",
+          "",
+          "16"
+        ],
+        [
+          "4",
+          "209",
+          "313.5",
+          "14%",
+          "5656",
+          "300k",
+          "12",
+          "",
+          "17"
+        ],
+        [
+          "⚡1",
+          "219",
+          "328.5",
+          "14%",
+          "5656",
+          "150k",
+          "5",
+          "",
+          "17"
+        ],
+        [
+          "⚡2",
+          "219",
+          "328.5",
+          "14%",
+          "5858",
+          "130k",
+          "7",
+          "",
+          "17"
+        ]
+      ],
+      "extra_info": [
+        {
+          "column": 5,
+          "type": "cost",
+          "gpClass": "building",
+          "icon": "Dark_Elixir"
+        },
+        {
+          "column": 6,
+          "type": "time",
+          "gpClass": "building"
+        },
+        {
+          "column": 7,
+          "type": "exp",
+          "icon": "Exp"
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2025/11/17",
+      "rows": [
+        "4 级巨石碑的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2025/03/24",
+      "rows": [
+        "17 本新增 4 级巨石碑，并成为可以充能的建筑。",
+        "1 ~ 3 级巨石碑的升级费用和升级时间减少。"
+      ]
+    },
+    {
+      "date": "2024/11/25",
+      "rows": [
+        "1 ~ 3 级巨石碑的升级时间减少。",
+        "2 ~ 3 级巨石碑的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2024/06/18",
+      "rows": [
+        "1 ~ 2 级巨石碑的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2024/04/17",
+      "rows": [
+        "16 本新增 3 级巨石碑。"
+      ]
+    },
+    {
+      "date": "2023/12/12",
+      "rows": [
+        "所有等级巨石碑的额外伤害减少 1%.",
+        "2 级巨石碑的每秒基础伤害降低 25。",
+        "所有等级巨石碑的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2022/12/12",
+      "rows": [
+        "所有等级巨石碑的额外伤害减少 2%."
+      ]
+    },
+    {
+      "date": "2022/10/10",
+      "rows": [
+        "15 本推出，并在 15 本新增建筑：巨石碑。"
+      ]
+    }
+  ],
+  "notes": [
+    "巨石碑每次攻击不仅会造成基础伤害，还会以目标的最大生命值为基准造成一定百分比的额外伤害，因此巨石碑对高生命值单位极具威胁。",
+    "[狂暴法术塔](/upgrade/0311-Spell-Tower) 释放出来的狂暴法术只能提升巨石碑的普通攻击，不能提升巨石碑的额外伤害。"
+  ]
+}

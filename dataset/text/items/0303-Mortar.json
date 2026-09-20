@@ -1,0 +1,822 @@
+{
+  "id": "0303",
+  "link": "0303-Mortar",
+  "tab": "建筑",
+  "section": "防御建筑",
+  "name": "迫击炮",
+  "title": "部落冲突 coc 迫击炮升级数据",
+  "description": "迫击炮可以发出威力无比的炮弹，其造成的溅射伤害可以击败大群敌军。注意，要防止敌军过于接近迫击炮！",
+  "module": "upgrade-home",
+  "img_folder": "home_buildings/0303",
+  "canonical": "/upgrade/0303-Mortar",
+  "wiki": "https://clashofclans.fandom.com/wiki/Mortar",
+  "info_image": {
+    "level": "info",
+    "src": "Mortar18.png",
+    "url": "https://static.clashpost.com/upgrade/home_buildings/0303/Mortar18.png"
+  },
+  "image_groups": [
+    {
+      "group": "未改装",
+      "images": [
+        {
+          "level": "1 级",
+          "src": "Mortar1.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0303/Mortar1.png"
+        },
+        {
+          "level": "2 级",
+          "src": "Mortar2.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0303/Mortar2.png"
+        },
+        {
+          "level": "3 级",
+          "src": "Mortar3.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0303/Mortar3.png"
+        },
+        {
+          "level": "4 级",
+          "src": "Mortar4.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0303/Mortar4.png"
+        },
+        {
+          "level": "5 级",
+          "src": "Mortar5.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0303/Mortar5.png"
+        },
+        {
+          "level": "6 级",
+          "src": "Mortar6.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0303/Mortar6.png"
+        },
+        {
+          "level": "7 级",
+          "src": "Mortar7.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0303/Mortar7.png"
+        },
+        {
+          "level": "8 级",
+          "src": "Mortar8.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0303/Mortar8.png"
+        },
+        {
+          "level": "9 级",
+          "src": "Mortar9.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0303/Mortar9.png"
+        },
+        {
+          "level": "10 级",
+          "src": "Mortar10.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0303/Mortar10.png"
+        },
+        {
+          "level": "11 级",
+          "src": "Mortar11.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0303/Mortar11.png"
+        },
+        {
+          "level": "12 级",
+          "src": "Mortar12.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0303/Mortar12.png"
+        },
+        {
+          "level": "13 级",
+          "src": "Mortar13.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0303/Mortar13.png"
+        },
+        {
+          "level": "14 级",
+          "src": "Mortar14.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0303/Mortar14.png"
+        },
+        {
+          "level": "15 级",
+          "src": "Mortar15.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0303/Mortar15.png"
+        },
+        {
+          "level": "16 级",
+          "src": "Mortar16.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0303/Mortar16.png"
+        },
+        {
+          "level": "17 级",
+          "src": "Mortar17.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0303/Mortar17.png"
+        },
+        {
+          "level": "17 级",
+          "src": "Mortar18.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0303/Mortar18.png"
+        }
+      ]
+    },
+    {
+      "group": "已改装，处于标准模式",
+      "images": [
+        {
+          "level": "8 级",
+          "src": "Mortar8A.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0303/Mortar8A.png"
+        },
+        {
+          "level": "9 级",
+          "src": "Mortar9A.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0303/Mortar9A.png"
+        },
+        {
+          "level": "10 级",
+          "src": "Mortar10A.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0303/Mortar10A.png"
+        },
+        {
+          "level": "11 级",
+          "src": "Mortar11A.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0303/Mortar11A.png"
+        },
+        {
+          "level": "12 级",
+          "src": "Mortar12A.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0303/Mortar12A.png"
+        },
+        {
+          "level": "13 级",
+          "src": "Mortar13A.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0303/Mortar13A.png"
+        },
+        {
+          "level": "14 级",
+          "src": "Mortar14A.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0303/Mortar14A.png"
+        },
+        {
+          "level": "15 级",
+          "src": "Mortar15A.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0303/Mortar15A.png"
+        },
+        {
+          "level": "16 级",
+          "src": "Mortar16A.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0303/Mortar16A.png"
+        },
+        {
+          "level": "17 级",
+          "src": "Mortar17A.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0303/Mortar17A.png"
+        },
+        {
+          "level": "17 级",
+          "src": "Mortar18A.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0303/Mortar18A.png"
+        }
+      ]
+    },
+    {
+      "group": "已改装，处于连发模式",
+      "images": [
+        {
+          "level": "8 级",
+          "src": "Mortar8B.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0303/Mortar8B.png"
+        },
+        {
+          "level": "9 级",
+          "src": "Mortar9B.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0303/Mortar9B.png"
+        },
+        {
+          "level": "10 级",
+          "src": "Mortar10B.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0303/Mortar10B.png"
+        },
+        {
+          "level": "11 级",
+          "src": "Mortar11B.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0303/Mortar11B.png"
+        },
+        {
+          "level": "12 级",
+          "src": "Mortar12B.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0303/Mortar12B.png"
+        },
+        {
+          "level": "13 级",
+          "src": "Mortar13B.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0303/Mortar13B.png"
+        },
+        {
+          "level": "14 级",
+          "src": "Mortar14B.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0303/Mortar14B.png"
+        },
+        {
+          "level": "15 级",
+          "src": "Mortar15B.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0303/Mortar15B.png"
+        },
+        {
+          "level": "16 级",
+          "src": "Mortar16B.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0303/Mortar16B.png"
+        },
+        {
+          "level": "17 级",
+          "src": "Mortar17B.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0303/Mortar17B.png"
+        },
+        {
+          "level": "18 级",
+          "src": "Mortar18B.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0303/Mortar18B.png"
+        }
+      ]
+    }
+  ],
+  "building_num": [
+    {
+      "title": "大本等级",
+      "num": "1 - 2, 3 - 5, 6, 7, 8 - 18"
+    },
+    {
+      "title": "建筑数量",
+      "num": "    0,     1, 2, 3,      4"
+    },
+    {
+      "title": "大本等级",
+      "num": "1 - 2, 3 - 5, 6, 7, 8 - 18"
+    },
+    {
+      "title": "建筑数量",
+      "num": "    0,     1, 2, 3,      4"
+    }
+  ],
+  "properties": [
+    {
+      "key": "占地面积",
+      "value": "3×3"
+    },
+    {
+      "key": "判定面积",
+      "value": "2×2"
+    },
+    {
+      "key": "伤害类型",
+      "value": "范围伤害"
+    },
+    {
+      "key": "伤害半径",
+      "value": "1.5 格"
+    },
+    {
+      "key": "攻击的目标",
+      "value": "仅地面目标"
+    },
+    {
+      "key": "射程",
+      "value": "4 ~ 11 格"
+    },
+    {
+      "key": "攻速",
+      "value": "5 秒 1 发 (标准)"
+    },
+    {
+      "key": "改装所需迫击炮等级",
+      "value": "8"
+    },
+    {
+      "key": "改装所需夜世界迫击炮等级",
+      "value": "8"
+    },
+    {
+      "key": "改装数量",
+      "value": "仅限一个"
+    },
+    {
+      "key": "改装时间",
+      "value": "14"
+    },
+    {
+      "key": "改装费用",
+      "value": "6M"
+    },
+    {
+      "key": "占地面积",
+      "value": "3×3"
+    },
+    {
+      "key": "判定面积",
+      "value": "2×2"
+    },
+    {
+      "key": "伤害类型",
+      "value": "范围伤害"
+    },
+    {
+      "key": "伤害半径",
+      "value": "1.5 格"
+    },
+    {
+      "key": "攻击的目标",
+      "value": "仅地面目标"
+    },
+    {
+      "key": "射程",
+      "value": "4 ~ 11 格"
+    },
+    {
+      "key": "攻速",
+      "value": "5 秒 3 发 (改装)<sup>*</sup>"
+    },
+    {
+      "key": "改装所需迫击炮等级",
+      "value": "8"
+    },
+    {
+      "key": "改装所需夜世界迫击炮等级",
+      "value": "8"
+    },
+    {
+      "key": "改装数量",
+      "value": "仅限一个"
+    },
+    {
+      "key": "改装时间",
+      "value": "14"
+    },
+    {
+      "key": "改装费用",
+      "value": "6M"
+    }
+  ],
+  "tables": [
+    {
+      "label": "升级数据",
+      "headers": [
+        "等级",
+        "每秒伤害",
+        "每次伤害",
+        "生命值",
+        "升级费用",
+        "升级时间",
+        "升级后可获得的经验",
+        "所需大本等级"
+      ],
+      "rows": [
+        [
+          "1",
+          "4",
+          "20",
+          "400",
+          "5k",
+          "0, 0,30",
+          "42",
+          "3"
+        ],
+        [
+          "2",
+          "5",
+          "25",
+          "450",
+          "25k",
+          "0, 1",
+          "60",
+          "4"
+        ],
+        [
+          "3",
+          "6",
+          "30",
+          "500",
+          "90k",
+          "0, 2",
+          "84",
+          "5"
+        ],
+        [
+          "4",
+          "7",
+          "35",
+          "550",
+          "180k",
+          "0, 3",
+          "103",
+          "6"
+        ],
+        [
+          "5",
+          "9",
+          "45",
+          "600",
+          "300k",
+          "0, 6",
+          "146",
+          "7"
+        ],
+        [
+          "6",
+          "11",
+          "55",
+          "650",
+          "500k",
+          "0, 8",
+          "169",
+          "8"
+        ],
+        [
+          "7",
+          "15",
+          "75",
+          "700",
+          "900k",
+          "0,12",
+          "207",
+          "9"
+        ],
+        [
+          "8",
+          "20",
+          "100",
+          "800",
+          "1.2M",
+          "0,18",
+          "254",
+          "10"
+        ],
+        [
+          "9",
+          "25",
+          "125",
+          "950",
+          "1.6M",
+          "0,20",
+          "268",
+          "11"
+        ],
+        [
+          "10",
+          "30",
+          "150",
+          "1100",
+          "1.8M",
+          "1",
+          "293",
+          "11"
+        ],
+        [
+          "11",
+          "35",
+          "175",
+          "1300",
+          "2.3M",
+          "1, 6",
+          "328",
+          "12"
+        ],
+        [
+          "12",
+          "38",
+          "190",
+          "1500",
+          "2.4M",
+          "1,12",
+          "360",
+          "12"
+        ],
+        [
+          "13",
+          "42",
+          "210",
+          "1700",
+          "2.8M",
+          "2",
+          "415",
+          "13"
+        ],
+        [
+          "14",
+          "48",
+          "240",
+          "1950",
+          "4.3M",
+          "2,12",
+          "464",
+          "14"
+        ],
+        [
+          "15",
+          "54",
+          "270",
+          "2150",
+          "5M",
+          "3",
+          "509",
+          "15"
+        ],
+        [
+          "16",
+          "60",
+          "300",
+          "2300",
+          "7M",
+          "4",
+          "587",
+          "16"
+        ],
+        [
+          "17",
+          "66",
+          "330",
+          "2450",
+          "13M",
+          "8",
+          "831",
+          "17"
+        ],
+        [
+          "18",
+          "72",
+          "360",
+          "2550",
+          "21M",
+          "12,12",
+          "1039",
+          "18"
+        ]
+      ],
+      "extra_info": []
+    },
+    {
+      "label": "升级数据",
+      "headers": [
+        "等级",
+        "每秒伤害",
+        "每次伤害",
+        "生命值",
+        "升级费用",
+        "升级时间",
+        "升级后可获得的经验",
+        "所需大本等级"
+      ],
+      "rows": [
+        [
+          "8",
+          "24",
+          "37",
+          "800",
+          "1.2M",
+          "0,18",
+          "",
+          "10"
+        ],
+        [
+          "9",
+          "30",
+          "46",
+          "950",
+          "1.6M",
+          "0,20",
+          "",
+          "11"
+        ],
+        [
+          "10",
+          "37",
+          "56",
+          "1100",
+          "1.8M",
+          "1",
+          "",
+          "11"
+        ],
+        [
+          "11",
+          "42",
+          "64",
+          "1300",
+          "2.3M",
+          "1, 6",
+          "",
+          "12"
+        ],
+        [
+          "12",
+          "46",
+          "70",
+          "1500",
+          "2.4M",
+          "1,12",
+          "",
+          "12"
+        ],
+        [
+          "13",
+          "51",
+          "77",
+          "1700",
+          "2.8M",
+          "2",
+          "",
+          "13"
+        ],
+        [
+          "14",
+          "58",
+          "88",
+          "1950",
+          "4.3M",
+          "2,12",
+          "",
+          "14"
+        ],
+        [
+          "15",
+          "66",
+          "98",
+          "2150",
+          "5M",
+          "3",
+          "",
+          "15"
+        ],
+        [
+          "16",
+          "73",
+          "110",
+          "2300",
+          "7M",
+          "4",
+          "",
+          "16"
+        ],
+        [
+          "17",
+          "81",
+          "120",
+          "2450",
+          "13M",
+          "8",
+          "",
+          "17"
+        ],
+        [
+          "18",
+          "85",
+          "128",
+          "2550",
+          "21M",
+          "12,12",
+          "",
+          "18"
+        ]
+      ],
+      "extra_info": []
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026/02/23",
+      "rows": [
+        "添加了 18 级迫击炮。",
+        "移除了 17 级迫击炮的超级充能。",
+        "更改了多管迫击炮在游戏面板中显示的伤害值（实际伤害没变，只是更改了显示算法）。"
+      ]
+    },
+    {
+      "date": "2025/11/17",
+      "rows": [
+        "17 级及两个充能等级的迫击炮的升级时间和升级费用减少。"
+      ]
+    },
+    {
+      "date": "2025/10/06",
+      "rows": [
+        "15 ~ 16 级迫击炮的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2025/03/24",
+      "rows": [
+        "1 ~ 9、11、13 ~ 16 级迫击炮的升级时间减少。",
+        "3 ~ 4、6 ~ 16 级迫击炮的升级费用降低。",
+        "迫击炮的改装费用降低。"
+      ]
+    },
+    {
+      "date": "2025/02/10",
+      "rows": [
+        "在 17 本新增 17 级迫击炮。",
+        "10、12 级迫击炮的升级时间减少。",
+        "10、12 级迫击炮的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2024/11/25",
+      "rows": [
+        "9 ~ 16 级迫击炮的升级时间减少。",
+        "11 ~ 16 级迫击炮的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2024/09/09",
+      "rows": [
+        "超级充能推出，迫击炮是第一批可以充能的建筑之一。"
+      ]
+    },
+    {
+      "date": "2024/06/18",
+      "rows": [
+        "1 ~ 15 级迫击炮的升级时间减少。",
+        "14 ~ 15 级迫击炮的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2023/12/12",
+      "rows": [
+        "4 ~ 15 级迫击炮的升级时间减少。",
+        "5 ~ 6、8 ~ 14 级迫击炮的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2023/06/12",
+      "rows": [
+        "11 ~ 13 级迫击炮的升级时间减少。",
+        "11 ~ 13 级迫击炮的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2022/10/10",
+      "rows": [
+        "15 本推出，并在 15 本新增 15 级迫击炮。",
+        "8 ~ 14 级迫击炮的升级费用和升级时间减少。"
+      ]
+    },
+    {
+      "date": "2022/06/27",
+      "rows": [
+        "9 ~ 14 级迫击炮的生命值增加。"
+      ]
+    },
+    {
+      "date": "2022/01/20",
+      "rows": [
+        "修复了改装后的迫击炮首发箭矢射出位置不合理的问题。"
+      ]
+    },
+    {
+      "date": "2021/12/09",
+      "rows": [
+        "4 ~ 13 级迫击炮的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2021/09/27",
+      "rows": [
+        "14 本新增 14 级迫击炮。"
+      ]
+    },
+    {
+      "date": "2021/04/12",
+      "rows": [
+        "1 ~ 11 级迫击炮的升级费用降低。",
+        "2 ~ 10 级迫击炮的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2020/03/30",
+      "rows": [
+        "13 本新增 13 级迫击炮。"
+      ]
+    },
+    {
+      "date": "2019/12/09",
+      "rows": [
+        "所有等级多管迫击炮的伤害提高 10%."
+      ]
+    },
+    {
+      "date": "2019/09/11",
+      "rows": [
+        "12 级迫击炮的生命值由 950 提升至 980。"
+      ]
+    },
+    {
+      "date": "2019/06/18",
+      "rows": [
+        "12 本新增 12 级迫击炮。"
+      ]
+    },
+    {
+      "date": "2019/04/02",
+      "rows": [
+        "1 级迫击炮的新建时间减少。"
+      ]
+    },
+    {
+      "date": "2019/02/22",
+      "rows": [
+        "5 ~ 12 级迫击炮的伤害提高。"
+      ]
+    }
+  ],
+  "notes": []
+}

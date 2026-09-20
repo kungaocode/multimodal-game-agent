@@ -1,0 +1,41 @@
+{
+  "id": "07e1",
+  "link": "07e1-Flame-Blower",
+  "tab": "英雄",
+  "section": "装备（飞龙公爵）",
+  "name": "助燃器",
+  "title": "部落冲突 coc 助燃器装备升级数据",
+  "description": "助燃器是飞龙公爵的两件初始装备之一，另一件是烈焰之心。使用时，助燃器在飞龙公爵面前喷出锥形的火焰造成大量伤害。烈焰之心装备还可以增加飞龙公爵生命值以及技能状态下的生命值恢复量。",
+  "module": "upgrade-home",
+  "img_folder": "home_heroes/07e1",
+  "canonical": "/upgrade/07e1-Flame-Blower",
+  "wiki": "https://clashofclans.fandom.com/wiki/Flame_Blower",
+  "info_image": {
+    "level": "info",
+    "src": "Flame_Blower_info.png",
+    "url": "https://static.clashpost.com/upgrade/home_heroes/07e1/Flame_Blower_info.png"
+  },
+  "image_groups": [],
+  "building_num": [],
+  "properties": [
+    {
+      "key": "技能类型",
+      "value": "主动技能"
+    },
+    {
+      "key": "装备稀有度",
+      "value": "普通"
+    },
+    {
+      "key": "解锁条件",
+      "value": "有飞龙公爵即可"
+    },
+    {
+      "key": "火焰半径",
+      "value": "12 格"
+    }
+  ],
+  "tables": [],
+  "timeline": [],
+  "notes": []
+}

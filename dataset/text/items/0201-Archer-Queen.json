@@ -1,0 +1,73 @@
+{
+  "id": "0201",
+  "link": "0201-Archer-Queen",
+  "tab": "英雄",
+  "section": "英雄",
+  "name": "弓箭女皇",
+  "title": "部落冲突 coc 弓箭女皇（女王）升级数据",
+  "description": "这位优雅的女猎手掌握着毁灭性的力量，实力碾压其他所有弓箭手。虽然生命值不高，但她能用威力十足的十字连弩从远处攻击目标。在防守时她会拼尽全力守卫村庄。",
+  "module": "upgrade-home",
+  "img_folder": "home_heroes/0201",
+  "canonical": "/upgrade/0201-Archer-Queen",
+  "wiki": "https://clashofclans.fandom.com/wiki/Archer_Queen",
+  "info_image": {
+    "level": "info",
+    "src": "Archer_Queen_info.png",
+    "url": "https://static.clashpost.com/upgrade/home_heroes/0201/Archer_Queen_info.png"
+  },
+  "image_groups": [],
+  "building_num": [],
+  "properties": [
+    {
+      "key": "英雄类型",
+      "value": "地面远程单位"
+    },
+    {
+      "key": "攻击偏好",
+      "value": "无"
+    },
+    {
+      "key": "伤害类型",
+      "value": "单体伤害"
+    },
+    {
+      "key": "攻击的目标",
+      "value": "地面和空中目标"
+    },
+    {
+      "key": "占据人口",
+      "value": "25"
+    },
+    {
+      "key": "移动速度",
+      "value": "3 格/秒"
+    },
+    {
+      "key": "攻击速度",
+      "value": "0.75 秒/次"
+    },
+    {
+      "key": "攻击距离",
+      "value": "5 格"
+    },
+    {
+      "key": "所需大本等级",
+      "value": "8"
+    },
+    {
+      "key": "搜索半径",
+      "value": "10 格<sup>①</sup>"
+    },
+    {
+      "key": "巡逻半径",
+      "value": "3 格<sup>②</sup>"
+    },
+    {
+      "key": "技能持续时间",
+      "value": "与具体装备有关"
+    }
+  ],
+  "tables": [],
+  "timeline": [],
+  "notes": []
+}

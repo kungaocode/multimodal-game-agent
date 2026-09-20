@@ -1,0 +1,467 @@
+{
+  "id": "0300",
+  "link": "0300-Walls",
+  "tab": "建筑",
+  "section": "防御建筑",
+  "name": "城墙",
+  "title": "部落冲突 coc 城墙升级数据",
+  "description": "城墙是保护村庄、阻挡敌军的最好防线。",
+  "module": "upgrade-home",
+  "img_folder": "home_buildings/0300",
+  "canonical": "/upgrade/0300-Walls",
+  "wiki": "https://clashofclans.fandom.com/wiki/Wall",
+  "info_image": {
+    "level": "info",
+    "src": "Wall19.png",
+    "url": "https://static.clashpost.com/upgrade/home_buildings/0300/Wall19.png"
+  },
+  "image_groups": [
+    {
+      "group": "",
+      "images": [
+        {
+          "level": "1 级",
+          "src": "Wall1.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0300/Wall1.png"
+        },
+        {
+          "level": "2 级",
+          "src": "Wall2.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0300/Wall2.png"
+        },
+        {
+          "level": "3 级",
+          "src": "Wall3.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0300/Wall3.png"
+        },
+        {
+          "level": "4 级",
+          "src": "Wall4.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0300/Wall4.png"
+        },
+        {
+          "level": "5 级",
+          "src": "Wall5.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0300/Wall5.png"
+        },
+        {
+          "level": "6 级",
+          "src": "Wall6.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0300/Wall6.png"
+        },
+        {
+          "level": "7 级",
+          "src": "Wall7.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0300/Wall7.png"
+        },
+        {
+          "level": "8 级",
+          "src": "Wall8.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0300/Wall8.png"
+        },
+        {
+          "level": "9 级",
+          "src": "Wall9.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0300/Wall9.png"
+        },
+        {
+          "level": "10 级",
+          "src": "Wall10.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0300/Wall10.png"
+        },
+        {
+          "level": "11 级",
+          "src": "Wall11.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0300/Wall11.png"
+        },
+        {
+          "level": "12 级",
+          "src": "Wall12.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0300/Wall12.png"
+        },
+        {
+          "level": "13 级",
+          "src": "Wall13.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0300/Wall13.png"
+        },
+        {
+          "level": "14 级",
+          "src": "Wall14.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0300/Wall14.png"
+        },
+        {
+          "level": "15 级",
+          "src": "Wall15.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0300/Wall15.png"
+        },
+        {
+          "level": "16 级",
+          "src": "Wall16.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0300/Wall16.png"
+        },
+        {
+          "level": "17 级",
+          "src": "Wall17_thumb.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0300/Wall17_thumb.png"
+        },
+        {
+          "level": "18 级",
+          "src": "Wall18.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0300/Wall18.png"
+        },
+        {
+          "level": "19 级",
+          "src": "Wall19.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0300/Wall19.png"
+        }
+      ]
+    }
+  ],
+  "building_num": [
+    {
+      "title": "大本等级",
+      "num": "1,  2,  3,  4,   5,   6,   7,   8,   9,  10, 11 - 13, 14 - 18"
+    },
+    {
+      "title": "建筑数量",
+      "num": "0, 25, 50, 75, 100, 125, 175, 225, 250, 275,     300,     325"
+    }
+  ],
+  "properties": [
+    {
+      "key": "占地面积",
+      "value": "1×1"
+    },
+    {
+      "key": "19 级城墙最高可升级",
+      "value": "200 块"
+    }
+  ],
+  "tables": [
+    {
+      "label": "升级数据",
+      "headers": [
+        "等级",
+        "生命值",
+        "升级费用",
+        "升级费用",
+        "升级所需戒指数量",
+        "所需大本等级"
+      ],
+      "rows": [
+        [
+          "1",
+          "100",
+          "0",
+          "\\",
+          "\\",
+          "2"
+        ],
+        [
+          "2",
+          "200",
+          "1k",
+          "\\",
+          "1",
+          "2"
+        ],
+        [
+          "3",
+          "400",
+          "5k",
+          "\\",
+          "1",
+          "3"
+        ],
+        [
+          "4",
+          "800",
+          "10k",
+          "\\",
+          "1",
+          "4"
+        ],
+        [
+          "5",
+          "1200",
+          "20k",
+          "20k",
+          "1",
+          "5"
+        ],
+        [
+          "6",
+          "1800",
+          "30k",
+          "30k",
+          "1",
+          "6"
+        ],
+        [
+          "7",
+          "2400",
+          "50k",
+          "50k",
+          "1",
+          "7"
+        ],
+        [
+          "8",
+          "3000",
+          "75k",
+          "75k",
+          "1",
+          "8"
+        ],
+        [
+          "9",
+          "3500",
+          "100k",
+          "100k",
+          "1",
+          "9"
+        ],
+        [
+          "10",
+          "4000",
+          "200k",
+          "200k",
+          "1",
+          "9"
+        ],
+        [
+          "11",
+          "5000",
+          "500k",
+          "500k",
+          "1",
+          "10"
+        ],
+        [
+          "12",
+          "7000",
+          "1M",
+          "1M",
+          "1",
+          "11"
+        ],
+        [
+          "13",
+          "8000",
+          "1.5M",
+          "1.5M",
+          "2",
+          "12"
+        ],
+        [
+          "14",
+          "9000",
+          "2M",
+          "2M",
+          "2",
+          "13"
+        ],
+        [
+          "15",
+          "10000",
+          "3M",
+          "3M",
+          "3",
+          "14"
+        ],
+        [
+          "16",
+          "11000",
+          "4M",
+          "4M",
+          "4",
+          "15"
+        ],
+        [
+          "17",
+          "12000",
+          "5M",
+          "5M",
+          "5",
+          "16"
+        ],
+        [
+          "18",
+          "13000",
+          "7M",
+          "7M",
+          "7",
+          "17"
+        ],
+        [
+          "19",
+          "14000",
+          "10M",
+          "10M",
+          "10",
+          "18"
+        ]
+      ],
+      "extra_info": []
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026/02/23",
+      "rows": [
+        "18 本新解锁 75 块 19 级城墙（共 200 块）。"
+      ]
+    },
+    {
+      "date": "2025/11/25",
+      "rows": [
+        "18 本推出，并在 18 本新增 19 级城墙，目前游戏只开放了 125 块 19 级城墙。",
+        "18 级城墙的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2025/06/30",
+      "rows": [
+        "13 ~ 18 级城墙的生命值减少。"
+      ]
+    },
+    {
+      "date": "2025/06/16",
+      "rows": [
+        "1 ~ 7 级城墙的生命值减少。",
+        "17 本现可解锁全部 18 级城墙。"
+      ]
+    },
+    {
+      "date": "2025/03/24",
+      "rows": [
+        "13 ~ 17 级城墙的升级费用降低。",
+        "17 本新解锁 75 块 18 级城墙（共 250 块）。"
+      ]
+    },
+    {
+      "date": "2025/02/10",
+      "rows": [
+        "建造 1 级城墙不再需要费用。",
+        "17 本新解锁 75 块 18 级城墙（共 175 块）。"
+      ]
+    },
+    {
+      "date": "2024/11/25",
+      "rows": [
+        "17 本推出，并在 17 本新增 18 级城墙，目前游戏只开放了 100 块 18 级城墙。",
+        "16 ~ 17 级城墙的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2024/06/18",
+      "rows": [
+        "15 ~ 16 级城墙的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2024/04/17",
+      "rows": [
+        "16 本可解锁全部 17 级城墙（共 325 块）。"
+      ]
+    },
+    {
+      "date": "2024/02/27",
+      "rows": [
+        "16 本可以再刷 100 块 17 级墙（共 250 块）。"
+      ]
+    },
+    {
+      "date": "2023/12/12",
+      "rows": [
+        "16 本推出，可升级 150 块 17 级城墙。",
+        "14 ~ 15 级城墙的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2023/06/12",
+      "rows": [
+        "现在你可以把所有的城墙都升到 16 级了。"
+      ]
+    },
+    {
+      "date": "2022/10/10",
+      "rows": [
+        "15 本推出，并在 15 本新增 16 级城墙，目前游戏只开放了 200 块 16 级城墙。",
+        "13 ~ 14 级城墙的升级费用减少。"
+      ]
+    },
+    {
+      "date": "2022/06/27",
+      "rows": [
+        "9 ~ 14 级城墙的生命值减少。",
+        "从 5 级大本营开始，就可以选择使用金币或圣水升级城墙（以前是 9 级大本营）。"
+      ]
+    },
+    {
+      "date": "2021/12/09",
+      "rows": [
+        "6 ~ 14 级城墙的升级费用降低。",
+        "14 本解锁全部 15 级城墙（325 块）。"
+      ]
+    },
+    {
+      "date": "2021/09/27",
+      "rows": [
+        "14 本玩家可升至 15 级的城墙新增 50 块（更新后总共可以升 200 块）。"
+      ]
+    },
+    {
+      "date": "2021/06/14",
+      "rows": [
+        "14 本玩家可升至 15 级的城墙新增 50 块（更新后总共可以升 150 块）。"
+      ]
+    },
+    {
+      "date": "2021/04/12",
+      "rows": [
+        "14 本推出，并在 14 本新增 15 级城墙，不过只能升级 100 块。",
+        "12 级城墙的升级费用由 300 万降低到 200 万，13 级由 500 万降低到 400 万。"
+      ]
+    },
+    {
+      "date": "2020/12/07",
+      "rows": [
+        "编辑家乡村庄的阵型时，城墙也可以像建筑和陷阱那样互换位置。"
+      ]
+    },
+    {
+      "date": "2020/10/12",
+      "rows": [
+        "13 本可以再刷 100 块 14 级墙（这次更新后全部开放了）。"
+      ]
+    },
+    {
+      "date": "2020/06/22",
+      "rows": [
+        "13 本可以再刷 50 块 14 级墙（合计 200 块）。"
+      ]
+    },
+    {
+      "date": "2020/03/30",
+      "rows": [
+        "5 ~ 12 级城墙的升级费用降低。",
+        "11 ~ 12 级城墙需要的戒指减少。",
+        "13 本可以再刷 50 块 14 级墙（合计 150 块）。"
+      ]
+    },
+    {
+      "date": "2019/12/09",
+      "rows": [
+        "13 本开放，新增 14 级城墙（但是只能升 100 块）。"
+      ]
+    },
+    {
+      "date": "2019/06/18",
+      "rows": [
+        "12 本可以将所有城墙升至 13 级（之前只能升级 250 块）。"
+      ]
+    }
+  ],
+  "notes": []
+}

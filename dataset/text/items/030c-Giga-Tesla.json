@@ -1,0 +1,151 @@
+{
+  "id": "030c",
+  "link": "030c-Giga-Tesla",
+  "tab": "大本",
+  "section": "大本及武器",
+  "name": "巨型特斯拉电磁塔",
+  "title": "部落冲突 coc 巨型特斯拉电磁塔升级数据",
+  "description": "只要敌方敢碰大本营，作为特斯拉家族中的暴脾气老大哥，巨型特斯拉电磁塔定会让他们好看。它会发射出超强电流击退敌方，你或许还能闻到空气中弥漫着一股......椰子和金属的气味。",
+  "module": "upgrade-home",
+  "img_folder": "home_buildings/030c",
+  "canonical": "/upgrade/030c-Giga-Tesla",
+  "wiki": "https://clashofclans.fandom.com/wiki/Town_Hall/Giga_Tesla",
+  "info_image": {
+    "level": "info",
+    "src": "Giga_Tesla.png",
+    "url": "https://static.clashpost.com/upgrade/home_buildings/030c/Giga_Tesla.png"
+  },
+  "image_groups": [
+    {
+      "group": "当前版本使用的模型",
+      "images": [
+        {
+          "level": "1 级",
+          "src": "Giga_Tesla.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/030c/Giga_Tesla.png"
+        }
+      ]
+    },
+    {
+      "group": "老版本使用的模型",
+      "images": [
+        {
+          "level": "1 级",
+          "src": "Giga_Tesla1.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/030c/Giga_Tesla1.png"
+        },
+        {
+          "level": "2 级",
+          "src": "Giga_Tesla2.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/030c/Giga_Tesla2.png"
+        },
+        {
+          "level": "3 级",
+          "src": "Giga_Tesla3.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/030c/Giga_Tesla3.png"
+        },
+        {
+          "level": "4 级",
+          "src": "Giga_Tesla4.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/030c/Giga_Tesla4.png"
+        },
+        {
+          "level": "5 级",
+          "src": "Giga_Tesla5.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/030c/Giga_Tesla5.png"
+        }
+      ]
+    }
+  ],
+  "building_num": [],
+  "properties": [
+    {
+      "key": "伤害类型",
+      "value": "同时攻击多个目标"
+    },
+    {
+      "key": "目标数量",
+      "value": "4 (地面和空中目标)"
+    },
+    {
+      "key": "射程",
+      "value": "10 格"
+    },
+    {
+      "key": "攻速",
+      "value": "0.5 秒/次"
+    },
+    {
+      "key": "触发后的激活延迟",
+      "value": "0.5 秒"
+    },
+    {
+      "key": "武器的每秒伤害",
+      "value": "140"
+    },
+    {
+      "key": "被摧毁后的自爆伤害",
+      "value": "500"
+    },
+    {
+      "key": "自爆半径",
+      "value": "4 格 (地面和空中目标)"
+    },
+    {
+      "key": "自爆延时",
+      "value": "1.6 秒"
+    }
+  ],
+  "tables": [],
+  "timeline": [
+    {
+      "date": "2025/10/06",
+      "rows": [
+        "取消巨型特斯拉电磁塔的等级，更新后的数据等于更新前的满级数据。"
+      ]
+    },
+    {
+      "date": "2025/03/24",
+      "rows": [
+        "2 ~ 5 级巨型特斯拉电磁塔的升级费用和升级时间减少。"
+      ]
+    },
+    {
+      "date": "2024/06/18",
+      "rows": [
+        "2 ~ 5 级巨型特斯拉电磁塔的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2024/06/03",
+      "rows": [
+        "所有等级巨型特斯拉电磁塔的每秒伤害降低。",
+        "5 级巨型特斯拉电磁塔的爆炸伤害由 1000 降低到 500."
+      ]
+    },
+    {
+      "date": "2023/09/28",
+      "rows": [
+        "所有等级巨型特斯拉电磁塔的每秒伤害降低。"
+      ]
+    },
+    {
+      "date": "2022/10/10",
+      "rows": [
+        "2 ~ 5 级巨型特斯拉电磁塔的升级费用和升级时间减少。"
+      ]
+    },
+    {
+      "date": "2021/12/09",
+      "rows": [
+        "2 ~ 5 级巨型特斯拉电磁塔的升级费用降低。"
+      ]
+    }
+  ],
+  "notes": [
+    "当玩家升到 12 级大本营时，就拥有了一个巨型特斯拉电磁塔。如果玩家将大本营升到 13 级，则巨型地狱之塔会被 [巨型地狱之塔](/upgrade/030d-Giga-Inferno) 取代。",
+    "巨型特斯拉电磁塔不是独立的防御建筑，它附属于大本营。",
+    "当 12 级大本营受到攻击或村庄摧毁率达到 51% 时，巨型特斯拉电磁塔会启动，激活延迟 0.5 秒。",
+    "巨型特斯拉电磁塔被摧毁后会自爆。"
+  ]
+}

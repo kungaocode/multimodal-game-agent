@@ -1,0 +1,494 @@
+{
+  "id": "030d",
+  "link": "030d-Giga-Inferno",
+  "tab": "大本",
+  "section": "大本及武器",
+  "name": "巨型地狱之塔",
+  "title": "部落冲突 coc 巨型地狱之塔升级数据",
+  "description": "巨型地狱之塔会让敌军觉得自己就是一团向篝火发动攻击的棉花糖。经过技术升级后，它现在变得更加强大，被摧毁时会释放毒雾，对附近敌军造成伤害并使其减速。",
+  "module": "upgrade-home",
+  "img_folder": "home_buildings/030d",
+  "canonical": "/upgrade/030d-Giga-Inferno",
+  "wiki": "https://clashofclans.fandom.com/wiki/Town_Hall/Giga_Inferno",
+  "info_image": {
+    "level": "info",
+    "src": "Giga_Inferno13.png",
+    "url": "https://static.clashpost.com/upgrade/home_buildings/030d/Giga_Inferno13.png"
+  },
+  "image_groups": [
+    {
+      "group": "当前版本使用的模型",
+      "images": [
+        {
+          "level": "1 级",
+          "src": "Giga_Inferno13.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/030d/Giga_Inferno13.png"
+        }
+      ]
+    },
+    {
+      "group": "老版本使用的模型",
+      "images": [
+        {
+          "level": "1 级",
+          "src": "Giga_Inferno13_1.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/030d/Giga_Inferno13_1.png"
+        },
+        {
+          "level": "2 级",
+          "src": "Giga_Inferno13_2.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/030d/Giga_Inferno13_2.png"
+        },
+        {
+          "level": "3 级",
+          "src": "Giga_Inferno13_3.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/030d/Giga_Inferno13_3.png"
+        },
+        {
+          "level": "4 级",
+          "src": "Giga_Inferno13_4.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/030d/Giga_Inferno13_4.png"
+        },
+        {
+          "level": "5 级",
+          "src": "Giga_Inferno13_5.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/030d/Giga_Inferno13_5.png"
+        }
+      ]
+    },
+    {
+      "group": "当前版本使用的模型",
+      "images": [
+        {
+          "level": "1 级",
+          "src": "Giga_Inferno14.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/030d/Giga_Inferno14.png"
+        }
+      ]
+    },
+    {
+      "group": "老版本使用的模型",
+      "images": [
+        {
+          "level": "1 级",
+          "src": "Giga_Inferno14_1.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/030d/Giga_Inferno14_1.png"
+        },
+        {
+          "level": "2 级",
+          "src": "Giga_Inferno14_2.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/030d/Giga_Inferno14_2.png"
+        },
+        {
+          "level": "3 级",
+          "src": "Giga_Inferno14_3.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/030d/Giga_Inferno14_3.png"
+        },
+        {
+          "level": "4 级",
+          "src": "Giga_Inferno14_4.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/030d/Giga_Inferno14_4.png"
+        },
+        {
+          "level": "5 级",
+          "src": "Giga_Inferno14_5.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/030d/Giga_Inferno14_5.png"
+        }
+      ]
+    },
+    {
+      "group": "当前版本使用的模型",
+      "images": [
+        {
+          "level": "1 级",
+          "src": "Giga_Inferno15.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/030d/Giga_Inferno15.png"
+        }
+      ]
+    },
+    {
+      "group": "老版本使用的模型",
+      "images": [
+        {
+          "level": "1 级",
+          "src": "Giga_Inferno15_1.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/030d/Giga_Inferno15_1.png"
+        },
+        {
+          "level": "2 级",
+          "src": "Giga_Inferno15_2.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/030d/Giga_Inferno15_2.png"
+        },
+        {
+          "level": "3 级",
+          "src": "Giga_Inferno15_3.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/030d/Giga_Inferno15_3.png"
+        },
+        {
+          "level": "4 级",
+          "src": "Giga_Inferno15_4.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/030d/Giga_Inferno15_4.png"
+        },
+        {
+          "level": "5 级",
+          "src": "Giga_Inferno15_5.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/030d/Giga_Inferno15_5.png"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "images": [
+        {
+          "level": "1 级",
+          "src": "Giga_Inferno16.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/030d/Giga_Inferno16.png"
+        }
+      ]
+    }
+  ],
+  "building_num": [],
+  "properties": [
+    {
+      "key": "伤害类型",
+      "value": "同时攻击多个目标"
+    },
+    {
+      "key": "目标数量",
+      "value": "4 (地面和空中目标)"
+    },
+    {
+      "key": "射程",
+      "value": "10 格"
+    },
+    {
+      "key": "攻速",
+      "value": "0.128 秒/次"
+    },
+    {
+      "key": "武器的每秒伤害",
+      "value": "220"
+    },
+    {
+      "key": "被摧毁后的自爆伤害",
+      "value": "700"
+    },
+    {
+      "key": "自爆延时",
+      "value": "1.6 秒"
+    },
+    {
+      "key": "自爆半径",
+      "value": "4 格 (地面和空中目标)"
+    },
+    {
+      "key": "冰雾半径",
+      "value": "5 格<sup>*</sup> (地面和空中目标)"
+    },
+    {
+      "key": "冰雾持续时间",
+      "value": "8 秒 (地面和空中目标)"
+    },
+    {
+      "key": "移动速度降低",
+      "value": "50%"
+    },
+    {
+      "key": "攻击速度降低",
+      "value": "50%"
+    },
+    {
+      "key": "伤害类型",
+      "value": "同时攻击多个目标"
+    },
+    {
+      "key": "目标数量",
+      "value": "4 (地面和空中目标)"
+    },
+    {
+      "key": "射程",
+      "value": "10 格"
+    },
+    {
+      "key": "攻速",
+      "value": "0.128 秒/次"
+    },
+    {
+      "key": "武器的每秒伤害",
+      "value": "280"
+    },
+    {
+      "key": "被摧毁后的自爆伤害",
+      "value": "1 000"
+    },
+    {
+      "key": "自爆延时",
+      "value": "1.6 秒"
+    },
+    {
+      "key": "自爆半径",
+      "value": "4 格 (地面和空中目标)"
+    },
+    {
+      "key": "毒雾半径",
+      "value": "4 格<sup>*</sup> (地面和空中目标)"
+    },
+    {
+      "key": "毒雾持续时间",
+      "value": "12 秒"
+    },
+    {
+      "key": "毒雾的最大伤害",
+      "value": "180"
+    },
+    {
+      "key": "移动速度降低",
+      "value": "50%"
+    },
+    {
+      "key": "攻击速度降低",
+      "value": "50%"
+    },
+    {
+      "key": "伤害类型",
+      "value": "同时攻击多个目标"
+    },
+    {
+      "key": "目标数量",
+      "value": "4 (地面和空中目标)"
+    },
+    {
+      "key": "射程",
+      "value": "10 格"
+    },
+    {
+      "key": "攻速",
+      "value": "0.128 秒/次"
+    },
+    {
+      "key": "武器的每秒伤害",
+      "value": "300"
+    },
+    {
+      "key": "被摧毁后的自爆伤害",
+      "value": "1 000"
+    },
+    {
+      "key": "自爆延时",
+      "value": "1.6 秒"
+    },
+    {
+      "key": "自爆半径",
+      "value": "4.5 格 (地面和空中目标)"
+    },
+    {
+      "key": "毒雾半径",
+      "value": "4 格 (地面和空中目标)"
+    },
+    {
+      "key": "毒雾持续时间",
+      "value": "12 秒"
+    },
+    {
+      "key": "毒雾的最大伤害",
+      "value": "180"
+    },
+    {
+      "key": "移动速度降低",
+      "value": "50%"
+    },
+    {
+      "key": "攻击速度降低",
+      "value": "50%"
+    },
+    {
+      "key": "伤害类型",
+      "value": "同时攻击多个目标"
+    },
+    {
+      "key": "目标数量",
+      "value": "4 (地面和空中目标)"
+    },
+    {
+      "key": "射程",
+      "value": "10 格"
+    },
+    {
+      "key": "攻速",
+      "value": "0.128 秒/次"
+    },
+    {
+      "key": "武器的每秒伤害",
+      "value": "300"
+    },
+    {
+      "key": "被摧毁后的自爆伤害",
+      "value": "1 100"
+    },
+    {
+      "key": "自爆延时",
+      "value": "1.6 秒"
+    },
+    {
+      "key": "自爆半径",
+      "value": "4.5 格 (地面和空中目标)"
+    },
+    {
+      "key": "毒雾半径",
+      "value": "4 格 (地面和空中目标)"
+    },
+    {
+      "key": "毒雾持续时间",
+      "value": "12 秒"
+    },
+    {
+      "key": "毒雾的最大伤害",
+      "value": "180"
+    },
+    {
+      "key": "移动速度降低",
+      "value": "50%"
+    },
+    {
+      "key": "攻击速度降低",
+      "value": "50%"
+    }
+  ],
+  "tables": [],
+  "timeline": [
+    {
+      "date": "2025/10/06",
+      "rows": [
+        "取消巨型地狱之塔的等级，更新后的数据等于更新前的满级数据。"
+      ]
+    },
+    {
+      "date": "2025/03/24",
+      "rows": [
+        "2 ~ 5 级 13 本巨型地狱之塔的升级费用和升级时间减少。"
+      ]
+    },
+    {
+      "date": "2024/11/25",
+      "rows": [
+        "2 ~ 5 级 13 本巨型地狱之塔的升级费用和升级时间减少。"
+      ]
+    },
+    {
+      "date": "2024/06/18",
+      "rows": [
+        "2 ~ 5 级 13 本巨型地狱之塔的升级时间减少。",
+        "4 ~ 5 级 13 本巨型地狱之塔的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2024/06/03",
+      "rows": [
+        "所有等级 13 本巨型地狱之塔的每秒伤害降低。",
+        "14 本巨型地狱之塔的自爆伤害由固定的 1000 降低至 500 ~ 700 之间的变化值。"
+      ]
+    },
+    {
+      "date": "2023/09/28",
+      "rows": [
+        "所有等级 13 本巨型地狱之塔的每秒伤害降低。"
+      ]
+    },
+    {
+      "date": "2022/10/10",
+      "rows": [
+        "2 ~ 5 级 13 本巨型地狱之塔的升级费用和升级时间减少。"
+      ]
+    },
+    {
+      "date": "2021/12/09",
+      "rows": [
+        "2 ~ 4 级 13 本巨型地狱之塔的升级费用降低。",
+        "2 ~ 5 级 13 本巨型地狱之塔的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2019/12/09",
+      "rows": [
+        "13 本推出，大本营自带巨型地狱之塔。"
+      ]
+    },
+    {
+      "date": "2025/10/06",
+      "rows": [
+        "取消巨型地狱之塔的等级，更新后的数据等于更新前的满级数据。"
+      ]
+    },
+    {
+      "date": "2025/03/24",
+      "rows": [
+        "2 ~ 5 级 14 本巨型地狱之塔的升级费用和升级时间减少。"
+      ]
+    },
+    {
+      "date": "2024/11/25",
+      "rows": [
+        "2 ~ 4 级 14 本巨型地狱之塔的升级时间减少。",
+        "2 ~ 5 级 14 本巨型地狱之塔的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2024/06/18",
+      "rows": [
+        "2 ~ 5 级 14 本巨型地狱之塔的升级费用和升级时间减少。"
+      ]
+    },
+    {
+      "date": "2024/06/03",
+      "rows": [
+        "1 ~ 4 级 14 本巨型地狱之塔的每秒伤害降低。",
+        "14 本巨型地狱之塔的自爆伤害由固定的 1000 降低至 700 ~ 1000 之间的变化值。"
+      ]
+    },
+    {
+      "date": "2023/09/28",
+      "rows": [
+        "14 本及以上巨型地狱之塔被摧毁后毒雾的持续时间减少。",
+        "所有等级 14 本巨型地狱之塔的每秒伤害降低。"
+      ]
+    },
+    {
+      "date": "2025/10/06",
+      "rows": [
+        "取消巨型地狱之塔的等级，更新后的数据等于更新前的满级数据。"
+      ]
+    },
+    {
+      "date": "2025/03/24",
+      "rows": [
+        "2 级 15 本巨型地狱之塔的升级时间减少。",
+        "2 ~ 5 级 15 本巨型地狱之塔的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2024/11/25",
+      "rows": [
+        "2 ~ 5 级 15 本巨型地狱之塔的升级费用和升级时间减少。"
+      ]
+    },
+    {
+      "date": "2024/06/18",
+      "rows": [
+        "2 ~ 5 级 15 本巨型地狱之塔的升级费用和升级时间减少。"
+      ]
+    },
+    {
+      "date": "2023/09/28",
+      "rows": [
+        "14 本及以上巨型地狱之塔被摧毁后毒雾的持续时间减少。",
+        "1 ~ 3 级 15 本巨型地狱之塔的每秒伤害降低。"
+      ]
+    }
+  ],
+  "notes": [
+    "当玩家升到 13 级大本营时，就拥有了一个巨型地狱之塔，而 [巨型特斯拉电磁塔](/upgrade/030c-Giga-Tesla) 会消失。如果玩家继续升级大本营，巨型地狱之塔的属性会有变化。",
+    "巨型地狱之塔不是独立的防御建筑，它附属于大本营。",
+    "当 13 到 16 级大本营受到攻击或村庄摧毁率达到 51% 时，巨型地狱之塔会启动。",
+    "13 级大本营的巨型地狱之塔被摧毁后有冰雾效果，可减慢部队的移动速度和攻击速度。"
+  ]
+}

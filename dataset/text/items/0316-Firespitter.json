@@ -1,0 +1,164 @@
+{
+  "id": "0316",
+  "link": "0316-Firespitter",
+  "tab": "建筑",
+  "section": "防御建筑",
+  "name": "火焰喷射器",
+  "title": "部落冲突 coc 火焰喷射器升级数据",
+  "description": "火焰喷射器喷射火焰的速度比 X 连弩的攻速还要快！即使打歪了，火焰喷射器的攻击也会越过目标，对后方的敌人造成伤害。它只能朝向一个方向，所以要仔细考虑如何放置它！",
+  "module": "upgrade-home",
+  "img_folder": "home_buildings/0316",
+  "canonical": "/upgrade/0316-Firespitter",
+  "wiki": "https://clashofclans.fandom.com/wiki/Firespitter",
+  "info_image": {
+    "level": "info",
+    "src": "Firespitter3.png",
+    "url": "https://static.clashpost.com/upgrade/home_buildings/0316/Firespitter3.png"
+  },
+  "image_groups": [
+    {
+      "group": "",
+      "images": [
+        {
+          "level": "1 级",
+          "src": "Firespitter1.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0316/Firespitter1.png"
+        },
+        {
+          "level": "2 级",
+          "src": "Firespitter2.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0316/Firespitter2.png"
+        },
+        {
+          "level": "3 级",
+          "src": "Firespitter3.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0316/Firespitter3.png"
+        }
+      ]
+    }
+  ],
+  "building_num": [
+    {
+      "title": "大本等级",
+      "num": "1 - 16, 17 - 18"
+    },
+    {
+      "title": "建筑数量",
+      "num": "     0,       2"
+    }
+  ],
+  "properties": [
+    {
+      "key": "占地面积",
+      "value": "3×3"
+    },
+    {
+      "key": "判定面积",
+      "value": "2×2"
+    },
+    {
+      "key": "伤害类型",
+      "value": "多目标"
+    },
+    {
+      "key": "攻击的目标",
+      "value": "地面和空中目标"
+    },
+    {
+      "key": "射程",
+      "value": "16 格"
+    },
+    {
+      "key": "攻速",
+      "value": "0.064 秒/次"
+    },
+    {
+      "key": "每轮弹药数量",
+      "value": "20"
+    },
+    {
+      "key": "每轮攻击间隔",
+      "value": "1 秒"
+    }
+  ],
+  "tables": [
+    {
+      "label": "升级数据",
+      "headers": [
+        "等级",
+        "平均每秒伤害",
+        "每次伤害",
+        "生命值",
+        "升级费用",
+        "升级时间",
+        "升级后可获得的经验",
+        "所需大本等级"
+      ],
+      "rows": [
+        [
+          "1",
+          "410",
+          "46",
+          "4500",
+          "17M",
+          "11",
+          "",
+          "17"
+        ],
+        [
+          "2",
+          "437",
+          "49",
+          "5000",
+          "18M",
+          "11,12",
+          "",
+          "17"
+        ],
+        [
+          "3",
+          "455",
+          "51",
+          "5300",
+          "29M",
+          "15",
+          "",
+          "18"
+        ]
+      ],
+      "extra_info": []
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026/02/23",
+      "rows": [
+        "在 18 本添加了 3 级火焰喷射器",
+        "移除了火焰喷射器的充能等级。",
+        "更改了 1 ~ 2 级火焰喷射器在游戏面板中显示的伤害值（实际伤害没变，只是更改了显示算法）。"
+      ]
+    },
+    {
+      "date": "2025/11/17",
+      "rows": [
+        "1 ~ 2 级及两个充能等级的火焰喷射器的升级时间和升级费用减少。"
+      ]
+    },
+    {
+      "date": "2024/11/25",
+      "rows": [
+        "17 本推出，并在 17 本新增火焰喷射器。",
+        "火焰喷射器在刚推出的时候就支持充能，属于第二批可以充能的建筑。"
+      ]
+    }
+  ],
+  "notes": [
+    "火焰喷射器的攻击方式是先以极快的速度打出 20 发子弹（熔化的铁球），休息 1 秒后再发起下一轮攻击，其机制类似于夜世界的 [熔岩火炮](/upgrade/1109-Roaster)。",
+    "每发子弹可以击中两个目标。",
+    "火焰喷射器的子弹可以同时击中地面和空中目标，不像 [投石炮](/upgrade/030e-Scattershot) 一样，瞄准地面就无法溅射到空中。",
+    "火焰喷射器的子弹击中两个目标后就会自动消失。",
+    "火焰喷射器的射击有一定的偏移角度，精度不是很高，如果目标较远则有可能打不中。",
+    "火焰喷射器只能覆盖约 150° 的扇形区域。",
+    "和 [空气炮](/upgrade/0306-Air-Sweeper) 一样，你可以旋转火焰喷射器，使其朝向你想要的方向。"
+  ]
+}

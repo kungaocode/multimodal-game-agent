@@ -1,0 +1,33 @@
+{
+  "id": "0786",
+  "link": "0786-Heroic-Torch",
+  "tab": "英雄",
+  "section": "装备（大守护者）",
+  "name": "英雄火炬",
+  "title": "部落冲突 coc 英雄火炬装备升级数据",
+  "description": "英雄火炬是大守护者的第三件史诗装备，它在 2025 年 8 月的水花大赛活动中首次开放购买。2. 技能持续期间，英雄火炬能为光环内的单位提供弹跳法术的效果，同时提升单位的移动速度，减少他们受到的伤害。",
+  "module": "upgrade-home",
+  "img_folder": "home_heroes/0786",
+  "canonical": "/upgrade/0786-Heroic-Torch",
+  "wiki": "https://clashofclans.fandom.com/wiki/Heroic_Torch",
+  "info_image": {
+    "level": "info",
+    "src": "Heroic_Torch.png",
+    "url": "https://static.clashpost.com/upgrade/home_heroes/0786/Heroic_Torch.png"
+  },
+  "image_groups": [],
+  "building_num": [],
+  "properties": [
+    {
+      "key": "技能类型",
+      "value": "主动技能"
+    },
+    {
+      "key": "装备稀有度",
+      "value": "史诗"
+    }
+  ],
+  "tables": [],
+  "timeline": [],
+  "notes": []
+}

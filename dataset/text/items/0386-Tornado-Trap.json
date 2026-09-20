@@ -1,0 +1,166 @@
+{
+  "id": "0386",
+  "link": "0386-Tornado-Trap",
+  "tab": "建筑",
+  "section": "陷阱",
+  "name": "飓风陷阱",
+  "title": "部落冲突 coc 飓风陷阱（旋风）升级数据",
+  "description": "飞沙走石会造成皮肉伤，而飓风陷阱还能让敌人晕头转向！把飓风陷阱埋在地下，它产生的漩涡能把敌军卷至飓风中心，阻挡他们的进攻。",
+  "module": "upgrade-home",
+  "img_folder": "home_buildings/0386",
+  "canonical": "/upgrade/0386-Tornado-Trap",
+  "wiki": "https://clashofclans.fandom.com/wiki/Tornado_Trap",
+  "info_image": {
+    "level": "info",
+    "src": "Tornado_Trap_info.png",
+    "url": "https://static.clashpost.com/upgrade/home_buildings/0386/Tornado_Trap_info.png"
+  },
+  "image_groups": [
+    {
+      "group": "",
+      "images": [
+        {
+          "level": "1 级",
+          "src": "Tornado_Trap1.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0386/Tornado_Trap1.png"
+        },
+        {
+          "level": "2 - 3 级",
+          "src": "Tornado_Trap2.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0386/Tornado_Trap2.png"
+        }
+      ]
+    }
+  ],
+  "building_num": [
+    {
+      "title": "大本等级",
+      "num": "1 - 10, 11 - 18"
+    },
+    {
+      "title": "建筑数量",
+      "num": "     0,       1"
+    }
+  ],
+  "properties": [
+    {
+      "key": "占地面积",
+      "value": "1×1"
+    },
+    {
+      "key": "作用类型",
+      "value": "让范围内的部队转圈，并造成少量范围伤害"
+    },
+    {
+      "key": "作用目标",
+      "value": "地面和空中目标 (矿工除外)"
+    },
+    {
+      "key": "触发半径",
+      "value": "3 格"
+    },
+    {
+      "key": "作用半径",
+      "value": "3 格"
+    },
+    {
+      "key": "每秒伤害",
+      "value": "8 (近似值)"
+    },
+    {
+      "key": "陷阱作用延时",
+      "value": "0.4 秒"
+    }
+  ],
+  "tables": [
+    {
+      "label": "升级数据",
+      "headers": [
+        "等级",
+        "总伤害",
+        "陷阱持续时间",
+        "升级费用",
+        "升级时间",
+        "升级后可获得的经验",
+        "所需大本等级"
+      ],
+      "rows": [
+        [
+          "1",
+          "39",
+          "5 秒",
+          "1.8M",
+          "0",
+          "",
+          "11"
+        ],
+        [
+          "2",
+          "47",
+          "6 秒",
+          "2M",
+          "1",
+          "",
+          "11"
+        ],
+        [
+          "3",
+          "55",
+          "7 秒",
+          "2.5M",
+          "2",
+          "",
+          "12"
+        ]
+      ],
+      "extra_info": [
+        {
+          "column": 3,
+          "type": "cost",
+          "gpClass": "building",
+          "icon": "Gold"
+        },
+        {
+          "column": 4,
+          "type": "time",
+          "gpClass": "building"
+        },
+        {
+          "column": 5,
+          "type": "exp",
+          "icon": "Exp"
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2025/03/24",
+      "rows": [
+        "2 ~ 3 级飓风陷阱的升级费用和升级时间减少。"
+      ]
+    },
+    {
+      "date": "2022/10/10",
+      "rows": [
+        "2 ~ 3 级飓风陷阱的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2021/12/09",
+      "rows": [
+        "1 级飓风陷阱的建造费用降低。"
+      ]
+    },
+    {
+      "date": "2019/04/02",
+      "rows": [
+        "玩家上线后，所有的陷阱将自动被重新布置，重新布置不再需要花费金币。然而，如果玩家不上线，陷阱就不会被重新布置，所以你仍然可以攻击到陷阱失效的村庄。"
+      ]
+    }
+  ],
+  "notes": [
+    "飓风陷阱可以让部队转圈，也可以对部队造成少量伤害，但不能阻止部队发动攻击。",
+    "[掘地矿工](/upgrade/000b-Miner)、[超级矿工](/upgrade/060e-Super-Miner)、[地兽](/upgrade/0285-Diggy) 和 [攻城钻机](/upgrade/0246-Battle-Drill) 能免疫飓风陷阱的转圈效果。"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "0782",
+  "link": "0782-Rage-Gem",
+  "tab": "英雄",
+  "section": "装备（大守护者）",
+  "name": "狂暴宝石",
+  "title": "部落冲突 coc 狂暴宝石装备升级数据",
+  "description": "狂暴宝石是大守护者的一件普通装备。狂暴宝石装备可以在大守护者周围投射出魔法光环，当我方部队在光环内时，它们可以打出更高的伤害。狂暴宝石的效果不能与狂暴法术叠加。如果在光环内使用狂暴法术，则狂暴法术的效果会覆盖狂暴宝石的效果。",
+  "module": "upgrade-home",
+  "img_folder": "home_heroes/0782",
+  "canonical": "/upgrade/0782-Rage-Gem",
+  "wiki": "https://clashofclans.fandom.com/wiki/Rage_Gem",
+  "info_image": {
+    "level": "info",
+    "src": "Rage_Gem_info.png",
+    "url": "https://static.clashpost.com/upgrade/home_heroes/0782/Rage_Gem_info.png"
+  },
+  "image_groups": [],
+  "building_num": [],
+  "properties": [
+    {
+      "key": "技能类型",
+      "value": "被动技能"
+    },
+    {
+      "key": "装备稀有度",
+      "value": "普通"
+    },
+    {
+      "key": "所需铁匠铺等级",
+      "value": "4"
+    },
+    {
+      "key": "所需大本等级",
+      "value": "11"
+    }
+  ],
+  "tables": [],
+  "timeline": [],
+  "notes": []
+}

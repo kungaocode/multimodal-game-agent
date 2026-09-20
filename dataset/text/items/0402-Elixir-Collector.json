@@ -1,0 +1,534 @@
+{
+  "id": "0402",
+  "link": "0402-Elixir-Collector",
+  "tab": "建筑",
+  "section": "资源类建筑",
+  "name": "圣水收集器",
+  "title": "部落冲突 coc 圣水收集器升级数据",
+  "description": "圣水收集器可以从村庄地下的圣泉中收集圣水。升级您的圣水收集器以使圣水产量最大化。",
+  "module": "upgrade-home",
+  "img_folder": "home_buildings/0402",
+  "canonical": "/upgrade/0402-Elixir-Collector",
+  "wiki": "https://clashofclans.fandom.com/wiki/Elixir_Collector",
+  "info_image": {
+    "level": "info",
+    "src": "Elixir_Collector17.png",
+    "url": "https://static.clashpost.com/upgrade/home_buildings/0402/Elixir_Collector17.png"
+  },
+  "image_groups": [
+    {
+      "group": "",
+      "images": [
+        {
+          "level": "1 级",
+          "src": "Elixir_Collector1.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0402/Elixir_Collector1.png"
+        },
+        {
+          "level": "2 级",
+          "src": "Elixir_Collector2.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0402/Elixir_Collector2.png"
+        },
+        {
+          "level": "3 级",
+          "src": "Elixir_Collector3.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0402/Elixir_Collector3.png"
+        },
+        {
+          "level": "4 级",
+          "src": "Elixir_Collector4.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0402/Elixir_Collector4.png"
+        },
+        {
+          "level": "5 级",
+          "src": "Elixir_Collector5.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0402/Elixir_Collector5.png"
+        },
+        {
+          "level": "6 级",
+          "src": "Elixir_Collector6.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0402/Elixir_Collector6.png"
+        },
+        {
+          "level": "7 级",
+          "src": "Elixir_Collector7.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0402/Elixir_Collector7.png"
+        },
+        {
+          "level": "8 级",
+          "src": "Elixir_Collector8.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0402/Elixir_Collector8.png"
+        },
+        {
+          "level": "9 级",
+          "src": "Elixir_Collector9.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0402/Elixir_Collector9.png"
+        },
+        {
+          "level": "10 级",
+          "src": "Elixir_Collector10.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0402/Elixir_Collector10.png"
+        },
+        {
+          "level": "11 级",
+          "src": "Elixir_Collector11.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0402/Elixir_Collector11.png"
+        },
+        {
+          "level": "12 级",
+          "src": "Elixir_Collector12.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0402/Elixir_Collector12.png"
+        },
+        {
+          "level": "13 级",
+          "src": "Elixir_Collector13.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0402/Elixir_Collector13.png"
+        },
+        {
+          "level": "14 级",
+          "src": "Elixir_Collector14.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0402/Elixir_Collector14.png"
+        },
+        {
+          "level": "15 级",
+          "src": "Elixir_Collector15.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0402/Elixir_Collector15.png"
+        },
+        {
+          "level": "16 级",
+          "src": "Elixir_Collector16.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0402/Elixir_Collector16.png"
+        },
+        {
+          "level": "17 级",
+          "src": "Elixir_Collector17.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0402/Elixir_Collector17.png"
+        }
+      ]
+    }
+  ],
+  "building_num": [
+    {
+      "title": "大本等级",
+      "num": "1, 2, 3, 4, 5, 6 - 8, 9 - 18"
+    },
+    {
+      "title": "建筑数量",
+      "num": "1, 2, 3, 4, 5,     6,      7"
+    }
+  ],
+  "properties": [
+    {
+      "key": "占地面积",
+      "value": "3×3"
+    },
+    {
+      "key": "判定面积",
+      "value": "2×2"
+    },
+    {
+      "key": "掠夺比例",
+      "value": "50% (无上限)"
+    }
+  ],
+  "tables": [
+    {
+      "label": "升级数据",
+      "headers": [
+        "等级",
+        "每小时产量",
+        "采集器容量*",
+        "填满容量所需时间",
+        "出现收集标志时的储量",
+        "每个采集器提速所需宝石",
+        "生命值",
+        "升级费用",
+        "升级时间",
+        "升级后可获得的经验",
+        "所需大本等级"
+      ],
+      "rows": [
+        [
+          "1",
+          "200",
+          "1k",
+          "0, 5",
+          "6",
+          "\\",
+          "75",
+          "150",
+          "0, 0, 0, 5",
+          "",
+          "1"
+        ],
+        [
+          "2",
+          "400",
+          "2k",
+          "0, 5",
+          "15",
+          "\\",
+          "150",
+          "300",
+          "0, 0, 0,15",
+          "",
+          "1"
+        ],
+        [
+          "3",
+          "600",
+          "3k",
+          "0, 5",
+          "25",
+          "\\",
+          "300",
+          "700",
+          "0, 0, 1",
+          "",
+          "2"
+        ],
+        [
+          "4",
+          "800",
+          "5k",
+          "0, 6,15",
+          "40",
+          "\\",
+          "400",
+          "1.4k",
+          "0, 0, 2",
+          "",
+          "2"
+        ],
+        [
+          "5",
+          "1000",
+          "10k",
+          "0,10",
+          "60",
+          "4",
+          "500",
+          "3.0k",
+          "0, 0, 5",
+          "",
+          "3"
+        ],
+        [
+          "6",
+          "1300",
+          "20k",
+          "0,15,23,5",
+          "100",
+          "5",
+          "550",
+          "7.0k",
+          "0, 0,15",
+          "",
+          "3"
+        ],
+        [
+          "7",
+          "1600",
+          "30k",
+          "0,18,45",
+          "160",
+          "6",
+          "600",
+          "14k",
+          "0, 0,30",
+          "",
+          "4"
+        ],
+        [
+          "8",
+          "1900",
+          "50k",
+          "1, 2,18,57",
+          "220",
+          "7",
+          "660",
+          "28k",
+          "0, 1",
+          "",
+          "4"
+        ],
+        [
+          "9",
+          "2200",
+          "75k",
+          "1,10, 5,27",
+          "300",
+          "8",
+          "720",
+          "56k",
+          "0, 2",
+          "",
+          "5"
+        ],
+        [
+          "10",
+          "2800",
+          "100k",
+          "1,11,42,52",
+          "400",
+          "9",
+          "780",
+          "75k",
+          "0, 3",
+          "",
+          "5"
+        ],
+        [
+          "11",
+          "3500",
+          "150k",
+          "1,18,51,26",
+          "500",
+          "10",
+          "860",
+          "85k",
+          "0, 4",
+          "",
+          "7"
+        ],
+        [
+          "12",
+          "4200",
+          "200k",
+          "1,23,37,9",
+          "600",
+          "10",
+          "960",
+          "170k",
+          "0, 6",
+          "",
+          "8"
+        ],
+        [
+          "13",
+          "4900",
+          "250k",
+          "2, 3, 1,14",
+          "700",
+          "11",
+          "1080",
+          "400k",
+          "0, 8",
+          "",
+          "10"
+        ],
+        [
+          "14",
+          "5600",
+          "300k",
+          "2, 5,34,18",
+          "800",
+          "11",
+          "1180",
+          "800k",
+          "0,10",
+          "",
+          "11"
+        ],
+        [
+          "15",
+          "6300",
+          "350k",
+          "2, 7,33,20",
+          "900",
+          "11",
+          "1280",
+          "1.2M",
+          "0,18",
+          "",
+          "12"
+        ],
+        [
+          "16",
+          "7000",
+          "385k",
+          "2, 7",
+          "1000",
+          "11",
+          "1350",
+          "2M",
+          "2",
+          "",
+          "14"
+        ],
+        [
+          "17",
+          "7560",
+          "420k",
+          "2, 7,33,20",
+          "1000",
+          "11",
+          "1400",
+          "8M",
+          "4",
+          "",
+          "16"
+        ],
+        [
+          "⚡1",
+          "7857",
+          "436.5k",
+          "2, 7,33,20",
+          "1000",
+          "11",
+          "1400",
+          "1.7M",
+          "2",
+          "",
+          "18"
+        ],
+        [
+          "⚡2",
+          "8154",
+          "453k",
+          "2, 7,33,20",
+          "1000",
+          "11",
+          "1400",
+          "1.5M",
+          "3",
+          "",
+          "18"
+        ],
+        [
+          "⚡3",
+          "8154",
+          "453k",
+          "2, 7,33,20",
+          "1000",
+          "11",
+          "1450",
+          "1.3M",
+          "4",
+          "",
+          "18"
+        ]
+      ],
+      "extra_info": [
+        {
+          "column": 2,
+          "type": "number",
+          "icon": "Elixir",
+          "noGoldPass": true
+        },
+        {
+          "column": 3,
+          "type": "time",
+          "gpClass": "building",
+          "noGoldPass": true
+        },
+        {
+          "column": 7,
+          "type": "cost",
+          "gpClass": "building",
+          "icon": "Gold"
+        },
+        {
+          "column": 8,
+          "type": "time",
+          "gpClass": "building"
+        },
+        {
+          "column": 9,
+          "type": "exp",
+          "icon": "Exp"
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2025/11/17",
+      "rows": [
+        "新增 17 级圣水收集器，16 本可解锁。"
+      ]
+    },
+    {
+      "date": "2025/10/06",
+      "rows": [
+        "14 ~ 15 级圣水收集器的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2025/06/16",
+      "rows": [
+        "1 ~ 8 级圣水收集器的生命值减少。"
+      ]
+    },
+    {
+      "date": "2025/03/24",
+      "rows": [
+        "1 ~ 16 级圣水收集器的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2025/02/10",
+      "rows": [
+        "2 ~ 10 级圣水收集器的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2024/11/25",
+      "rows": [
+        "6、7、9 级圣水收集器的升级时间减少。",
+        "11 ~ 12 级圣水收集器的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2024/09/09",
+      "rows": [
+        "超级充能推出，圣水收集器是第一批可以充能的建筑之一。"
+      ]
+    },
+    {
+      "date": "2024/02/27",
+      "rows": [
+        "新增 16 级圣水收集器，14 本可解锁。"
+      ]
+    },
+    {
+      "date": "2023/12/12",
+      "rows": [
+        "8、10 ~15 级圣水收集器的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2021/12/09",
+      "rows": [
+        "新增 15 级圣水收集器，12 级大本营可解锁。"
+      ]
+    },
+    {
+      "date": "2021/06/15",
+      "rows": [
+        "5 级圣水收集器的升级费用从 3500 减少到 3000，与 5 级金矿的升级费用相同（现在这两座建筑每一等级的升级费用都保持一致）"
+      ]
+    },
+    {
+      "date": "2021/04/12",
+      "rows": [
+        "1 ~ 4 级的圣水收集器/金矿的容量加倍，3 小时不再能填满这些采集器。",
+        "10 ~ 14 级圣水收集器的升级费用降低。",
+        "3 ~ 6、12 ~ 14 级圣水收集器的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2020/03/30",
+      "rows": [
+        "新增 14 级圣水收集器，11 级大本营可解锁。"
+      ]
+    },
+    {
+      "date": "2019/04/02",
+      "rows": [
+        "包含大量降低发展成本和提高发展速度的调整，其中 7 ~ 13 级圣水收集器的升级时间减少。"
+      ]
+    }
+  ],
+  "notes": []
+}

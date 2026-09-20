@@ -1,0 +1,61 @@
+{
+  "id": "0280",
+  "link": "0280-L.A.S.S.I",
+  "tab": "英雄",
+  "section": "战宠",
+  "name": "莱希",
+  "title": "部落冲突 coc 莱希（狗）升级数据",
+  "description": "作为村庄里最忠诚的猎犬，莱希时刻保持警惕，守护着村庄。一旦发现敌人，她会毫不留情地发动追击。但如果敌人会飞，她便只能用目光震慑他们了。",
+  "module": "upgrade-home",
+  "img_folder": "home_heroes/0280",
+  "canonical": "/upgrade/0280-L.A.S.S.I",
+  "wiki": "https://clashofclans.fandom.com/wiki/L.A.S.S.I",
+  "info_image": {
+    "level": "info",
+    "src": "L.A.S.S.I_info.png",
+    "url": "https://static.clashpost.com/upgrade/home_heroes/0280/L.A.S.S.I_info.png"
+  },
+  "image_groups": [],
+  "building_num": [],
+  "properties": [
+    {
+      "key": "攻击偏好",
+      "value": "距离英雄 2.5 格内的目标"
+    },
+    {
+      "key": "伤害类型",
+      "value": "单体近身攻击"
+    },
+    {
+      "key": "攻击的目标",
+      "value": "仅地面目标"
+    },
+    {
+      "key": "占据人口",
+      "value": "20"
+    },
+    {
+      "key": "移动速度",
+      "value": "4 格/秒"
+    },
+    {
+      "key": "攻击速度",
+      "value": "0.9 秒/次"
+    },
+    {
+      "key": "攻击距离",
+      "value": "0.6 格"
+    },
+    {
+      "key": "所需战宠小屋等级",
+      "value": "1"
+    },
+    {
+      "key": "所需大本等级",
+      "value": "14"
+    }
+  ],
+  "tables": [],
+  "timeline": [],
+  "notes": []
+}

@@ -1,0 +1,65 @@
+{
+  "id": "0501",
+  "link": "0501-B.O.Bs-Hut",
+  "tab": "建筑",
+  "section": "其他建筑",
+  "name": "小博木屋",
+  "title": "部落冲突 coc 小博木屋（巴布小屋）升级数据",
+  "description": "小博和我们住在一起，就是个普通的建筑工人，绝不是什么被建筑大师基地控制的机器人。",
+  "module": "upgrade-home",
+  "img_folder": "home_buildings/0501",
+  "canonical": "/upgrade/0501-B.O.Bs-Hut",
+  "wiki": "https://clashofclans.fandom.com/wiki/B.O.B%27s_Hut",
+  "info_image": {
+    "level": "info",
+    "src": "B.O.Bs_Hut.png",
+    "url": "https://static.clashpost.com/upgrade/home_buildings/0501/B.O.Bs_Hut.png"
+  },
+  "image_groups": [],
+  "building_num": [
+    {
+      "title": "大本等级",
+      "num": "1 - 9, 10 - 18"
+    },
+    {
+      "title": "建筑数量",
+      "num": "    0,       1"
+    }
+  ],
+  "properties": [
+    {
+      "key": "占地面积",
+      "value": "2×2"
+    },
+    {
+      "key": "判定面积",
+      "value": "1×1"
+    },
+    {
+      "key": "建造花费",
+      "value": "无"
+    },
+    {
+      "key": "建造时间",
+      "value": "瞬间完成"
+    },
+    {
+      "key": "生命值",
+      "value": "250"
+    }
+  ],
+  "tables": [],
+  "timeline": [
+    {
+      "date": "2023/05/15",
+      "rows": [
+        "小博木屋取代以前的建筑大师小屋，小博成为家乡村庄的第 6 个工人。"
+      ]
+    }
+  ],
+  "notes": [
+    "当你解锁第 6 个工人后，村庄内会多出一个类似于 [建筑工人小屋](/upgrade/0500-Builders-Hut) 的建筑，但那实际上是小博木屋。战斗过程中，小博不会像其他建筑工人一样修复建筑。关于第 6 个工人的解锁条件，请参考 [这篇文章](/p/977)。",
+    "小博木屋的建造理论上不限制家乡大本营等级，只要在夜世界的 [小博控制室](/upgrade/1284-B.O.B-Control) 达到 5 级，你就可在以家乡建造小博木屋。不过由于改装的条件限制，只有 10 本及以上的玩家才能可以拥有小博木屋。",
+    "小博木屋不能升级。"
+  ]
+}

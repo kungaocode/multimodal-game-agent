@@ -1,0 +1,618 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Coach 控制台</title>
+  <link rel="manifest" href="/static/manifest.webmanifest">
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #0c0e12;
+      --panel: #16191f;
+      --panel-2: #1d222a;
+      --line: #2a303a;
+      --text: #f2f4f7;
+      --muted: #9ba3ad;
+      --green: #44d18b;
+      --red: #ff5f66;
+      --amber: #f4bf4f;
+      --blue: #5ea7ff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: var(--bg);
+      color: var(--text);
+      font: 14px/1.45 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      letter-spacing: 0;
+    }
+    main {
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 20px 16px 32px;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 18px;
+    }
+    h1 { font-size: 20px; margin: 0; }
+    .badges { display: flex; gap: 6px; flex-wrap: wrap; justify-content: flex-end; }
+    .badge {
+      min-height: 26px;
+      display: inline-flex;
+      align-items: center;
+      padding: 3px 8px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      color: var(--muted);
+      background: var(--panel);
+      font-size: 12px;
+    }
+    .badge.ok { color: var(--green); border-color: color-mix(in srgb, var(--green) 45%, transparent); }
+    .badge.bad { color: var(--red); border-color: color-mix(in srgb, var(--red) 45%, transparent); }
+    .band {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      margin-bottom: 12px;
+      padding: 16px;
+    }
+    .band > header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 0 0 14px;
+    }
+    h2 { font-size: 15px; margin: 0; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+    }
+    .field { min-width: 0; }
+    label {
+      display: block;
+      color: var(--muted);
+      font-size: 12px;
+      margin-bottom: 5px;
+    }
+    input, select {
+      width: 100%;
+      min-height: 38px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: #101317;
+      color: var(--text);
+      padding: 8px 10px;
+      font-size: 14px;
+    }
+    input:focus, select:focus, button:focus-visible {
+      outline: 2px solid color-mix(in srgb, var(--blue) 65%, transparent);
+      outline-offset: 1px;
+    }
+    .segment {
+      display: grid;
+      grid-auto-flow: column;
+      gap: 4px;
+      background: #101317;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 3px;
+    }
+    .segment button {
+      min-height: 34px;
+      border: 0;
+      background: transparent;
+      color: var(--muted);
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 14px;
+      padding: 0 10px;
+    }
+    .segment button.active {
+      background: var(--panel-2);
+      color: var(--text);
+    }
+    .toggle {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      min-height: 38px;
+      padding: 0 10px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: #101317;
+      color: var(--muted);
+    }
+    .switch { position: relative; width: 38px; height: 22px; flex: none; }
+    .switch input { position: absolute; opacity: 0; width: 100%; height: 100%; margin: 0; cursor: pointer; }
+    .slider {
+      position: absolute;
+      inset: 0;
+      border-radius: 999px;
+      background: #333a45;
+      transition: .15s;
+    }
+    .slider:before {
+      content: "";
+      position: absolute;
+      width: 18px;
+      height: 18px;
+      left: 2px;
+      top: 2px;
+      background: white;
+      border-radius: 50%;
+      transition: .15s;
+    }
+    input:checked + .slider { background: var(--green); }
+    input:checked + .slider:before { transform: translateX(16px); }
+    .actions { display: flex; gap: 8px; margin-top: 14px; }
+    button.command {
+      min-height: 40px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 7px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: var(--panel-2);
+      color: var(--text);
+      padding: 0 14px;
+      cursor: pointer;
+      font-weight: 600;
+    }
+    button.command.primary { background: #205b40; border-color: #2d7555; }
+    button.command.danger { background: #66262b; border-color: #84363c; }
+    button.command:disabled { opacity: .5; cursor: not-allowed; }
+    .status {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 8px;
+      margin-bottom: 12px;
+    }
+    .metric {
+      background: #101317;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 10px;
+      min-width: 0;
+    }
+    .metric span { display: block; color: var(--muted); font-size: 11px; }
+    .metric strong { display: block; overflow-wrap: anywhere; font-size: 14px; margin-top: 3px; }
+    .log {
+      max-height: 240px;
+      overflow: auto;
+      background: #101317;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 10px;
+    }
+    .step {
+      padding: 8px 0;
+      border-bottom: 1px solid #20262e;
+      white-space: pre-wrap;
+      overflow-wrap: anywhere;
+    }
+    .step:last-child { border-bottom: 0; }
+    .hidden { display: none !important; }
+    .empty { color: var(--muted); text-align: center; padding: 14px; }
+    .error { color: var(--red); overflow-wrap: anywhere; }
+    @media (max-width: 620px) {
+      .grid { grid-template-columns: 1fr; }
+      .status { grid-template-columns: 1fr; }
+      .actions { flex-wrap: wrap; }
+      .actions button { flex: 1 1 140px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Coach 控制台</h1>
+      <div class="badges">
+        <div id="model-badge" class="badge">模型</div>
+        <div id="coach-badge" class="badge">教练</div>
+        <div id="adb-badge" class="badge">ADB</div>
+      </div>
+    </header>
+
+    <section class="band">
+      <header><h2>连接</h2></header>
+      <div class="grid">
+        <div class="field">
+          <label for="server-url">后端地址</label>
+          <input id="server-url" inputmode="url" placeholder="http://192.168.1.8:8000">
+        </div>
+        <div class="field">
+          <label for="refresh-status">轮询状态</label>
+          <select id="refresh-status">
+            <option value="1000" selected>1 秒</option>
+            <option value="2000">2 秒</option>
+            <option value="5000">5 秒</option>
+            <option value="0">关闭</option>
+          </select>
+        </div>
+      </div>
+    </section>
+
+    <section class="band">
+      <header><h2>执行模块</h2></header>
+      <div class="grid">
+        <div class="field">
+          <label>模块</label>
+          <div id="module-segment" class="segment">
+            <button type="button" data-module="farm" class="active">打资源</button>
+            <button type="button" data-module="donation">捐兵</button>
+          </div>
+        </div>
+        <div class="field">
+          <label>运行方式</label>
+          <div id="source-segment" class="segment">
+            <button type="button" data-source="video" class="active">视频模拟</button>
+            <button type="button" data-source="adb">ADB 执行</button>
+          </div>
+        </div>
+        <div class="field" id="video-field">
+          <label for="video-path">视频</label>
+          <select id="video-path"></select>
+        </div>
+        <div class="field" id="upload-field">
+          <label for="upload-video">上传新录屏</label>
+          <input id="upload-video" type="file" accept=".mp4,.mov,.mkv,.webm,.avi">
+        </div>
+        <div class="field">
+          <label>保存到视频库</label>
+          <button id="upload-button" class="command" type="button">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5"/><path d="m5 12 7-7 7 7"/></svg>
+            上传
+          </button>
+        </div>
+        <div class="field hidden" id="serial-field">
+          <label for="serial">ADB 序列号</label>
+          <input id="serial" placeholder="127.0.0.1:5555">
+        </div>
+        <div class="field">
+          <label for="max-steps">最大步数</label>
+          <input id="max-steps" type="number" min="1" max="500" value="20">
+        </div>
+        <div class="field">
+          <label for="step-delay">步间延迟</label>
+          <input id="step-delay" type="number" min="0" max="60" step="0.5" value="0.5">
+        </div>
+        <div class="field" id="fps-field">
+          <label for="video-fps">视频采样 FPS</label>
+          <input id="video-fps" type="number" min="0.05" max="10" step="0.05" value="0.5">
+        </div>
+        <div class="field">
+          <label>Qwen 教练</label>
+          <div class="toggle">
+            <span id="coach-label">开启</span>
+            <span class="switch">
+              <input id="enable-coach" type="checkbox" checked>
+              <span class="slider"></span>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="actions">
+        <button id="start-button" class="command primary" type="button">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 4l14 8-14 8z"/></svg>
+          启动
+        </button>
+        <button id="stop-button" class="command danger" type="button" disabled>
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><rect x="6" y="6" width="12" height="12"/></svg>
+          停止
+        </button>
+      </div>
+      <div id="start-error" class="error"></div>
+      <div id="upload-error" class="error"></div>
+    </section>
+
+    <section class="band">
+      <header>
+        <h2>会话进度</h2>
+        <span id="session-id" class="badge">未启动</span>
+      </header>
+      <div class="status">
+        <div class="metric"><span>状态</span><strong id="session-status">-</strong></div>
+        <div class="metric"><span>步数</span><strong id="session-step">-</strong></div>
+        <div class="metric"><span>纠正率</span><strong id="session-rate">-</strong></div>
+      </div>
+      <div id="session-steps" class="log"><div class="empty">暂无会话</div></div>
+    </section>
+
+    <section class="band">
+      <header><h2>回流训练</h2></header>
+      <div class="grid">
+        <div class="field">
+          <label for="sessions-dir">会话目录</label>
+          <input id="sessions-dir" value="dataset/coach_sessions">
+        </div>
+        <div class="field">
+          <label for="train-out">训练数据</label>
+          <input id="train-out" value="dataset/coach_training">
+        </div>
+        <div class="field">
+          <label for="yolo-epochs">YOLO 轮数</label>
+          <input id="yolo-epochs" type="number" min="1" max="100" value="5">
+        </div>
+        <div class="field">
+          <label for="state-epochs">状态分类轮数</label>
+          <input id="state-epochs" type="number" min="10" max="1000" value="100">
+        </div>
+        <div class="field">
+          <label for="detector-out">YOLO 输出</label>
+          <input id="detector-out" value="runs/detect/fsm_v5">
+        </div>
+        <div class="field">
+          <label for="state-out">状态模型输出</label>
+          <input id="state-out" value="runs/state_classifier_v5">
+        </div>
+      </div>
+      <div class="actions">
+        <button id="retrain-button" class="command" type="button">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12a9 9 0 1 1-3-6.7"/><path d="M21 3v6h-6"/></svg>
+          开始训练
+        </button>
+      </div>
+      <div id="retrain-log" class="log"><div class="empty">暂无训练任务</div></div>
+      <div id="retrain-error" class="error"></div>
+    </section>
+  </main>
+
+  <script>
+    const $ = id => document.getElementById(id);
+    const state = {
+      module: "farm",
+      source: "video",
+      sessionId: null,
+      retrainJobId: null,
+      timer: null,
+      retrainTimer: null
+    };
+
+    if (location.hostname && location.hostname !== "localhost" && location.hostname !== "127.0.0.1") {
+      $("server-url").value = location.origin;
+    } else {
+      $("server-url").value = localStorage.getItem("coachServerUrl") || "http://192.168.1.8:8000";
+    }
+
+    function api(path, options = {}) {
+      const base = $("server-url").value.replace(/\/$/, "");
+      localStorage.setItem("coachServerUrl", base);
+      return fetch(base + path, { ...options, headers: { "Content-Type": "application/json", ...(options.headers || {}) } });
+    }
+
+    function segment(container, key, callback) {
+      container.addEventListener("click", event => {
+        const button = event.target.closest("button[data-" + key + "]");
+        if (!button) return;
+        [...container.querySelectorAll("button")].forEach(item => item.classList.remove("active"));
+        button.classList.add("active");
+        state[key] = button.dataset[key];
+        callback(state[key]);
+      });
+    }
+
+    function renderCapability(data) {
+      const modelReady = Boolean(data.models?.detector_v1);
+      setBadge("model-badge", modelReady ? "模型" : "模型缺", modelReady);
+      setBadge("coach-badge", data.models?.coach_configured ? "教练" : "教练缺", Boolean(data.models?.coach_configured));
+      setBadge("adb-badge", data.execution?.adb_cli ? "ADB" : "ADB缺", Boolean(data.execution?.adb_cli));
+    }
+
+    function setBadge(id, text, ok) {
+      const item = $(id);
+      item.textContent = text;
+      item.classList.toggle("ok", ok);
+      item.classList.toggle("bad", !ok);
+    }
+
+    async function loadCapabilities() {
+      try {
+        const response = await api("/session/capabilities");
+        if (!response.ok) throw new Error("HTTP " + response.status);
+        renderCapability(await response.json());
+      } catch (error) {
+        setBadge("model-badge", "服务不可达", false);
+        setBadge("coach-badge", "-", false);
+        setBadge("adb-badge", "-", false);
+      }
+    }
+
+    async function loadVideos() {
+      try {
+        const response = await api("/session/videos?module=" + state.module);
+        const data = await response.json();
+        $("video-path").innerHTML = "";
+        if (!data.videos?.length) {
+          $("video-path").innerHTML = "<option value=''>无视频</option>";
+          return;
+        }
+        data.videos.forEach(path => {
+          const option = document.createElement("option");
+          option.value = path;
+          option.textContent = path.split("/").pop();
+          $("video-path").appendChild(option);
+        });
+      } catch {
+        $("video-path").innerHTML = "<option value=''>加载失败</option>";
+      }
+    }
+
+    async function uploadVideo() {
+      const input = $("upload-video");
+      $("upload-error").textContent = "";
+      if (!input.files?.length) {
+        $("upload-error").textContent = "请选择视频";
+        return;
+      }
+      const base = $("server-url").value.replace(/\/$/, "");
+      const form = new FormData();
+      form.append("file", input.files[0]);
+      $("upload-button").disabled = true;
+      try {
+        const response = await fetch(`${base}/session/upload/video?module=${state.module}`, { method: "POST", body: form });
+        const data = await response.json();
+        if (!response.ok) throw new Error(data.detail || "上传失败");
+        input.value = "";
+        await loadVideos();
+      } catch (error) {
+        $("upload-error").textContent = error.message;
+      } finally {
+        $("upload-button").disabled = false;
+      }
+    }
+
+    function updateSourceFields() {
+      const video = state.source === "video";
+      $("video-field").classList.toggle("hidden", !video);
+      $("fps-field").classList.toggle("hidden", !video);
+      $("serial-field").classList.toggle("hidden", video);
+    }
+
+    function esc(value) {
+      return String(value ?? "").replace(/[<>&]/g, char => ({ "<": "&lt;", ">": "&gt;", "&": "&amp;" }[char]));
+    }
+
+    function renderSession(data) {
+      $("session-id").textContent = data.session_id;
+      $("session-status").textContent = data.status;
+      $("session-step").textContent = data.current_step + "/" + data.total_steps;
+      $("session-rate").textContent = data.summary ? Math.round((data.summary.coach_correction_rate || 0) * 100) + "%" : "-";
+      const running = data.status === "running" || data.status === "queued" || data.status === "stopping";
+      $("stop-button").disabled = !running;
+      $("start-button").disabled = running;
+      $("session-steps").innerHTML = data.steps?.length ? data.steps.map(step => {
+        const action = step.action || {};
+        const verdict = step.coach_approved === true ? "教练通过" : step.coach_approved === false ? "教练纠正" : "无教练";
+        return "<div class='step'>" + esc("#" + step.step + "  " + step.local_state + "\\n" + verdict + "  " + action.kind + "  " + (action.target || "") + "\\n" + (step.reasoning || "")) + "</div>";
+      }).join("") : "<div class='empty'>等待步骤</div>";
+    }
+
+    async function pollSession() {
+      if (!state.sessionId) return;
+      try {
+        const response = await api("/session/" + state.sessionId);
+        if (!response.ok) throw new Error("HTTP " + response.status);
+        const data = await response.json();
+        renderSession(data);
+        if (["completed", "failed", "stopping"].includes(data.status) && data.status !== "stopping") {
+          clearInterval(state.timer);
+          state.timer = null;
+        }
+      } catch (error) {
+        $("start-error").textContent = "状态查询失败: " + error.message;
+      }
+    }
+
+    function setPolling() {
+      clearInterval(state.timer);
+      const interval = Number($("refresh-status").value);
+      if (interval > 0) state.timer = setInterval(pollSession, interval);
+    }
+
+    async function startSession() {
+      $("start-error").textContent = "";
+      const videoPath = $("video-path").value;
+      if (state.source === "video" && !videoPath) {
+        $("start-error").textContent = "没有可用视频";
+        return;
+      }
+      const payload = {
+        module: state.module,
+        source: state.source,
+        max_steps: Number($("max-steps").value),
+        step_delay: Number($("step-delay").value),
+        video_fps: Number($("video-fps").value),
+        enable_coach: $("enable-coach").checked,
+        serial: state.source === "adb" ? $("serial").value || null : null,
+        video_path: state.source === "video" ? videoPath : null
+      };
+      try {
+        const response = await api("/session/start", { method: "POST", body: JSON.stringify(payload) });
+        const data = await response.json();
+        if (!response.ok) throw new Error(data.detail || "启动失败");
+        state.sessionId = data.session_id;
+        renderSession(data);
+        setPolling();
+      } catch (error) {
+        $("start-error").textContent = error.message;
+      }
+    }
+
+    async function stopSession() {
+      if (!state.sessionId) return;
+      await api("/session/" + state.sessionId + "/stop", { method: "POST" });
+      pollSession();
+    }
+
+    function renderRetrain(data) {
+      $("retrain-log").innerHTML = data.logs?.length ? data.logs.map(item => "<div class='step'>" + esc(item) + "</div>").join("") : "<div class='empty'>等待日志</div>";
+      $("retrain-error").textContent = data.error || "";
+    }
+
+    async function pollRetrain() {
+      if (!state.retrainJobId) return;
+      try {
+        const response = await api("/session/retrain/" + state.retrainJobId);
+        const data = await response.json();
+        if (!response.ok) throw new Error(data.detail || "查询失败");
+        renderRetrain(data);
+        if (data.status === "completed" || data.status === "failed") {
+          clearInterval(state.retrainTimer);
+          state.retrainTimer = null;
+          $("retrain-button").disabled = false;
+          loadCapabilities();
+        }
+      } catch (error) {
+        $("retrain-error").textContent = error.message;
+      }
+    }
+
+    async function startRetrain() {
+      $("retrain-error").textContent = "";
+      $("retrain-button").disabled = true;
+      const payload = {
+        sessions_dir: $("sessions-dir").value,
+        out: $("train-out").value,
+        detector_out: $("detector-out").value,
+        state_out: $("state-out").value,
+        yolo_epochs: Number($("yolo-epochs").value),
+        state_epochs: Number($("state-epochs").value)
+      };
+      try {
+        const response = await api("/session/retrain", { method: "POST", body: JSON.stringify(payload) });
+        const data = await response.json();
+        if (!response.ok) throw new Error(data.detail || "训练启动失败");
+        state.retrainJobId = data.job_id;
+        renderRetrain(data);
+        state.retrainTimer = setInterval(pollRetrain, 3000);
+      } catch (error) {
+        $("retrain-error").textContent = error.message;
+        $("retrain-button").disabled = false;
+      }
+    }
+
+    segment($("module-segment"), "module", value => { loadVideos(); });
+    segment($("source-segment"), "source", value => { updateSourceFields(); });
+    $("refresh-status").addEventListener("change", setPolling);
+    $("start-button").addEventListener("click", startSession);
+    $("stop-button").addEventListener("click", stopSession);
+    $("retrain-button").addEventListener("click", startRetrain);
+    $("upload-button").addEventListener("click", uploadVideo);
+    $("enable-coach").addEventListener("change", event => {
+      $("coach-label").textContent = event.target.checked ? "开启" : "关闭";
+    });
+    updateSourceFields();
+    loadCapabilities();
+    loadVideos();
+    setPolling();
+  </script>
+</body>
+</html>

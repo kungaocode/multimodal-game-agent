@@ -1,0 +1,33 @@
+{
+  "id": "0724",
+  "link": "0724-Dark-Crown",
+  "tab": "英雄",
+  "section": "装备（亡灵王子）",
+  "name": "暗黑皇冠",
+  "title": "部落冲突 coc 暗黑皇冠装备升级数据",
+  "description": "暗黑皇冠是亡灵王子的第一件史诗装备。当亡灵王子带上暗黑皇冠并在场时，每累计 60 人口的攻击方部队被击败，亡灵王子就可以获得一层生命值和伤害增益，最多 3 层，共需 180 人口。",
+  "module": "upgrade-home",
+  "img_folder": "home_heroes/0724",
+  "canonical": "/upgrade/0724-Dark-Crown",
+  "wiki": "https://clashofclans.fandom.com/wiki/Dark_Crown",
+  "info_image": {
+    "level": "info",
+    "src": "Dark_Crown.png",
+    "url": "https://static.clashpost.com/upgrade/home_heroes/0724/Dark_Crown.png"
+  },
+  "image_groups": [],
+  "building_num": [],
+  "properties": [
+    {
+      "key": "技能类型",
+      "value": "被动技能"
+    },
+    {
+      "key": "装备稀有度",
+      "value": "史诗"
+    }
+  ],
+  "tables": [],
+  "timeline": [],
+  "notes": []
+}

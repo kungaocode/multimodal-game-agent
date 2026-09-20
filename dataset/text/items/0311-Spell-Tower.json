@@ -1,0 +1,421 @@
+{
+  "id": "0311",
+  "link": "0311-Spell-Tower",
+  "tab": "建筑",
+  "section": "防御建筑",
+  "name": "法术塔",
+  "title": "部落冲突 coc 法术塔升级数据",
+  "description": "多年来，法师在战场上只有火球这一种魔法，一次还只能扔一颗。现在，他们发明了一种全自动的魔法利器，可以使用不同魔法扰乱敌人的进攻！",
+  "module": "upgrade-home",
+  "img_folder": "home_buildings/0311",
+  "canonical": "/upgrade/0311-Spell-Tower",
+  "wiki": "https://clashofclans.fandom.com/wiki/Spell_Tower",
+  "info_image": {
+    "level": "info",
+    "src": "Spell_Tower4_Rage.png",
+    "url": "https://static.clashpost.com/upgrade/home_buildings/0311/Spell_Tower4_Rage.png"
+  },
+  "image_groups": [
+    {
+      "group": "狂暴法术塔",
+      "images": [
+        {
+          "level": "1 级",
+          "src": "Spell_Tower1_Rage.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0311/Spell_Tower1_Rage.png"
+        },
+        {
+          "level": "2 级",
+          "src": "Spell_Tower2_Rage.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0311/Spell_Tower2_Rage.png"
+        },
+        {
+          "level": "3 级",
+          "src": "Spell_Tower3_Rage.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0311/Spell_Tower3_Rage.png"
+        },
+        {
+          "level": "4 级",
+          "src": "Spell_Tower4_Rage.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0311/Spell_Tower4_Rage.png"
+        }
+      ]
+    },
+    {
+      "group": "毒药法术塔",
+      "images": [
+        {
+          "level": "2 级",
+          "src": "Spell_Tower2_Poison.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0311/Spell_Tower2_Poison.png"
+        },
+        {
+          "level": "3 级",
+          "src": "Spell_Tower3_Poison.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0311/Spell_Tower3_Poison.png"
+        },
+        {
+          "level": "4 级",
+          "src": "Spell_Tower4_Poison.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0311/Spell_Tower4_Poison.png"
+        }
+      ]
+    },
+    {
+      "group": "隐形法术塔",
+      "images": [
+        {
+          "level": "3 级",
+          "src": "Spell_Tower3_Invisibility.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0311/Spell_Tower3_Invisibility.png"
+        },
+        {
+          "level": "4 级",
+          "src": "Spell_Tower4_Invisibility.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0311/Spell_Tower4_Invisibility.png"
+        }
+      ]
+    },
+    {
+      "group": "地震法术塔",
+      "images": [
+        {
+          "level": "4 级",
+          "src": "Spell_Tower4_Earthquake.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0311/Spell_Tower4_Earthquake.png"
+        }
+      ]
+    }
+  ],
+  "building_num": [
+    {
+      "title": "大本等级",
+      "num": "1 - 14, 15 - 18"
+    },
+    {
+      "title": "建筑数量",
+      "num": "     0,       2"
+    },
+    {
+      "title": "大本等级",
+      "num": "1 - 14, 15 - 18"
+    },
+    {
+      "title": "建筑数量",
+      "num": "     0,       2"
+    },
+    {
+      "title": "大本等级",
+      "num": "1 - 14, 15 - 18"
+    },
+    {
+      "title": "建筑数量",
+      "num": "     0,       2"
+    },
+    {
+      "title": "大本等级",
+      "num": "1 - 14, 15 - 18"
+    },
+    {
+      "title": "建筑数量",
+      "num": "     0,       2"
+    }
+  ],
+  "properties": [
+    {
+      "key": "占地面积",
+      "value": "2×2"
+    },
+    {
+      "key": "判定面积",
+      "value": "1×1"
+    },
+    {
+      "key": "法术作用目标",
+      "value": "地面和空中目标"
+    },
+    {
+      "key": "触发半径",
+      "value": "9 格"
+    },
+    {
+      "key": "作用半径",
+      "value": "5 格"
+    },
+    {
+      "key": "作用类型",
+      "value": "为防守方的防御和部队提供加成"
+    },
+    {
+      "key": "释放方式",
+      "value": "原地释放"
+    },
+    {
+      "key": "法术持续时间",
+      "value": "18 秒"
+    },
+    {
+      "key": "伤害提升",
+      "value": "60%"
+    },
+    {
+      "key": "重新装填时间",
+      "value": "70 秒"
+    },
+    {
+      "key": "占地面积",
+      "value": "2×2"
+    },
+    {
+      "key": "判定面积",
+      "value": "1×1"
+    },
+    {
+      "key": "法术作用目标",
+      "value": "地面和空中目标"
+    },
+    {
+      "key": "触发半径",
+      "value": "9 格"
+    },
+    {
+      "key": "作用半径",
+      "value": "5 格"
+    },
+    {
+      "key": "作用类型",
+      "value": "对附近的敌人释放毒药法术"
+    },
+    {
+      "key": "释放方式",
+      "value": "扔到目标身上"
+    },
+    {
+      "key": "毒药最高秒伤",
+      "value": "60<sup>*</sup>"
+    },
+    {
+      "key": "法术持续时间",
+      "value": "12 秒"
+    },
+    {
+      "key": "移动速度降低",
+      "value": "35%"
+    },
+    {
+      "key": "攻击速度降低",
+      "value": "25%"
+    },
+    {
+      "key": "重新装填时间",
+      "value": "70 秒"
+    },
+    {
+      "key": "占地面积",
+      "value": "2×2"
+    },
+    {
+      "key": "判定面积",
+      "value": "1×1"
+    },
+    {
+      "key": "法术作用目标",
+      "value": "地面和空中目标"
+    },
+    {
+      "key": "触发半径",
+      "value": "4.5 格"
+    },
+    {
+      "key": "作用半径",
+      "value": "4.5 格"
+    },
+    {
+      "key": "作用类型",
+      "value": "让附近的兵种和建筑暂时隐形<sup>*</sup>"
+    },
+    {
+      "key": "释放方式",
+      "value": "原地释放"
+    },
+    {
+      "key": "隐形效果持续时间",
+      "value": "4.5 秒"
+    },
+    {
+      "key": "重新装填时间",
+      "value": "70 秒"
+    },
+    {
+      "key": "占地面积",
+      "value": "2×2"
+    },
+    {
+      "key": "判定面积",
+      "value": "1×1"
+    },
+    {
+      "key": "法术作用目标",
+      "value": "地面目标"
+    },
+    {
+      "key": "触发半径",
+      "value": "9 格"
+    },
+    {
+      "key": "作用半径",
+      "value": "4.7 格"
+    },
+    {
+      "key": "作用类型",
+      "value": "对敌人释放地震法术"
+    },
+    {
+      "key": "释放方式",
+      "value": "扔到目标身上"
+    },
+    {
+      "key": "对部队的伤害",
+      "value": "30%"
+    },
+    {
+      "key": "重新装填时间",
+      "value": "50 秒"
+    }
+  ],
+  "tables": [
+    {
+      "label": "升级数据",
+      "headers": [
+        "等级",
+        "生命值",
+        "升级费用",
+        "升级时间",
+        "升级后可获得的经验",
+        "所需大本等级",
+        "解锁的法术"
+      ],
+      "rows": [
+        [
+          "1",
+          "2500",
+          "9M",
+          "7",
+          "",
+          "15",
+          "狂暴法术"
+        ],
+        [
+          "2",
+          "2800",
+          "11M",
+          "8",
+          "",
+          "15",
+          "毒药法术"
+        ],
+        [
+          "3",
+          "3100",
+          "12M",
+          "8,12",
+          "",
+          "15",
+          "隐形法术"
+        ],
+        [
+          "4",
+          "3200",
+          "27M",
+          "14",
+          "",
+          "17",
+          "地震法术"
+        ]
+      ],
+      "extra_info": [
+        {
+          "column": 2,
+          "type": "cost",
+          "gpClass": "building",
+          "icon": "Gold"
+        },
+        {
+          "column": 3,
+          "type": "time",
+          "gpClass": "building"
+        },
+        {
+          "column": 4,
+          "type": "exp",
+          "icon": "Exp"
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026/02/23",
+      "rows": [
+        "在 17 本添加了 4 级法术塔。"
+      ]
+    },
+    {
+      "date": "2025/10/06",
+      "rows": [
+        "3 级法术塔的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2025/03/24",
+      "rows": [
+        "1 ~ 3 级法术塔的升级费用和升级时间减少。"
+      ]
+    },
+    {
+      "date": "2024/11/25",
+      "rows": [
+        "1 ~ 3 级法术塔的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2024/06/18",
+      "rows": [
+        "1 ~ 3 级法术塔的升级时间减少。",
+        "2 ~ 3 级法术塔的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2023/12/12",
+      "rows": [
+        "狂暴法术塔的法术范围从 6 格减少至 5 格。",
+        "狂暴法术塔的提高伤害从 +90% 减少至 +60%."
+      ]
+    },
+    {
+      "date": "2023/06/12",
+      "rows": [
+        "狂暴法术塔的重新填充时间增加 20 秒。",
+        "毒药法术塔和隐形法术塔的重新填充时间增加 10 秒。",
+        "狂暴法术塔的狂暴效果由 +100% 调整为 +90%."
+      ]
+    },
+    {
+      "date": "2022/12/12",
+      "rows": [
+        "毒药法术塔 “降低攻击速度” 的效果由 -35% 调整为 -25%."
+      ]
+    },
+    {
+      "date": "2022/10/10",
+      "rows": [
+        "15 本推出，并在 15 本新增建筑：法术塔。"
+      ]
+    }
+  ],
+  "notes": [
+    "法术塔的机制：法术塔升级后可以施放不同的法术，你可以在部署阵型时选择法术塔要释放的法术。",
+    "法术塔被摧毁后会自动释放一次法术，也就是说法术塔至少会发挥一次作用。",
+    "法术塔的触发机制见：[揭秘——法术塔触发机制](/p/5552)。"
+  ]
+}

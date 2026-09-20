@@ -1,0 +1,9 @@
+{
+  "name": "Coach Console",
+  "short_name": "Coach",
+  "start_url": "/static/index.html",
+  "display": "standalone",
+  "background_color": "#0c0e12",
+  "theme_color": "#0c0e12",
+  "icons": []
+}

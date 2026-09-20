@@ -1,0 +1,329 @@
+{
+  "id": "0487",
+  "link": "0487-Pet-House",
+  "tab": "建筑",
+  "section": "军事建筑",
+  "name": "战宠小屋",
+  "title": "部落冲突 coc 战宠小屋升级数据",
+  "description": "英雄配战宠，战斗如有神！建造战宠小屋，解锁强力战宠，让它们在战场上发挥各自的能力，与您的英雄并肩作战。",
+  "module": "upgrade-home",
+  "img_folder": "home_buildings/0487",
+  "canonical": "/upgrade/0487-Pet-House",
+  "wiki": "https://clashofclans.fandom.com/wiki/Pet_House",
+  "info_image": {
+    "level": "info",
+    "src": "Pet_House12_info.png",
+    "url": "https://static.clashpost.com/upgrade/home_buildings/0487/Pet_House12_info.png"
+  },
+  "image_groups": [
+    {
+      "group": "",
+      "images": [
+        {
+          "level": "1 级",
+          "src": "Pet_House1.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0487/Pet_House1.png"
+        },
+        {
+          "level": "2 级",
+          "src": "Pet_House2.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0487/Pet_House2.png"
+        },
+        {
+          "level": "3 级",
+          "src": "Pet_House3.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0487/Pet_House3.png"
+        },
+        {
+          "level": "4 级",
+          "src": "Pet_House4.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0487/Pet_House4.png"
+        },
+        {
+          "level": "5 级",
+          "src": "Pet_House5.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0487/Pet_House5.png"
+        },
+        {
+          "level": "6 级",
+          "src": "Pet_House6.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0487/Pet_House6.png"
+        },
+        {
+          "level": "7 级",
+          "src": "Pet_House7.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0487/Pet_House7.png"
+        },
+        {
+          "level": "8 级",
+          "src": "Pet_House8.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0487/Pet_House8.png"
+        },
+        {
+          "level": "9 级",
+          "src": "Pet_House9.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0487/Pet_House9.png"
+        },
+        {
+          "level": "10 级",
+          "src": "Pet_House10.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0487/Pet_House10.png"
+        },
+        {
+          "level": "11 级",
+          "src": "Pet_House11.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0487/Pet_House11.png"
+        },
+        {
+          "level": "12 级",
+          "src": "Pet_House12.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0487/Pet_House12.png"
+        }
+      ]
+    }
+  ],
+  "building_num": [
+    {
+      "title": "大本等级",
+      "num": "1 - 13, 14 - 18"
+    },
+    {
+      "title": "建筑数量",
+      "num": "     0,       1"
+    }
+  ],
+  "properties": [
+    {
+      "key": "占地面积",
+      "value": "3×3"
+    },
+    {
+      "key": "判定面积",
+      "value": "2×2"
+    }
+  ],
+  "tables": [
+    {
+      "label": "升级数据",
+      "headers": [
+        "等级",
+        "生命值",
+        "升级费用",
+        "升级时间",
+        "升级后可获得的经验",
+        "所需大本等级",
+        "解锁的战宠"
+      ],
+      "rows": [
+        [
+          "1",
+          "700",
+          "3M",
+          "1",
+          "",
+          "14",
+          "莱希"
+        ],
+        [
+          "2",
+          "800",
+          "4M",
+          "2",
+          "",
+          "14",
+          "闪枭"
+        ],
+        [
+          "3",
+          "900",
+          "5M",
+          "3",
+          "",
+          "14",
+          "大牦"
+        ],
+        [
+          "4",
+          "1000",
+          "6M",
+          "3,12",
+          "",
+          "14",
+          "独角"
+        ],
+        [
+          "5",
+          "1050",
+          "7M",
+          "4",
+          "",
+          "15",
+          "冰牙"
+        ],
+        [
+          "6",
+          "1100",
+          "8M",
+          "4,12",
+          "",
+          "15",
+          "地兽"
+        ],
+        [
+          "7",
+          "1150",
+          "9M",
+          "5",
+          "",
+          "15",
+          "猛蜥"
+        ],
+        [
+          "8",
+          "1200",
+          "10M",
+          "5,12",
+          "",
+          "15",
+          "凤凰"
+        ],
+        [
+          "9",
+          "1250",
+          "11M",
+          "6",
+          "",
+          "16",
+          "灵狐"
+        ],
+        [
+          "10",
+          "1300",
+          "12M",
+          "7",
+          "",
+          "16",
+          "愤怒水母"
+        ],
+        [
+          "11",
+          "1350",
+          "16.5M",
+          "9",
+          "",
+          "17",
+          "阿啾"
+        ],
+        [
+          "12",
+          "1400",
+          "25.5M",
+          "13,12",
+          "",
+          "18",
+          "贪婪渡鸦"
+        ]
+      ],
+      "extra_info": [
+        {
+          "column": 2,
+          "type": "cost",
+          "gpClass": "building",
+          "icon": "Elixir"
+        },
+        {
+          "column": 3,
+          "type": "time",
+          "gpClass": "building"
+        },
+        {
+          "column": 4,
+          "type": "exp",
+          "icon": "Exp"
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026/02/23",
+      "rows": [
+        "18 本新增 12 级战宠小屋，可解锁新战宠：贪婪渡鸦。"
+      ]
+    },
+    {
+      "date": "2025/11/17",
+      "rows": [
+        "11 级战宠小屋的升级时间和升级费用减少。"
+      ]
+    },
+    {
+      "date": "2025/10/06",
+      "rows": [
+        "1 ~ 10 级战宠小屋的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2025/03/24",
+      "rows": [
+        "17 本新增 11 级战宠小屋，可解锁新战宠：阿啾。",
+        "1 ~ 10 级战宠小屋的升级费用和升级时间减少。"
+      ]
+    },
+    {
+      "date": "2024/11/25",
+      "rows": [
+        "1 ~ 10 级战宠小屋的升级费用和升级时间减少。"
+      ]
+    },
+    {
+      "date": "2024/06/18",
+      "rows": [
+        "1 ~ 8 级战宠小屋的升级时间减少。",
+        "3 ~ 8 级战宠小屋的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2024/04/17",
+      "rows": [
+        "16 本新增 10 级战宠小屋，可解锁新战宠：愤怒水母。"
+      ]
+    },
+    {
+      "date": "2023/12/12",
+      "rows": [
+        "16 本推出，并在 16 本新增 9 级战宠小屋，可解锁新战宠：灵狐。",
+        "1 ~ 8 级战宠小屋的升级费用减少。"
+      ]
+    },
+    {
+      "date": "2022/12/12",
+      "rows": [
+        "战宠小屋升级时战宠可继续升级。",
+        "1 ~ 5 级战宠小屋的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2022/10/10",
+      "rows": [
+        "15 本推出，并在 15 本新增 5 ~ 8 级战宠小屋，可解锁四种新战宠。",
+        "1 ~ 4 级战宠小屋的升级费用和升级时间减少。"
+      ]
+    },
+    {
+      "date": "2021/04/12",
+      "rows": [
+        "14 本推出，新建筑：战宠小屋，可解锁四种新战宠。"
+      ]
+    }
+  ],
+  "notes": [
+    "战宠不在 [实验室](/upgrade/0483-Laboratory) 中升级，而是在战宠小屋中升级。战宠升级时既不占用实验室时间，也不占用建筑时间。",
+    "升级战宠小屋的同时可以升级战宠，也可以使用魔法物品立即升级战宠。",
+    "如想加速战宠升级，需使用英雄之书、**战宠**药水或英雄之锤，详见 [魔法物品](/p/1073) 页面。",
+    "如想强化战宠，需使用**英雄**药水，而非战宠药水。",
+    "战宠升级过程中无法跟随英雄出战，但战宠小屋升级过程中可以出战。",
+    "防守过程中战宠不会出战。",
+    "法术对战宠有效（[镜像法术](/upgrade/0105-Clone-Spell) 除外）。"
+  ]
+}

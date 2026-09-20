@@ -1,0 +1,200 @@
+{
+  "id": "0387",
+  "link": "0387-Giga-Bomb",
+  "tab": "建筑",
+  "section": "陷阱",
+  "name": "终极炸弹",
+  "title": "部落冲突 coc 终极炸弹升级数据",
+  "description": "村民们不想把这么危险的武器放在大本营里，所以把它搬了出来！终极炸弹会将敌人击退，并造成巨大伤害。这个陷阱的威力足够大，所以没必要藏起来！",
+  "module": "upgrade-home",
+  "img_folder": "home_buildings/0387",
+  "canonical": "/upgrade/0387-Giga-Bomb",
+  "wiki": "https://clashofclans.fandom.com/wiki/Giga_Bomb",
+  "info_image": {
+    "level": "info",
+    "src": "Giga_Bomb4.png",
+    "url": "https://static.clashpost.com/upgrade/home_buildings/0387/Giga_Bomb4.png"
+  },
+  "image_groups": [
+    {
+      "group": "正常情况",
+      "images": [
+        {
+          "level": "1 级",
+          "src": "Giga_Bomb1.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0387/Giga_Bomb1.png"
+        },
+        {
+          "level": "2 级",
+          "src": "Giga_Bomb2.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0387/Giga_Bomb2.png"
+        },
+        {
+          "level": "3 级",
+          "src": "Giga_Bomb3.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0387/Giga_Bomb3.png"
+        },
+        {
+          "level": "4 级",
+          "src": "Giga_Bomb4.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0387/Giga_Bomb4.png"
+        }
+      ]
+    },
+    {
+      "group": "未重新布置",
+      "images": [
+        {
+          "level": "1 级",
+          "src": "Giga_Bomb1_unarmed.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0387/Giga_Bomb1_unarmed.png"
+        },
+        {
+          "level": "2 级",
+          "src": "Giga_Bomb2_unarmed.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0387/Giga_Bomb2_unarmed.png"
+        },
+        {
+          "level": "3 级",
+          "src": "Giga_Bomb3_unarmed.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0387/Giga_Bomb3_unarmed.png"
+        },
+        {
+          "level": "4 级",
+          "src": "Giga_Bomb4_unarmed.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0387/Giga_Bomb4_unarmed.png"
+        }
+      ]
+    }
+  ],
+  "building_num": [
+    {
+      "title": "大本等级",
+      "num": "1 - 16, 17 - 18"
+    },
+    {
+      "title": "建筑数量",
+      "num": "     0,       1"
+    }
+  ],
+  "properties": [
+    {
+      "key": "占地面积",
+      "value": "2×2"
+    },
+    {
+      "key": "伤害类型",
+      "value": "范围伤害"
+    },
+    {
+      "key": "作用目标",
+      "value": "地面和空中目标"
+    },
+    {
+      "key": "触发半径",
+      "value": "3.5 格"
+    },
+    {
+      "key": "触发所需人口",
+      "value": "18"
+    },
+    {
+      "key": "伤害半径",
+      "value": "4.5 格"
+    }
+  ],
+  "tables": [
+    {
+      "label": "升级数据",
+      "headers": [
+        "等级",
+        "爆炸伤害",
+        "升级费用",
+        "升级时间",
+        "升级后可获得的经验",
+        "所需大本等级"
+      ],
+      "rows": [
+        [
+          "1",
+          "1100",
+          "5M",
+          "\\",
+          "\\",
+          "17"
+        ],
+        [
+          "2",
+          "1200",
+          "8.5M",
+          "5",
+          "657",
+          "17"
+        ],
+        [
+          "3",
+          "1300",
+          "12.5M",
+          "6",
+          "720",
+          "17"
+        ],
+        [
+          "4",
+          "1400",
+          "20M",
+          "13",
+          "1059",
+          "18"
+        ]
+      ],
+      "extra_info": [
+        {
+          "column": 2,
+          "type": "cost",
+          "gpClass": "building",
+          "icon": "Gold"
+        },
+        {
+          "column": 3,
+          "type": "time",
+          "gpClass": "building"
+        },
+        {
+          "column": 4,
+          "type": "exp",
+          "icon": "Exp"
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026/02/23",
+      "rows": [
+        "在 18 本推出 4 级终极炸弹。"
+      ]
+    },
+    {
+      "date": "2025/11/17",
+      "rows": [
+        "2 ~ 3 级终极炸弹的升级时间和升级费用减少。"
+      ]
+    },
+    {
+      "date": "2024/11/25",
+      "rows": [
+        "17 本推出，新陷阱：终极炸弹。"
+      ]
+    }
+  ],
+  "notes": [
+    "根据游戏设定，从 17 级 [大本营](/upgrade/0400-Town-Hall) 开始，大本营内的炸弹被拆分成了一个单独的陷阱：终极炸弹，因此 17 级大本营被摧毁后不再爆炸。",
+    "和 16 本被摧毁后引爆的炸弹相比，终极炸弹的爆炸半径保持不变，多出了击退效果，但不再释放毒雾（无减速和持续伤害效果）。",
+    "和其他陷阱不同，终极炸弹对进攻方可见。",
+    "只有当触发范围内至少有 18 单位的部队时，终极炸弹才会触发。",
+    "和 [隐形炸弹](/upgrade/0380-Bomb)、[巨型炸弹](/upgrade/0383-Giant-Bomb) 一样，法术和 [大守护者](/upgrade/0202-Grand-Warden) 的 [永恒书卷](/upgrade/0780-Eternal-Tome) 装备无法延缓或阻止爆炸。",
+    "终极炸弹的爆炸效果可以击退高生命值单位以及弹飞低生命值单位，它的范围伤害对空中单位也有效。",
+    "被终极炸弹波及到且仍然存活的部队会重新选择进攻目标。"
+  ]
+}

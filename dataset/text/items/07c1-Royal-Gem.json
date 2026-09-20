@@ -1,0 +1,37 @@
+{
+  "id": "07c1",
+  "link": "07c1-Royal-Gem",
+  "tab": "英雄",
+  "section": "装备（飞盾战神）",
+  "name": "皇家宝石",
+  "title": "部落冲突 coc 皇家宝石装备升级数据",
+  "description": "皇家宝石是飞盾战神的两件初始装备之一。皇家宝石可以使飞盾战神在使用技能时恢复大量生命值，这个属性可以与英雄本身的回血属性叠加。另外，皇家宝石可以增加飞盾战神的每秒伤害和生命值。",
+  "module": "upgrade-home",
+  "img_folder": "home_heroes/07c1",
+  "canonical": "/upgrade/07c1-Royal-Gem",
+  "wiki": "https://clashofclans.fandom.com/wiki/Royal_Gem",
+  "info_image": {
+    "level": "info",
+    "src": "Royal_Gem_info.png",
+    "url": "https://static.clashpost.com/upgrade/home_heroes/07c1/Royal_Gem_info.png"
+  },
+  "image_groups": [],
+  "building_num": [],
+  "properties": [
+    {
+      "key": "技能类型",
+      "value": "主动技能"
+    },
+    {
+      "key": "装备稀有度",
+      "value": "普通"
+    },
+    {
+      "key": "解锁条件",
+      "value": "有飞盾战神即可"
+    }
+  ],
+  "tables": [],
+  "timeline": [],
+  "notes": []
+}

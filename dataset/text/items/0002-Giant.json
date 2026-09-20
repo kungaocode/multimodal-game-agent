@@ -1,0 +1,424 @@
+{
+  "id": "0002",
+  "link": "0002-Giant",
+  "tab": "科技",
+  "section": "圣水兵",
+  "name": "巨人",
+  "title": "部落冲突 coc 巨人升级数据",
+  "description": "这些大块头看上去沉默寡言，但倘若他们发现箭塔或加农炮，您将见识他们狂躁的一面！巨人行动缓慢，但是抗打击能力强，可用于吸引火力。",
+  "module": "upgrade-home",
+  "img_folder": "home_tech/0002",
+  "canonical": "/upgrade/0002-Giant",
+  "wiki": "https://clashofclans.fandom.com/wiki/Giant",
+  "info_image": {
+    "level": "info",
+    "src": "Giant_info.png",
+    "url": "https://static.clashpost.com/upgrade/home_tech/0002/Giant_info.png"
+  },
+  "image_groups": [
+    {
+      "group": "",
+      "images": [
+        {
+          "level": "1 - 2 级",
+          "src": "Giant1.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0002/Giant1.png"
+        },
+        {
+          "level": "3 - 4 级",
+          "src": "Giant3.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0002/Giant3.png"
+        },
+        {
+          "level": "5 级",
+          "src": "Giant5.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0002/Giant5.png"
+        },
+        {
+          "level": "6 级",
+          "src": "Giant6.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0002/Giant6.png"
+        },
+        {
+          "level": "7 级",
+          "src": "Giant7.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0002/Giant7.png"
+        },
+        {
+          "level": "8 级",
+          "src": "Giant8.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0002/Giant8.png"
+        },
+        {
+          "level": "9 级",
+          "src": "Giant9.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0002/Giant9.png"
+        },
+        {
+          "level": "10 级",
+          "src": "Giant10.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0002/Giant10.png"
+        },
+        {
+          "level": "11 级",
+          "src": "Giant11.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0002/Giant11.png"
+        },
+        {
+          "level": "12 级",
+          "src": "Giant12.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0002/Giant12.png"
+        },
+        {
+          "level": "13 级",
+          "src": "Giant13.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0002/Giant13.png"
+        },
+        {
+          "level": "14 级",
+          "src": "Giant14.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0002/Giant14.png"
+        }
+      ]
+    }
+  ],
+  "building_num": [],
+  "properties": [
+    {
+      "key": "部队类型",
+      "value": "地面近战单位"
+    },
+    {
+      "key": "攻击偏好",
+      "value": "防御建筑 (偏好类型 1)"
+    },
+    {
+      "key": "伤害类型",
+      "value": "单体伤害"
+    },
+    {
+      "key": "攻击的目标",
+      "value": "仅地面目标"
+    },
+    {
+      "key": "占据人口",
+      "value": "5"
+    },
+    {
+      "key": "移动速度",
+      "value": "1.5 格/秒"
+    },
+    {
+      "key": "攻击速度",
+      "value": "2 秒/次"
+    },
+    {
+      "key": "攻击距离",
+      "value": "1 格"
+    },
+    {
+      "key": "所需训练营等级",
+      "value": "3"
+    },
+    {
+      "key": "所需大本等级",
+      "value": "2"
+    },
+    {
+      "key": "训练时间",
+      "value": "无"
+    },
+    {
+      "key": "捐赠费用",
+      "value": "3,3,9000,Elixir"
+    }
+  ],
+  "tables": [
+    {
+      "label": "升级数据",
+      "headers": [
+        "等级",
+        "每秒伤害",
+        "每次伤害",
+        "生命值",
+        "升级花费",
+        "升级时间",
+        "所需实验室等级",
+        "所需大本等级"
+      ],
+      "rows": [
+        [
+          "1",
+          "12",
+          "24",
+          "400",
+          "\\",
+          "\\",
+          "\\",
+          "1#"
+        ],
+        [
+          "2",
+          "15",
+          "30",
+          "500",
+          "40k",
+          "0, 2",
+          "2",
+          "4"
+        ],
+        [
+          "3",
+          "20",
+          "40",
+          "600",
+          "150k",
+          "0, 4",
+          "4",
+          "6"
+        ],
+        [
+          "4",
+          "24",
+          "48",
+          "700",
+          "400k",
+          "0, 6",
+          "5",
+          "7"
+        ],
+        [
+          "5",
+          "31",
+          "62",
+          "900",
+          "800k",
+          "0,12",
+          "6",
+          "8"
+        ],
+        [
+          "6",
+          "43",
+          "86",
+          "1100",
+          "1.5M",
+          "1",
+          "7",
+          "9"
+        ],
+        [
+          "7",
+          "55",
+          "110",
+          "1300",
+          "2.3M",
+          "1,12",
+          "8",
+          "10"
+        ],
+        [
+          "8",
+          "62",
+          "124",
+          "1500",
+          "2.6M",
+          "2",
+          "9",
+          "11"
+        ],
+        [
+          "9",
+          "70",
+          "140",
+          "1850",
+          "3.4M",
+          "2, 6",
+          "10",
+          "12"
+        ],
+        [
+          "10",
+          "78",
+          "156",
+          "2000",
+          "5M",
+          "3",
+          "11",
+          "13"
+        ],
+        [
+          "11",
+          "86",
+          "172",
+          "2200",
+          "7.5M",
+          "4",
+          "13",
+          "15"
+        ],
+        [
+          "12",
+          "94",
+          "188",
+          "2400",
+          "10M",
+          "5,12",
+          "14",
+          "16"
+        ],
+        [
+          "13",
+          "102",
+          "204",
+          "2600",
+          "15M",
+          "9,12",
+          "15",
+          "17"
+        ],
+        [
+          "14",
+          "114",
+          "228",
+          "3000",
+          "25M",
+          "13,12",
+          "16",
+          "18"
+        ]
+      ],
+      "extra_info": [
+        {
+          "column": 4,
+          "type": "cost",
+          "gpClass": "research",
+          "icon": "Elixir"
+        },
+        {
+          "column": 5,
+          "type": "time",
+          "gpClass": "research"
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2025/11/17",
+      "rows": [
+        "18 本推出，并在 18 本新增 14 级巨人。",
+        "13 级巨人的升级时间和升级费用减少。"
+      ]
+    },
+    {
+      "date": "2025/10/06",
+      "rows": [
+        "9 ~ 12 级巨人的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2025/06/16",
+      "rows": [
+        "1 ~ 5 级巨人的生命值提升。",
+        "1 ~ 3 级巨人的每秒伤害值提升。"
+      ]
+    },
+    {
+      "date": "2025/03/27",
+      "rows": [
+        "部队的训练时间取消，但增加了捐赠费用。"
+      ]
+    },
+    {
+      "date": "2025/03/24",
+      "rows": [
+        "2 ~ 5、8 ~ 12 级巨人的升级时间减少。",
+        "4 ~ 12 级巨人的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2024/11/25",
+      "rows": [
+        "17 本推出，并在 17 本新增 13 级巨人。",
+        "5 ~ 9、11 ~ 12 级巨人的升级时间减少。",
+        "9 ~ 12 级巨人的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2024/06/18",
+      "rows": [
+        "8 ~ 11 级巨人的升级时间减少。",
+        "11 级巨人的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2023/12/12",
+      "rows": [
+        "16 本推出，同时在 16 本新增 12 级巨人。",
+        "7 ~ 11 级巨人的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2023/06/12",
+      "rows": [
+        "9 ~ 10 级巨人的升级时间减少。",
+        "9 ~ 10 级巨人的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2022/10/10",
+      "rows": [
+        "15 本推出，并在 15 本新增 11 级巨人。",
+        "7 ~ 10 级巨人的升级费用和升级时间减少。"
+      ]
+    },
+    {
+      "date": "2022/06/27",
+      "rows": [
+        "7 ~ 10 级巨人的每秒伤害提高。"
+      ]
+    },
+    {
+      "date": "2021/12/09",
+      "rows": [
+        "2 ~ 10 级巨人的升级费用降低。",
+        "2 ~ 9 级巨人的升级时间减少。",
+        "3 ~ 7 级巨人的生命值提升。"
+      ]
+    },
+    {
+      "date": "2021/04/12",
+      "rows": [
+        "1 ~ 4 级巨人的训练费用：250/750/1250/1750 圣水→ 150/300/750/1500 圣水。",
+        "2 ~ 9 级的巨人的升级费用降低。",
+        "2 ~ 8 级巨人的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2020/10/12",
+      "rows": [
+        "13 本新增 10 级巨人。"
+      ]
+    },
+    {
+      "date": "2020-03-30",
+      "rows": [
+        "5 ~ 9 级巨人的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2019-12-09",
+      "rows": [
+        "13 本开放，8 到 9 级巨人的生命值从 1480/1660 增加到 1500/1850。"
+      ]
+    },
+    {
+      "date": "2019-04-02",
+      "rows": [
+        "包含大量降低发展成本和提高发展速度的调整，其中 5 ~ 8 级巨人的升级时间下调。"
+      ]
+    }
+  ],
+  "notes": []
+}

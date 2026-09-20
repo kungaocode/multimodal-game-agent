@@ -1,0 +1,415 @@
+{
+  "id": "0008",
+  "link": "0008-Dragon",
+  "tab": "科技",
+  "section": "圣水兵",
+  "name": "飞龙",
+  "title": "部落冲突 coc 飞龙（大龙、火龙）升级数据",
+  "description": "飞龙喷出的烈焰让人胆寒，这种恐怖的空中生物面对敌军毫不留情，任何人都难以逃出它的魔掌。",
+  "module": "upgrade-home",
+  "img_folder": "home_tech/0008",
+  "canonical": "/upgrade/0008-Dragon",
+  "wiki": "https://clashofclans.fandom.com/wiki/Dragon",
+  "info_image": {
+    "level": "info",
+    "src": "Dragon_info.png",
+    "url": "https://static.clashpost.com/upgrade/home_tech/0008/Dragon_info.png"
+  },
+  "image_groups": [
+    {
+      "group": "",
+      "images": [
+        {
+          "level": "1 级",
+          "src": "Dragon1.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0008/Dragon1.png"
+        },
+        {
+          "level": "2 级",
+          "src": "Dragon2.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0008/Dragon2.png"
+        },
+        {
+          "level": "3 级",
+          "src": "Dragon3.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0008/Dragon3.png"
+        },
+        {
+          "level": "4 级",
+          "src": "Dragon4.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0008/Dragon4.png"
+        },
+        {
+          "level": "5 级",
+          "src": "Dragon5.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0008/Dragon5.png"
+        },
+        {
+          "level": "6 级",
+          "src": "Dragon6.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0008/Dragon6.png"
+        },
+        {
+          "level": "7 级",
+          "src": "Dragon7.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0008/Dragon7.png"
+        },
+        {
+          "level": "8 级",
+          "src": "Dragon8.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0008/Dragon8.png"
+        },
+        {
+          "level": "9 级",
+          "src": "Dragon9.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0008/Dragon9.png"
+        },
+        {
+          "level": "10 级",
+          "src": "Dragon10.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0008/Dragon10.png"
+        },
+        {
+          "level": "11 级",
+          "src": "Dragon11.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0008/Dragon11.png"
+        },
+        {
+          "level": "12 级",
+          "src": "Dragon12.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0008/Dragon12.png"
+        }
+      ]
+    }
+  ],
+  "building_num": [],
+  "properties": [
+    {
+      "key": "部队类型",
+      "value": "空中单位"
+    },
+    {
+      "key": "攻击偏好",
+      "value": "无"
+    },
+    {
+      "key": "伤害类型",
+      "value": "范围伤害"
+    },
+    {
+      "key": "伤害半径",
+      "value": "0.3 格"
+    },
+    {
+      "key": "攻击的目标",
+      "value": "地面和空中目标"
+    },
+    {
+      "key": "占据人口",
+      "value": "20"
+    },
+    {
+      "key": "移动速度",
+      "value": "2 格/秒"
+    },
+    {
+      "key": "攻击速度",
+      "value": "1.25 秒/次"
+    },
+    {
+      "key": "攻击距离",
+      "value": "2.5 格"
+    },
+    {
+      "key": "所需训练营等级",
+      "value": "9"
+    },
+    {
+      "key": "所需大本等级",
+      "value": "7"
+    },
+    {
+      "key": "训练时间",
+      "value": "无"
+    },
+    {
+      "key": "捐赠费用",
+      "value": "10,10,30000,Elixir"
+    }
+  ],
+  "tables": [
+    {
+      "label": "升级数据",
+      "headers": [
+        "等级",
+        "每秒伤害",
+        "每次伤害",
+        "生命值",
+        "升级花费",
+        "升级时间",
+        "所需实验室等级",
+        "所需大本等级"
+      ],
+      "rows": [
+        [
+          "1",
+          "140",
+          "175",
+          "1900",
+          "\\",
+          "\\",
+          "1",
+          "7"
+        ],
+        [
+          "2",
+          "160",
+          "200",
+          "2100",
+          "1M",
+          "0,18",
+          "5",
+          "7"
+        ],
+        [
+          "3",
+          "180",
+          "225",
+          "2300",
+          "2M",
+          "1,12",
+          "6",
+          "8"
+        ],
+        [
+          "4",
+          "210",
+          "262.5",
+          "2700",
+          "3M",
+          "3",
+          "7",
+          "9"
+        ],
+        [
+          "5",
+          "240",
+          "300",
+          "3100",
+          "3.8M",
+          "3,12",
+          "8",
+          "10"
+        ],
+        [
+          "6",
+          "270",
+          "337.5",
+          "3400",
+          "4.9M",
+          "4",
+          "9",
+          "11"
+        ],
+        [
+          "7",
+          "310",
+          "387.5",
+          "3900",
+          "5M",
+          "4,12",
+          "10",
+          "12"
+        ],
+        [
+          "8",
+          "330",
+          "412.5",
+          "4200",
+          "7.5M",
+          "5",
+          "11",
+          "13"
+        ],
+        [
+          "9",
+          "350",
+          "437.5",
+          "4500",
+          "10.5M",
+          "7",
+          "12",
+          "14"
+        ],
+        [
+          "10",
+          "370",
+          "462.5",
+          "4900",
+          "12M",
+          "7,12",
+          "13",
+          "15"
+        ],
+        [
+          "11",
+          "390",
+          "487.5",
+          "5300",
+          "14M",
+          "8,12",
+          "14",
+          "16"
+        ],
+        [
+          "12",
+          "410",
+          "512.5",
+          "5700",
+          "18.5M",
+          "10",
+          "15",
+          "17"
+        ]
+      ],
+      "extra_info": [
+        {
+          "column": 4,
+          "type": "cost",
+          "gpClass": "research",
+          "icon": "Elixir"
+        },
+        {
+          "column": 5,
+          "type": "time",
+          "gpClass": "research"
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2025/11/17",
+      "rows": [
+        "12 级飞龙的升级时间和升级费用减少。"
+      ]
+    },
+    {
+      "date": "2025/10/06",
+      "rows": [
+        "7、8、10 级飞龙的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2025/03/27",
+      "rows": [
+        "部队的训练时间取消，但增加了捐赠费用。"
+      ]
+    },
+    {
+      "date": "2025/03/24",
+      "rows": [
+        "9 ~ 11 级飞龙的升级时间减少。",
+        "10 ~ 11 级飞龙的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2025/02/10",
+      "rows": [
+        "飞龙的训练时间由 3:00 改为 2:50"
+      ]
+    },
+    {
+      "date": "2024/11/25",
+      "rows": [
+        "17 本推出，并在 17 本新增 12 级飞龙。",
+        "5 ~ 11 级飞龙的升级时间减少。",
+        "7 ~ 11 级飞龙的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2024/02/27",
+      "rows": [
+        "11 级飞龙的生命值提升。"
+      ]
+    },
+    {
+      "date": "2023/12/12",
+      "rows": [
+        "16 本推出，同时在 16 本新增 11 级飞龙。",
+        "5 ~ 10 级飞龙的升级时间减少。",
+        "9 级飞龙的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2023/06/12",
+      "rows": [
+        "15 本新增 10 级飞龙。",
+        "7 ~ 8 级飞龙的升级费用和升级时间减少。"
+      ]
+    },
+    {
+      "date": "2022/10/10",
+      "rows": [
+        "5 ~ 9 级飞龙的升级费用和升级时间减少。"
+      ]
+    },
+    {
+      "date": "2022/05/02",
+      "rows": [
+        "家乡所有空军的攻击距离减少 0.5 格（超级飞龙除外，这玩意削了 1 格）。"
+      ]
+    },
+    {
+      "date": "2021/12/09",
+      "rows": [
+        "2 ~ 6 级飞龙的升级费用和升级时间减少。"
+      ]
+    },
+    {
+      "date": "2021/08/12",
+      "rows": [
+        "4 级飞龙的生命值从 2600 提升至 2700。"
+      ]
+    },
+    {
+      "date": "2021/06/15",
+      "rows": [
+        "14 本新增 9 级飞龙。。"
+      ]
+    },
+    {
+      "date": "2021/04/12",
+      "rows": [
+        "2 ~ 7 级飞龙的升级费用降低。",
+        "2 ~ 6 级飞龙的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2020/03/30",
+      "rows": [
+        "3 ~ 5 级飞龙的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2019/12/09",
+      "rows": [
+        "13 本开放，新增 8 级飞龙。"
+      ]
+    },
+    {
+      "date": "2019/09/11",
+      "rows": [
+        "5 ~ 7 级飞龙的生命值提升。"
+      ]
+    },
+    {
+      "date": "2019/04/02",
+      "rows": [
+        "2 ~ 6 级飞龙的升级时间减少。",
+        "所有等级飞龙的训练费用降低。"
+      ]
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,417 @@
+{
+  "id": "0009",
+  "link": "0009-P.E.K.K.A",
+  "tab": "科技",
+  "section": "圣水兵",
+  "name": "皮卡超人",
+  "title": "部落冲突 coc 皮卡超人升级数据",
+  "description": "皮卡超人是骑士？是武士？还是机器人？只有天知道！皮卡超人的重型盔甲可以抵御强大的攻击。",
+  "module": "upgrade-home",
+  "img_folder": "home_tech/0009",
+  "canonical": "/upgrade/0009-P.E.K.K.A",
+  "wiki": "https://clashofclans.fandom.com/wiki/P.E.K.K.A",
+  "info_image": {
+    "level": "info",
+    "src": "P.E.K.K.A_info.png",
+    "url": "https://static.clashpost.com/upgrade/home_tech/0009/P.E.K.K.A_info.png"
+  },
+  "image_groups": [
+    {
+      "group": "",
+      "images": [
+        {
+          "level": "1 级",
+          "src": "PEKKA1.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0009/PEKKA1.png"
+        },
+        {
+          "level": "2 级",
+          "src": "PEKKA2.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0009/PEKKA2.png"
+        },
+        {
+          "level": "3 级",
+          "src": "PEKKA3.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0009/PEKKA3.png"
+        },
+        {
+          "level": "4 级",
+          "src": "PEKKA4.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0009/PEKKA4.png"
+        },
+        {
+          "level": "5 级",
+          "src": "PEKKA5.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0009/PEKKA5.png"
+        },
+        {
+          "level": "6 级",
+          "src": "PEKKA6.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0009/PEKKA6.png"
+        },
+        {
+          "level": "7 级",
+          "src": "PEKKA7.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0009/PEKKA7.png"
+        },
+        {
+          "level": "8 级",
+          "src": "PEKKA8.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0009/PEKKA8.png"
+        },
+        {
+          "level": "9 级",
+          "src": "PEKKA9.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0009/PEKKA9.png"
+        },
+        {
+          "level": "10 级",
+          "src": "PEKKA10.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0009/PEKKA10.png"
+        },
+        {
+          "level": "11 级",
+          "src": "PEKKA11.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0009/PEKKA11.png"
+        },
+        {
+          "level": "12 级",
+          "src": "PEKKA12.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0009/PEKKA12.png"
+        },
+        {
+          "level": "13 级",
+          "src": "PEKKA13.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0009/PEKKA13.png"
+        }
+      ]
+    }
+  ],
+  "building_num": [],
+  "properties": [
+    {
+      "key": "部队类型",
+      "value": "地面近战单位"
+    },
+    {
+      "key": "攻击偏好",
+      "value": "无"
+    },
+    {
+      "key": "伤害类型",
+      "value": "单体伤害"
+    },
+    {
+      "key": "攻击的目标",
+      "value": "仅地面目标"
+    },
+    {
+      "key": "占据人口",
+      "value": "25"
+    },
+    {
+      "key": "移动速度",
+      "value": "2 格/秒"
+    },
+    {
+      "key": "攻击速度",
+      "value": "1.8 秒/次"
+    },
+    {
+      "key": "攻击距离",
+      "value": "0.8 格"
+    },
+    {
+      "key": "所需训练营等级",
+      "value": "10"
+    },
+    {
+      "key": "所需大本等级",
+      "value": "8"
+    },
+    {
+      "key": "训练时间",
+      "value": "无"
+    },
+    {
+      "key": "捐赠费用",
+      "value": "13,13,39000,Elixir"
+    }
+  ],
+  "tables": [
+    {
+      "label": "升级数据",
+      "headers": [
+        "等级",
+        "每秒伤害",
+        "每次伤害",
+        "生命值",
+        "升级花费",
+        "升级时间",
+        "所需实验室等级",
+        "所需大本等级"
+      ],
+      "rows": [
+        [
+          "1",
+          "260",
+          "468",
+          "3000",
+          "\\",
+          "\\",
+          "1",
+          "8"
+        ],
+        [
+          "2",
+          "290",
+          "522",
+          "3500",
+          "600k",
+          "0,12",
+          "6",
+          "8"
+        ],
+        [
+          "3",
+          "320",
+          "576",
+          "4000",
+          "1.3M",
+          "1",
+          "6",
+          "8"
+        ],
+        [
+          "4",
+          "360",
+          "648",
+          "4500",
+          "2M",
+          "1,12",
+          "7",
+          "9"
+        ],
+        [
+          "5",
+          "410",
+          "738",
+          "5000",
+          "2.1M",
+          "1,16",
+          "8",
+          "10"
+        ],
+        [
+          "6",
+          "470",
+          "846",
+          "5500",
+          "2.5M",
+          "2",
+          "8",
+          "10"
+        ],
+        [
+          "7",
+          "540",
+          "972",
+          "5900",
+          "4.5M",
+          "3",
+          "9",
+          "11"
+        ],
+        [
+          "8",
+          "610",
+          "1098",
+          "6300",
+          "5M",
+          "3,12",
+          "10",
+          "12"
+        ],
+        [
+          "9",
+          "680",
+          "1224",
+          "6700",
+          "5.8M",
+          "4",
+          "11",
+          "13"
+        ],
+        [
+          "10",
+          "750",
+          "1350",
+          "7200",
+          "10.5M",
+          "5,12",
+          "13",
+          "15"
+        ],
+        [
+          "11",
+          "810",
+          "1458",
+          "7700",
+          "12M",
+          "7",
+          "14",
+          "16"
+        ],
+        [
+          "12",
+          "870",
+          "1566",
+          "8200",
+          "16M",
+          "10",
+          "15",
+          "17"
+        ],
+        [
+          "13",
+          "940",
+          "1692",
+          "8800",
+          "28M",
+          "14,12",
+          "16",
+          "18"
+        ]
+      ],
+      "extra_info": [
+        {
+          "column": 4,
+          "type": "cost",
+          "gpClass": "research",
+          "icon": "Elixir"
+        },
+        {
+          "column": 5,
+          "type": "time",
+          "gpClass": "research"
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2025/11/17",
+      "rows": [
+        "18 本推出，并在 18 本新增 13 级皮卡超人。",
+        "12 级皮卡超人的升级时间和升级费用减少。"
+      ]
+    },
+    {
+      "date": "2025/10/06",
+      "rows": [
+        "9 ~ 11 级皮卡超人的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2025/03/27",
+      "rows": [
+        "部队的训练时间取消，但增加了捐赠费用。"
+      ]
+    },
+    {
+      "date": "2025/03/24",
+      "rows": [
+        "5 ~ 9、11 级皮卡超人的升级时间减少。",
+        "2 ~ 6、8 ~ 11 级皮卡超人的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2025/02/10",
+      "rows": [
+        "17 本新增 12 级皮卡超人。"
+      ]
+    },
+    {
+      "date": "2024/11/25",
+      "rows": [
+        "4 ~ 11 级皮卡超人的升级时间减少。",
+        "2、6 ~ 11 级皮卡超人的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2024/06/18",
+      "rows": [
+        "10 级皮卡超人的升级时间减少。",
+        "10 级皮卡超人的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2023/12/12",
+      "rows": [
+        "16 本推出，同时在 16 本新增 11 级皮卡超人。",
+        "5 ~ 10 级皮卡超人的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2023/06/12",
+      "rows": [
+        "15 本新增 10 级皮卡超人。",
+        "8 ~ 9 级皮卡超人的升级费用和升级时间减少。"
+      ]
+    },
+    {
+      "date": "2022/10/10",
+      "rows": [
+        "5 ~ 9 级皮卡超人的升级费用和升级时间减少。"
+      ]
+    },
+    {
+      "date": "2022/06/27",
+      "rows": [
+        "2 ~ 7 级皮卡超人的生命值增加。"
+      ]
+    },
+    {
+      "date": "2021/12/09",
+      "rows": [
+        "2 ~ 9 级皮卡超人的升级费用降低。",
+        "2 ~ 7 级皮卡超人的升级时间减少。",
+        "1 ~ 6 级皮卡超人的生命值提升。",
+        "1 ~ 3 级皮卡超人的伤害增加。"
+      ]
+    },
+    {
+      "date": "2021/04/12",
+      "rows": [
+        "2 ~ 7 级皮卡超人的升级费用降低。",
+        "2 ~ 6 级皮卡超人的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2020/10/12",
+      "rows": [
+        "13 本新增 9 级皮卡超人。"
+      ]
+    },
+    {
+      "date": "2020/03/30",
+      "rows": [
+        "2 ~ 7 级皮卡超人的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2019/12/09",
+      "rows": [
+        "8 级皮卡超人有新模型。"
+      ]
+    },
+    {
+      "date": "2019/04/02",
+      "rows": [
+        "2 ~ 3、5 ~ 7 级皮卡超人的升级时间减少。",
+        "所有等级皮卡超人的训练费用降低。"
+      ]
+    }
+  ],
+  "notes": []
+}

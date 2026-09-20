@@ -1,0 +1,298 @@
+{
+  "id": "0384",
+  "link": "0384-Seeking-Air-Mine",
+  "tab": "建筑",
+  "section": "陷阱",
+  "name": "搜空地雷",
+  "title": "部落冲突 coc 搜空地雷（黑炸）升级数据",
+  "description": "鸟儿？飞机？不管是什么，反正搜空地雷会把它炸飞。这类陷阱会对单个空中部队造成毁灭性打击。",
+  "module": "upgrade-home",
+  "img_folder": "home_buildings/0384",
+  "canonical": "/upgrade/0384-Seeking-Air-Mine",
+  "wiki": "https://clashofclans.fandom.com/wiki/Seeking_Air_Mine",
+  "info_image": {
+    "level": "info",
+    "src": "Seeking_Air_Mine_info.png",
+    "url": "https://static.clashpost.com/upgrade/home_buildings/0384/Seeking_Air_Mine_info.png"
+  },
+  "image_groups": [
+    {
+      "group": "",
+      "images": [
+        {
+          "level": "1 - 2 级",
+          "src": "Seeking_Air_Mine1.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0384/Seeking_Air_Mine1.png"
+        },
+        {
+          "level": "3 - 4 级",
+          "src": "Seeking_Air_Mine3.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0384/Seeking_Air_Mine3.png"
+        },
+        {
+          "level": "5 - 6 级",
+          "src": "Seeking_Air_Mine5.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0384/Seeking_Air_Mine5.png"
+        },
+        {
+          "level": "7 - 8 级",
+          "src": "Seeking_Air_Mine7.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0384/Seeking_Air_Mine7.png"
+        },
+        {
+          "level": "未重新布置",
+          "src": "Seeking_Air_Mine_unarmed.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0384/Seeking_Air_Mine_unarmed.png"
+        }
+      ]
+    }
+  ],
+  "building_num": [
+    {
+      "title": "大本等级",
+      "num": "1 - 6, 7, 8, 9, 10 - 11, 12, 13, 14 - 16, 17 - 18"
+    },
+    {
+      "title": "建筑数量",
+      "num": "    0, 1, 2, 4,       5,  6,  7,       8,       9"
+    }
+  ],
+  "properties": [
+    {
+      "key": "占地面积",
+      "value": "1×1"
+    },
+    {
+      "key": "伤害类型",
+      "value": "单体伤害"
+    },
+    {
+      "key": "作用目标",
+      "value": "仅空中目标"
+    },
+    {
+      "key": "触发半径",
+      "value": "4 格"
+    },
+    {
+      "key": "触发后的飞行速度",
+      "value": "3.5 格/秒"
+    },
+    {
+      "key": "爆炸延时",
+      "value": "0.75 秒"
+    }
+  ],
+  "tables": [
+    {
+      "label": "升级数据",
+      "headers": [
+        "等级",
+        "爆炸伤害",
+        "升级费用",
+        "升级时间",
+        "升级后可获得的经验",
+        "所需大本等级"
+      ],
+      "rows": [
+        [
+          "1",
+          "1500",
+          "12k",
+          "0",
+          "---",
+          "7"
+        ],
+        [
+          "2",
+          "1800",
+          "600k",
+          "0,12",
+          "207",
+          "9"
+        ],
+        [
+          "3",
+          "2100",
+          "1.2M",
+          "1",
+          "293",
+          "10"
+        ],
+        [
+          "4",
+          "2500",
+          "2.5M",
+          "1,12",
+          "360",
+          "13"
+        ],
+        [
+          "5",
+          "2800",
+          "5M",
+          "3",
+          "509",
+          "15"
+        ],
+        [
+          "6",
+          "3000",
+          "6.5M",
+          "4,12",
+          "623",
+          "16"
+        ],
+        [
+          "7",
+          "3200",
+          "12M",
+          "5,12",
+          "689",
+          "17"
+        ],
+        [
+          "8",
+          "3350",
+          "19M",
+          "11,12",
+          "996",
+          "18"
+        ]
+      ],
+      "extra_info": [
+        {
+          "column": 2,
+          "type": "cost",
+          "gpClass": "building",
+          "icon": "Gold"
+        },
+        {
+          "column": 3,
+          "type": "time",
+          "gpClass": "building"
+        },
+        {
+          "column": 4,
+          "type": "exp",
+          "icon": "Exp"
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026/02/23",
+      "rows": [
+        "在 18 本推出 8 级搜空地雷。"
+      ]
+    },
+    {
+      "date": "2025/11/17",
+      "rows": [
+        "7 级搜空地雷的升级时间和升级费用减少。"
+      ]
+    },
+    {
+      "date": "2025/10/06",
+      "rows": [
+        "4 ~ 6 级搜空地雷的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2025/03/24",
+      "rows": [
+        "4 ~ 6 级搜空地雷的升级时间减少。",
+        "2 ~ 6 级搜空地雷的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2024/11/25",
+      "rows": [
+        "17 本推出，并在 17 本新增 7 级搜空地雷。",
+        "17 本可以新解锁一个搜空地雷。",
+        "5 ~ 6 级搜空地雷的升级费用和时间减少。"
+      ]
+    },
+    {
+      "date": "2024/06/18",
+      "rows": [
+        "5 级搜空地雷的升级时间减少。",
+        "5 级搜空地雷的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2024/02/27",
+      "rows": [
+        "16 本新增 6 级搜空地雷。"
+      ]
+    },
+    {
+      "date": "2023/12/12",
+      "rows": [
+        "2 ~ 4 级搜空地雷的升级时间减少。",
+        "1 ~ 4 级搜空地雷的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2023/06/12",
+      "rows": [
+        "15 本新增 5 级搜空地雷。",
+        "4 级搜空地雷的升级费用和升级时间减少。"
+      ]
+    },
+    {
+      "date": "2022/10/10",
+      "rows": [
+        "4 级搜空地雷的升级时间减少。",
+        "3 ~ 4 级搜空地雷的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2022/05/02",
+      "rows": [
+        "4 级搜空地雷的伤害从 2400 提升至 2500。"
+      ]
+    },
+    {
+      "date": "2021/08/12",
+      "rows": [
+        "搜空地雷的飞行速度从每秒 2.5 格提升至每秒 3.5 格。"
+      ]
+    },
+    {
+      "date": "2021/04/12",
+      "rows": [
+        "14 本推出，并在 14 本新解锁一个搜空地雷。",
+        "2 ~ 3 级搜空地雷的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2020/06/22",
+      "rows": [
+        "如果触发了搜空地雷的敌方单位在被地雷炸中之前就被消灭，搜空地雷不会再去追踪地图另一边的飞行单位。",
+        "现在搜空地雷的最大追踪半径为其触发半径的 2 倍。"
+      ]
+    },
+    {
+      "date": "2020/03/30",
+      "rows": [
+        "2 ~ 3 级搜空地雷的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2019/12/09",
+      "rows": [
+        "13 本推出，并在 13 本新增 4 级搜空地雷。",
+        "13 本新解锁一个搜空地雷。"
+      ]
+    },
+    {
+      "date": "2019/04/02",
+      "rows": [
+        "玩家上线后，所有的陷阱将自动被重新布置，重新布置不再需要花费金币。然而，如果玩家不上线，陷阱就不会被重新布置，所以你仍然可以攻击到陷阱失效的村庄。"
+      ]
+    }
+  ],
+  "notes": []
+}

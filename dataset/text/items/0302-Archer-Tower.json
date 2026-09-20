@@ -1,0 +1,863 @@
+{
+  "id": "0302",
+  "link": "0302-Archer-Tower",
+  "tab": "建筑",
+  "section": "防御建筑",
+  "name": "箭塔",
+  "title": "部落冲突 coc 箭塔升级数据",
+  "description": "箭塔范围比加农炮远，而且还可以攻击空中目标。",
+  "module": "upgrade-home",
+  "img_folder": "home_buildings/0302",
+  "canonical": "/upgrade/0302-Archer-Tower",
+  "wiki": "https://clashofclans.fandom.com/wiki/Archer_Tower",
+  "info_image": {
+    "level": "info",
+    "src": "Archer_Tower21.png",
+    "url": "https://static.clashpost.com/upgrade/home_buildings/0302/Archer_Tower21.png"
+  },
+  "image_groups": [
+    {
+      "group": "未改装",
+      "images": [
+        {
+          "level": "1 级",
+          "src": "Archer_Tower1.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0302/Archer_Tower1.png"
+        },
+        {
+          "level": "2 级",
+          "src": "Archer_Tower2.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0302/Archer_Tower2.png"
+        },
+        {
+          "level": "3 级",
+          "src": "Archer_Tower3.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0302/Archer_Tower3.png"
+        },
+        {
+          "level": "4 级",
+          "src": "Archer_Tower4.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0302/Archer_Tower4.png"
+        },
+        {
+          "level": "5 级",
+          "src": "Archer_Tower5.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0302/Archer_Tower5.png"
+        },
+        {
+          "level": "6 级",
+          "src": "Archer_Tower6.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0302/Archer_Tower6.png"
+        },
+        {
+          "level": "7 级",
+          "src": "Archer_Tower7.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0302/Archer_Tower7.png"
+        },
+        {
+          "level": "8 级",
+          "src": "Archer_Tower8.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0302/Archer_Tower8.png"
+        },
+        {
+          "level": "9 级",
+          "src": "Archer_Tower9.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0302/Archer_Tower9.png"
+        },
+        {
+          "level": "10 级",
+          "src": "Archer_Tower10.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0302/Archer_Tower10.png"
+        },
+        {
+          "level": "11 级",
+          "src": "Archer_Tower11.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0302/Archer_Tower11.png"
+        },
+        {
+          "level": "12 级",
+          "src": "Archer_Tower12.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0302/Archer_Tower12.png"
+        },
+        {
+          "level": "13 级",
+          "src": "Archer_Tower13.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0302/Archer_Tower13.png"
+        },
+        {
+          "level": "14 级",
+          "src": "Archer_Tower14.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0302/Archer_Tower14.png"
+        },
+        {
+          "level": "15 级",
+          "src": "Archer_Tower15.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0302/Archer_Tower15.png"
+        },
+        {
+          "level": "16 级",
+          "src": "Archer_Tower16.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0302/Archer_Tower16.png"
+        },
+        {
+          "level": "17 级",
+          "src": "Archer_Tower17.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0302/Archer_Tower17.png"
+        },
+        {
+          "level": "18 级",
+          "src": "Archer_Tower18.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0302/Archer_Tower18.png"
+        },
+        {
+          "level": "19 级",
+          "src": "Archer_Tower19.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0302/Archer_Tower19.png"
+        },
+        {
+          "level": "20 级",
+          "src": "Archer_Tower20.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0302/Archer_Tower20.png"
+        },
+        {
+          "level": "21 级",
+          "src": "Archer_Tower21.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0302/Archer_Tower21.png"
+        }
+      ]
+    },
+    {
+      "group": "已改装，处于标准模式",
+      "images": [
+        {
+          "level": "10 级",
+          "src": "Archer_Tower10A.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0302/Archer_Tower10A.png"
+        },
+        {
+          "level": "11 级",
+          "src": "Archer_Tower11A.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0302/Archer_Tower11A.png"
+        },
+        {
+          "level": "12 级",
+          "src": "Archer_Tower12A.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0302/Archer_Tower12A.png"
+        },
+        {
+          "level": "13 级",
+          "src": "Archer_Tower13A.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0302/Archer_Tower13A.png"
+        },
+        {
+          "level": "14 级",
+          "src": "Archer_Tower14A.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0302/Archer_Tower14A.png"
+        },
+        {
+          "level": "15 级",
+          "src": "Archer_Tower15A.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0302/Archer_Tower15A.png"
+        },
+        {
+          "level": "16 级",
+          "src": "Archer_Tower16A.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0302/Archer_Tower16A.png"
+        },
+        {
+          "level": "17 级",
+          "src": "Archer_Tower17A.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0302/Archer_Tower17A.png"
+        },
+        {
+          "level": "18 级",
+          "src": "Archer_Tower18A.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0302/Archer_Tower18A.png"
+        },
+        {
+          "level": "19 级",
+          "src": "Archer_Tower19A.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0302/Archer_Tower19A.png"
+        },
+        {
+          "level": "20 级",
+          "src": "Archer_Tower20A.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0302/Archer_Tower20A.png"
+        },
+        {
+          "level": "21 级",
+          "src": "Archer_Tower21A.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0302/Archer_Tower21A.png"
+        }
+      ]
+    },
+    {
+      "group": "已改装，处于快速模式",
+      "images": [
+        {
+          "level": "10 级",
+          "src": "Archer_Tower10B.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0302/Archer_Tower10B.png"
+        },
+        {
+          "level": "11 级",
+          "src": "Archer_Tower11B.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0302/Archer_Tower11B.png"
+        },
+        {
+          "level": "12 级",
+          "src": "Archer_Tower12B.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0302/Archer_Tower12B.png"
+        },
+        {
+          "level": "13 级",
+          "src": "Archer_Tower13B.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0302/Archer_Tower13B.png"
+        },
+        {
+          "level": "14 级",
+          "src": "Archer_Tower14B.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0302/Archer_Tower14B.png"
+        },
+        {
+          "level": "15 级",
+          "src": "Archer_Tower15B.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0302/Archer_Tower15B.png"
+        },
+        {
+          "level": "16 级",
+          "src": "Archer_Tower16B.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0302/Archer_Tower16B.png"
+        },
+        {
+          "level": "17 级",
+          "src": "Archer_Tower17B.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0302/Archer_Tower17B.png"
+        },
+        {
+          "level": "18 级",
+          "src": "Archer_Tower18B.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0302/Archer_Tower18B.png"
+        },
+        {
+          "level": "19 级",
+          "src": "Archer_Tower19B.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0302/Archer_Tower19B.png"
+        },
+        {
+          "level": "20 级",
+          "src": "Archer_Tower20B.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0302/Archer_Tower20B.png"
+        },
+        {
+          "level": "21 级",
+          "src": "Archer_Tower21B.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0302/Archer_Tower21B.png"
+        }
+      ]
+    }
+  ],
+  "building_num": [
+    {
+      "title": "大本等级",
+      "num": "1, 2 - 3, 4, 5 - 6,  7, 8, 9, 10, 11 - 15, 16, 17 - 18"
+    },
+    {
+      "title": "建筑数量",
+      "num": "0,     1, 2,     3,  4, 5, 6,  7,       8,  4,       2"
+    },
+    {
+      "title": "大本等级",
+      "num": "1, 2 - 3, 4, 5 - 6,  7, 8, 9, 10, 11 - 15, 16, 17 - 18"
+    },
+    {
+      "title": "建筑数量",
+      "num": "0,     1, 2,     3,  4, 5, 6,  7,       8,  4,       2"
+    }
+  ],
+  "properties": [
+    {
+      "key": "占地面积",
+      "value": "3×3"
+    },
+    {
+      "key": "判定面积",
+      "value": "2×2"
+    },
+    {
+      "key": "伤害类型",
+      "value": "单体伤害"
+    },
+    {
+      "key": "攻击的目标",
+      "value": "地面和空中目标"
+    },
+    {
+      "key": "射程",
+      "value": "10 格"
+    },
+    {
+      "key": "攻速",
+      "value": "0.5 秒/次"
+    },
+    {
+      "key": "改装所需箭塔等级",
+      "value": "10"
+    },
+    {
+      "key": "改装所需夜世界箭塔等级",
+      "value": "6"
+    },
+    {
+      "key": "改装数量",
+      "value": "仅限一个"
+    },
+    {
+      "key": "改装时间",
+      "value": "7"
+    },
+    {
+      "key": "改装费用",
+      "value": "3M"
+    },
+    {
+      "key": "占地面积",
+      "value": "3×3"
+    },
+    {
+      "key": "判定面积",
+      "value": "2×2"
+    },
+    {
+      "key": "伤害类型",
+      "value": "单体伤害"
+    },
+    {
+      "key": "攻击的目标",
+      "value": "地面和空中目标"
+    },
+    {
+      "key": "射程",
+      "value": "7 格"
+    },
+    {
+      "key": "攻速",
+      "value": "0.25 秒/次"
+    },
+    {
+      "key": "改装所需箭塔等级",
+      "value": "10"
+    },
+    {
+      "key": "改装所需夜世界箭塔等级",
+      "value": "6"
+    },
+    {
+      "key": "改装数量",
+      "value": "仅限一个"
+    },
+    {
+      "key": "改装时间",
+      "value": "7"
+    },
+    {
+      "key": "改装费用",
+      "value": "3M"
+    }
+  ],
+  "tables": [
+    {
+      "label": "升级数据",
+      "headers": [
+        "等级",
+        "每秒伤害",
+        "每次伤害",
+        "生命值",
+        "升级费用",
+        "升级时间",
+        "升级后可获得的经验",
+        "所需大本等级"
+      ],
+      "rows": [
+        [
+          "1",
+          "11",
+          "5.5",
+          "380",
+          "1k",
+          "0, 0, 0,15",
+          "",
+          "2"
+        ],
+        [
+          "2",
+          "15",
+          "7.5",
+          "420",
+          "2k",
+          "0, 0, 2",
+          "",
+          "2"
+        ],
+        [
+          "3",
+          "19",
+          "9.5",
+          "460",
+          "5k",
+          "0, 0,20",
+          "",
+          "3"
+        ],
+        [
+          "4",
+          "25",
+          "12.5",
+          "500",
+          "20k",
+          "0, 1",
+          "",
+          "4"
+        ],
+        [
+          "5",
+          "30",
+          "15",
+          "540",
+          "70k",
+          "0, 1,30",
+          "",
+          "5"
+        ],
+        [
+          "6",
+          "35",
+          "17.5",
+          "580",
+          "80k",
+          "0, 2",
+          "",
+          "5"
+        ],
+        [
+          "7",
+          "42",
+          "21",
+          "630",
+          "150k",
+          "0, 3",
+          "",
+          "6"
+        ],
+        [
+          "8",
+          "48",
+          "24",
+          "690",
+          "200k",
+          "0, 4",
+          "",
+          "7"
+        ],
+        [
+          "9",
+          "56",
+          "28",
+          "750",
+          "400k",
+          "0, 5",
+          "",
+          "8"
+        ],
+        [
+          "10",
+          "63",
+          "31.5",
+          "810",
+          "460k",
+          "0, 6",
+          "",
+          "8"
+        ],
+        [
+          "11",
+          "70",
+          "35",
+          "890",
+          "600k",
+          "0, 7",
+          "",
+          "9"
+        ],
+        [
+          "12",
+          "74",
+          "37",
+          "970",
+          "700k",
+          "0, 8",
+          "",
+          "10"
+        ],
+        [
+          "13",
+          "78",
+          "39",
+          "1050",
+          "1M",
+          "0,10",
+          "",
+          "10"
+        ],
+        [
+          "14",
+          "82",
+          "41",
+          "1130",
+          "1.1M",
+          "0,11",
+          "",
+          "11"
+        ],
+        [
+          "15",
+          "85",
+          "42.5",
+          "1230",
+          "1.3M",
+          "0,12",
+          "",
+          "11"
+        ],
+        [
+          "16",
+          "90",
+          "45",
+          "1310",
+          "1.6M",
+          "0,16",
+          "",
+          "12"
+        ],
+        [
+          "17",
+          "100",
+          "50",
+          "1390",
+          "1.8M",
+          "0,20",
+          "",
+          "12"
+        ],
+        [
+          "18",
+          "110",
+          "55",
+          "1510",
+          "2M",
+          "1",
+          "",
+          "13"
+        ],
+        [
+          "19",
+          "120",
+          "60",
+          "1600",
+          "2.2M",
+          "1, 6",
+          "",
+          "13"
+        ],
+        [
+          "20",
+          "135",
+          "67.5",
+          "1700",
+          "3M",
+          "1,12",
+          "",
+          "14"
+        ],
+        [
+          "21",
+          "145",
+          "72.5",
+          "1800",
+          "4M",
+          "2",
+          "",
+          "15"
+        ]
+      ],
+      "extra_info": []
+    },
+    {
+      "label": "升级数据",
+      "headers": [
+        "等级",
+        "每秒伤害",
+        "每次伤害",
+        "生命值",
+        "升级费用",
+        "升级时间",
+        "升级后可获得的经验",
+        "所需大本等级"
+      ],
+      "rows": [
+        [
+          "10",
+          "126",
+          "31.5",
+          "810",
+          "460k",
+          "0, 6",
+          "",
+          "8"
+        ],
+        [
+          "11",
+          "140",
+          "35",
+          "890",
+          "600k",
+          "0, 7",
+          "",
+          "9"
+        ],
+        [
+          "12",
+          "150",
+          "37.5",
+          "970",
+          "700k",
+          "0, 8",
+          "",
+          "10"
+        ],
+        [
+          "13",
+          "160",
+          "40",
+          "1050",
+          "1M",
+          "0,10",
+          "",
+          "10"
+        ],
+        [
+          "14",
+          "180",
+          "45",
+          "1130",
+          "1.1M",
+          "0,11",
+          "",
+          "11"
+        ],
+        [
+          "15",
+          "200",
+          "50",
+          "1230",
+          "1.3M",
+          "0,12",
+          "",
+          "11"
+        ],
+        [
+          "16",
+          "210",
+          "52.5",
+          "1310",
+          "1.6M",
+          "0,16",
+          "",
+          "12"
+        ],
+        [
+          "17",
+          "220",
+          "55",
+          "1390",
+          "1.8M",
+          "0,20",
+          "",
+          "12"
+        ],
+        [
+          "18",
+          "240",
+          "60",
+          "1510",
+          "2M",
+          "1",
+          "",
+          "13"
+        ],
+        [
+          "19",
+          "260",
+          "65",
+          "1600",
+          "2.2M",
+          "1, 6",
+          "",
+          "13"
+        ],
+        [
+          "20",
+          "276",
+          "69",
+          "1700",
+          "3M",
+          "1,12",
+          "",
+          "14"
+        ],
+        [
+          "21",
+          "290",
+          "72.5",
+          "1800",
+          "4M",
+          "2",
+          "",
+          "15"
+        ]
+      ],
+      "extra_info": []
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2025/10/06",
+      "rows": [
+        "16 ~ 21 级箭塔的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2025/03/24",
+      "rows": [
+        "1 ~ 5、7 ~ 9、11 ~ 12、14、16、18、20 ~ 21 级箭塔的升级时间减少。",
+        "5 ~ 21 级箭塔的升级费用降低。",
+        "箭塔的改装费用降低。"
+      ]
+    },
+    {
+      "date": "2025/02/10",
+      "rows": [
+        "1、2、6、10、13、15、17、19 级箭塔的升级时间减少。",
+        "13、15、17、19 级箭塔的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2024/11/25",
+      "rows": [
+        "17 本推出，其中 2 个箭塔可以被合并为 1 个多人箭塔。",
+        "17 本新解锁一个箭塔。",
+        "7 ~ 9、12、14、16、18、20 ~ 21 级箭塔的升级时间减少。",
+        "16 ~ 21 级箭塔的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2024/06/18",
+      "rows": [
+        "14 ~ 21 级箭塔的升级时间减少。",
+        "16 ~ 18、20 ~ 21 级箭塔的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2024/06/03",
+      "rows": [
+        "12 ~ 20 级箭塔的每秒伤害降低。",
+        "自本次更新后，快速模式秒伤 = 2 倍标准模式秒伤，标准模式次伤 = 快速模式次伤这两个规律不再成立。"
+      ]
+    },
+    {
+      "date": "2024/04/09",
+      "rows": [
+        "16 ~ 17 级箭塔的生命值减少。"
+      ]
+    },
+    {
+      "date": "2023/12/12",
+      "rows": [
+        "16 本推出，其中 4 个箭塔可以被合并为 2 个多人箭塔。",
+        "5 ~ 21 级箭塔的升级时间减少。",
+        "6 ~ 12、14 ~ 15、20 ~ 21 级箭塔的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2023/06/12",
+      "rows": [
+        "16 ~ 19 级箭塔的升级费用和升级时间减少。"
+      ]
+    },
+    {
+      "date": "2022/10/10",
+      "rows": [
+        "15 本推出，并在 15 本新增 21 级箭塔。",
+        "12 ~ 20 级箭塔的升级费用和升级时间减少。"
+      ]
+    },
+    {
+      "date": "2022/06/27",
+      "rows": [
+        "16 ~ 17 级箭塔的伤害降低。"
+      ]
+    },
+    {
+      "date": "2021/12/09",
+      "rows": [
+        "8 ~ 19 级箭塔的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2021/06/15",
+      "rows": [
+        "14 本新增 20 级箭塔。"
+      ]
+    },
+    {
+      "date": "2021/04/12",
+      "rows": [
+        "8 ~ 13 级箭塔的升级费用降低。",
+        "2、5、7、9 ~ 16 级箭塔的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2021/01/20",
+      "rows": [
+        "修复了改装后的箭塔首发箭矢射出位置不合理的问题。"
+      ]
+    },
+    {
+      "date": "2020/10/12",
+      "rows": [
+        "13 本新增 19 级箭塔。"
+      ]
+    },
+    {
+      "date": "2020/03/30",
+      "rows": [
+        "13 本新增 18 级箭塔。"
+      ]
+    },
+    {
+      "date": "2019/04/02",
+      "rows": [
+        "10 ~ 16 级箭塔的升级费用降低。",
+        "6 ~ 13、16 级箭塔的升级时间减少。",
+        "12 级大本营新增 17 级箭塔。"
+      ]
+    },
+    {
+      "date": "2019/02/22",
+      "rows": [
+        "10 ~ 16 级箭塔的伤害降低。"
+      ]
+    }
+  ],
+  "notes": []
+}

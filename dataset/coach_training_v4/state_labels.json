@@ -1,0 +1,326 @@
+[
+  {
+    "frame": "20260903_021941_2ab2a4f5_step_0001",
+    "state": "村庄待机",
+    "detections": []
+  },
+  {
+    "frame": "20260903_024259_0ec865a4_step_0001",
+    "state": "村庄待机",
+    "detections": []
+  },
+  {
+    "frame": "20260903_024259_0ec865a4_step_0002",
+    "state": "搜索中",
+    "detections": []
+  },
+  {
+    "frame": "20260903_024259_0ec865a4_step_0003",
+    "state": "村庄待机",
+    "detections": [
+      {
+        "class_id": 11,
+        "confidence": 0.514
+      },
+      {
+        "class_id": 11,
+        "confidence": 0.458
+      },
+      {
+        "class_id": 11,
+        "confidence": 0.305
+      }
+    ]
+  },
+  {
+    "frame": "20260903_024259_0ec865a4_step_0004",
+    "state": "战斗中",
+    "detections": []
+  },
+  {
+    "frame": "20260903_024259_0ec865a4_step_0005",
+    "state": "战斗中",
+    "detections": []
+  },
+  {
+    "frame": "20260903_024259_0ec865a4_step_0006",
+    "state": "搜索中",
+    "detections": []
+  },
+  {
+    "frame": "20260903_024259_0ec865a4_step_0007",
+    "state": "村庄待机",
+    "detections": []
+  },
+  {
+    "frame": "20260903_024259_0ec865a4_step_0008",
+    "state": "战斗中",
+    "detections": []
+  },
+  {
+    "frame": "20260903_024259_0ec865a4_step_0009",
+    "state": "战斗中",
+    "detections": []
+  },
+  {
+    "frame": "20260903_024259_0ec865a4_step_0010",
+    "state": "战斗中",
+    "detections": []
+  },
+  {
+    "frame": "20260903_024259_0ec865a4_step_0011",
+    "state": "战斗中",
+    "detections": []
+  },
+  {
+    "frame": "20260903_024259_0ec865a4_step_0012",
+    "state": "战斗中",
+    "detections": []
+  },
+  {
+    "frame": "20260903_024259_0ec865a4_step_0013",
+    "state": "战斗中",
+    "detections": []
+  },
+  {
+    "frame": "20260903_024259_0ec865a4_step_0014",
+    "state": "战斗中",
+    "detections": []
+  },
+  {
+    "frame": "20260903_024259_0ec865a4_step_0015",
+    "state": "战斗结束",
+    "detections": []
+  },
+  {
+    "frame": "20260903_024259_0ec865a4_step_0016",
+    "state": "战斗结束",
+    "detections": []
+  },
+  {
+    "frame": "20260903_024259_0ec865a4_step_0017",
+    "state": "村庄待机",
+    "detections": []
+  },
+  {
+    "frame": "donate_dry_run_step_0001",
+    "state": "村庄待机",
+    "detections": []
+  },
+  {
+    "frame": "donate_dry_run_step_0002",
+    "state": "捐兵-消息列表",
+    "detections": [
+      {
+        "class_id": 11,
+        "confidence": 0.809
+      },
+      {
+        "class_id": 11,
+        "confidence": 0.756
+      },
+      {
+        "class_id": 11,
+        "confidence": 0.69
+      },
+      {
+        "class_id": 11,
+        "confidence": 0.553
+      },
+      {
+        "class_id": 11,
+        "confidence": 0.47
+      },
+      {
+        "class_id": 11,
+        "confidence": 0.455
+      },
+      {
+        "class_id": 11,
+        "confidence": 0.432
+      },
+      {
+        "class_id": 11,
+        "confidence": 0.321
+      }
+    ]
+  },
+  {
+    "frame": "donate_dry_run_step_0003",
+    "state": "捐兵-消息列表",
+    "detections": [
+      {
+        "class_id": 11,
+        "confidence": 0.687
+      },
+      {
+        "class_id": 11,
+        "confidence": 0.593
+      },
+      {
+        "class_id": 11,
+        "confidence": 0.538
+      },
+      {
+        "class_id": 11,
+        "confidence": 0.399
+      },
+      {
+        "class_id": 11,
+        "confidence": 0.353
+      },
+      {
+        "class_id": 11,
+        "confidence": 0.306
+      }
+    ]
+  },
+  {
+    "frame": "donate_dry_run_step_0004",
+    "state": "捐兵-消息列表",
+    "detections": [
+      {
+        "class_id": 11,
+        "confidence": 0.847
+      },
+      {
+        "class_id": 11,
+        "confidence": 0.764
+      },
+      {
+        "class_id": 11,
+        "confidence": 0.713
+      },
+      {
+        "class_id": 11,
+        "confidence": 0.651
+      },
+      {
+        "class_id": 11,
+        "confidence": 0.583
+      },
+      {
+        "class_id": 11,
+        "confidence": 0.555
+      },
+      {
+        "class_id": 11,
+        "confidence": 0.475
+      },
+      {
+        "class_id": 11,
+        "confidence": 0.443
+      },
+      {
+        "class_id": 11,
+        "confidence": 0.365
+      },
+      {
+        "class_id": 11,
+        "confidence": 0.357
+      },
+      {
+        "class_id": 11,
+        "confidence": 0.335
+      }
+    ]
+  },
+  {
+    "frame": "farm_dry_run_step_0001",
+    "state": "村庄待机",
+    "detections": []
+  },
+  {
+    "frame": "farm_dry_run_step_0002",
+    "state": "搜索中",
+    "detections": []
+  },
+  {
+    "frame": "farm_dry_run_step_0003",
+    "state": "村庄待机",
+    "detections": [
+      {
+        "class_id": 11,
+        "confidence": 0.514
+      },
+      {
+        "class_id": 11,
+        "confidence": 0.458
+      },
+      {
+        "class_id": 11,
+        "confidence": 0.305
+      }
+    ]
+  },
+  {
+    "frame": "farm_dry_run_step_0004",
+    "state": "战斗中",
+    "detections": []
+  },
+  {
+    "frame": "farm_dry_run_step_0005",
+    "state": "战斗中",
+    "detections": []
+  },
+  {
+    "frame": "farm_dry_run_step_0006",
+    "state": "搜索中",
+    "detections": []
+  },
+  {
+    "frame": "farm_dry_run_step_0007",
+    "state": "战斗中",
+    "detections": []
+  },
+  {
+    "frame": "farm_dry_run_step_0008",
+    "state": "战斗中",
+    "detections": []
+  },
+  {
+    "frame": "farm_dry_run_step_0009",
+    "state": "战斗中",
+    "detections": []
+  },
+  {
+    "frame": "farm_dry_run_step_0010",
+    "state": "战斗中",
+    "detections": []
+  },
+  {
+    "frame": "farm_dry_run_step_0011",
+    "state": "战斗中",
+    "detections": []
+  },
+  {
+    "frame": "farm_dry_run_step_0012",
+    "state": "战斗中",
+    "detections": []
+  },
+  {
+    "frame": "farm_dry_run_step_0013",
+    "state": "战斗中",
+    "detections": []
+  },
+  {
+    "frame": "farm_dry_run_step_0014",
+    "state": "战斗中",
+    "detections": []
+  },
+  {
+    "frame": "farm_dry_run_step_0015",
+    "state": "战斗结束",
+    "detections": []
+  },
+  {
+    "frame": "farm_dry_run_step_0016",
+    "state": "战斗结束",
+    "detections": []
+  },
+  {
+    "frame": "farm_dry_run_step_0017",
+    "state": "村庄待机",
+    "detections": []
+  }
+]

@@ -1,0 +1,57 @@
+{
+  "_说明": "状态转换识别测试的期望标注（2026-09-02 初版，基于截图 OCR 判定；用户扩充数据后应持续补充）。",
+  "状态定义": {
+    "村庄待机": "自己村庄界面，存在进攻按钮；全部资源已满 → 停止",
+    "搜索中": "常规战搜索对手界面/搜索动画，存在「搜索对手」或「下一个」按钮",
+    "战斗中": "敌方村庄界面（可获得的战利品/开战倒计时），可评估对手值不值得、可点结束战斗",
+    "战斗结束": "战斗结束界面，存在返回按钮",
+    "捐兵-消息列表": "部落消息/请求增援列表，存在「增援」按钮（打资源 FSM 范围外）"
+  },
+  "samples": {
+    "1.jpg": {
+      "expected_state": "村庄待机",
+      "signals": {"attack_button": true, "search_button": false, "next_button": false, "return_button": false, "end_battle_button": false},
+      "notes": "OCR: 进攻！/商店/大战役胜利之星"
+    },
+    "969D0B802AD4B70CF0192309E445D813.jpg": {
+      "expected_state": "村庄待机",
+      "signals": {"attack_button": true, "search_button": false, "next_button": false, "return_button": false, "end_battle_button": false},
+      "notes": "OCR: 进攻！（军队界面，底部进攻按钮可见）"
+    },
+    "8E51F4BD7F83D813C461319EC0344618.jpg": {
+      "expected_state": "搜索中",
+      "signals": {"attack_button": false, "search_button": true, "next_button": false, "return_button": false, "end_battle_button": false},
+      "notes": "OCR: 联机模式/常规战/搜索对手（找到对手前的搜索界面）"
+    },
+    "A8B537A65DA5ED009F57C5B48618D349.jpg": {
+      "expected_state": "搜索中",
+      "signals": {"attack_button": false, "search_button": false, "next_button": false, "return_button": true, "end_battle_button": false},
+      "notes": "OCR: 搜索对手·· / 回营（搜索动画，可回营）"
+    },
+    "018FC1FEC651489E0163B3D1862C3FB6.jpg": {
+      "expected_state": "战斗中",
+      "signals": {"attack_button": false, "search_button": false, "next_button": true, "return_button": false, "end_battle_button": true},
+      "notes": "OCR: 开战倒计时20秒/可获得的战利品/下一个/结束战斗（已找到对手，评估/开战界面）"
+    },
+    "22F095699B555FB086774F42AD8CD342.jpg": {
+      "expected_state": "战斗中",
+      "signals": {"attack_button": false, "search_button": false, "next_button": true, "return_button": false, "end_battle_button": true},
+      "notes": "OCR: 开战倒计时/可获得的战利品：/下一个/结束战斗（已找到对手）"
+    },
+    "1449A3F4C1023C9E47794DAB7EDAE762.jpg": {
+      "expected_state": "捐兵-消息列表",
+      "signals": {"donate_message_list": true, "donate_request": true, "donate_button": true},
+      "notes": "OCR: 部落消息/救命啊！我需要增援！/请求增援/增援（多个请求条目）"
+    },
+    "C31DEB336E1E3FBF66409DA86B3650DF.jpg": {
+      "expected_state": "捐兵-消息列表",
+      "signals": {"donate_message_list": true, "donate_request": true, "donate_button": true},
+      "notes": "OCR: 部落消息/部落聊天/救命啊！我需要增援！/增援"
+    },
+    "EA356B8831F1998529FB5251186DB162.jpg": {
+      "expected_state": "捐兵-消息列表",
+      "signals": {"donate_message_list": true, "donate_request": true, "donate_button": true},
+      "notes": "OCR: 部落消息··/救命啊！我需要增援！/增援资源/增援部队：0/6/增援（请求增援可视）"
+    }
+  }
+}

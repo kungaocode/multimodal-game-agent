@@ -1,0 +1,61 @@
+{
+  "id": "028b",
+  "link": "028b-Greedy-Raven",
+  "tab": "英雄",
+  "section": "战宠",
+  "name": "贪婪渡鸦",
+  "title": "部落冲突 coc 贪婪渡鸦升级数据",
+  "description": "更可怕的稻草人，也挡不住贪婪渡鸦扑向闪亮的战利品！这只蒙面怪鸟快速挥动羽翼，专门攻击资源建筑和关键目标，对其造成额外伤害。",
+  "module": "upgrade-home",
+  "img_folder": "home_heroes/028b",
+  "canonical": "/upgrade/028b-Greedy-Raven",
+  "wiki": "https://clashofclans.fandom.com/wiki/Greedy_Raven",
+  "info_image": {
+    "level": "info",
+    "src": "Greedy_Raven_info.png",
+    "url": "https://static.clashpost.com/upgrade/home_heroes/028b/Greedy_Raven_info.png"
+  },
+  "image_groups": [],
+  "building_num": [],
+  "properties": [
+    {
+      "key": "攻击偏好",
+      "value": "英雄附近的资源类建筑<br>(5 倍伤害)"
+    },
+    {
+      "key": "伤害类型",
+      "value": "单体伤害"
+    },
+    {
+      "key": "攻击的目标",
+      "value": "地面和空中目标"
+    },
+    {
+      "key": "占据人口",
+      "value": "20"
+    },
+    {
+      "key": "移动速度",
+      "value": "3.5 格/秒"
+    },
+    {
+      "key": "攻击速度",
+      "value": "0.42 秒/次"
+    },
+    {
+      "key": "攻击距离",
+      "value": "8 格"
+    },
+    {
+      "key": "所需战宠小屋等级",
+      "value": "12"
+    },
+    {
+      "key": "所需大本等级",
+      "value": "18"
+    }
+  ],
+  "tables": [],
+  "timeline": [],
+  "notes": []
+}

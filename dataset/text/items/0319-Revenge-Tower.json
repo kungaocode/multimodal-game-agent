@@ -1,0 +1,391 @@
+{
+  "id": "0319",
+  "link": "0319-Revenge-Tower",
+  "tab": "建筑",
+  "section": "防御建筑",
+  "name": "复仇之塔",
+  "title": "部落冲突 coc 复仇之塔升级数据",
+  "description": "如果你摧毁了它的建筑伙伴，复仇之塔就会锁定你、追踪你，然后狠狠惩罚你。随着周围建筑被摧毁，它会变得更强大、更愤怒！",
+  "module": "upgrade-home",
+  "img_folder": "home_buildings/0319",
+  "canonical": "/upgrade/0319-Revenge-Tower",
+  "wiki": "https://clashofclans.fandom.com/wiki/Revenge_Tower",
+  "info_image": {
+    "level": "info",
+    "src": "Revenge_Tower2_Dormant.png",
+    "url": "https://static.clashpost.com/upgrade/home_buildings/0319/Revenge_Tower2_Dormant.png"
+  },
+  "image_groups": [
+    {
+      "group": "",
+      "images": [
+        {
+          "level": "1 级",
+          "src": "Revenge_Tower1_Dormant.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0319/Revenge_Tower1_Dormant.png"
+        },
+        {
+          "level": "2 级",
+          "src": "Revenge_Tower2_Dormant.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0319/Revenge_Tower2_Dormant.png"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "images": [
+        {
+          "level": "1 级",
+          "src": "Revenge_Tower1_Stage1.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0319/Revenge_Tower1_Stage1.png"
+        },
+        {
+          "level": "2 级",
+          "src": "Revenge_Tower2_Stage1.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0319/Revenge_Tower2_Stage1.png"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "images": [
+        {
+          "level": "1 级",
+          "src": "Revenge_Tower1_Stage2.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0319/Revenge_Tower1_Stage2.png"
+        },
+        {
+          "level": "2 级",
+          "src": "Revenge_Tower2_Stage2.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0319/Revenge_Tower2_Stage2.png"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "images": [
+        {
+          "level": "1 级",
+          "src": "Revenge_Tower1_Stage3.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0319/Revenge_Tower1_Stage3.png"
+        },
+        {
+          "level": "2 级",
+          "src": "Revenge_Tower2_Stage3.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0319/Revenge_Tower2_Stage3.png"
+        }
+      ]
+    }
+  ],
+  "building_num": [
+    {
+      "title": "大本等级",
+      "num": "1 - 17, 18"
+    },
+    {
+      "title": "建筑数量",
+      "num": "     0,  1"
+    },
+    {
+      "title": "大本等级",
+      "num": "1 - 17, 18"
+    },
+    {
+      "title": "建筑数量",
+      "num": "     0,  1"
+    },
+    {
+      "title": "大本等级",
+      "num": "1 - 17, 18"
+    },
+    {
+      "title": "建筑数量",
+      "num": "     0,  1"
+    },
+    {
+      "title": "大本等级",
+      "num": "1 - 17, 18"
+    },
+    {
+      "title": "建筑数量",
+      "num": "     0,  1"
+    }
+  ],
+  "properties": [
+    {
+      "key": "占地面积",
+      "value": "3×3"
+    },
+    {
+      "key": "判定面积",
+      "value": "2×2"
+    },
+    {
+      "key": "占地面积",
+      "value": "3×3"
+    },
+    {
+      "key": "判定面积",
+      "value": "2×2"
+    },
+    {
+      "key": "伤害类型",
+      "value": "单体伤害"
+    },
+    {
+      "key": "攻击的目标",
+      "value": "地面和空中目标"
+    },
+    {
+      "key": "射程",
+      "value": "11 格"
+    },
+    {
+      "key": "攻速",
+      "value": "1.2 秒/次"
+    },
+    {
+      "key": "占地面积",
+      "value": "3×3"
+    },
+    {
+      "key": "判定面积",
+      "value": "2×2"
+    },
+    {
+      "key": "伤害类型",
+      "value": "直接伤害 + 弹射伤害"
+    },
+    {
+      "key": "攻击的目标",
+      "value": "地面和空中目标"
+    },
+    {
+      "key": "射程",
+      "value": "11 格"
+    },
+    {
+      "key": "攻速",
+      "value": "0.6 秒/次"
+    },
+    {
+      "key": "最远弹射距离",
+      "value": "4 格"
+    },
+    {
+      "key": "最高弹射次数",
+      "value": "1"
+    },
+    {
+      "key": "弹射伤害衰减",
+      "value": "40%"
+    },
+    {
+      "key": "占地面积",
+      "value": "3×3"
+    },
+    {
+      "key": "判定面积",
+      "value": "2×2"
+    },
+    {
+      "key": "伤害类型",
+      "value": "直接伤害 + 弹射伤害"
+    },
+    {
+      "key": "攻击的目标",
+      "value": "地面和空中目标"
+    },
+    {
+      "key": "射程",
+      "value": "11 格"
+    },
+    {
+      "key": "攻速",
+      "value": "0.35 秒/次"
+    },
+    {
+      "key": "最远弹射距离",
+      "value": "4 格"
+    },
+    {
+      "key": "最高弹射次数",
+      "value": "2"
+    },
+    {
+      "key": "弹射伤害衰减",
+      "value": "40%"
+    }
+  ],
+  "tables": [
+    {
+      "label": "升级数据",
+      "headers": [
+        "等级",
+        "生命值",
+        "升级费用",
+        "升级时间",
+        "升级后可获得的经验",
+        "所需大本等级"
+      ],
+      "rows": [
+        [
+          "1",
+          "5800",
+          "430k",
+          "13, 0, 0, 5",
+          "",
+          "18"
+        ],
+        [
+          "2",
+          "6200",
+          "460k",
+          "14",
+          "",
+          "18"
+        ]
+      ],
+      "extra_info": []
+    },
+    {
+      "label": "升级数据",
+      "headers": [
+        "等级",
+        "每秒伤害",
+        "每次伤害",
+        "生命值",
+        "升级费用",
+        "升级时间",
+        "升级后可获得的经验",
+        "所需大本等级"
+      ],
+      "rows": [
+        [
+          "1",
+          "375",
+          "450",
+          "5800",
+          "430k",
+          "13, 0, 0, 5",
+          "",
+          "18"
+        ],
+        [
+          "2",
+          "416",
+          "500",
+          "6200",
+          "460k",
+          "14",
+          "",
+          "18"
+        ]
+      ],
+      "extra_info": []
+    },
+    {
+      "label": "升级数据",
+      "headers": [
+        "等级",
+        "每秒伤害",
+        "直接伤害",
+        "弹射伤害",
+        "生命值",
+        "升级费用",
+        "升级时间",
+        "升级后可获得的经验",
+        "所需大本等级"
+      ],
+      "rows": [
+        [
+          "1",
+          "375",
+          "225",
+          "135",
+          "5800",
+          "430k",
+          "13, 0, 0, 5",
+          "",
+          "18"
+        ],
+        [
+          "2",
+          "416",
+          "250",
+          "150",
+          "6200",
+          "460k",
+          "14",
+          "",
+          "18"
+        ]
+      ],
+      "extra_info": []
+    },
+    {
+      "label": "升级数据",
+      "headers": [
+        "等级",
+        "每秒伤害",
+        "直接伤害",
+        "弹射伤害*",
+        "生命值",
+        "升级费用",
+        "升级时间",
+        "升级后可获得的经验",
+        "所需大本等级"
+      ],
+      "rows": [
+        [
+          "1",
+          "642",
+          "225",
+          "135 / 81",
+          "5800",
+          "430k",
+          "13, 0, 0, 5",
+          "",
+          "18"
+        ],
+        [
+          "2",
+          "714",
+          "250",
+          "150 / 90",
+          "6200",
+          "460k",
+          "14",
+          "",
+          "18"
+        ]
+      ],
+      "extra_info": []
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026/01/28",
+      "rows": [
+        "复仇之塔最后一个阶段的攻速由 0.3 秒/次 降低到 0.35 秒/次。",
+        "复仇之塔二阶段的触发条件改为 25 座建筑被摧毁（之前是 20 座）。",
+        "复仇之塔三阶段的触发条件改为 50 座建筑被摧毁（之前是 40 座）。",
+        "复仇之塔三阶段的每秒伤害降低。"
+      ]
+    },
+    {
+      "date": "2025/11/17",
+      "rows": [
+        "18 本推出，并在 18 本新增建筑：复仇之塔，共设两个等级。"
+      ]
+    }
+  ],
+  "notes": [
+    "复仇之塔随着建筑被摧毁的数量增加而增强。",
+    "游戏开始时，它处于休眠状态，不会主动攻击。",
+    "当 5 座建筑物被摧毁时，它会进入一阶段。一阶段的复仇之塔会以较慢的速度向地面和空中单位发射高伤害的弹丸。",
+    "当 25 座建筑物被摧毁时，它会进入二阶段。此时复仇之塔每次造成的伤害减半，但射速翻倍，并且可以像 [跳弹加农炮](/upgrade/0313-Ricochet-Cannon) 一样将弹丸反弹到其他目标，不过只能反弹一次。",
+    "当 50 座建筑物被摧毁时，它会进入三阶段，也就是最终阶段。此时复仇之塔每次造成的伤害不变，射速再次翻倍，且可以反弹两次。",
+    "即使复仇之塔处于休眠状态，它仍被视为防御建筑，这意味着 [巨人](/upgrade/0002-Giant)、[气球兵](/upgrade/0005-Balloon) 等以防御为目标的单位会优先攻击它。"
+  ]
+}

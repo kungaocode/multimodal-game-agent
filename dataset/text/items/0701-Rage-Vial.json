@@ -1,0 +1,37 @@
+{
+  "id": "0701",
+  "link": "0701-Rage-Vial",
+  "tab": "英雄",
+  "section": "装备（野蛮人之王）",
+  "name": "狂暴药水瓶",
+  "title": "部落冲突 coc 狂暴药水瓶装备升级数据",
+  "description": "狂暴药水瓶是野蛮人之王的两件初始装备之一。狂暴药水瓶可以使蛮王在技能生效期间伤害提高，移动速度也更快，也能提升使用技能时恢复的生命值。即使不使用技能，该装备也可提升蛮王的普攻伤害。",
+  "module": "upgrade-home",
+  "img_folder": "home_heroes/0701",
+  "canonical": "/upgrade/0701-Rage-Vial",
+  "wiki": "https://clashofclans.fandom.com/wiki/Rage_Vial",
+  "info_image": {
+    "level": "info",
+    "src": "Rage_Vial_info.png",
+    "url": "https://static.clashpost.com/upgrade/home_heroes/0701/Rage_Vial_info.png"
+  },
+  "image_groups": [],
+  "building_num": [],
+  "properties": [
+    {
+      "key": "技能类型",
+      "value": "主动技能"
+    },
+    {
+      "key": "装备稀有度",
+      "value": "普通"
+    },
+    {
+      "key": "解锁条件",
+      "value": "有野蛮人之王即可"
+    }
+  ],
+  "tables": [],
+  "timeline": [],
+  "notes": []
+}

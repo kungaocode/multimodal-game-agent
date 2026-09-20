@@ -1,0 +1,41 @@
+{
+  "id": "0721",
+  "link": "0721-Dark-Orb",
+  "tab": "英雄",
+  "section": "装备（亡灵王子）",
+  "name": "暗黑魔球",
+  "title": "部落冲突 coc 暗黑魔球装备升级数据",
+  "description": "暗黑魔球是亡灵王子的两件初始装备之一。暗黑魔球装备可以让亡灵王子使用技能时召唤出一颗水晶，并向他所面对的方向移动。水晶移动时会对周围的部队造成少量伤害，并在一段时间内减慢敌方单位的移动速度和攻击速度。",
+  "module": "upgrade-home",
+  "img_folder": "home_heroes/0721",
+  "canonical": "/upgrade/0721-Dark-Orb",
+  "wiki": "https://clashofclans.fandom.com/wiki/Dark_Orb",
+  "info_image": {
+    "level": "info",
+    "src": "Dark_Orb_info.png",
+    "url": "https://static.clashpost.com/upgrade/home_heroes/0721/Dark_Orb_info.png"
+  },
+  "image_groups": [],
+  "building_num": [],
+  "properties": [
+    {
+      "key": "技能类型",
+      "value": "主动技能"
+    },
+    {
+      "key": "装备稀有度",
+      "value": "普通"
+    },
+    {
+      "key": "解锁条件",
+      "value": "有亡灵王子即可"
+    },
+    {
+      "key": "水晶的作用半径",
+      "value": "6 格（中心点在英雄前方）"
+    }
+  ],
+  "tables": [],
+  "timeline": [],
+  "notes": []
+}

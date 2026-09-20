@@ -1,0 +1,41 @@
+{
+  "id": "0743",
+  "link": "0743-Healer-Puppet",
+  "tab": "英雄",
+  "section": "装备（弓箭女皇）",
+  "name": "天使木偶",
+  "title": "部落冲突 coc 天使木偶（天使玩偶）装备升级数据",
+  "description": "天使木偶是弓箭女皇的一件普通装备。天使木偶可以使弓箭女皇在使用技能使召唤天使，还可以给女王提供额外的生命值，并赋予女王自愈能力。",
+  "module": "upgrade-home",
+  "img_folder": "home_heroes/0743",
+  "canonical": "/upgrade/0743-Healer-Puppet",
+  "wiki": "https://clashofclans.fandom.com/wiki/Healer_Puppet",
+  "info_image": {
+    "level": "info",
+    "src": "Healer_Puppet_info.png",
+    "url": "https://static.clashpost.com/upgrade/home_heroes/0743/Healer_Puppet_info.png"
+  },
+  "image_groups": [],
+  "building_num": [],
+  "properties": [
+    {
+      "key": "技能类型",
+      "value": "主动技能"
+    },
+    {
+      "key": "装备稀有度",
+      "value": "普通"
+    },
+    {
+      "key": "所需铁匠铺等级",
+      "value": "5"
+    },
+    {
+      "key": "所需大本等级",
+      "value": "12"
+    }
+  ],
+  "tables": [],
+  "timeline": [],
+  "notes": []
+}

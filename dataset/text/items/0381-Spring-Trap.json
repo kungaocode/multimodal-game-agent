@@ -1,0 +1,367 @@
+{
+  "id": "0381",
+  "link": "0381-Spring-Trap",
+  "tab": "建筑",
+  "section": "陷阱",
+  "name": "隐形弹簧",
+  "title": "部落冲突 coc 隐形弹簧升级数据",
+  "description": "曾经有一个精妙的弹簧摆在我的面前，我没有看见，然后，就没有然后了！",
+  "module": "upgrade-home",
+  "img_folder": "home_buildings/0381",
+  "canonical": "/upgrade/0381-Spring-Trap",
+  "wiki": "https://clashofclans.fandom.com/wiki/Spring_Trap",
+  "info_image": {
+    "level": "info",
+    "src": "Spring_Trap_info.png",
+    "url": "https://static.clashpost.com/upgrade/home_buildings/0381/Spring_Trap_info.png"
+  },
+  "image_groups": [
+    {
+      "group": "常规模型",
+      "images": [
+        {
+          "level": "1 - 2 级",
+          "src": "Spring_Trap1.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0381/Spring_Trap1.png"
+        },
+        {
+          "level": "3 - 4 级",
+          "src": "Spring_Trap3.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0381/Spring_Trap3.png"
+        },
+        {
+          "level": "5 - 6 级",
+          "src": "Spring_Trap5.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0381/Spring_Trap5.png"
+        },
+        {
+          "level": "7 - 8 级",
+          "src": "Spring_Trap7.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0381/Spring_Trap7.png"
+        },
+        {
+          "level": "9 - 10 级",
+          "src": "Spring_Trap9.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0381/Spring_Trap9.png"
+        },
+        {
+          "level": "11 - 12 级",
+          "src": "Spring_Trap11.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0381/Spring_Trap11.png"
+        },
+        {
+          "level": "13 级",
+          "src": "Spring_Trap13.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0381/Spring_Trap13.png"
+        }
+      ]
+    },
+    {
+      "group": "未重新布置",
+      "images": [
+        {
+          "level": "1 - 2 级",
+          "src": "Spring_Trap1_unarmed.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0381/Spring_Trap1_unarmed.png"
+        },
+        {
+          "level": "3 - 6 级",
+          "src": "Spring_Trap3_unarmed.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0381/Spring_Trap3_unarmed.png"
+        },
+        {
+          "level": "7 - 13 级",
+          "src": "Spring_Trap7_unarmed.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0381/Spring_Trap7_unarmed.png"
+        }
+      ]
+    }
+  ],
+  "building_num": [
+    {
+      "title": "大本等级",
+      "num": "1 - 3, 4 - 5, 6 - 7, 8 - 11, 12, 13 - 18"
+    },
+    {
+      "title": "建筑数量",
+      "num": "    0,     2,     4,      6,  8,       9"
+    }
+  ],
+  "properties": [
+    {
+      "key": "占地面积",
+      "value": "1×1"
+    },
+    {
+      "key": "作用类型",
+      "value": "弹飞敌军或对敌军造成高额伤害"
+    },
+    {
+      "key": "作用目标",
+      "value": "仅地面目标"
+    },
+    {
+      "key": "触发半径",
+      "value": "1 格"
+    },
+    {
+      "key": "作用半径",
+      "value": "2 格"
+    },
+    {
+      "key": "陷阱作用延时",
+      "value": "无"
+    }
+  ],
+  "tables": [
+    {
+      "label": "升级数据",
+      "headers": [
+        "等级",
+        "可弹飞的最高部队人口数",
+        "对大单位部队的伤害",
+        "升级费用",
+        "升级时间",
+        "升级后可获得的经验",
+        "所需大本等级"
+      ],
+      "rows": [
+        [
+          "1",
+          "10",
+          "0",
+          "2k",
+          "0",
+          "",
+          "4"
+        ],
+        [
+          "2",
+          "12",
+          "250",
+          "130k",
+          "0, 2",
+          "",
+          "7"
+        ],
+        [
+          "3",
+          "14",
+          "300",
+          "240k",
+          "0, 4",
+          "",
+          "8"
+        ],
+        [
+          "4",
+          "16",
+          "350",
+          "350k",
+          "0, 6",
+          "",
+          "9"
+        ],
+        [
+          "5",
+          "18",
+          "400",
+          "800k",
+          "0, 8",
+          "",
+          "10"
+        ],
+        [
+          "6",
+          "18",
+          "500",
+          "1M",
+          "0,12",
+          "",
+          "11"
+        ],
+        [
+          "7",
+          "18",
+          "600",
+          "1.7M",
+          "1",
+          "",
+          "12"
+        ],
+        [
+          "8",
+          "18",
+          "750",
+          "2M",
+          "1,12",
+          "",
+          "13"
+        ],
+        [
+          "9",
+          "18",
+          "900",
+          "3M",
+          "2",
+          "",
+          "14"
+        ],
+        [
+          "10",
+          "18",
+          "1050",
+          "4M",
+          "2,12",
+          "",
+          "15"
+        ],
+        [
+          "11",
+          "18",
+          "1200",
+          "6M",
+          "4,12",
+          "",
+          "16"
+        ],
+        [
+          "12",
+          "18",
+          "1300",
+          "13M",
+          "9,12",
+          "",
+          "17"
+        ],
+        [
+          "13",
+          "18",
+          "1400",
+          "16M",
+          "11",
+          "",
+          "18"
+        ]
+      ],
+      "extra_info": [
+        {
+          "column": 3,
+          "type": "cost",
+          "gpClass": "building",
+          "icon": "Gold"
+        },
+        {
+          "column": 4,
+          "type": "time",
+          "gpClass": "building"
+        },
+        {
+          "column": 5,
+          "type": "exp",
+          "icon": "Exp"
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2025/11/17",
+      "rows": [
+        "18 本推出，并在 18 本新增 13 级隐形弹簧。"
+      ]
+    },
+    {
+      "date": "2025/10/06",
+      "rows": [
+        "隐形弹簧重做，现在弹簧有 12 个等级了。",
+        "5 级隐形弹簧的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2025/03/24",
+      "rows": [
+        "2 ~ 5 级隐形弹簧的升级时间减少。",
+        "2 ~ 4 级隐形弹簧的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2024/11/25",
+      "rows": [
+        "4 级隐形弹簧的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2024/06/18",
+      "rows": [
+        "5 级隐形弹簧的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2023/12/12",
+      "rows": [
+        "2 ~ 5 级隐形弹簧的升级费用和升级时间减少。"
+      ]
+    },
+    {
+      "date": "2022/10/10",
+      "rows": [
+        "5 级隐形弹簧的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2021/12/09",
+      "rows": [
+        "4 ~ 5 级隐形弹簧的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2021/04/12",
+      "rows": [
+        "2 ~ 4 级隐形弹簧的升级费用和升级时间减少。"
+      ]
+    },
+    {
+      "date": "2020/06/22",
+      "rows": [
+        "13 本新增一个隐形弹簧。"
+      ]
+    },
+    {
+      "date": "2020/03/30",
+      "rows": [
+        "3 ~ 5 级隐形弹簧的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2020/02/28",
+      "rows": [
+        "隐形弹簧的触发半径由 0.7 格调整为 0.8 格。"
+      ]
+    },
+    {
+      "date": "2019/12/09",
+      "rows": [
+        "所有等级隐形弹簧可以弹飞的人口数减少。"
+      ]
+    },
+    {
+      "date": "2019/04/02",
+      "rows": [
+        "玩家上线后，所有的陷阱将自动被重新布置，重新布置不再需要花费金币。然而，如果玩家不上线，陷阱就不会被重新布置，所以你仍然可以攻击到陷阱失效的村庄。"
+      ]
+    }
+  ],
+  "notes": [
+    "隐形弹簧只会锁定作用范围内占用人口最大的单个地面部队。",
+    "隐形弹簧对部队的作用机制如下：",
+    "如果部队的占用人口数**未超出**弹簧弹射能力，无论该部队的剩余生命值是多少，都会被直接弹飞；",
+    "如果部队的占用人口数**超出了**弹簧弹射能力，且部队的**剩余生命值足够**，可以承受弹簧的高额伤害，则该部队会被击晕并受到高额伤害；",
+    "如果部队的占用人口数**超出了**弹簧弹射能力，且部队的**剩余生命值过低**，无法承受弹簧的高额伤害，则该部队会被直接弹飞；",
+    "隐形弹簧对英雄、战宠和攻城机器的作用机制与部队类似，但它们不会被弹出地图，而是会播放常规的死亡动画。",
+    "隐形弹簧可以对英雄、战宠和攻城机器造成**一半伤害**。",
+    "如果同一部队在同一位置多次触发隐形弹簧，伤害不会叠加。",
+    "[大守护者](/upgrade/0202-Grand-Warden) 的 [永恒书卷](/upgrade/0780-Eternal-Tome) 装备无法阻止小单位部队被隐形弹簧弹飞，也无法使部队免疫弹簧的击退效果，但可以免疫大单位部队受到的伤害。",
+    "现在隐形弹簧的反应比 [哥布林](/upgrade/0003-Goblin) 和 [超级炸弹人](/upgrade/0603-Super-Wall-Breaker) 都快，即使哥布林或超级炸弹人在移动，弹簧也可以弹飞它们。"
+  ]
+}

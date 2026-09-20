@@ -1,0 +1,81 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "multimodal-game-agent"
+version = "0.1.0"
+description = "基于多模态大模型的跨平台游戏环境感知与安全智能任务规划系统"
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+    {name = "Developer"}
+]
+keywords = ["game", "agent", "multimodal", "vision", "security"]
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+dependencies = [
+    "pydantic>=2.0",
+    "fastapi>=0.110",
+    "uvicorn>=0.27",
+    "httpx>=0.27",
+    "opencv-python>=4.9",
+    "numpy>=1.26",
+    "pytest>=8.0",
+    "websockets>=12.0",
+    "tomli>=2.0; python_version<'3.11'",
+    "torch>=2.0",
+    "torchvision>=0.15",
+    "ultralytics>=8.0",
+    "paddleocr>=2.7",
+    "paddlepaddle>=2.6",
+    "transformers>=4.38",
+    "pillow>=10.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "black",
+    "ruff",
+    "mypy",
+    "bandit",
+]
+
+[project.scripts]
+audit = "security.audit.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["api*", "security*", "perception*", "state*", "reasoning*", "decision*", "tasks*", "executor*", "evaluation*", "asset_crawl*", "tools*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = "test_*.py"
+python_classes = "Test*"
+python_functions = "test_*"
+addopts = "-ra -q"
+
+[tool.ruff]
+line-length = 100
+select = ["E", "F", "W", "I", "N", "UP", "B", "C4", "SIM"]
+ignore = ["E501"]
+
+[tool.mypy]
+python_version = "3.10"
+strict = false
+warn_return_any = true
+warn_unused_ignores = true
+
+[tool.audit]
+# 代码审计默认配置：可在项目根目录 pyproject.toml 中覆盖
+include = ["security", "api", "asset_crawl", "perception", "state", "reasoning", "decision", "tasks", "executor", "evaluation", "tools", "tests"]
+exclude = ["__pycache__", ".git", ".venv", "venv", "build", "dist", "*.egg-info", "node_modules", ".pytest_cache", ".mypy_cache", "tests/audit/samples"]
+severity_threshold = "MEDIUM"
+max_critical = 0
+max_high = 0

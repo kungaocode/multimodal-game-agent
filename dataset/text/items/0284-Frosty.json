@@ -1,0 +1,117 @@
+{
+  "id": "0284",
+  "link": "0284-Frosty",
+  "tab": "英雄",
+  "section": "战宠",
+  "name": "冰牙",
+  "title": "部落冲突 coc 冰牙（霜牙）升级数据",
+  "description": "冰牙是最冷酷的战宠......又冷又酷。它不仅能呼出冰冷的气息减缓敌人的速度，还能释放出一群小冰怪，进一步减缓敌方防御建筑的攻击速度，帮助它的英雄驰骋战场。",
+  "module": "upgrade-home",
+  "img_folder": "home_heroes/0284",
+  "canonical": "/upgrade/0284-Frosty",
+  "wiki": "https://clashofclans.fandom.com/wiki/Frosty",
+  "info_image": {
+    "level": "info",
+    "src": "Frosty_info.png",
+    "url": "https://static.clashpost.com/upgrade/home_heroes/0284/Frosty_info.png"
+  },
+  "image_groups": [],
+  "building_num": [],
+  "properties": [
+    {
+      "key": "攻击偏好",
+      "value": "距离英雄 4.5 格内的目标"
+    },
+    {
+      "key": "伤害类型",
+      "value": "单体伤害"
+    },
+    {
+      "key": "攻击的目标",
+      "value": "地面和空中目标"
+    },
+    {
+      "key": "占据人口",
+      "value": "20"
+    },
+    {
+      "key": "移动速度",
+      "value": "3 格/秒"
+    },
+    {
+      "key": "攻击速度",
+      "value": "1.2 秒/次"
+    },
+    {
+      "key": "攻击距离",
+      "value": "3.5 格"
+    },
+    {
+      "key": "召唤小冰怪的频率",
+      "value": "8 秒/次"
+    },
+    {
+      "key": "所需战宠小屋等级",
+      "value": "5"
+    },
+    {
+      "key": "所需大本等级",
+      "value": "15"
+    },
+    {
+      "key": "攻击偏好",
+      "value": "防御建筑 (偏好类型 1)"
+    },
+    {
+      "key": "伤害类型",
+      "value": "范围伤害"
+    },
+    {
+      "key": "伤害半径",
+      "value": "0.8 格"
+    },
+    {
+      "key": "攻击的目标",
+      "value": "地面和空中目标"
+    },
+    {
+      "key": "占据人口",
+      "value": "1"
+    },
+    {
+      "key": "移动速度",
+      "value": "3 格/秒"
+    },
+    {
+      "key": "攻击时机",
+      "value": "到达目标后 0.5 秒<sup>*</sup>"
+    },
+    {
+      "key": "攻击距离",
+      "value": "2 格"
+    },
+    {
+      "key": "每秒伤害",
+      "value": "15"
+    },
+    {
+      "key": "每次伤害",
+      "value": "15"
+    },
+    {
+      "key": "生命值",
+      "value": "450"
+    },
+    {
+      "key": "攻击减速持续时间",
+      "value": "4 秒"
+    },
+    {
+      "key": "减速比例",
+      "value": "50% 攻速<br>50% 移速"
+    }
+  ],
+  "tables": [],
+  "timeline": [],
+  "notes": []
+}

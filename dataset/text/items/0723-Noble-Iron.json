@@ -1,0 +1,41 @@
+{
+  "id": "0723",
+  "link": "0723-Noble-Iron",
+  "tab": "英雄",
+  "section": "装备（亡灵王子）",
+  "name": "贵族哑铃",
+  "title": "部落冲突 coc 贵族哑铃装备升级数据",
+  "description": "贵族哑铃是亡灵王子的一件普通装备。带上贵族哑铃装备后，亡灵王子在部署后的前几次射击射程更远，伤害更高（类似于超级亡灵的能力）。除了上述能力外，贵族哑铃装备还可以提升亡灵王子的攻击速度。",
+  "module": "upgrade-home",
+  "img_folder": "home_heroes/0723",
+  "canonical": "/upgrade/0723-Noble-Iron",
+  "wiki": "https://clashofclans.fandom.com/wiki/Noble_Iron",
+  "info_image": {
+    "level": "info",
+    "src": "Noble_Iron_info.png",
+    "url": "https://static.clashpost.com/upgrade/home_heroes/0723/Noble_Iron_info.png"
+  },
+  "image_groups": [],
+  "building_num": [],
+  "properties": [
+    {
+      "key": "技能类型",
+      "value": "被动技能"
+    },
+    {
+      "key": "装备稀有度",
+      "value": "普通"
+    },
+    {
+      "key": "所需铁匠铺等级",
+      "value": "5"
+    },
+    {
+      "key": "所需大本等级",
+      "value": "12"
+    }
+  ],
+  "tables": [],
+  "timeline": [],
+  "notes": []
+}

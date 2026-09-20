@@ -1,0 +1,479 @@
+{
+  "id": "0304",
+  "link": "0304-Air-Defense",
+  "tab": "建筑",
+  "section": "防御建筑",
+  "name": "防空火箭",
+  "title": "部落冲突 coc 防空火箭升级数据",
+  "description": "防空火箭是歼灭敌军空中部队的利器，可惜它不能攻击地面上的敌人。请巧妙部署防空火箭，最大限度保护您的领空。",
+  "module": "upgrade-home",
+  "img_folder": "home_buildings/0304",
+  "canonical": "/upgrade/0304-Air-Defense",
+  "wiki": "https://clashofclans.fandom.com/wiki/Air_Defense",
+  "info_image": {
+    "level": "info",
+    "src": "Air_Defense16.png",
+    "url": "https://static.clashpost.com/upgrade/home_buildings/0304/Air_Defense16.png"
+  },
+  "image_groups": [
+    {
+      "group": "",
+      "images": [
+        {
+          "level": "1 级",
+          "src": "Air_Defense1.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0304/Air_Defense1.png"
+        },
+        {
+          "level": "2 级",
+          "src": "Air_Defense2.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0304/Air_Defense2.png"
+        },
+        {
+          "level": "3 级",
+          "src": "Air_Defense3.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0304/Air_Defense3.png"
+        },
+        {
+          "level": "4 级",
+          "src": "Air_Defense4.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0304/Air_Defense4.png"
+        },
+        {
+          "level": "5 级",
+          "src": "Air_Defense5.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0304/Air_Defense5.png"
+        },
+        {
+          "level": "6 级",
+          "src": "Air_Defense6.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0304/Air_Defense6.png"
+        },
+        {
+          "level": "7 级",
+          "src": "Air_Defense7.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0304/Air_Defense7.png"
+        },
+        {
+          "level": "8 级",
+          "src": "Air_Defense8.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0304/Air_Defense8.png"
+        },
+        {
+          "level": "9 级",
+          "src": "Air_Defense9.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0304/Air_Defense9.png"
+        },
+        {
+          "level": "10 级",
+          "src": "Air_Defense10.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0304/Air_Defense10.png"
+        },
+        {
+          "level": "11 级",
+          "src": "Air_Defense11.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0304/Air_Defense11.png"
+        },
+        {
+          "level": "12 级",
+          "src": "Air_Defense12.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0304/Air_Defense12.png"
+        },
+        {
+          "level": "13 级",
+          "src": "Air_Defense13.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0304/Air_Defense13.png"
+        },
+        {
+          "level": "14 级",
+          "src": "Air_Defense14.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0304/Air_Defense14.png"
+        },
+        {
+          "level": "15 级",
+          "src": "Air_Defense15.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0304/Air_Defense15.png"
+        },
+        {
+          "level": "16 级",
+          "src": "Air_Defense16.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0304/Air_Defense16.png"
+        }
+      ]
+    }
+  ],
+  "building_num": [
+    {
+      "title": "大本等级",
+      "num": "1 - 3, 4 - 5, 6, 7 - 8, 9 - 18"
+    },
+    {
+      "title": "建筑数量",
+      "num": "    0,     1, 2,     3,      4"
+    }
+  ],
+  "properties": [
+    {
+      "key": "占地面积",
+      "value": "3×3"
+    },
+    {
+      "key": "判定面积",
+      "value": "2×2"
+    },
+    {
+      "key": "伤害类型",
+      "value": "单体伤害"
+    },
+    {
+      "key": "攻击的目标",
+      "value": "仅空中目标"
+    },
+    {
+      "key": "射程",
+      "value": "10 格"
+    },
+    {
+      "key": "攻速",
+      "value": "1 秒/次"
+    }
+  ],
+  "tables": [
+    {
+      "label": "升级数据",
+      "headers": [
+        "等级",
+        "每秒伤害",
+        "每次伤害",
+        "生命值",
+        "升级费用",
+        "升级时间",
+        "升级后可获得的经验",
+        "所需大本等级"
+      ],
+      "rows": [
+        [
+          "1",
+          "80",
+          "80",
+          "800",
+          "22k",
+          "0, 1",
+          "",
+          "4"
+        ],
+        [
+          "2",
+          "110",
+          "110",
+          "850",
+          "90k",
+          "0, 2",
+          "",
+          "4"
+        ],
+        [
+          "3",
+          "140",
+          "140",
+          "900",
+          "210k",
+          "0, 6",
+          "",
+          "5"
+        ],
+        [
+          "4",
+          "160",
+          "160",
+          "950",
+          "500k",
+          "0,12",
+          "",
+          "6"
+        ],
+        [
+          "5",
+          "190",
+          "190",
+          "1000",
+          "800k",
+          "0,18",
+          "",
+          "7"
+        ],
+        [
+          "6",
+          "230",
+          "230",
+          "1050",
+          "1M",
+          "1",
+          "",
+          "8"
+        ],
+        [
+          "7",
+          "280",
+          "280",
+          "1100",
+          "1.75M",
+          "2",
+          "",
+          "9"
+        ],
+        [
+          "8",
+          "320",
+          "320",
+          "1210",
+          "2.3M",
+          "2,12",
+          "",
+          "10"
+        ],
+        [
+          "9",
+          "360",
+          "360",
+          "1300",
+          "3.4M",
+          "3",
+          "",
+          "11"
+        ],
+        [
+          "10",
+          "400",
+          "400",
+          "1400",
+          "5M",
+          "4",
+          "",
+          "12"
+        ],
+        [
+          "11",
+          "440",
+          "440",
+          "1500",
+          "5.6M",
+          "4,12",
+          "",
+          "13"
+        ],
+        [
+          "12",
+          "500",
+          "500",
+          "1650",
+          "6.5M",
+          "5",
+          "",
+          "14"
+        ],
+        [
+          "13",
+          "540",
+          "540",
+          "1750",
+          "8M",
+          "6",
+          "",
+          "15"
+        ],
+        [
+          "14",
+          "600",
+          "600",
+          "1850",
+          "9M",
+          "6,12",
+          "",
+          "16"
+        ],
+        [
+          "15",
+          "650",
+          "650",
+          "1950",
+          "15M",
+          "9,12",
+          "",
+          "17"
+        ],
+        [
+          "16",
+          "700",
+          "700",
+          "2000",
+          "26M",
+          "13,6",
+          "",
+          "18"
+        ],
+        [
+          "⚡1",
+          "720",
+          "720",
+          "2000",
+          "6M",
+          "2,18",
+          "",
+          "18"
+        ],
+        [
+          "⚡2",
+          "740",
+          "740",
+          "2000",
+          "3M",
+          "4,6",
+          "",
+          "18"
+        ]
+      ],
+      "extra_info": [
+        {
+          "column": 4,
+          "type": "cost",
+          "gpClass": "building",
+          "icon": "Gold"
+        },
+        {
+          "column": 5,
+          "type": "time",
+          "gpClass": "building"
+        },
+        {
+          "column": 6,
+          "type": "exp",
+          "icon": "Exp"
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2025/11/17",
+      "rows": [
+        "18 本推出，并在 18 本新增 16 级防空火箭。",
+        "15 级防空火箭的升级时间和升级费用减少。"
+      ]
+    },
+    {
+      "date": "2025/10/06",
+      "rows": [
+        "14 级防空火箭的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2025/03/24",
+      "rows": [
+        "1、3 ~ 6、14 级防空火箭的升级时间减少。",
+        "3、10 ~ 14 级防空火箭的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2025/02/10",
+      "rows": [
+        "1 ~ 2 级防空火箭的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2024/11/25",
+      "rows": [
+        "17 本推出，并在 17 本新增 15 级防空火箭。",
+        "10 ~ 14 级防空火箭的升级时间减少。",
+        "11 ~ 14 级防空火箭的升级费用降低。",
+        "防空火箭成为第二批可以充能的建筑。"
+      ]
+    },
+    {
+      "date": "2024/06/18",
+      "rows": [
+        "2 ~ 4、10 ~ 13 级防空火箭的升级时间减少。",
+        "12 ~ 13 级防空火箭的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2023/12/12",
+      "rows": [
+        "16 本推出，并在 15 本新增 14 级防空火箭。",
+        "2 ~ 13 级防空火箭的升级时间减少。",
+        "5 ~ 6、8 ~ 9、12 ~ 13 级防空火箭的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2023/06/12",
+      "rows": [
+        "10 ~ 11 级防空火箭的升级时间减少。",
+        "10 ~ 11 级防空火箭的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2022/10/10",
+      "rows": [
+        "15 本推出，并在 15 本新增 13 级防空火箭。",
+        "8 ~ 12 级防空火箭的升级费用和升级时间减少。"
+      ]
+    },
+    {
+      "date": "2022/09/13",
+      "rows": [
+        "12 级防空火箭的每秒伤害增加。"
+      ]
+    },
+    {
+      "date": "2022/05/02",
+      "rows": [
+        "12 级防空火箭：生命值从 1600 提升至 1650。"
+      ]
+    },
+    {
+      "date": "2021/12/09",
+      "rows": [
+        "6 ~ 11 级防空火箭的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2021/06/15",
+      "rows": [
+        "14 本新增 12 级防空火箭。"
+      ]
+    },
+    {
+      "date": "2021/04/12",
+      "rows": [
+        "1、6 ~ 9 级防空火箭的升级费用降低。",
+        "8 ~ 9 级防空火箭的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2021/01/20",
+      "rows": [
+        "修复了 11 级防空火箭的命中效果。"
+      ]
+    },
+    {
+      "date": "2020/10/12",
+      "rows": [
+        "10 本的 8 级防空血量加 10，这样一来必须要 4 个 7 级闪电才能打掉一个 8 级防空。"
+      ]
+    },
+    {
+      "date": "2019/12/09",
+      "rows": [
+        "13 本新增 11 级防空火箭。"
+      ]
+    },
+    {
+      "date": "2019/04/02",
+      "rows": [
+        "7 ~ 10 级防空火箭的升级费用降低。",
+        "3 ~ 7 级防空火箭的升级时间减少。"
+      ]
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,492 @@
+{
+  "id": "0305",
+  "link": "0305-Wizard-Tower",
+  "tab": "建筑",
+  "section": "防御建筑",
+  "name": "法师塔",
+  "title": "部落冲突 coc 法师塔升级数据",
+  "description": "感受神秘法术的威力吧！塔上的法师会施放威力强大的范围性攻击法术，抵御侵入领土和领空的敌军。",
+  "module": "upgrade-home",
+  "img_folder": "home_buildings/0305",
+  "canonical": "/upgrade/0305-Wizard-Tower",
+  "wiki": "https://clashofclans.fandom.com/wiki/Wizard_Tower",
+  "info_image": {
+    "level": "info",
+    "src": "Wizard_Tower17.png",
+    "url": "https://static.clashpost.com/upgrade/home_buildings/0305/Wizard_Tower17.png"
+  },
+  "image_groups": [
+    {
+      "group": "法师塔",
+      "images": [
+        {
+          "level": "1 级",
+          "src": "Wizard_Tower1.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0305/Wizard_Tower1.png"
+        },
+        {
+          "level": "2 级",
+          "src": "Wizard_Tower2.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0305/Wizard_Tower2.png"
+        },
+        {
+          "level": "3 级",
+          "src": "Wizard_Tower3.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0305/Wizard_Tower3.png"
+        },
+        {
+          "level": "4 级",
+          "src": "Wizard_Tower4.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0305/Wizard_Tower4.png"
+        },
+        {
+          "level": "5 级",
+          "src": "Wizard_Tower5.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0305/Wizard_Tower5.png"
+        },
+        {
+          "level": "6 级",
+          "src": "Wizard_Tower6.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0305/Wizard_Tower6.png"
+        },
+        {
+          "level": "7 级",
+          "src": "Wizard_Tower7.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0305/Wizard_Tower7.png"
+        },
+        {
+          "level": "8 级",
+          "src": "Wizard_Tower8.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0305/Wizard_Tower8.png"
+        },
+        {
+          "level": "9 级",
+          "src": "Wizard_Tower9.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0305/Wizard_Tower9.png"
+        },
+        {
+          "level": "10 级",
+          "src": "Wizard_Tower10.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0305/Wizard_Tower10.png"
+        },
+        {
+          "level": "11 级",
+          "src": "Wizard_Tower11.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0305/Wizard_Tower11.png"
+        },
+        {
+          "level": "12 级",
+          "src": "Wizard_Tower12.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0305/Wizard_Tower12.png"
+        },
+        {
+          "level": "13 级",
+          "src": "Wizard_Tower13.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0305/Wizard_Tower13.png"
+        },
+        {
+          "level": "14 级",
+          "src": "Wizard_Tower14.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0305/Wizard_Tower14.png"
+        },
+        {
+          "level": "15 级",
+          "src": "Wizard_Tower15.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0305/Wizard_Tower15.png"
+        },
+        {
+          "level": "16 级",
+          "src": "Wizard_Tower16.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0305/Wizard_Tower16.png"
+        },
+        {
+          "level": "17 级",
+          "src": "Wizard_Tower17.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0305/Wizard_Tower17.png"
+        }
+      ]
+    }
+  ],
+  "building_num": [
+    {
+      "title": "大本等级",
+      "num": "1 - 4, 5, 6 - 7, 8, 9 - 10, 11 - 17, 18"
+    },
+    {
+      "title": "建筑数量",
+      "num": "    0, 1,     2, 3,      4,       5,  2"
+    }
+  ],
+  "properties": [
+    {
+      "key": "占地面积",
+      "value": "3×3"
+    },
+    {
+      "key": "判定面积",
+      "value": "2×2"
+    },
+    {
+      "key": "伤害类型",
+      "value": "范围伤害"
+    },
+    {
+      "key": "伤害半径",
+      "value": "1 格"
+    },
+    {
+      "key": "攻击的目标",
+      "value": "地面和空中目标"
+    },
+    {
+      "key": "射程",
+      "value": "7 格"
+    },
+    {
+      "key": "攻速",
+      "value": "1.3 秒/次"
+    }
+  ],
+  "tables": [
+    {
+      "label": "升级数据",
+      "headers": [
+        "等级",
+        "每秒伤害",
+        "每次伤害",
+        "生命值",
+        "升级费用",
+        "升级时间",
+        "升级后可获得的经验",
+        "所需大本等级"
+      ],
+      "rows": [
+        [
+          "1",
+          "11",
+          "14.3",
+          "620",
+          "100k",
+          "0, 1",
+          "",
+          "5"
+        ],
+        [
+          "2",
+          "13",
+          "16.9",
+          "650",
+          "150k",
+          "0, 1,30",
+          "",
+          "5"
+        ],
+        [
+          "3",
+          "16",
+          "20.8",
+          "680",
+          "250k",
+          "0, 4",
+          "",
+          "6"
+        ],
+        [
+          "4",
+          "20",
+          "26",
+          "730",
+          "400k",
+          "0, 8",
+          "",
+          "7"
+        ],
+        [
+          "5",
+          "24",
+          "31.2",
+          "840",
+          "550k",
+          "0,10",
+          "",
+          "8"
+        ],
+        [
+          "6",
+          "32",
+          "41.6",
+          "960",
+          "660k",
+          "0,12",
+          "",
+          "8"
+        ],
+        [
+          "7",
+          "40",
+          "52",
+          "1200",
+          "1M",
+          "0,18",
+          "",
+          "9"
+        ],
+        [
+          "8",
+          "45",
+          "58.5",
+          "1440",
+          "1.1M",
+          "0,20",
+          "",
+          "10"
+        ],
+        [
+          "9",
+          "50",
+          "65",
+          "1600",
+          "1.3M",
+          "1",
+          "",
+          "10"
+        ],
+        [
+          "10",
+          "62",
+          "80.6",
+          "1900",
+          "2M",
+          "1, 6",
+          "",
+          "11"
+        ],
+        [
+          "11",
+          "70",
+          "91",
+          "2120",
+          "2.5M",
+          "1,12",
+          "",
+          "12"
+        ],
+        [
+          "12",
+          "78",
+          "101.4",
+          "2240",
+          "2.6M",
+          "1,18",
+          "",
+          "13"
+        ],
+        [
+          "13",
+          "84",
+          "109.2",
+          "2500",
+          "3M",
+          "2",
+          "",
+          "13"
+        ],
+        [
+          "14",
+          "90",
+          "117",
+          "2800",
+          "4.5M",
+          "3",
+          "",
+          "14"
+        ],
+        [
+          "15",
+          "95",
+          "123.5",
+          "3000",
+          "5.5M",
+          "4",
+          "",
+          "15"
+        ],
+        [
+          "16",
+          "102",
+          "132.6",
+          "3150",
+          "8M",
+          "4,12",
+          "",
+          "16"
+        ],
+        [
+          "17",
+          "110",
+          "143",
+          "3300",
+          "14M",
+          "8,12",
+          "",
+          "17"
+        ],
+        [
+          "⚡1",
+          "114",
+          "148.2",
+          "3300",
+          "8M",
+          "3,12",
+          "",
+          "17"
+        ],
+        [
+          "⚡2",
+          "114",
+          "148.2",
+          "3375",
+          "4M",
+          "5,12",
+          "",
+          "17"
+        ]
+      ],
+      "extra_info": [
+        {
+          "column": 4,
+          "type": "cost",
+          "gpClass": "building",
+          "icon": "Gold"
+        },
+        {
+          "column": 5,
+          "type": "time",
+          "gpClass": "building"
+        },
+        {
+          "column": 6,
+          "type": "exp",
+          "icon": "Exp"
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2025/11/17",
+      "rows": [
+        "17 级法师塔的升级时间和升级费用减少。"
+      ]
+    },
+    {
+      "date": "2025/10/06",
+      "rows": [
+        "16 级法师塔的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2025/03/24",
+      "rows": [
+        "1、3 ~ 5、7 ~ 8、10 ~ 12、14 ~ 16 级法师塔的升级时间减少。",
+        "1 ~ 16 级法师塔的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2025/02/10",
+      "rows": [
+        "2、6、9、13 级法师塔的升级时间减少。",
+        "13 级法师塔的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2024/11/25",
+      "rows": [
+        "17 本推出，并在 17 本新增 17 级法师塔。",
+        "8 ~ 16 级法师塔的升级时间减少。",
+        "7 ~ 16 级法师塔的升级费用降低。",
+        "法师塔成为第二批可以充能的建筑。"
+      ]
+    },
+    {
+      "date": "2024/06/18",
+      "rows": [
+        "11 ~ 15 级法师塔的升级时间减少。",
+        "11 ~ 15 级法师塔的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2024/06/03",
+      "rows": [
+        "9 ~ 14 级法师塔的生命值降低。"
+      ]
+    },
+    {
+      "date": "2023/12/12",
+      "rows": [
+        "16 本推出，并在 16 本新增 16 级法师塔。",
+        "2 ~ 15 级法师塔的升级时间减少。",
+        "3 ~ 10、14 级法师塔的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2023/06/12",
+      "rows": [
+        "11 ~ 13 级法师塔的升级时间减少。",
+        "11 ~ 13 级法师塔的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2022/10/10",
+      "rows": [
+        "15 本推出，并在 15 本新增 15 级法师塔。",
+        "8 ~ 14 级法师塔的升级费用和升级时间减少。"
+      ]
+    },
+    {
+      "date": "2021/12/09",
+      "rows": [
+        "1 ~ 6、8 ~ 13 级法师塔的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2021/06/15",
+      "rows": [
+        "14 本新增 14 级法师塔。"
+      ]
+    },
+    {
+      "date": "2021/04/12",
+      "rows": [
+        "3 ~ 8、10 级法师塔的升级时间减少。",
+        "1 ~ 8、10 级法师塔的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2020/06/22",
+      "rows": [
+        "13 本新增 13 级法师塔。"
+      ]
+    },
+    {
+      "date": "2019/12/09",
+      "rows": [
+        "13 本推出，并在 13 本新增 12 级法师塔。"
+      ]
+    },
+    {
+      "date": "2019/06/18",
+      "rows": [
+        "8 ~ 9 级法师塔的伤害降低。"
+      ]
+    },
+    {
+      "date": "2019/04/02",
+      "rows": [
+        "所有等级法师塔的升级时间减少。",
+        "7 ~ 9 级法师塔的升级费用降低。"
+      ]
+    }
+  ],
+  "notes": []
+}

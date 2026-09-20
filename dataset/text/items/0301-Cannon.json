@@ -1,0 +1,916 @@
+{
+  "id": "0301",
+  "link": "0301-Cannon",
+  "tab": "建筑",
+  "section": "防御建筑",
+  "name": "加农炮",
+  "title": "部落冲突 coc 加农炮升级数据",
+  "description": "加农炮很适合防御单个目标。升级加农炮可以增强火力。注意！防御建筑在升级时不能开火！",
+  "module": "upgrade-home",
+  "img_folder": "home_buildings/0301",
+  "canonical": "/upgrade/0301-Cannon",
+  "wiki": "https://clashofclans.fandom.com/wiki/Cannon",
+  "info_image": {
+    "level": "info",
+    "src": "Cannon21.png",
+    "url": "https://static.clashpost.com/upgrade/home_buildings/0301/Cannon21.png"
+  },
+  "image_groups": [
+    {
+      "group": "未改装",
+      "images": [
+        {
+          "level": "1 级",
+          "src": "Cannon1.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0301/Cannon1.png"
+        },
+        {
+          "level": "2 级",
+          "src": "Cannon2.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0301/Cannon2.png"
+        },
+        {
+          "level": "3 级",
+          "src": "Cannon3.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0301/Cannon3.png"
+        },
+        {
+          "level": "4 级",
+          "src": "Cannon4.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0301/Cannon4.png"
+        },
+        {
+          "level": "5 级",
+          "src": "Cannon5.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0301/Cannon5.png"
+        },
+        {
+          "level": "6 级",
+          "src": "Cannon6.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0301/Cannon6.png"
+        },
+        {
+          "level": "7 级",
+          "src": "Cannon7.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0301/Cannon7.png"
+        },
+        {
+          "level": "8 级",
+          "src": "Cannon8.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0301/Cannon8.png"
+        },
+        {
+          "level": "9 级",
+          "src": "Cannon9.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0301/Cannon9.png"
+        },
+        {
+          "level": "10 级",
+          "src": "Cannon10.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0301/Cannon10.png"
+        },
+        {
+          "level": "11 级",
+          "src": "Cannon11.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0301/Cannon11.png"
+        },
+        {
+          "level": "12 级",
+          "src": "Cannon12.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0301/Cannon12.png"
+        },
+        {
+          "level": "13 级",
+          "src": "Cannon13.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0301/Cannon13.png"
+        },
+        {
+          "level": "14 级",
+          "src": "Cannon14.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0301/Cannon14.png"
+        },
+        {
+          "level": "15 级",
+          "src": "Cannon15.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0301/Cannon15.png"
+        },
+        {
+          "level": "16 级",
+          "src": "Cannon16.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0301/Cannon16.png"
+        },
+        {
+          "level": "17 级",
+          "src": "Cannon17.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0301/Cannon17.png"
+        },
+        {
+          "level": "18 级",
+          "src": "Cannon18.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0301/Cannon18.png"
+        },
+        {
+          "level": "19 级",
+          "src": "Cannon19.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0301/Cannon19.png"
+        },
+        {
+          "level": "20 级",
+          "src": "Cannon20.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0301/Cannon20.png"
+        },
+        {
+          "level": "21 级",
+          "src": "Cannon21.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0301/Cannon21.png"
+        }
+      ]
+    },
+    {
+      "group": "已改装，处于标准模式",
+      "images": [
+        {
+          "level": "7 级",
+          "src": "Cannon7A.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0301/Cannon7A.png"
+        },
+        {
+          "level": "8 级",
+          "src": "Cannon8A.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0301/Cannon8A.png"
+        },
+        {
+          "level": "9 级",
+          "src": "Cannon9A.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0301/Cannon9A.png"
+        },
+        {
+          "level": "10 级",
+          "src": "Cannon10A.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0301/Cannon10A.png"
+        },
+        {
+          "level": "11 级",
+          "src": "Cannon11A.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0301/Cannon11A.png"
+        },
+        {
+          "level": "12 级",
+          "src": "Cannon12A.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0301/Cannon12A.png"
+        },
+        {
+          "level": "13 级",
+          "src": "Cannon13A.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0301/Cannon13A.png"
+        },
+        {
+          "level": "14 级",
+          "src": "Cannon14A.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0301/Cannon14A.png"
+        },
+        {
+          "level": "15 级",
+          "src": "Cannon15A.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0301/Cannon15A.png"
+        },
+        {
+          "level": "16 级",
+          "src": "Cannon16A.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0301/Cannon16A.png"
+        },
+        {
+          "level": "17 级",
+          "src": "Cannon17A.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0301/Cannon17A.png"
+        },
+        {
+          "level": "18 级",
+          "src": "Cannon18A.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0301/Cannon18A.png"
+        },
+        {
+          "level": "19 级",
+          "src": "Cannon19A.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0301/Cannon19A.png"
+        },
+        {
+          "level": "20 级",
+          "src": "Cannon20A.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0301/Cannon20A.png"
+        },
+        {
+          "level": "21 级",
+          "src": "Cannon21A.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0301/Cannon21A.png"
+        }
+      ]
+    },
+    {
+      "group": "已改装，处于连发模式",
+      "images": [
+        {
+          "level": "7 级",
+          "src": "Cannon7B.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0301/Cannon7B.png"
+        },
+        {
+          "level": "8 级",
+          "src": "Cannon8B.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0301/Cannon8B.png"
+        },
+        {
+          "level": "9 级",
+          "src": "Cannon9B.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0301/Cannon9B.png"
+        },
+        {
+          "level": "10 级",
+          "src": "Cannon10B.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0301/Cannon10B.png"
+        },
+        {
+          "level": "11 级",
+          "src": "Cannon11B.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0301/Cannon11B.png"
+        },
+        {
+          "level": "12 级",
+          "src": "Cannon12B.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0301/Cannon12B.png"
+        },
+        {
+          "level": "13 级",
+          "src": "Cannon13B.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0301/Cannon13B.png"
+        },
+        {
+          "level": "14 级",
+          "src": "Cannon14B.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0301/Cannon14B.png"
+        },
+        {
+          "level": "15 级",
+          "src": "Cannon15B.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0301/Cannon15B.png"
+        },
+        {
+          "level": "16 级",
+          "src": "Cannon16B.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0301/Cannon16B.png"
+        },
+        {
+          "level": "17 级",
+          "src": "Cannon17B.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0301/Cannon17B.png"
+        },
+        {
+          "level": "18 级",
+          "src": "Cannon18B.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0301/Cannon18B.png"
+        },
+        {
+          "level": "19 级",
+          "src": "Cannon19B.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0301/Cannon19B.png"
+        },
+        {
+          "level": "20 级",
+          "src": "Cannon20B.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0301/Cannon20B.png"
+        },
+        {
+          "level": "21 级",
+          "src": "Cannon21B.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0301/Cannon21B.png"
+        }
+      ]
+    }
+  ],
+  "building_num": [
+    {
+      "title": "大本等级",
+      "num": "1, 2 - 4, 5 - 6,  7 - 9, 10, 11 - 15, 16, 17 - 18"
+    },
+    {
+      "title": "建筑数量",
+      "num": "1,     2,     3,      5,  6,       7,  3,       0"
+    },
+    {
+      "title": "大本等级",
+      "num": "1, 2 - 4, 5 - 6,  7 - 9, 10, 11 - 15, 16, 17 - 18"
+    },
+    {
+      "title": "建筑数量",
+      "num": "1,     2,     3,      5,  6,       7,  3,       0"
+    }
+  ],
+  "properties": [
+    {
+      "key": "占地面积",
+      "value": "3×3"
+    },
+    {
+      "key": "判定面积",
+      "value": "2×2"
+    },
+    {
+      "key": "伤害类型",
+      "value": "单体伤害"
+    },
+    {
+      "key": "攻击的目标",
+      "value": "仅地面目标"
+    },
+    {
+      "key": "射程",
+      "value": "9 格"
+    },
+    {
+      "key": "攻速",
+      "value": "0.8 秒 1 发<sup>*</sup>"
+    },
+    {
+      "key": "改装所需加农炮等级",
+      "value": "7"
+    },
+    {
+      "key": "改装所需夜世界双管加农炮等级",
+      "value": "4"
+    },
+    {
+      "key": "改装数量",
+      "value": "仅限一个"
+    },
+    {
+      "key": "改装时间",
+      "value": "2"
+    },
+    {
+      "key": "改装费用",
+      "value": "1M"
+    },
+    {
+      "key": "占地面积",
+      "value": "3×3"
+    },
+    {
+      "key": "判定面积",
+      "value": "2×2"
+    },
+    {
+      "key": "伤害类型",
+      "value": "单体伤害"
+    },
+    {
+      "key": "攻击的目标",
+      "value": "仅地面目标"
+    },
+    {
+      "key": "射程",
+      "value": "7 格 "
+    },
+    {
+      "key": "攻速",
+      "value": "2.3 秒 4 发<sup>*</sup>"
+    },
+    {
+      "key": "改装所需加农炮等级",
+      "value": "7"
+    },
+    {
+      "key": "改装所需夜世界双管加农炮等级",
+      "value": "4"
+    },
+    {
+      "key": "改装数量",
+      "value": "仅限一个"
+    },
+    {
+      "key": "改装时间",
+      "value": "2"
+    },
+    {
+      "key": "改装费用",
+      "value": "1M"
+    }
+  ],
+  "tables": [
+    {
+      "label": "升级数据",
+      "headers": [
+        "等级",
+        "每秒伤害",
+        "每次伤害",
+        "生命值",
+        "升级费用",
+        "升级时间",
+        "升级后可获得的经验",
+        "所需大本等级"
+      ],
+      "rows": [
+        [
+          "1",
+          "7",
+          "5.6",
+          "300",
+          "250",
+          "0, 0, 0, 5",
+          "",
+          "1"
+        ],
+        [
+          "2",
+          "10",
+          "8",
+          "360",
+          "1k",
+          "0, 0, 0,30",
+          "",
+          "1"
+        ],
+        [
+          "3",
+          "13",
+          "10.4",
+          "420",
+          "4k",
+          "0, 0, 2",
+          "",
+          "2"
+        ],
+        [
+          "4",
+          "17",
+          "13.6",
+          "500",
+          "16k",
+          "0, 0,20",
+          "",
+          "3"
+        ],
+        [
+          "5",
+          "23",
+          "18.4",
+          "600",
+          "50k",
+          "0, 0,30",
+          "",
+          "4"
+        ],
+        [
+          "6",
+          "30",
+          "24",
+          "660",
+          "60k",
+          "0, 1",
+          "",
+          "5"
+        ],
+        [
+          "7",
+          "40",
+          "32",
+          "730",
+          "100k",
+          "0, 2",
+          "",
+          "6"
+        ],
+        [
+          "8",
+          "48",
+          "38.4",
+          "800",
+          "160k",
+          "0, 3",
+          "",
+          "7"
+        ],
+        [
+          "9",
+          "56",
+          "44.8",
+          "880",
+          "250k",
+          "0, 3,30",
+          "",
+          "8"
+        ],
+        [
+          "10",
+          "64",
+          "51.2",
+          "960",
+          "330k",
+          "0, 4",
+          "",
+          "8"
+        ],
+        [
+          "11",
+          "74",
+          "59.2",
+          "1060",
+          "500k",
+          "0, 4,30",
+          "",
+          "9"
+        ],
+        [
+          "12",
+          "85",
+          "68",
+          "1160",
+          "600k",
+          "0, 5",
+          "",
+          "10"
+        ],
+        [
+          "13",
+          "95",
+          "76",
+          "1260",
+          "660k",
+          "0, 6",
+          "",
+          "10"
+        ],
+        [
+          "14",
+          "100",
+          "80",
+          "1380",
+          "1M",
+          "0, 8",
+          "",
+          "11"
+        ],
+        [
+          "15",
+          "105",
+          "84",
+          "1500",
+          "1.2M",
+          "0,10",
+          "",
+          "11"
+        ],
+        [
+          "16",
+          "110",
+          "88",
+          "1620",
+          "1.3M",
+          "0,11",
+          "",
+          "12"
+        ],
+        [
+          "17",
+          "115",
+          "92",
+          "1740",
+          "1.5M",
+          "0,12",
+          "",
+          "12"
+        ],
+        [
+          "18",
+          "125",
+          "100",
+          "1870",
+          "1.8M",
+          "0,16",
+          "",
+          "13"
+        ],
+        [
+          "19",
+          "135",
+          "108",
+          "2000",
+          "2M",
+          "0,20",
+          "",
+          "13"
+        ],
+        [
+          "20",
+          "150",
+          "120",
+          "2150",
+          "2.6M",
+          "1",
+          "",
+          "14"
+        ],
+        [
+          "21",
+          "160",
+          "128",
+          "2250",
+          "3M",
+          "1,12",
+          "",
+          "15"
+        ]
+      ],
+      "extra_info": []
+    },
+    {
+      "label": "升级数据",
+      "headers": [
+        "等级",
+        "每秒伤害",
+        "每次伤害",
+        "生命值",
+        "升级费用",
+        "升级时间",
+        "升级后可获得的经验",
+        "所需大本等级"
+      ],
+      "rows": [
+        [
+          "7",
+          "54",
+          "32",
+          "730",
+          "100k",
+          "0, 2",
+          "",
+          "6"
+        ],
+        [
+          "8",
+          "64",
+          "38.4",
+          "800",
+          "160k",
+          "0, 3",
+          "",
+          "7"
+        ],
+        [
+          "9",
+          "75",
+          "44.8",
+          "880",
+          "250k",
+          "0, 3,30",
+          "",
+          "8"
+        ],
+        [
+          "10",
+          "86",
+          "51.2",
+          "960",
+          "330k",
+          "0, 4",
+          "",
+          "8"
+        ],
+        [
+          "11",
+          "100",
+          "59.2",
+          "1060",
+          "500k",
+          "0, 4,30",
+          "",
+          "9"
+        ],
+        [
+          "12",
+          "116",
+          "68",
+          "1160",
+          "600k",
+          "0, 5",
+          "",
+          "10"
+        ],
+        [
+          "13",
+          "129",
+          "76",
+          "1260",
+          "660k",
+          "0, 6",
+          "",
+          "10"
+        ],
+        [
+          "14",
+          "143",
+          "84",
+          "1380",
+          "1M",
+          "0, 8",
+          "",
+          "11"
+        ],
+        [
+          "15",
+          "156",
+          "92",
+          "1500",
+          "1.2M",
+          "0,10",
+          "",
+          "11"
+        ],
+        [
+          "16",
+          "162",
+          "96",
+          "1620",
+          "1.3M",
+          "0,11",
+          "",
+          "12"
+        ],
+        [
+          "17",
+          "170",
+          "100",
+          "1740",
+          "1.5M",
+          "0,12",
+          "",
+          "12"
+        ],
+        [
+          "18",
+          "175",
+          "104",
+          "1870",
+          "1.8M",
+          "0,16",
+          "",
+          "13"
+        ],
+        [
+          "19",
+          "189",
+          "112",
+          "2000",
+          "2M",
+          "0,20",
+          "",
+          "13"
+        ],
+        [
+          "20",
+          "202",
+          "120",
+          "2150",
+          "2.6M",
+          "1",
+          "",
+          "14"
+        ],
+        [
+          "21",
+          "216",
+          "128",
+          "2250",
+          "3M",
+          "1,12",
+          "",
+          "15"
+        ]
+      ],
+      "extra_info": []
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2025/10/06",
+      "rows": [
+        "18 ~ 21 级加农炮的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2025/06/16",
+      "rows": [
+        "1 ~ 6 级加农炮的生命值减少。",
+        "1 ~ 6 级加农炮的每秒伤害降低。"
+      ]
+    },
+    {
+      "date": "2025/03/24",
+      "rows": [
+        "1 ~ 9、11 ~ 12、14 ~ 16、18、20 ~ 21 级加农炮的升级时间减少。",
+        "6 ~ 16、18、20 ~ 21 级加农炮的升级费用降低。",
+        "加农炮的改装费用降低。"
+      ]
+    },
+    {
+      "date": "2025/02/10",
+      "rows": [
+        "2、3、10、13、15、17、19 级加农炮的升级时间减少。",
+        "13、15、17、19 级加农炮的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2024/11/25",
+      "rows": [
+        "17 本推出，其中 2 个加农炮可以被合并为 1 个跳弹加农炮。",
+        "8 ~ 9、12 ~ 21 级加农炮的升级时间减少。",
+        "15 ~ 21 级加农炮的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2024/06/18",
+      "rows": [
+        "14 ~ 21 级加农炮的升级时间减少。",
+        "16 ~ 21 级加农炮的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2024/06/03",
+      "rows": [
+        "14 ~ 19 级加农炮的每秒伤害降低。",
+        "自本次更新后，连发模式秒伤 = 1.35 倍快速模式秒伤，标准模式次伤 = 连发模式次伤这两个规律不再成立。"
+      ]
+    },
+    {
+      "date": "2023/12/12",
+      "rows": [
+        "16 本推出，其中 4 个加农炮可以被合并为 2 个跳弹加农炮。"
+      ]
+    },
+    {
+      "date": "2023/09/28",
+      "rows": [
+        "12 ~ 20 级加农炮的每秒伤害降低。"
+      ]
+    },
+    {
+      "date": "2023/06/12",
+      "rows": [
+        "16 ~ 19 级加农炮的升级时间减少。",
+        "16 ~ 19 级加农炮的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2022/10/10",
+      "rows": [
+        "15 本推出，并在 15 本新增 21 级加农炮。",
+        "12 ~ 20 级加农炮的升级费用和升级时间减少。"
+      ]
+    },
+    {
+      "date": "2021/12/09",
+      "rows": [
+        "8 ~ 19 级加农炮的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2021/04/12",
+      "rows": [
+        "14 本推出，并在 14 本新增 20 级加农炮。",
+        "2 ~ 14 级加农炮的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2020/06/22",
+      "rows": [
+        "13 本新增 19 级加农炮。"
+      ]
+    },
+    {
+      "date": "2020/03/30",
+      "rows": [
+        "18 级加农炮的生命值由 1860 调整到 1870。"
+      ]
+    },
+    {
+      "date": "2019/12/09",
+      "rows": [
+        "13 本推出，并在 13 本新增 18 级加农炮。"
+      ]
+    },
+    {
+      "date": "2019/04/02",
+      "rows": [
+        "10 ~ 16 级加农炮的升级费用降低。",
+        "7 ~ 13、16 级加农炮的升级时间减少。",
+        "12 级大本营新增 17 级加农炮。"
+      ]
+    },
+    {
+      "date": "2019/02/22",
+      "rows": [
+        "10 ~ 16 级加农炮的伤害降低。"
+      ]
+    }
+  ],
+  "notes": []
+}

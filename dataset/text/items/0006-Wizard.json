@@ -1,0 +1,407 @@
+{
+  "id": "0006",
+  "link": "0006-Wizard",
+  "tab": "科技",
+  "section": "圣水兵",
+  "name": "法师",
+  "title": "部落冲突 coc 法师升级数据",
+  "description": "法师的出现为战场蒙上了一层恐怖色彩。集结一群法师，他们将摧毁各种陆空目标！",
+  "module": "upgrade-home",
+  "img_folder": "home_tech/0006",
+  "canonical": "/upgrade/0006-Wizard",
+  "wiki": "https://clashofclans.fandom.com/wiki/Wizard",
+  "info_image": {
+    "level": "info",
+    "src": "Wizard_info.png",
+    "url": "https://static.clashpost.com/upgrade/home_tech/0006/Wizard_info.png"
+  },
+  "image_groups": [
+    {
+      "group": "",
+      "images": [
+        {
+          "level": "1 - 2 级",
+          "src": "Wizard1.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0006/Wizard1.png"
+        },
+        {
+          "level": "3 - 4 级",
+          "src": "Wizard3.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0006/Wizard3.png"
+        },
+        {
+          "level": "5 级",
+          "src": "Wizard5.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0006/Wizard5.png"
+        },
+        {
+          "level": "6 级",
+          "src": "Wizard6.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0006/Wizard6.png"
+        },
+        {
+          "level": "7 级",
+          "src": "Wizard7.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0006/Wizard7.png"
+        },
+        {
+          "level": "8 级",
+          "src": "Wizard8.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0006/Wizard8.png"
+        },
+        {
+          "level": "9 级",
+          "src": "Wizard9.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0006/Wizard9.png"
+        },
+        {
+          "level": "10 级",
+          "src": "Wizard10.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0006/Wizard10.png"
+        },
+        {
+          "level": "11 级",
+          "src": "Wizard11.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0006/Wizard11.png"
+        },
+        {
+          "level": "12 级",
+          "src": "Wizard12.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0006/Wizard12.png"
+        },
+        {
+          "level": "13 级",
+          "src": "Wizard13.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0006/Wizard13.png"
+        },
+        {
+          "level": "14 级",
+          "src": "Wizard14.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0006/Wizard14.png"
+        }
+      ]
+    }
+  ],
+  "building_num": [],
+  "properties": [
+    {
+      "key": "部队类型",
+      "value": "地面远程单位"
+    },
+    {
+      "key": "攻击偏好",
+      "value": "无"
+    },
+    {
+      "key": "伤害类型",
+      "value": "范围伤害"
+    },
+    {
+      "key": "伤害半径",
+      "value": "0.3 格"
+    },
+    {
+      "key": "攻击的目标",
+      "value": "地面和空中目标"
+    },
+    {
+      "key": "占据人口",
+      "value": "4"
+    },
+    {
+      "key": "移动速度",
+      "value": "2 格/秒"
+    },
+    {
+      "key": "攻击速度",
+      "value": "1.5 秒/次"
+    },
+    {
+      "key": "攻击距离",
+      "value": "3 格"
+    },
+    {
+      "key": "所需训练营等级",
+      "value": "7"
+    },
+    {
+      "key": "所需大本等级",
+      "value": "5"
+    },
+    {
+      "key": "训练时间",
+      "value": "无"
+    },
+    {
+      "key": "捐赠费用",
+      "value": "2,2,6000,Elixir"
+    }
+  ],
+  "tables": [
+    {
+      "label": "升级数据",
+      "headers": [
+        "等级",
+        "每秒伤害",
+        "每次伤害",
+        "生命值",
+        "升级花费",
+        "升级时间",
+        "所需实验室等级",
+        "所需大本等级"
+      ],
+      "rows": [
+        [
+          "1",
+          "50",
+          "75",
+          "75",
+          "\\",
+          "\\",
+          "1",
+          "5"
+        ],
+        [
+          "2",
+          "70",
+          "105",
+          "90",
+          "120k",
+          "0, 4",
+          "3",
+          "5"
+        ],
+        [
+          "3",
+          "90",
+          "135",
+          "108",
+          "300k",
+          "0, 5",
+          "4",
+          "6"
+        ],
+        [
+          "4",
+          "125",
+          "187.5",
+          "135",
+          "600k",
+          "0,12",
+          "5",
+          "7"
+        ],
+        [
+          "5",
+          "170",
+          "255",
+          "165",
+          "1.2M",
+          "0,18",
+          "6",
+          "8"
+        ],
+        [
+          "6",
+          "185",
+          "277.5",
+          "180",
+          "2M",
+          "1,12",
+          "7",
+          "9"
+        ],
+        [
+          "7",
+          "200",
+          "300",
+          "195",
+          "2.5M",
+          "2",
+          "8",
+          "10"
+        ],
+        [
+          "8",
+          "215",
+          "322.5",
+          "210",
+          "3.1M",
+          "2, 6",
+          "9",
+          "11"
+        ],
+        [
+          "9",
+          "230",
+          "345",
+          "230",
+          "4M",
+          "2,12",
+          "10",
+          "12"
+        ],
+        [
+          "10",
+          "245",
+          "367.5",
+          "250",
+          "5.5M",
+          "3,12",
+          "11",
+          "13"
+        ],
+        [
+          "11",
+          "260",
+          "390",
+          "270",
+          "10M",
+          "5,12",
+          "13",
+          "15"
+        ],
+        [
+          "12",
+          "275",
+          "412.5",
+          "290",
+          "11.5M",
+          "7",
+          "14",
+          "16"
+        ],
+        [
+          "13",
+          "290",
+          "435",
+          "310",
+          "16M",
+          "10,12",
+          "15",
+          "17"
+        ],
+        [
+          "14",
+          "310",
+          "465",
+          "330",
+          "27M",
+          "14",
+          "16",
+          "18"
+        ]
+      ],
+      "extra_info": [
+        {
+          "column": 4,
+          "type": "cost",
+          "gpClass": "research",
+          "icon": "Elixir"
+        },
+        {
+          "column": 5,
+          "type": "time",
+          "gpClass": "research"
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2025/11/17",
+      "rows": [
+        "18 本推出，并在 18 本新增 14 级法师。",
+        "13 级法师的升级时间和升级费用减少。"
+      ]
+    },
+    {
+      "date": "2025/10/06",
+      "rows": [
+        "8 ~ 11 级法师的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2025/03/27",
+      "rows": [
+        "部队的训练时间取消，但增加了捐赠费用。"
+      ]
+    },
+    {
+      "date": "2025/03/24",
+      "rows": [
+        "2 ~ 5、8 ~ 12 级法师的升级时间减少。",
+        "3 ~ 4、6 ~ 12 级法师的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2024/11/25",
+      "rows": [
+        "17 本推出，并在 17 本新增 13 级法师。",
+        "3 ~ 4、6 ~ 7、9 ~ 12 级法师的升级时间减少。",
+        "8 ~ 12 级法师的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2024/06/18",
+      "rows": [
+        "11 级法师的升级时间减少。",
+        "11 级法师的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2023/12/12",
+      "rows": [
+        "16 本推出，同时在 16 本新增 12 级法师。",
+        "7 ~ 11 级法师的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2023/06/12",
+      "rows": [
+        "9 ~ 10 级法师的升级费用和升级时间减少。"
+      ]
+    },
+    {
+      "date": "2022/10/10",
+      "rows": [
+        "15 本推出，并在 15 本新增 11 级法师。",
+        "7 ~ 10 级法师的升级费用和升级时间减少。"
+      ]
+    },
+    {
+      "date": "2021/12/09",
+      "rows": [
+        "2 ~ 10 级法师的升级费用和升级时间减少。",
+        "4 ~ 7 级法师的生命值提升。"
+      ]
+    },
+    {
+      "date": "2021/04/12",
+      "rows": [
+        "3 ~ 9 级法师的升级费用降低。",
+        "3 ~ 6、8 ~ 9 级法师的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2020/10/12",
+      "rows": [
+        "13 本新增 10 级法师。"
+      ]
+    },
+    {
+      "date": "2020/03/30",
+      "rows": [
+        "5 ~ 7 级法师的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2019/04/02",
+      "rows": [
+        "5 ~ 8 级法师的升级时间减少。",
+        "所有等级法师的训练费用降低。"
+      ]
+    }
+  ],
+  "notes": []
+}

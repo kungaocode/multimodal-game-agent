@@ -1,0 +1,37 @@
+{
+  "id": "07c6",
+  "link": "07c6-Frost-Flake",
+  "tab": "英雄",
+  "section": "装备（飞盾战神）",
+  "name": "冷冽冰晶",
+  "title": "部落冲突 coc 冷冽冰晶装备升级数据",
+  "description": "冷冽冰晶是飞盾战神的第三件史诗装备，它在 2025 年 12 月的熔岩危机活动中首次开放购买。当飞盾战神装备冷冽冰晶时，开启技能时，能攻击距离飞盾战神最近的建筑并冻结它们几秒。除此之外，冷冽冰晶还可以提升飞盾战神的生命值。",
+  "module": "upgrade-home",
+  "img_folder": "home_heroes/07c6",
+  "canonical": "/upgrade/07c6-Frost-Flake",
+  "wiki": "https://clashofclans.fandom.com/wiki/Frost_Flake",
+  "info_image": {
+    "level": "info",
+    "src": "Frost_Flake_info.png",
+    "url": "https://static.clashpost.com/upgrade/home_heroes/07c6/Frost_Flake_info.png"
+  },
+  "image_groups": [],
+  "building_num": [],
+  "properties": [
+    {
+      "key": "技能类型",
+      "value": "主动技能"
+    },
+    {
+      "key": "装备稀有度",
+      "value": "史诗"
+    },
+    {
+      "key": "减速比例",
+      "value": "100%"
+    }
+  ],
+  "tables": [],
+  "timeline": [],
+  "notes": []
+}

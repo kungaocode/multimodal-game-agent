@@ -1,0 +1,33 @@
+{
+  "id": "0744",
+  "link": "0744-Frozen-Arrow",
+  "tab": "英雄",
+  "section": "装备（弓箭女皇）",
+  "name": "冰封箭矢",
+  "title": "部落冲突 coc 冰封箭矢（寒冰箭）装备升级数据",
+  "description": "冰封箭矢是弓箭女皇的第一件史诗装备，它在 2024 年 2 月的龙年佳节活动中首次开放购买。带上冰封箭矢装备后，被女王打中的目标在一段时间内移动速度和攻击速度会变慢。另外，冰封箭矢还能增加女王的每秒伤害。",
+  "module": "upgrade-home",
+  "img_folder": "home_heroes/0744",
+  "canonical": "/upgrade/0744-Frozen-Arrow",
+  "wiki": "https://clashofclans.fandom.com/wiki/Frozen_Arrow",
+  "info_image": {
+    "level": "info",
+    "src": "Frozen_Arrow_info.png",
+    "url": "https://static.clashpost.com/upgrade/home_heroes/0744/Frozen_Arrow_info.png"
+  },
+  "image_groups": [],
+  "building_num": [],
+  "properties": [
+    {
+      "key": "技能类型",
+      "value": "被动技能"
+    },
+    {
+      "key": "装备稀有度",
+      "value": "史诗"
+    }
+  ],
+  "tables": [],
+  "timeline": [],
+  "notes": []
+}

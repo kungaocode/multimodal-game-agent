@@ -1,0 +1,327 @@
+{
+  "id": "0482",
+  "link": "0482-Dark-Barracks",
+  "tab": "建筑",
+  "section": "军事建筑",
+  "name": "暗黑训练营",
+  "title": "部落冲突 coc 暗黑训练营升级数据",
+  "description": "暗黑训练营将向源于暗黑重油的生物敞开大门。升级暗黑训练营解锁更多有独特战斗力的部队。",
+  "module": "upgrade-home",
+  "img_folder": "home_buildings/0482",
+  "canonical": "/upgrade/0482-Dark-Barracks",
+  "wiki": "https://clashofclans.fandom.com/wiki/Dark_Barracks",
+  "info_image": {
+    "level": "info",
+    "src": "Dark_Barracks12_info.png",
+    "url": "https://static.clashpost.com/upgrade/home_buildings/0482/Dark_Barracks12_info.png"
+  },
+  "image_groups": [
+    {
+      "group": "暗黑训练营",
+      "images": [
+        {
+          "level": "1 级",
+          "src": "Dark_Barracks1.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0482/Dark_Barracks1.png"
+        },
+        {
+          "level": "2 级",
+          "src": "Dark_Barracks2.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0482/Dark_Barracks2.png"
+        },
+        {
+          "level": "3 级",
+          "src": "Dark_Barracks3.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0482/Dark_Barracks3.png"
+        },
+        {
+          "level": "4 级",
+          "src": "Dark_Barracks4.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0482/Dark_Barracks4.png"
+        },
+        {
+          "level": "5 级",
+          "src": "Dark_Barracks5.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0482/Dark_Barracks5.png"
+        },
+        {
+          "level": "6 级",
+          "src": "Dark_Barracks6.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0482/Dark_Barracks6.png"
+        },
+        {
+          "level": "7 级",
+          "src": "Dark_Barracks7.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0482/Dark_Barracks7.png"
+        },
+        {
+          "level": "8 级",
+          "src": "Dark_Barracks8.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0482/Dark_Barracks8.png"
+        },
+        {
+          "level": "9 级",
+          "src": "Dark_Barracks9.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0482/Dark_Barracks9.png"
+        },
+        {
+          "level": "10 级",
+          "src": "Dark_Barracks10.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0482/Dark_Barracks10.png"
+        },
+        {
+          "level": "11 级",
+          "src": "Dark_Barracks11.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0482/Dark_Barracks11.png"
+        },
+        {
+          "level": "12 级",
+          "src": "Dark_Barracks12.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0482/Dark_Barracks12.png"
+        }
+      ]
+    }
+  ],
+  "building_num": [
+    {
+      "title": "大本等级",
+      "num": "1 - 6, 7 - 18"
+    },
+    {
+      "title": "建筑数量",
+      "num": "    0,      1"
+    }
+  ],
+  "properties": [
+    {
+      "key": "占地面积",
+      "value": "3×3"
+    },
+    {
+      "key": "判定面积",
+      "value": "2×2"
+    }
+  ],
+  "tables": [
+    {
+      "label": "升级数据",
+      "headers": [
+        "等级",
+        "生命值",
+        "升级费用",
+        "升级时间",
+        "升级后可获得的经验",
+        "所需大本等级",
+        "解锁的兵种"
+      ],
+      "rows": [
+        [
+          "1",
+          "500",
+          "200k",
+          "0, 8",
+          "",
+          "7",
+          "亡灵"
+        ],
+        [
+          "2",
+          "550",
+          "600k",
+          "1",
+          "",
+          "7",
+          "野猪骑士"
+        ],
+        [
+          "3",
+          "600",
+          "1M",
+          "1,12",
+          "",
+          "8",
+          "瓦基丽武神"
+        ],
+        [
+          "4",
+          "650",
+          "1.6M",
+          "2",
+          "",
+          "8",
+          "戈仑石人"
+        ],
+        [
+          "5",
+          "700",
+          "2.2M",
+          "2,12",
+          "",
+          "9",
+          "女巫"
+        ],
+        [
+          "6",
+          "750",
+          "2.9M",
+          "3",
+          "",
+          "9",
+          "熔岩猎犬"
+        ],
+        [
+          "7",
+          "800",
+          "4M",
+          "5",
+          "",
+          "10",
+          "巨石投手"
+        ],
+        [
+          "8",
+          "850",
+          "7M",
+          "6",
+          "",
+          "11",
+          "戈仑冰人"
+        ],
+        [
+          "9",
+          "900",
+          "7.2M",
+          "7",
+          "",
+          "12",
+          "英雄猎手"
+        ],
+        [
+          "10",
+          "950",
+          "10M",
+          "7,12",
+          "",
+          "13",
+          "守护者学徒"
+        ],
+        [
+          "11",
+          "1000",
+          "12M",
+          "8",
+          "",
+          "14",
+          "德鲁伊"
+        ],
+        [
+          "12",
+          "1050",
+          "20M",
+          "12",
+          "",
+          "15",
+          "烈焰熔炉"
+        ]
+      ],
+      "extra_info": [
+        {
+          "column": 2,
+          "type": "cost",
+          "gpClass": "building",
+          "icon": "Elixir"
+        },
+        {
+          "column": 3,
+          "type": "time",
+          "gpClass": "building"
+        },
+        {
+          "column": 4,
+          "type": "exp",
+          "icon": "Exp"
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2025/10/06",
+      "rows": [
+        "10 ~ 11 级暗黑训练营的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2025/03/24",
+      "rows": [
+        "15 本新增 12 级暗黑训练营，新兵种：烈焰熔炉。",
+        "10 ~ 11 级暗黑训练营的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2024/11/25",
+      "rows": [
+        "5 ~ 11 级暗黑训练营的升级时间减少。",
+        "8 ~ 9 级暗黑训练营的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2024/06/18",
+      "rows": [
+        "10 级暗黑训练营的升级时间减少。",
+        "10 级暗黑训练营的升级费用降低。",
+        "14 本新增 11 级暗黑训练营，新兵种：德鲁伊。"
+      ]
+    },
+    {
+      "date": "2023/12/12",
+      "rows": [
+        "1 ~ 4 级暗黑训练营的升级费用减少。"
+      ]
+    },
+    {
+      "date": "2023/06/12",
+      "rows": [
+        "13 本新增 10 级暗黑训练营。",
+        "9 级暗黑训练营的升级时间减少。",
+        "9 级暗黑训练营的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2022/10/10",
+      "rows": [
+        "两个训练营合并为一个，更新后的兵种训练时间等同于更新前两个训练营的训练时间。",
+        "训练营升级时兵种可继续训练部队，但训练速度减半（训练时间翻倍）。",
+        "1 ~ 7 级暗黑训练营的升级时间增加。",
+        "8 ~ 9 级暗黑训练营的升级时间减少。",
+        "1 ~ 9 级暗黑训练营的升级费用增加。"
+      ]
+    },
+    {
+      "date": "2021/12/09",
+      "rows": [
+        "1 ~ 6 级暗黑训练营的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2021/04/12",
+      "rows": [
+        "所有等级暗黑训练营的升级费用降低。",
+        "1 ~ 4、8 级暗黑训练营的升级费时间减少。"
+      ]
+    },
+    {
+      "date": "2020/06/22",
+      "rows": [
+        "12 本新增 9 级暗黑训练营。"
+      ]
+    },
+    {
+      "date": "2019/04/02",
+      "rows": [
+        "所有等级暗黑训练营的升级费用和升级时间减少。"
+      ]
+    }
+  ],
+  "notes": []
+}

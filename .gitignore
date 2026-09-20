@@ -1,0 +1,42 @@
+# --- 密钥与凭据（严禁提交） ---
+api.txt
+.env
+.env.*
+*.key
+*.pem
+secrets/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+.venv/
+venv/
+
+# --- 训练产物 / 大数据文件 ---
+runs/
+*.pt
+dataset/game_picture/
+dataset/picture/
+dataset/llm_samples/
+
+# --- 日志与临时文件 ---
+*.log
+/tmp/
+
+# --- 大数据集（训练集/视频/真机会话截图，本机保留，不入库） ---
+dataset/detection/
+dataset/farm_synthetic/
+dataset/video/
+dataset/video_batch_v5/
+dataset/fsm_v2_video/
+dataset/coach_sessions/
+
+# --- 第三方二进制工具 / 参考仓库副本 ---
+tools/android-platform-tools/
+.reference-clashpost/

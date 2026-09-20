@@ -1,0 +1,33 @@
+{
+  "id": "0746",
+  "link": "0746-Action-Figure",
+  "tab": "英雄",
+  "section": "装备（弓箭女皇）",
+  "name": "动作人偶",
+  "title": "部落冲突 coc 动作人偶装备升级数据",
+  "description": "动作人偶是弓箭女皇的第三件史诗装备，它在 2025 年 4 月的是敌是友活动中首次开放购买。动作人偶装备可以在使用技能时召唤一个霸天巨人，其各项数据与同名临时兵种相同。霸天巨人的等级取决于装备等级。",
+  "module": "upgrade-home",
+  "img_folder": "home_heroes/0746",
+  "canonical": "/upgrade/0746-Action-Figure",
+  "wiki": "https://clashofclans.fandom.com/wiki/Action_Figure",
+  "info_image": {
+    "level": "info",
+    "src": "Action_Figure_info.png",
+    "url": "https://static.clashpost.com/upgrade/home_heroes/0746/Action_Figure_info.png"
+  },
+  "image_groups": [],
+  "building_num": [],
+  "properties": [
+    {
+      "key": "技能类型",
+      "value": "主动技能"
+    },
+    {
+      "key": "装备稀有度",
+      "value": "史诗"
+    }
+  ],
+  "tables": [],
+  "timeline": [],
+  "notes": []
+}

@@ -1,0 +1,643 @@
+{
+  "id": "0309",
+  "link": "0309-X-Bow",
+  "tab": "建筑",
+  "section": "防御建筑",
+  "name": "X连弩（十字连弩）",
+  "title": "部落冲突 coc X连弩升级数据",
+  "description": "X连弩会发射威力巨大的弩箭。您可将X连弩设置为攻击地面单位，或攻击空中单位。",
+  "module": "upgrade-home",
+  "img_folder": "home_buildings/0309",
+  "canonical": "/upgrade/0309-X-Bow",
+  "wiki": "https://clashofclans.fandom.com/wiki/X-Bow",
+  "info_image": {
+    "level": "info",
+    "src": "X-Bow12_hd.png",
+    "url": "https://static.clashpost.com/upgrade/home_buildings/0309/X-Bow12_hd.png"
+  },
+  "image_groups": [
+    {
+      "group": "地面模式",
+      "images": [
+        {
+          "level": "1 级",
+          "src": "X-Bow1.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0309/X-Bow1.png"
+        },
+        {
+          "level": "2 级",
+          "src": "X-Bow2.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0309/X-Bow2.png"
+        },
+        {
+          "level": "3 级",
+          "src": "X-Bow3.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0309/X-Bow3.png"
+        },
+        {
+          "level": "4 级",
+          "src": "X-Bow4.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0309/X-Bow4.png"
+        },
+        {
+          "level": "5 级",
+          "src": "X-Bow5.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0309/X-Bow5.png"
+        },
+        {
+          "level": "6 级",
+          "src": "X-Bow6.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0309/X-Bow6.png"
+        },
+        {
+          "level": "7 级",
+          "src": "X-Bow7.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0309/X-Bow7.png"
+        },
+        {
+          "level": "8 级",
+          "src": "X-Bow8.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0309/X-Bow8.png"
+        },
+        {
+          "level": "9 级",
+          "src": "X-Bow9.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0309/X-Bow9.png"
+        },
+        {
+          "level": "10 级",
+          "src": "X-Bow10.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0309/X-Bow10.png"
+        },
+        {
+          "level": "11 级",
+          "src": "X-Bow11.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0309/X-Bow11.png"
+        },
+        {
+          "level": "12 级",
+          "src": "X-Bow12.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0309/X-Bow12.png"
+        }
+      ]
+    },
+    {
+      "group": "地空模式",
+      "images": [
+        {
+          "level": "1 级",
+          "src": "X-Bow1_Air.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0309/X-Bow1_Air.png"
+        },
+        {
+          "level": "2 级",
+          "src": "X-Bow2_Air.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0309/X-Bow2_Air.png"
+        },
+        {
+          "level": "3 级",
+          "src": "X-Bow3_Air.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0309/X-Bow3_Air.png"
+        },
+        {
+          "level": "4 级",
+          "src": "X-Bow4_Air.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0309/X-Bow4_Air.png"
+        },
+        {
+          "level": "5 级",
+          "src": "X-Bow5_Air.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0309/X-Bow5_Air.png"
+        },
+        {
+          "level": "6 级",
+          "src": "X-Bow6_Air.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0309/X-Bow6_Air.png"
+        },
+        {
+          "level": "7 级",
+          "src": "X-Bow7_Air.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0309/X-Bow7_Air.png"
+        },
+        {
+          "level": "8 级",
+          "src": "X-Bow8_Air.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0309/X-Bow8_Air.png"
+        },
+        {
+          "level": "9 级",
+          "src": "X-Bow9_Air.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0309/X-Bow9_Air.png"
+        },
+        {
+          "level": "10 级",
+          "src": "X-Bow10_Air.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0309/X-Bow10_Air.png"
+        },
+        {
+          "level": "11 级",
+          "src": "X-Bow11_Air.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0309/X-Bow11_Air.png"
+        },
+        {
+          "level": "12 级",
+          "src": "X-Bow12_Air.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0309/X-Bow12_Air.png"
+        }
+      ]
+    },
+    {
+      "group": "地面模式（无弹药）",
+      "images": [
+        {
+          "level": "1 级",
+          "src": "X-Bow1_Depleted.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0309/X-Bow1_Depleted.png"
+        },
+        {
+          "level": "2 级",
+          "src": "X-Bow2_Depleted.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0309/X-Bow2_Depleted.png"
+        },
+        {
+          "level": "3 级",
+          "src": "X-Bow3_Depleted.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0309/X-Bow3_Depleted.png"
+        },
+        {
+          "level": "4 级",
+          "src": "X-Bow4_Depleted.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0309/X-Bow4_Depleted.png"
+        },
+        {
+          "level": "5 级",
+          "src": "X-Bow5_Depleted.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0309/X-Bow5_Depleted.png"
+        },
+        {
+          "level": "6 级",
+          "src": "X-Bow6_Depleted.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0309/X-Bow6_Depleted.png"
+        },
+        {
+          "level": "7 级",
+          "src": "X-Bow7_Depleted.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0309/X-Bow7_Depleted.png"
+        },
+        {
+          "level": "8 级",
+          "src": "X-Bow8_Depleted.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0309/X-Bow8_Depleted.png"
+        },
+        {
+          "level": "9 级",
+          "src": "X-Bow9_Depleted.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0309/X-Bow9_Depleted.png"
+        },
+        {
+          "level": "10 级",
+          "src": "X-Bow10_Depleted.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0309/X-Bow10_Depleted.png"
+        },
+        {
+          "level": "11 级",
+          "src": "X-Bow11_Depleted.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0309/X-Bow11_Depleted.png"
+        },
+        {
+          "level": "12 级",
+          "src": "X-Bow12_Depleted.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0309/X-Bow12_Depleted.png"
+        }
+      ]
+    },
+    {
+      "group": "地空模式（无弹药）",
+      "images": [
+        {
+          "level": "1 级",
+          "src": "X-Bow1_Air_Depleted.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0309/X-Bow1_Air_Depleted.png"
+        },
+        {
+          "level": "2 级",
+          "src": "X-Bow2_Air_Depleted.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0309/X-Bow2_Air_Depleted.png"
+        },
+        {
+          "level": "3 级",
+          "src": "X-Bow3_Air_Depleted.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0309/X-Bow3_Air_Depleted.png"
+        },
+        {
+          "level": "4 级",
+          "src": "X-Bow4_Air_Depleted.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0309/X-Bow4_Air_Depleted.png"
+        },
+        {
+          "level": "5 级",
+          "src": "X-Bow5_Air_Depleted.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0309/X-Bow5_Air_Depleted.png"
+        },
+        {
+          "level": "6 级",
+          "src": "X-Bow6_Air_Depleted.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0309/X-Bow6_Air_Depleted.png"
+        },
+        {
+          "level": "7 级",
+          "src": "X-Bow7_Air_Depleted.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0309/X-Bow7_Air_Depleted.png"
+        },
+        {
+          "level": "8 级",
+          "src": "X-Bow8_Air_Depleted.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0309/X-Bow8_Air_Depleted.png"
+        },
+        {
+          "level": "9 级",
+          "src": "X-Bow9_Air_Depleted.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0309/X-Bow9_Air_Depleted.png"
+        },
+        {
+          "level": "10 级",
+          "src": "X-Bow10_Air_Depleted.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0309/X-Bow10_Air_Depleted.png"
+        },
+        {
+          "level": "11 级",
+          "src": "X-Bow11_Air_Depleted.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0309/X-Bow11_Air_Depleted.png"
+        },
+        {
+          "level": "12 级",
+          "src": "X-Bow12_Air_Depleted.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0309/X-Bow12_Air_Depleted.png"
+        }
+      ]
+    }
+  ],
+  "building_num": [
+    {
+      "title": "大本等级",
+      "num": "1 - 8, 9, 10, 11 - 18"
+    },
+    {
+      "title": "建筑数量",
+      "num": "    0, 2,  3,       4"
+    }
+  ],
+  "properties": [
+    {
+      "key": "占地面积",
+      "value": "3×3"
+    },
+    {
+      "key": "判定面积",
+      "value": "2×2"
+    },
+    {
+      "key": "伤害类型",
+      "value": "单体伤害"
+    },
+    {
+      "key": "攻击的目标",
+      "value": "可调整<sup>*</sup>"
+    },
+    {
+      "key": "射程",
+      "value": "14 格 (地面)<br>11.5 格 (地空)"
+    },
+    {
+      "key": "攻速",
+      "value": "0.128 秒/次"
+    },
+    {
+      "key": "弹药数量",
+      "value": "1 500"
+    }
+  ],
+  "tables": [
+    {
+      "label": "升级数据",
+      "headers": [
+        "等级",
+        "每秒伤害",
+        "每次伤害",
+        "生命值",
+        "升级费用",
+        "升级时间",
+        "升级后可获得的经验",
+        "所需大本等级"
+      ],
+      "rows": [
+        [
+          "1",
+          "60",
+          "7.68",
+          "1500",
+          "1M",
+          "0,12",
+          "",
+          "9"
+        ],
+        [
+          "2",
+          "70",
+          "8.96",
+          "1900",
+          "1.2M",
+          "1",
+          "",
+          "9"
+        ],
+        [
+          "3",
+          "80",
+          "10.24",
+          "2300",
+          "2.4M",
+          "2",
+          "",
+          "9"
+        ],
+        [
+          "4",
+          "85",
+          "10.88",
+          "2700",
+          "2.5M",
+          "3",
+          "",
+          "10"
+        ],
+        [
+          "5",
+          "95",
+          "12.16",
+          "3100",
+          "3.9M",
+          "3,12",
+          "",
+          "11"
+        ],
+        [
+          "6",
+          "110",
+          "14.08",
+          "3400",
+          "5M",
+          "4",
+          "",
+          "12"
+        ],
+        [
+          "7",
+          "130",
+          "16.64",
+          "3700",
+          "6M",
+          "4, 6",
+          "",
+          "13"
+        ],
+        [
+          "8",
+          "155",
+          "19.84",
+          "4000",
+          "7M",
+          "4,12",
+          "",
+          "13"
+        ],
+        [
+          "9",
+          "185",
+          "23.68",
+          "4200",
+          "9M",
+          "5",
+          "",
+          "14"
+        ],
+        [
+          "10",
+          "205",
+          "26.24",
+          "4400",
+          "9.5M",
+          "5,12",
+          "",
+          "15"
+        ],
+        [
+          "11",
+          "225",
+          "28.8",
+          "4600",
+          "10M",
+          "6",
+          "",
+          "16"
+        ],
+        [
+          "12",
+          "235",
+          "30.08",
+          "4800",
+          "16M",
+          "10,12",
+          "",
+          "17"
+        ],
+        [
+          "⚡1",
+          "245",
+          "31.36",
+          "4800",
+          "10M",
+          "4,12",
+          "",
+          "17"
+        ],
+        [
+          "⚡2",
+          "245",
+          "31.36",
+          "4900",
+          "6.25M",
+          "6,12",
+          "",
+          "17"
+        ]
+      ],
+      "extra_info": [
+        {
+          "column": 4,
+          "type": "cost",
+          "gpClass": "building",
+          "icon": "Gold"
+        },
+        {
+          "column": 5,
+          "type": "time",
+          "gpClass": "building"
+        },
+        {
+          "column": 6,
+          "type": "exp",
+          "icon": "Exp"
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2025/11/17",
+      "rows": [
+        "12 级 X 连弩的升级时间和升级费用减少。"
+      ]
+    },
+    {
+      "date": "2025/10/06",
+      "rows": [
+        "7 ~ 11 级 X 连弩的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2025/03/24",
+      "rows": [
+        "8 级 X 连弩的升级费用和升级时间增加。",
+        "1 ~ 2、5 ~ 7、9 ~ 11 级 X 连弩的升级时间减少。",
+        "2、6 ~ 7、10 ~ 11 级 X 连弩的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2025/02/10",
+      "rows": [
+        "17 本新增 12 级 X 连弩。",
+        "8 级 X 连弩的升级时间减少。",
+        "8 级 X 连弩的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2024/11/25",
+      "rows": [
+        "1 ~ 11 级 X 连弩的升级时间减少。",
+        "6 ~ 11 级 X 连弩的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2024/09/09",
+      "rows": [
+        "超级充能推出，X 连弩是第一批可以充能的建筑之一。"
+      ]
+    },
+    {
+      "date": "2024/06/18",
+      "rows": [
+        "9 ~ 10 级 X 连弩的升级时间减少。",
+        "10 级 X 连弩的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2024/06/03",
+      "rows": [
+        "4 ~ 9 级 X 连弩的每秒伤害降低。"
+      ]
+    },
+    {
+      "date": "2023/12/12",
+      "rows": [
+        "16 本推出，并在 16 本新增 11 级 X 连弩。",
+        "9 ~ 10 级 X 连弩的升级时间减少。",
+        "4、5、9 级 X 连弩的升级费用降低。",
+        "6 ~ 10 级 X 连弩的生命值减少。",
+        "7 ~ 10 级 X 连弩的每秒伤害降低。"
+      ]
+    },
+    {
+      "date": "2023/09/28",
+      "rows": [
+        "4 ~ 9 级 X 连弩的每秒伤害降低。"
+      ]
+    },
+    {
+      "date": "2023/06/12",
+      "rows": [
+        "6 ~ 8 级 X 连弩的升级时间减少。",
+        "6 ~ 8 级 X 连弩的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2022/10/10",
+      "rows": [
+        "15 本推出，并在 15 本新增 10 级 X 连弩。",
+        "4 ~ 9 级 X 连弩的升级费用和升级时间减少。"
+      ]
+    },
+    {
+      "date": "2022/06/27",
+      "rows": [
+        "6 ~ 7 级 X 连弩的伤害降低。"
+      ]
+    },
+    {
+      "date": "2021/12/09",
+      "rows": [
+        "2 ~ 7 级 X 连弩的升级费用降低。",
+        "4 级 X 连弩的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2021/09/27",
+      "rows": [
+        "14 本新增 9 级 X 连弩。"
+      ]
+    },
+    {
+      "date": "2021/08/12",
+      "rows": [
+        "X 连弩“陆空兼顾模式”的射程提升 0.5 格，从 11.0 格调整为 11.5 格。注：刚更新的时候游戏内的射程数据不会显示小数位，因此 X 连弩的射程仍会显示为 11，但其实际射程为 11.5，后来的版本支持显示小数位，也就没有这个问题了。"
+      ]
+    },
+    {
+      "date": "2021/04/12",
+      "rows": [
+        "1 ~ 5 级 X 连弩的升级费用和升级时间减少。"
+      ]
+    },
+    {
+      "date": "2020/12/07",
+      "rows": [
+        "13 本新增 8 级 X 连弩。"
+      ]
+    },
+    {
+      "date": "2019/12/09",
+      "rows": [
+        "13 本推出，并在 13 本新增 7 级 X 连弩。"
+      ]
+    },
+    {
+      "date": "2019/04/02",
+      "rows": [
+        "1 ~ 5 级 X 连弩的升级费用降低。",
+        "1 ~ 2 级 X 连弩的升级时间减少。",
+        "玩家上线后，X 连弩的弹药将自动被填充，填充不再需要花费圣水。然而，如果玩家不上线，X 连弩的弹药就不会被填充，所以你仍然可以攻击到 x 连弩的弹药用完的村庄。"
+      ]
+    },
+    {
+      "date": "2019/02/22",
+      "rows": [
+        "所有等级 X 连弩的伤害提高"
+      ]
+    }
+  ],
+  "notes": [
+    "X 连弩有 1500 发弹药，每一发 0.128 秒，所以连弩的弹药 3 分 12 秒可以用完。",
+    "X 连弩必须装弹才能工作，这个装弹操作会在玩家登录游戏时自动进行，但如果玩家长时间不登录，弹药就会用完，从而导致防御失效。",
+    "用完 X 连弩的弹药需要 3 分 12 秒。"
+  ]
+}

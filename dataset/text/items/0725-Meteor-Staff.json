@@ -1,0 +1,33 @@
+{
+  "id": "0725",
+  "link": "0725-Meteor-Staff",
+  "tab": "英雄",
+  "section": "装备（亡灵王子）",
+  "name": "陨石法杖",
+  "title": "部落冲突 coc 陨石法杖装备升级数据",
+  "description": "陨石法杖是亡灵王子的第二件史诗装备。当亡灵王子带上陨石法杖装备后，他会周期性地在最近的防御建筑上召唤陨石，这些陨石会对地面和空中单位造成伤害，其伤害足以波及相邻建筑。除了召唤陨石外，陨石法杖还可以提升亡灵王子在常规状态下的伤害和生命值。",
+  "module": "upgrade-home",
+  "img_folder": "home_heroes/0725",
+  "canonical": "/upgrade/0725-Meteor-Staff",
+  "wiki": "https://clashofclans.fandom.com/wiki/Meteor_Staff",
+  "info_image": {
+    "level": "info",
+    "src": "Meteor_Staff_info.png",
+    "url": "https://static.clashpost.com/upgrade/home_heroes/0725/Meteor_Staff_info.png"
+  },
+  "image_groups": [],
+  "building_num": [],
+  "properties": [
+    {
+      "key": "技能类型",
+      "value": "被动技能"
+    },
+    {
+      "key": "装备稀有度",
+      "value": "史诗"
+    }
+  ],
+  "tables": [],
+  "timeline": [],
+  "notes": []
+}

@@ -1,0 +1,481 @@
+{
+  "id": "000d",
+  "link": "000d-Yeti",
+  "tab": "科技",
+  "section": "圣水兵",
+  "name": "大雪怪",
+  "title": "部落冲突 coc 大雪怪升级数据",
+  "description": "这个毛茸茸的家伙力气很大，他喜欢极寒天气，对自己的小雪怪们情有独钟。千万不要伤害大雪怪，否则小雪怪们会要你好看。",
+  "module": "upgrade-home",
+  "img_folder": "home_tech/000d",
+  "canonical": "/upgrade/000d-Yeti",
+  "wiki": "https://clashofclans.fandom.com/wiki/Yeti",
+  "info_image": {
+    "level": "info",
+    "src": "Yeti_info.png",
+    "url": "https://static.clashpost.com/upgrade/home_tech/000d/Yeti_info.png"
+  },
+  "image_groups": [
+    {
+      "group": "",
+      "images": [
+        {
+          "level": "1 级",
+          "src": "Yeti1.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/000d/Yeti1.png"
+        },
+        {
+          "level": "2 级",
+          "src": "Yeti2.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/000d/Yeti2.png"
+        },
+        {
+          "level": "3 - 4 级",
+          "src": "Yeti3.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/000d/Yeti3.png"
+        },
+        {
+          "level": "5 级",
+          "src": "Yeti5.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/000d/Yeti5.png"
+        },
+        {
+          "level": "6 级",
+          "src": "Yeti6.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/000d/Yeti6.png"
+        },
+        {
+          "level": "7 级",
+          "src": "Yeti7.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/000d/Yeti7.png"
+        }
+      ]
+    },
+    {
+      "group": "",
+      "images": [
+        {
+          "level": "1 级",
+          "src": "Yetimite1.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/000d/Yetimite1.png"
+        },
+        {
+          "level": "2 级",
+          "src": "Yetimite2.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/000d/Yetimite2.png"
+        },
+        {
+          "level": "3 - 5 级",
+          "src": "Yetimite3.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/000d/Yetimite3.png"
+        },
+        {
+          "level": "6 级",
+          "src": "Yetimite6.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/000d/Yetimite6.png"
+        },
+        {
+          "level": "7 级",
+          "src": "Yetimite7.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/000d/Yetimite7.png"
+        }
+      ]
+    }
+  ],
+  "building_num": [],
+  "properties": [
+    {
+      "key": "部队类型",
+      "value": "地面近战单位"
+    },
+    {
+      "key": "攻击偏好",
+      "value": "无"
+    },
+    {
+      "key": "伤害类型",
+      "value": "单体伤害"
+    },
+    {
+      "key": "攻击的目标",
+      "value": "仅地面目标"
+    },
+    {
+      "key": "占据人口",
+      "value": "18"
+    },
+    {
+      "key": "移动速度",
+      "value": "1.5 格/秒"
+    },
+    {
+      "key": "攻击速度",
+      "value": "1 秒/次"
+    },
+    {
+      "key": "攻击距离",
+      "value": "0.8 格"
+    },
+    {
+      "key": "所需训练营等级",
+      "value": "14"
+    },
+    {
+      "key": "所需大本等级",
+      "value": "12"
+    },
+    {
+      "key": "训练时间",
+      "value": "无"
+    },
+    {
+      "key": "捐赠费用",
+      "value": "9,9,27000,Elixir"
+    },
+    {
+      "key": "部队类型",
+      "value": "地面辅助单位"
+    },
+    {
+      "key": "攻击偏好1",
+      "value": "防御建筑<br>(4 倍伤害)"
+    },
+    {
+      "key": "攻击偏好2",
+      "value": "激活的大本<br>(2 倍伤害)"
+    },
+    {
+      "key": "攻击衰减",
+      "value": "资源类建筑<br>(伤害减半)"
+    },
+    {
+      "key": "伤害类型",
+      "value": "范围伤害"
+    },
+    {
+      "key": "伤害半径",
+      "value": "0.8 格"
+    },
+    {
+      "key": "攻击的目标",
+      "value": "地面和空中目标"
+    },
+    {
+      "key": "占据人口",
+      "value": "2<sup>①</sup>"
+    },
+    {
+      "key": "移动速度",
+      "value": "3 格/秒"
+    },
+    {
+      "key": "攻击时机",
+      "value": "到达目标后 0.5 秒<sup>②</sup>"
+    },
+    {
+      "key": "攻击距离",
+      "value": "2.5 格"
+    }
+  ],
+  "tables": [
+    {
+      "label": "升级数据",
+      "headers": [
+        "等级",
+        "每秒伤害",
+        "每次伤害",
+        "拥有的小雪怪数量",
+        "生命值",
+        "升级花费",
+        "升级时间",
+        "所需实验室等级",
+        "所需大本等级"
+      ],
+      "rows": [
+        [
+          "1",
+          "230",
+          "230",
+          "8",
+          "2900",
+          "\\",
+          "\\",
+          "1",
+          "12"
+        ],
+        [
+          "2",
+          "250",
+          "250",
+          "9",
+          "3200",
+          "5M",
+          "3",
+          "10",
+          "12"
+        ],
+        [
+          "3",
+          "270",
+          "270",
+          "10",
+          "3500",
+          "6.5M",
+          "4,12",
+          "11",
+          "13"
+        ],
+        [
+          "4",
+          "290",
+          "290",
+          "11",
+          "3700",
+          "10M",
+          "7",
+          "12",
+          "14"
+        ],
+        [
+          "5",
+          "310",
+          "310",
+          "12",
+          "3900",
+          "12M",
+          "7,12",
+          "13",
+          "15"
+        ],
+        [
+          "6",
+          "330",
+          "330",
+          "13",
+          "4100",
+          "14.5M",
+          "8, 6",
+          "14",
+          "16"
+        ],
+        [
+          "7",
+          "350",
+          "350",
+          "13",
+          "4300",
+          "17M",
+          "10",
+          "15",
+          "17"
+        ]
+      ],
+      "extra_info": [
+        {
+          "column": 5,
+          "type": "cost",
+          "gpClass": "research",
+          "icon": "Elixir"
+        },
+        {
+          "column": 6,
+          "type": "time",
+          "gpClass": "research"
+        }
+      ]
+    },
+    {
+      "label": "升级数据",
+      "headers": [
+        "大雪怪等级",
+        "每次伤害",
+        "对防御建筑的每次伤害",
+        "对已激活大本的每次伤害",
+        "对资源建筑的每次伤害",
+        "生命值"
+      ],
+      "rows": [
+        [
+          "1",
+          "56",
+          "224",
+          "112",
+          "28",
+          "300"
+        ],
+        [
+          "2",
+          "64",
+          "256",
+          "128",
+          "32",
+          "350"
+        ],
+        [
+          "3",
+          "72",
+          "288",
+          "144",
+          "36",
+          "400"
+        ],
+        [
+          "4",
+          "78",
+          "312",
+          "156",
+          "39",
+          "450"
+        ],
+        [
+          "5",
+          "84",
+          "336",
+          "168",
+          "42",
+          "500"
+        ],
+        [
+          "6",
+          "88",
+          "352",
+          "176",
+          "44",
+          "550"
+        ],
+        [
+          "7",
+          "90",
+          "360",
+          "180",
+          "45",
+          "575"
+        ]
+      ],
+      "extra_info": [
+        {
+          "column": 5,
+          "type": "cost",
+          "gpClass": "research",
+          "icon": "Elixir"
+        },
+        {
+          "column": 6,
+          "type": "time",
+          "gpClass": "research"
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2025/11/17",
+      "rows": [
+        "7 级大雪怪的升级时间和升级费用减少。"
+      ]
+    },
+    {
+      "date": "2025/10/06",
+      "rows": [
+        "2 ~ 6 级大雪怪的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2025/04/14",
+      "rows": [
+        "小雪怪占据的人口数由 1 调整为 2."
+      ]
+    },
+    {
+      "date": "2025/03/27",
+      "rows": [
+        "部队的训练时间取消，但增加了捐赠费用。"
+      ]
+    },
+    {
+      "date": "2025/03/24",
+      "rows": [
+        "在 17 本新增 7 级大雪怪。",
+        "2 ~ 6 级大雪怪的升级时间减少。",
+        "2 ~ 3、5 ~ 6 级大雪怪的升级费用降低。",
+        "小雪怪和小冰怪占据的人口数由 3 调整为 1."
+      ]
+    },
+    {
+      "date": "2025/02/10",
+      "rows": [
+        "大雪怪的训练时间由 3:00 改为 2:30"
+      ]
+    },
+    {
+      "date": "2024/11/25",
+      "rows": [
+        "2 ~ 6 级大雪怪的升级费用和升级时间减少。"
+      ]
+    },
+    {
+      "date": "2024/06/18",
+      "rows": [
+        "4 ~ 5 级大雪怪的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2024/04/17",
+      "rows": [
+        "在 16 本新增 6 级大雪怪。"
+      ]
+    },
+    {
+      "date": "2023/12/12",
+      "rows": [
+        "2 ~ 5 级大雪怪的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2023/06/12",
+      "rows": [
+        "15 本新增 5 级大雪怪。",
+        "2 ~ 3 级大雪怪的升级费用和升级时间减少。"
+      ]
+    },
+    {
+      "date": "2022/10/10",
+      "rows": [
+        "2 ~ 4 级大雪怪的升级费用和升级时间减少。"
+      ]
+    },
+    {
+      "date": "2021/12/09",
+      "rows": [
+        "2 级大雪怪的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2021/09/27",
+      "rows": [
+        "14 本新增 4 级大雪怪。"
+      ]
+    },
+    {
+      "date": "2020/03/30",
+      "rows": [
+        "小雪怪对防御建筑的伤害仍然是 4 倍，但对带有武器的大本削弱为 2 倍，资源建筑削弱为二分之一。",
+        "大守护者不再跟随小雪怪。",
+        "天鹰火炮不再将小雪怪作为目标。"
+      ]
+    },
+    {
+      "date": "2020/01/16",
+      "rows": [
+        "小雪怪不再触发陷阱。"
+      ]
+    },
+    {
+      "date": "2019/12/09",
+      "rows": [
+        "12 本可解锁新兵种：大雪怪。"
+      ]
+    }
+  ],
+  "notes": []
+}

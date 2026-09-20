@@ -1,0 +1,216 @@
+{
+  "id": "0011",
+  "link": "0011-Thrower",
+  "tab": "科技",
+  "section": "圣水兵",
+  "name": "巨矛投手",
+  "title": "部落冲突 coc 巨矛投手（粉胖）升级数据",
+  "description": "这位力大无穷的投手目标明确，志在必得！他会从远处向敌人和防御建筑投掷威力十足的长矛。他哪来那么大力气？秘诀就在于他那浓密的胡须！",
+  "module": "upgrade-home",
+  "img_folder": "home_tech/0011",
+  "canonical": "/upgrade/0011-Thrower",
+  "wiki": "https://clashofclans.fandom.com/wiki/Thrower",
+  "info_image": {
+    "level": "info",
+    "src": "Thrower_info.png",
+    "url": "https://static.clashpost.com/upgrade/home_tech/0011/Thrower_info.png"
+  },
+  "image_groups": [
+    {
+      "group": "",
+      "images": [
+        {
+          "level": "1 级",
+          "src": "Thrower1.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0011/Thrower1.png"
+        },
+        {
+          "level": "2 级",
+          "src": "Thrower2.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0011/Thrower2.png"
+        },
+        {
+          "level": "3 级",
+          "src": "Thrower3.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0011/Thrower3.png"
+        },
+        {
+          "level": "4 级",
+          "src": "Thrower4.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0011/Thrower4.png"
+        }
+      ]
+    }
+  ],
+  "building_num": [],
+  "properties": [
+    {
+      "key": "部队类型",
+      "value": "地面远程单位"
+    },
+    {
+      "key": "攻击偏好",
+      "value": "无"
+    },
+    {
+      "key": "伤害类型",
+      "value": "单体伤害"
+    },
+    {
+      "key": "攻击的目标",
+      "value": "地面和空中目标"
+    },
+    {
+      "key": "占据人口",
+      "value": "16"
+    },
+    {
+      "key": "移动速度",
+      "value": "2.25 格/秒"
+    },
+    {
+      "key": "攻击速度",
+      "value": "2.5 秒/次"
+    },
+    {
+      "key": "攻击距离",
+      "value": "6 格"
+    },
+    {
+      "key": "所需训练营等级",
+      "value": "18"
+    },
+    {
+      "key": "所需大本等级",
+      "value": "16"
+    },
+    {
+      "key": "训练时间",
+      "value": "无"
+    },
+    {
+      "key": "捐赠费用",
+      "value": "8,8,24000,Elixir"
+    }
+  ],
+  "tables": [
+    {
+      "label": "升级数据",
+      "headers": [
+        "等级",
+        "每秒伤害",
+        "每次伤害",
+        "生命值",
+        "升级花费",
+        "升级时间",
+        "所需实验室等级",
+        "所需大本等级"
+      ],
+      "rows": [
+        [
+          "1",
+          "190",
+          "475",
+          "2200",
+          "\\",
+          "\\",
+          "1",
+          "16"
+        ],
+        [
+          "2",
+          "210",
+          "525",
+          "2350",
+          "16M",
+          "9,12",
+          "14",
+          "16"
+        ],
+        [
+          "3",
+          "230",
+          "575",
+          "2600",
+          "18M",
+          "10,12",
+          "15",
+          "17"
+        ],
+        [
+          "4",
+          "240",
+          "600",
+          "2800",
+          "27M",
+          "15",
+          "16",
+          "18"
+        ]
+      ],
+      "extra_info": [
+        {
+          "column": 4,
+          "type": "cost",
+          "gpClass": "research",
+          "icon": "Elixir"
+        },
+        {
+          "column": 5,
+          "type": "time",
+          "gpClass": "research"
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026/02/23",
+      "rows": [
+        "4 级巨矛投手的每秒伤害和生命值减少（回滚到 2026/01 平衡性调整的数据）。"
+      ]
+    },
+    {
+      "date": "2026/01/28",
+      "rows": [
+        "所有等级巨矛投手的生命值提升。",
+        "2 ~ 4 级巨矛投手的伤害提升。",
+        "巨矛投手的移动速度由 2 格/秒 提升到 2.25 格/秒。"
+      ]
+    },
+    {
+      "date": "2025/11/17",
+      "rows": [
+        "18 本推出，并在 18 本新增 4 级巨矛投手。",
+        "2 ~ 3 级巨矛投手的升级时间和升级费用减少。",
+        "3 级巨矛投手的生命值和每秒伤害增加。"
+      ]
+    },
+    {
+      "date": "2025/06/30",
+      "rows": [
+        "所有等级巨矛投手的生命值增加。",
+        "所有等级巨矛投手的每秒伤害提升。"
+      ]
+    },
+    {
+      "date": "2025/03/27",
+      "rows": [
+        "部队的训练时间取消，但增加了捐赠费用。"
+      ]
+    },
+    {
+      "date": "2025/02/10",
+      "rows": [
+        "巨矛投手的训练时间由 3:10 改为 2:20"
+      ]
+    },
+    {
+      "date": "2024/11/25",
+      "rows": [
+        "17 本推出，并在 16 本新增巨矛投手，共推出 3 个等级。"
+      ]
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,37 @@
+{
+  "id": "0780",
+  "link": "0780-Eternal-Tome",
+  "tab": "英雄",
+  "section": "装备（大守护者）",
+  "name": "永恒书卷",
+  "title": "部落冲突 coc 永恒书卷装备升级数据",
+  "description": "永恒书卷是大守护者的两件初始装备之一。永恒书卷装备可以在大守护者技能生效期间使他周围的单位（包括他自己）在短时间内拥有无敌效果。无敌只能抵消直接伤害，不能抵消减速和击退效果。",
+  "module": "upgrade-home",
+  "img_folder": "home_heroes/0780",
+  "canonical": "/upgrade/0780-Eternal-Tome",
+  "wiki": "https://clashofclans.fandom.com/wiki/Eternal_Tome",
+  "info_image": {
+    "level": "info",
+    "src": "Eternal_Tome_info.png",
+    "url": "https://static.clashpost.com/upgrade/home_heroes/0780/Eternal_Tome_info.png"
+  },
+  "image_groups": [],
+  "building_num": [],
+  "properties": [
+    {
+      "key": "技能类型",
+      "value": "主动技能"
+    },
+    {
+      "key": "装备稀有度",
+      "value": "普通"
+    },
+    {
+      "key": "解锁条件",
+      "value": "有大守护者即可"
+    }
+  ],
+  "tables": [],
+  "timeline": [],
+  "notes": []
+}

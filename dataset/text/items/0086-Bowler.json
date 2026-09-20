@@ -1,0 +1,388 @@
+{
+  "id": "0086",
+  "link": "0086-Bowler",
+  "tab": "科技",
+  "section": "黑水兵",
+  "name": "巨石投手",
+  "title": "部落冲突 coc 巨石投手（蓝胖）升级数据",
+  "description": "这个蓝皮大个子一辈子只做两件简单的事：狂饮暗黑重油和扔石头。他扔出的巨石击中第一个目标后仍会向前弹跳，可以继续对撞到的目标造成伤害。",
+  "module": "upgrade-home",
+  "img_folder": "home_tech/0086",
+  "canonical": "/upgrade/0086-Bowler",
+  "wiki": "https://clashofclans.fandom.com/wiki/Bowler",
+  "info_image": {
+    "level": "info",
+    "src": "Bowler_info.png",
+    "url": "https://static.clashpost.com/upgrade/home_tech/0086/Bowler_info.png"
+  },
+  "image_groups": [
+    {
+      "group": "",
+      "images": [
+        {
+          "level": "1 - 2 级",
+          "src": "Bowler1.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0086/Bowler1.png"
+        },
+        {
+          "level": "3 级",
+          "src": "Bowler3.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0086/Bowler3.png"
+        },
+        {
+          "level": "4 级",
+          "src": "Bowler4.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0086/Bowler4.png"
+        },
+        {
+          "level": "5 级",
+          "src": "Bowler5.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0086/Bowler5.png"
+        },
+        {
+          "level": "6 级",
+          "src": "Bowler6.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0086/Bowler6.png"
+        },
+        {
+          "level": "7 级",
+          "src": "Bowler7.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0086/Bowler7.png"
+        },
+        {
+          "level": "8 级",
+          "src": "Bowler8.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0086/Bowler8.png"
+        },
+        {
+          "level": "9 级",
+          "src": "Bowler9.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0086/Bowler9.png"
+        },
+        {
+          "level": "10 级",
+          "src": "Bowler10.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0086/Bowler10.png"
+        }
+      ]
+    }
+  ],
+  "building_num": [],
+  "properties": [
+    {
+      "key": "部队类型",
+      "value": "地面远程单位"
+    },
+    {
+      "key": "攻击偏好",
+      "value": "无"
+    },
+    {
+      "key": "伤害类型",
+      "value": "范围伤害"
+    },
+    {
+      "key": "伤害半径",
+      "value": "0.3 格"
+    },
+    {
+      "key": "攻击的目标",
+      "value": "仅地面目标"
+    },
+    {
+      "key": "占据人口",
+      "value": "6"
+    },
+    {
+      "key": "移动速度",
+      "value": "1.75 格/秒"
+    },
+    {
+      "key": "攻击速度",
+      "value": "2.2 秒/次"
+    },
+    {
+      "key": "首次进攻时机",
+      "value": "到达目标后 1.2 秒"
+    },
+    {
+      "key": "攻击距离",
+      "value": "3 格<sup>*</sup>"
+    },
+    {
+      "key": "所需暗黑训练营等级",
+      "value": "7"
+    },
+    {
+      "key": "所需大本等级",
+      "value": "10"
+    },
+    {
+      "key": "训练时间",
+      "value": "无"
+    },
+    {
+      "key": "捐赠费用",
+      "value": "3,3,135,Dark_Elixir"
+    }
+  ],
+  "tables": [
+    {
+      "label": "升级数据",
+      "headers": [
+        "等级",
+        "每秒伤害",
+        "每次伤害",
+        "生命值",
+        "升级花费",
+        "升级时间",
+        "所需实验室等级",
+        "所需大本等级"
+      ],
+      "rows": [
+        [
+          "1",
+          "60",
+          "132",
+          "325",
+          "\\",
+          "\\",
+          "1",
+          "10"
+        ],
+        [
+          "2",
+          "72",
+          "158.4",
+          "375",
+          "32.5K",
+          "2",
+          "8",
+          "10"
+        ],
+        [
+          "3",
+          "84",
+          "184.8",
+          "420",
+          "44K",
+          "2,12",
+          "9",
+          "11"
+        ],
+        [
+          "4",
+          "96",
+          "211.2",
+          "470",
+          "62.5K",
+          "3",
+          "10",
+          "12"
+        ],
+        [
+          "5",
+          "102",
+          "224.4",
+          "505",
+          "85K",
+          "4",
+          "11",
+          "13"
+        ],
+        [
+          "6",
+          "108",
+          "237.6",
+          "530",
+          "110K",
+          "6",
+          "12",
+          "14"
+        ],
+        [
+          "7",
+          "114",
+          "250.8",
+          "565",
+          "145K",
+          "7",
+          "13",
+          "15"
+        ],
+        [
+          "8",
+          "126",
+          "277.2",
+          "600",
+          "175K",
+          "7,12",
+          "14",
+          "16"
+        ],
+        [
+          "9",
+          "140",
+          "308",
+          "700",
+          "260K",
+          "10",
+          "15",
+          "17"
+        ],
+        [
+          "10",
+          "156",
+          "343.2",
+          "850",
+          "360K",
+          "15",
+          "16",
+          "18"
+        ]
+      ],
+      "extra_info": [
+        {
+          "column": 4,
+          "type": "cost",
+          "gpClass": "research",
+          "icon": "Dark_Elixir"
+        },
+        {
+          "column": 5,
+          "type": "time",
+          "gpClass": "research"
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2025/11/17",
+      "rows": [
+        "18 本推出，并在 18 本新增 10 级巨石投手。",
+        "9 级巨石投手的升级时间和升级费用减少。",
+        "9 级巨石投手的每秒伤害和生命值增加。"
+      ]
+    },
+    {
+      "date": "2025/10/06",
+      "rows": [
+        "4 ~ 8 级巨石投手的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2025/03/27",
+      "rows": [
+        "部队的训练时间取消，但增加了捐赠费用。"
+      ]
+    },
+    {
+      "date": "2025/03/24",
+      "rows": [
+        "3 ~ 8 级巨石投手的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2025/02/10",
+      "rows": [
+        "17 本新增 9 级巨石投手。"
+      ]
+    },
+    {
+      "date": "2025/02/10",
+      "rows": [
+        "巨石投手的训练时间由 1:00 改为 0:50"
+      ]
+    },
+    {
+      "date": "2024/11/25",
+      "rows": [
+        "2 ~ 8 级巨石投手的升级费用和升级时间减少。"
+      ]
+    },
+    {
+      "date": "2024/06/18",
+      "rows": [
+        "6 ~ 7 级巨石投手的升级时间减少。",
+        "6 ~ 7 级巨石投手的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2024/06/03",
+      "rows": [
+        "2 ~ 6 级巨石投手的每秒伤害提升。",
+        "2 ~ 7 级巨石投手的生命值提升。"
+      ]
+    },
+    {
+      "date": "2024/02/27",
+      "rows": [
+        "16 本新增 8 级巨石投手。"
+      ]
+    },
+    {
+      "date": "2023/12/12",
+      "rows": [
+        "2 ~ 7 级巨石投手的升级时间减少。",
+        "6 级巨石投手的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2023/06/12",
+      "rows": [
+        "15 本新增 7 级巨石投手。"
+      ]
+    },
+    {
+      "date": "2022/10/10",
+      "rows": [
+        "2 ~ 6 级巨石投手的升级费用和升级时间减少。"
+      ]
+    },
+    {
+      "date": "2022/06/27",
+      "rows": [
+        "1 ~ 5 级巨石投手的生命值增加。"
+      ]
+    },
+    {
+      "date": "2021/12/09",
+      "rows": [
+        "2 ~ 5 级巨石投手的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2021/09/27",
+      "rows": [
+        "14 本新增 6 级巨石投手。"
+      ]
+    },
+    {
+      "date": "2021/04/12",
+      "rows": [
+        "2 ~ 3 级巨石投手的升级费用和升级时间减少。"
+      ]
+    },
+    {
+      "date": "2020/10/12",
+      "rows": [
+        "2 ~ 3 级巨石投手的升级费用和升级时间减少。"
+      ]
+    },
+    {
+      "date": "2019/12/09",
+      "rows": [
+        "13 本开放，新增 5 级巨石投手。"
+      ]
+    },
+    {
+      "date": "2019/04/02",
+      "rows": [
+        "3 级巨石投手的升级费用和升级时间减少。",
+        "所有等级巨石投手的训练费用降低。"
+      ]
+    }
+  ],
+  "notes": []
+}

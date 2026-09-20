@@ -1,0 +1,282 @@
+{
+  "id": "0488",
+  "link": "0488-Blacksmith",
+  "tab": "建筑",
+  "section": "军事建筑",
+  "name": "铁匠铺",
+  "title": "部落冲突 coc 铁匠铺升级数据",
+  "description": "把合适的魔法矿石带到这来，升级英雄的装备，让他们变得更加强大！熔炉冒出的烟可用于熏制美味的牛腩，虽然这并不健康。",
+  "module": "upgrade-home",
+  "img_folder": "home_buildings/0488",
+  "canonical": "/upgrade/0488-Blacksmith",
+  "wiki": "https://clashofclans.fandom.com/wiki/Blacksmith",
+  "info_image": {
+    "level": "info",
+    "src": "Blacksmith9.png",
+    "url": "https://static.clashpost.com/upgrade/home_buildings/0488/Blacksmith9.png"
+  },
+  "image_groups": [
+    {
+      "group": "",
+      "images": [
+        {
+          "level": "1 - 2 级",
+          "src": "Blacksmith1.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0488/Blacksmith1.png"
+        },
+        {
+          "level": "3 - 4 级",
+          "src": "Blacksmith3.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0488/Blacksmith3.png"
+        },
+        {
+          "level": "5 - 6 级",
+          "src": "Blacksmith5.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0488/Blacksmith5.png"
+        },
+        {
+          "level": "7 - 8 级",
+          "src": "Blacksmith7.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0488/Blacksmith7.png"
+        },
+        {
+          "level": "9 级",
+          "src": "Blacksmith9.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0488/Blacksmith9.png"
+        }
+      ]
+    }
+  ],
+  "building_num": [
+    {
+      "title": "大本等级",
+      "num": "1 - 7, 8 - 18"
+    },
+    {
+      "title": "建筑数量",
+      "num": "    0,      1"
+    }
+  ],
+  "properties": [
+    {
+      "key": "占地面积",
+      "value": "3×3"
+    },
+    {
+      "key": "判定面积",
+      "value": "2×2"
+    }
+  ],
+  "tables": [
+    {
+      "label": "升级数据",
+      "headers": [
+        "等级",
+        "生命值",
+        "蓝矿的最大储量",
+        "紫矿的最大储量",
+        "黄矿的最大储量",
+        "升级费用",
+        "升级时间",
+        "升级后可获得的经验",
+        "所需大本等级",
+        "解锁的装备"
+      ],
+      "rows": [
+        [
+          "1",
+          "700",
+          "10k",
+          "1000",
+          "200",
+          "600k",
+          "0,12",
+          "",
+          "8",
+          "地震金靴"
+        ],
+        [
+          "2",
+          "800",
+          "15k",
+          "1500",
+          "300",
+          "1.2M",
+          "1",
+          "",
+          "9",
+          "巨型箭矢"
+        ],
+        [
+          "3",
+          "900",
+          "20k",
+          "2000",
+          "400",
+          "2.3M",
+          "2",
+          "",
+          "10",
+          "嗜血胡须铁甲短裤"
+        ],
+        [
+          "4",
+          "1000",
+          "25k",
+          "2500",
+          "500",
+          "3M",
+          "3",
+          "",
+          "11",
+          "狂暴宝石"
+        ],
+        [
+          "5",
+          "1100",
+          "30k",
+          "3000",
+          "600",
+          "5M",
+          "4",
+          "",
+          "12",
+          "天使木偶贵族哑铃"
+        ],
+        [
+          "6",
+          "1200",
+          "35k",
+          "3500",
+          "700",
+          "6.2M",
+          "4,12",
+          "",
+          "13",
+          "治疗书卷"
+        ],
+        [
+          "7",
+          "1300",
+          "40k",
+          "4000",
+          "800",
+          "9.2M",
+          "5",
+          "",
+          "14",
+          "野猪骑士木偶"
+        ],
+        [
+          "8",
+          "1400",
+          "45k",
+          "4500",
+          "900",
+          "10M",
+          "6",
+          "",
+          "15",
+          "急速药水瓶"
+        ],
+        [
+          "9",
+          "1500",
+          "50k",
+          "5000",
+          "1000",
+          "11M",
+          "7",
+          "",
+          "16",
+          "无"
+        ]
+      ],
+      "extra_info": [
+        {
+          "column": 2,
+          "type": "number",
+          "icon": "Shiny_Ore",
+          "noGoldPass": true
+        },
+        {
+          "column": 3,
+          "type": "number",
+          "icon": "Glowy_Ore",
+          "noGoldPass": true
+        },
+        {
+          "column": 4,
+          "type": "number",
+          "icon": "Starry_Ore",
+          "noGoldPass": true
+        },
+        {
+          "column": 5,
+          "type": "cost",
+          "gpClass": "building",
+          "icon": "Elixir"
+        },
+        {
+          "column": 6,
+          "type": "time",
+          "gpClass": "building"
+        },
+        {
+          "column": 7,
+          "type": "exp",
+          "icon": "Exp"
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2025/10/06",
+      "rows": [
+        "6 ~ 9 级铁匠铺的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2025/03/24",
+      "rows": [
+        "1 ~ 6、8 ~ 9 级铁匠铺的升级时间减少。",
+        "1 ~ 2、5 ~ 9 级铁匠铺的升级费用降低。",
+        "5 级铁匠铺可以再解锁一个装备：贵族哑铃。"
+      ]
+    },
+    {
+      "date": "2025/02/10",
+      "rows": [
+        "3 级铁匠铺可以再解锁一个装备：铁甲短裤。"
+      ]
+    },
+    {
+      "date": "2024/11/25",
+      "rows": [
+        "8 级铁匠铺的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2024/02/27",
+      "rows": [
+        "铁匠铺改为使用圣水升级。",
+        "现在 7 ~ 8 级铁匠铺可以解锁新装备了。"
+      ]
+    },
+    {
+      "date": "2023/12/12",
+      "rows": [
+        "16 本推出，新建筑：铁匠铺，共设 9 个等级。其中前 6 个等级可解锁新装备，后 3 个等级不解锁任何装备。"
+      ]
+    }
+  ],
+  "notes": [
+    "升级铁匠铺可以使英雄装备升级到更高的等级，并解锁新的装备，同时也可以增加矿石的最大储量。",
+    "所谓的矿石指闪亮矿石（蓝矿）、璀璨矿石（紫矿）、星辉矿石（黄矿）这三种资源，这三种资源只在升级装备时使用，其中蓝矿最常见，黄矿最稀缺。",
+    "英雄装备可以赋予英雄一定的技能，详情请前往对应的装备页面查看。",
+    "升级装备不需要时间，只需花费矿石。",
+    "升级装备不占用 [建筑工人](/upgrade/0500-Builders-Hut)，也不占用 [实验室](/upgrade/0483-Laboratory)。",
+    "铁匠铺免疫 [雷电法术](/upgrade/0100-Lightning-Spell) 伤害，理论上属于资源类建筑，但不被 [哥布林](/upgrade/0003-Goblin) 优先攻击。"
+  ]
+}

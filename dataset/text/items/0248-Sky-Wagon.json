@@ -1,0 +1,231 @@
+{
+  "id": "0248",
+  "link": "0248-Sky-Wagon",
+  "tab": "科技",
+  "section": "攻城机器",
+  "name": "空中战车",
+  "title": "部落冲突 coc 空中战车升级数据",
+  "description": "空中战车会在空中投放装有援军的木桶，木桶落地后会造成少量伤害并放出部队。它能飞行、会自己解体，而且法术对它无效。",
+  "module": "upgrade-home",
+  "img_folder": "home_tech/0248",
+  "canonical": "/upgrade/0248-Sky-Wagon",
+  "wiki": "https://clashofclans.fandom.com/wiki/Sky_Wagon",
+  "info_image": {
+    "level": "info",
+    "src": "Sky_Wagon_info.png",
+    "url": "https://static.clashpost.com/upgrade/home_tech/0248/Sky_Wagon_info.png"
+  },
+  "image_groups": [
+    {
+      "group": "",
+      "images": [
+        {
+          "level": "1 级",
+          "src": "Sky_Wagon1.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0248/Sky_Wagon1.png"
+        },
+        {
+          "level": "2 级",
+          "src": "Sky_Wagon2.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0248/Sky_Wagon2.png"
+        },
+        {
+          "level": "3 级",
+          "src": "Sky_Wagon3.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0248/Sky_Wagon3.png"
+        },
+        {
+          "level": "4 级",
+          "src": "Sky_Wagon4.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/0248/Sky_Wagon4.png"
+        }
+      ]
+    }
+  ],
+  "building_num": [],
+  "properties": [
+    {
+      "key": "攻击方式",
+      "value": "发射木桶"
+    },
+    {
+      "key": "攻击偏好",
+      "value": "无"
+    },
+    {
+      "key": "占据人口",
+      "value": "1"
+    },
+    {
+      "key": "移动速度",
+      "value": "2 格/秒"
+    },
+    {
+      "key": "攻击速度",
+      "value": "8 秒/次"
+    },
+    {
+      "key": "所需攻城机器工坊等级",
+      "value": "9"
+    },
+    {
+      "key": "所需大本等级",
+      "value": "17"
+    },
+    {
+      "key": "建造时间",
+      "value": "无"
+    },
+    {
+      "key": "捐赠费用",
+      "value": "15,15,45000,Elixir"
+    }
+  ],
+  "tables": [
+    {
+      "label": "升级数据",
+      "headers": [
+        "等级",
+        "平均每秒伤害*",
+        "每次伤害*",
+        "生命值",
+        "木桶数量",
+        "升级花费",
+        "升级时间",
+        "所需实验室等级",
+        "所需大本等级"
+      ],
+      "rows": [
+        [
+          "1",
+          "1",
+          "8",
+          "3600",
+          "5",
+          "\\",
+          "\\",
+          "1",
+          "17"
+        ],
+        [
+          "2",
+          "2",
+          "16",
+          "3800",
+          "5",
+          "22M",
+          "10",
+          "15",
+          "17"
+        ],
+        [
+          "3",
+          "3",
+          "24",
+          "4000",
+          "6",
+          "26M",
+          "13,12",
+          "16",
+          "17"
+        ],
+        [
+          "4",
+          "4",
+          "32",
+          "4200",
+          "6",
+          "29M",
+          "16",
+          "16",
+          "17"
+        ]
+      ],
+      "extra_info": [
+        {
+          "column": 5,
+          "type": "cost",
+          "gpClass": "research",
+          "icon": "Elixir"
+        },
+        {
+          "column": 6,
+          "type": "time",
+          "gpClass": "research"
+        }
+      ]
+    },
+    {
+      "label": "木桶中的部队",
+      "headers": [
+        "木桶等级",
+        "亡灵数量",
+        "气球兵数量",
+        "飞龙宝宝数量",
+        "亡灵等级",
+        "气球兵等级",
+        "飞龙宝宝等级"
+      ],
+      "rows": [
+        [
+          "1",
+          "3",
+          "1",
+          "1",
+          "11",
+          "10",
+          "9"
+        ],
+        [
+          "2",
+          "4",
+          "1",
+          "1",
+          "12",
+          "11",
+          "10"
+        ],
+        [
+          "3",
+          "5",
+          "1",
+          "1",
+          "13",
+          "12",
+          "11"
+        ],
+        [
+          "4",
+          "5",
+          "1",
+          "1",
+          "14",
+          "13",
+          "12"
+        ]
+      ],
+      "extra_info": [
+        {
+          "column": 5,
+          "type": "cost",
+          "gpClass": "research",
+          "icon": "Elixir"
+        },
+        {
+          "column": 6,
+          "type": "time",
+          "gpClass": "research"
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026/04/27",
+      "rows": [
+        "新增攻城机器：空中战车。"
+      ]
+    }
+  ],
+  "notes": []
+}

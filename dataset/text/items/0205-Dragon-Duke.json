@@ -1,0 +1,81 @@
+{
+  "id": "0205",
+  "link": "0205-Dragon-Duke",
+  "tab": "英雄",
+  "section": "英雄",
+  "name": "飞龙公爵",
+  "title": "部落冲突 coc 飞龙公爵升级数据",
+  "description": "这名坦克型飞行英雄因为情绪管理问题被关了起来，一旦远离友方飞行单位，他就会变得更加愤怒与强大！进入皇室狂暴状态后，他的伤害会提升 100、攻击速度提升 50%，同时使自身受到的陷阱伤害减半。在防守时，他只能被敌方的对空单位攻击。",
+  "module": "upgrade-home",
+  "img_folder": "home_heroes/0205",
+  "canonical": "/upgrade/0205-Dragon-Duke",
+  "wiki": "https://clashofclans.fandom.com/wiki/Dragon_Duke",
+  "info_image": {
+    "level": "info",
+    "src": "Dragon_Duke_info.png",
+    "url": "https://static.clashpost.com/upgrade/home_heroes/0205/Dragon_Duke_info.png"
+  },
+  "image_groups": [],
+  "building_num": [],
+  "properties": [
+    {
+      "key": "英雄类型",
+      "value": "空中单位"
+    },
+    {
+      "key": "攻击偏好",
+      "value": "无"
+    },
+    {
+      "key": "伤害类型",
+      "value": "单体伤害"
+    },
+    {
+      "key": "攻击的目标",
+      "value": "地面和空中目标"
+    },
+    {
+      "key": "占据人口",
+      "value": "25"
+    },
+    {
+      "key": "移动速度",
+      "value": "2.5 格/秒"
+    },
+    {
+      "key": "攻击速度",
+      "value": "1.2 秒/次"
+    },
+    {
+      "key": "攻击距离",
+      "value": "1.25 格"
+    },
+    {
+      "key": "所需英雄殿堂等级",
+      "value": "9"
+    },
+    {
+      "key": "所需大本等级",
+      "value": "15"
+    },
+    {
+      "key": "搜索半径",
+      "value": "10 格<sup>①</sup>"
+    },
+    {
+      "key": "巡逻半径",
+      "value": "3 格<sup>②</sup>"
+    },
+    {
+      "key": "落单时伤害提升",
+      "value": "100%"
+    },
+    {
+      "key": "落单时攻击速度提升",
+      "value": "50%"
+    }
+  ],
+  "tables": [],
+  "timeline": [],
+  "notes": []
+}

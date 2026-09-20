@@ -1,0 +1,41 @@
+{
+  "id": "0783",
+  "link": "0783-Healing-Tome",
+  "tab": "英雄",
+  "section": "装备（大守护者）",
+  "name": "治疗书卷",
+  "title": "部落冲突 coc 治疗书卷装备升级数据",
+  "description": "治疗书卷是大守护者的一件普通装备。治疗书卷装备可以在大守护者技能生效期间使周围的部队获得疗伤法术的效果。在治疗书卷的范围内，英雄可以获得全额治疗效果，攻城机器不能获得治疗效果。",
+  "module": "upgrade-home",
+  "img_folder": "home_heroes/0783",
+  "canonical": "/upgrade/0783-Healing-Tome",
+  "wiki": "https://clashofclans.fandom.com/wiki/Healing_Tome",
+  "info_image": {
+    "level": "info",
+    "src": "Healing_Tome_info.png",
+    "url": "https://static.clashpost.com/upgrade/home_heroes/0783/Healing_Tome_info.png"
+  },
+  "image_groups": [],
+  "building_num": [],
+  "properties": [
+    {
+      "key": "技能类型",
+      "value": "主动技能"
+    },
+    {
+      "key": "装备稀有度",
+      "value": "普通"
+    },
+    {
+      "key": "所需铁匠铺等级",
+      "value": "6"
+    },
+    {
+      "key": "所需大本等级",
+      "value": "13"
+    }
+  ],
+  "tables": [],
+  "timeline": [],
+  "notes": []
+}

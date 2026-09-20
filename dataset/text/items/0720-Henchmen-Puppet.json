@@ -1,0 +1,73 @@
+{
+  "id": "0720",
+  "link": "0720-Henchmen-Puppet",
+  "tab": "英雄",
+  "section": "装备（亡灵王子）",
+  "name": "护卫玩偶",
+  "title": "部落冲突 coc 护卫玩偶装备升级数据",
+  "description": "护卫玩偶是亡灵王子的两件初始装备之一，另一件是暗黑魔球。护卫玩偶装备可以让亡灵王子使用技能时召唤出两个空中护卫。激活技能后，亡灵王子会短暂隐身，此时空中护卫的作用就是替英雄扛伤害。",
+  "module": "upgrade-home",
+  "img_folder": "home_heroes/0720",
+  "canonical": "/upgrade/0720-Henchmen-Puppet",
+  "wiki": "https://clashofclans.fandom.com/wiki/Henchmen_Puppet",
+  "info_image": {
+    "level": "info",
+    "src": "Henchmen_Puppet_info.png",
+    "url": "https://static.clashpost.com/upgrade/home_heroes/0720/Henchmen_Puppet_info.png"
+  },
+  "image_groups": [],
+  "building_num": [],
+  "properties": [
+    {
+      "key": "技能类型",
+      "value": "主动技能"
+    },
+    {
+      "key": "装备稀有度",
+      "value": "普通"
+    },
+    {
+      "key": "解锁条件",
+      "value": "有亡灵王子即可"
+    },
+    {
+      "key": "召唤的护卫数量",
+      "value": "2"
+    },
+    {
+      "key": "开启技能后亡灵王子的隐身时长",
+      "value": "1 秒"
+    },
+    {
+      "key": "攻击偏好",
+      "value": "无"
+    },
+    {
+      "key": "伤害类型",
+      "value": "单体伤害"
+    },
+    {
+      "key": "攻击的目标",
+      "value": "地面和空中目标"
+    },
+    {
+      "key": "占据人口",
+      "value": "10"
+    },
+    {
+      "key": "移动速度",
+      "value": "4 格/秒"
+    },
+    {
+      "key": "攻击速度",
+      "value": "1.1 秒/次"
+    },
+    {
+      "key": "攻击距离",
+      "value": "1 格"
+    }
+  ],
+  "tables": [],
+  "timeline": [],
+  "notes": []
+}

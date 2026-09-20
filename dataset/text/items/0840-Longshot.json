@@ -1,0 +1,164 @@
+{
+  "id": "0840",
+  "link": "0840-Longshot",
+  "tab": "大本",
+  "section": "守卫",
+  "name": "远袭者",
+  "title": "部落冲突 coc 远袭者升级数据",
+  "description": "动动脑子！远袭者能从颅骨发射远程爆炸弩箭，让入侵者满满当当地尝到溅射伤害的滋味。",
+  "module": "upgrade-home",
+  "img_folder": "home_th/0840",
+  "canonical": "/upgrade/0840-Longshot",
+  "wiki": "https://clashofclans.fandom.com/wiki/Longshot",
+  "info_image": {
+    "level": "info",
+    "src": "Longshot_info.png",
+    "url": "https://static.clashpost.com/upgrade/home_th/0840/Longshot_info.png"
+  },
+  "image_groups": [
+    {
+      "group": "",
+      "images": [
+        {
+          "level": "所有等级",
+          "src": "Longshot1.png",
+          "url": "https://static.clashpost.com/upgrade/home_th/0840/Longshot1.png"
+        }
+      ]
+    }
+  ],
+  "building_num": [],
+  "properties": [
+    {
+      "key": "攻击偏好",
+      "value": "无"
+    },
+    {
+      "key": "伤害类型",
+      "value": "范围伤害"
+    },
+    {
+      "key": "伤害半径",
+      "value": "1 格"
+    },
+    {
+      "key": "攻击的目标",
+      "value": "地面和空中目标"
+    },
+    {
+      "key": "移动速度",
+      "value": "1.5 格/秒"
+    },
+    {
+      "key": "攻击速度",
+      "value": "1.8 秒/次"
+    },
+    {
+      "key": "攻击距离",
+      "value": "11 格"
+    },
+    {
+      "key": "警戒半径",
+      "value": "19 格<sup>①</sup>"
+    },
+    {
+      "key": "巡逻半径",
+      "value": "17 格<sup>②</sup>"
+    },
+    {
+      "key": "死亡伤害",
+      "value": "1000"
+    },
+    {
+      "key": "死亡伤害半径",
+      "value": "3.5 格"
+    },
+    {
+      "key": "所需大本等级",
+      "value": "18"
+    }
+  ],
+  "tables": [
+    {
+      "label": "升级数据",
+      "headers": [
+        "等级",
+        "每秒伤害",
+        "每次伤害",
+        "生命值",
+        "升级费用",
+        "升级时间",
+        "所需大本等级"
+      ],
+      "rows": [
+        [
+          "1",
+          "330",
+          "594",
+          "7000",
+          "\\",
+          "\\",
+          "18"
+        ],
+        [
+          "2",
+          "360",
+          "648",
+          "8000",
+          "18M",
+          "7",
+          "18"
+        ],
+        [
+          "3",
+          "390",
+          "702",
+          "9000",
+          "22M",
+          "9",
+          "18"
+        ],
+        [
+          "4",
+          "420",
+          "756",
+          "10000",
+          "26M",
+          "11",
+          "18"
+        ],
+        [
+          "5",
+          "450",
+          "810",
+          "11000",
+          "28M",
+          "13",
+          "18"
+        ]
+      ],
+      "extra_info": []
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026/01/12",
+      "rows": [
+        "攻击距离从 12 格减少到 11 格。",
+        "巡逻半径从 18 格减少到 17 格。",
+        "警戒半径从 20 格减少到 19 格。",
+        "普攻伤害半径从 1.5 格减少到 1 格。"
+      ]
+    },
+    {
+      "date": "2025/11/17",
+      "rows": [
+        "推出守卫系统，远袭者是第一批推出的守卫。"
+      ]
+    }
+  ],
+  "notes": [
+    "远袭者的特殊技能（致命一击）：被击倒后会造成爆炸伤害。",
+    "这个爆炸没有与 [巨型炸弹](/upgrade/0383-Giant-Bomb) 类似的击退效果。"
+  ]
+}

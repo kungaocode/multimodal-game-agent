@@ -1,0 +1,45 @@
+{
+  "id": "0702",
+  "link": "0702-Earthquake-Boots",
+  "tab": "英雄",
+  "section": "装备（野蛮人之王）",
+  "name": "地震金靴",
+  "title": "部落冲突 coc 地震金靴（震地金靴）装备升级数据",
+  "description": "地震金靴是野蛮人之王的一件普通装备。地震金靴可以时蛮王在使用技能时制造一场地震。这次地震可以立即摧毁周围的城墙，并且对建筑物造成一定百分比的破坏。地震金靴可以对半径内的所有地面单位（包括部队）造成少量额外伤害……",
+  "module": "upgrade-home",
+  "img_folder": "home_heroes/0702",
+  "canonical": "/upgrade/0702-Earthquake-Boots",
+  "wiki": "https://clashofclans.fandom.com/wiki/Earthquake_Boots",
+  "info_image": {
+    "level": "info",
+    "src": "Earthquake_Boots_info.png",
+    "url": "https://static.clashpost.com/upgrade/home_heroes/0702/Earthquake_Boots_info.png"
+  },
+  "image_groups": [],
+  "building_num": [],
+  "properties": [
+    {
+      "key": "技能类型",
+      "value": "主动技能"
+    },
+    {
+      "key": "装备稀有度",
+      "value": "普通"
+    },
+    {
+      "key": "所需铁匠铺等级",
+      "value": "1"
+    },
+    {
+      "key": "所需大本等级",
+      "value": "8"
+    },
+    {
+      "key": "地震伤害半径",
+      "value": "8 格"
+    }
+  ],
+  "tables": [],
+  "timeline": [],
+  "notes": []
+}

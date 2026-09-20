@@ -1,0 +1,448 @@
+{
+  "id": "0481",
+  "link": "0481-Barracks",
+  "tab": "建筑",
+  "section": "军事建筑",
+  "name": "训练营",
+  "title": "部落冲突 coc 训练营升级数据",
+  "description": "在训练营训练部队助您征战。升级训练营可解锁更高级的兵种，助您在史诗般的战斗中赢得胜利。",
+  "module": "upgrade-home",
+  "img_folder": "home_buildings/0481",
+  "canonical": "/upgrade/0481-Barracks",
+  "wiki": "https://clashofclans.fandom.com/wiki/Barracks",
+  "info_image": {
+    "level": "info",
+    "src": "Barracks19_hd.png",
+    "url": "https://static.clashpost.com/upgrade/home_buildings/0481/Barracks19_hd.png"
+  },
+  "image_groups": [
+    {
+      "group": "训练营",
+      "images": [
+        {
+          "level": "1 级",
+          "src": "Barracks1.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0481/Barracks1.png"
+        },
+        {
+          "level": "2 级",
+          "src": "Barracks2.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0481/Barracks2.png"
+        },
+        {
+          "level": "3 级",
+          "src": "Barracks3.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0481/Barracks3.png"
+        },
+        {
+          "level": "4 级",
+          "src": "Barracks4.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0481/Barracks4.png"
+        },
+        {
+          "level": "5 级",
+          "src": "Barracks5.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0481/Barracks5.png"
+        },
+        {
+          "level": "6 级",
+          "src": "Barracks6.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0481/Barracks6.png"
+        },
+        {
+          "level": "7 级",
+          "src": "Barracks7.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0481/Barracks7.png"
+        },
+        {
+          "level": "8 级",
+          "src": "Barracks8.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0481/Barracks8.png"
+        },
+        {
+          "level": "9 级",
+          "src": "Barracks9.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0481/Barracks9.png"
+        },
+        {
+          "level": "10 级",
+          "src": "Barracks10.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0481/Barracks10.png"
+        },
+        {
+          "level": "11 级",
+          "src": "Barracks11.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0481/Barracks11.png"
+        },
+        {
+          "level": "12 级",
+          "src": "Barracks12.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0481/Barracks12.png"
+        },
+        {
+          "level": "13 级",
+          "src": "Barracks13.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0481/Barracks13.png"
+        },
+        {
+          "level": "14 级",
+          "src": "Barracks14.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0481/Barracks14.png"
+        },
+        {
+          "level": "15 级",
+          "src": "Barracks15.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0481/Barracks15.png"
+        },
+        {
+          "level": "16 级",
+          "src": "Barracks16.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0481/Barracks16.png"
+        },
+        {
+          "level": "17 级",
+          "src": "Barracks17.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0481/Barracks17.png"
+        },
+        {
+          "level": "18 级",
+          "src": "Barracks18.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0481/Barracks18.png"
+        },
+        {
+          "level": "19 级",
+          "src": "Barracks19.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0481/Barracks19.png"
+        }
+      ]
+    }
+  ],
+  "building_num": [
+    {
+      "title": "大本等级",
+      "num": "1 - 18"
+    },
+    {
+      "title": "建筑数量",
+      "num": "1"
+    }
+  ],
+  "properties": [
+    {
+      "key": "占地面积",
+      "value": "3×3"
+    },
+    {
+      "key": "判定面积",
+      "value": "2×2"
+    }
+  ],
+  "tables": [
+    {
+      "label": "升级数据",
+      "headers": [
+        "等级",
+        "生命值",
+        "升级费用",
+        "升级时间",
+        "升级后可获得的经验",
+        "所需大本等级",
+        "解锁的兵种"
+      ],
+      "rows": [
+        [
+          "1",
+          "100",
+          "100",
+          "0, 0, 0,10",
+          "",
+          "1",
+          "野蛮人"
+        ],
+        [
+          "2",
+          "200",
+          "500",
+          "0, 0, 0,15",
+          "",
+          "1#",
+          "弓箭手"
+        ],
+        [
+          "3",
+          "250",
+          "2500",
+          "0, 0, 2",
+          "",
+          "1#",
+          "巨人"
+        ],
+        [
+          "4",
+          "300",
+          "5000",
+          "0, 0,30",
+          "",
+          "2",
+          "哥布林"
+        ],
+        [
+          "5",
+          "360",
+          "20k",
+          "0, 2",
+          "",
+          "3",
+          "炸弹人"
+        ],
+        [
+          "6",
+          "420",
+          "120k",
+          "0, 4",
+          "",
+          "4",
+          "气球兵"
+        ],
+        [
+          "7",
+          "500",
+          "270k",
+          "0, 6",
+          "",
+          "5",
+          "法师"
+        ],
+        [
+          "8",
+          "575",
+          "600k",
+          "0,12",
+          "",
+          "6",
+          "天使"
+        ],
+        [
+          "9",
+          "650",
+          "1M",
+          "1",
+          "",
+          "7",
+          "飞龙"
+        ],
+        [
+          "10",
+          "730",
+          "1.4M",
+          "1,12",
+          "",
+          "8",
+          "皮卡超人"
+        ],
+        [
+          "11",
+          "810",
+          "2.6M",
+          "2",
+          "",
+          "9",
+          "飞龙宝宝"
+        ],
+        [
+          "12",
+          "900",
+          "3.7M",
+          "4",
+          "",
+          "10",
+          "掘地矿工"
+        ],
+        [
+          "13",
+          "980",
+          "6M",
+          "5",
+          "",
+          "11",
+          "雷电飞龙"
+        ],
+        [
+          "14",
+          "1050",
+          "7M",
+          "6",
+          "",
+          "12",
+          "大雪怪"
+        ],
+        [
+          "15",
+          "1150",
+          "9M",
+          "7",
+          "",
+          "13",
+          "龙骑士"
+        ],
+        [
+          "16",
+          "1250",
+          "11M",
+          "7,12",
+          "",
+          "14",
+          "雷霆泰坦"
+        ],
+        [
+          "17",
+          "1350",
+          "12.6M",
+          "8",
+          "",
+          "15",
+          "根蔓骑士"
+        ],
+        [
+          "18",
+          "1450",
+          "15M",
+          "9",
+          "",
+          "16",
+          "巨矛投手"
+        ],
+        [
+          "19",
+          "1520",
+          "26M",
+          "14",
+          "",
+          "17",
+          "陨石戈仑"
+        ]
+      ],
+      "extra_info": [
+        {
+          "column": 2,
+          "type": "cost",
+          "gpClass": "building",
+          "icon": "Elixir"
+        },
+        {
+          "column": 3,
+          "type": "time",
+          "gpClass": "building"
+        },
+        {
+          "column": 4,
+          "type": "exp",
+          "icon": "Exp"
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2025/11/17",
+      "rows": [
+        "17 本新增 19 级训练营。"
+      ]
+    },
+    {
+      "date": "2025/10/06",
+      "rows": [
+        "14 ~ 18 级训练营的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2025/06/16",
+      "rows": [
+        "1 ~ 8 级训练营的生命值减少。"
+      ]
+    },
+    {
+      "date": "2025/03/24",
+      "rows": [
+        "2 ~ 3、5 ~ 13、17 ~ 18 级训练营的升级时间减少。",
+        "8、13、15、18 级训练营的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2025/02/10",
+      "rows": [
+        "2 ~ 4 级训练营的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2024/11/25",
+      "rows": [
+        "17 本推出，并在 16 本新增 18 级训练营。",
+        "5、11 ~ 17 级训练营的升级时间减少。",
+        "14、17 级训练营的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2024/06/18",
+      "rows": [
+        "16 ~ 17 级训练营的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2023/12/12",
+      "rows": [
+        "16 本推出，并在 15 本新增 17 级训练营。",
+        "15 ~ 16 级训练营的升级时间减少。",
+        "9 ~ 10 级训练营的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2023/06/12",
+      "rows": [
+        "14 ~ 15 级训练营的升级费用和时间减少。"
+      ]
+    },
+    {
+      "date": "2022/10/10",
+      "rows": [
+        "15 本推出，并在 14 本新增 16 级训练营，可解锁新兵种：雷霆泰坦。",
+        "四个训练营合并为一个，更新后的兵种训练时间等同于更新前四个训练营的训练时间。",
+        "训练营升级时兵种可继续训练部队，但训练速度减半（训练时间翻倍）。",
+        "5 ~ 15 级训练营的升级费用和升级时间增加。"
+      ]
+    },
+    {
+      "date": "2021/12/09",
+      "rows": [
+        "6 ~ 12 级训练营的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2021/06/15",
+      "rows": [
+        "13 本新增 15 级训练营，新兵种：龙骑士。"
+      ]
+    },
+    {
+      "date": "2021/04/12",
+      "rows": [
+        "1 ~ 2、11 ~ 12 级训练营的升级费用降低。",
+        "3、10 ~ 13 级训练营的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2019/12/09",
+      "rows": [
+        "13 本推出，并在 13 本新增 14 级训练营，可解锁新兵种：大雪怪。"
+      ]
+    },
+    {
+      "date": "2019/04/02",
+      "rows": [
+        "2 ~ 13 级训练营的升级时间减少。",
+        "9 ~ 12 级训练营的升级费用降低。"
+      ]
+    }
+  ],
+  "notes": []
+}

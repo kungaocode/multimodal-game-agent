@@ -1,0 +1,61 @@
+{
+  "id": "0283",
+  "link": "0283-Unicorn",
+  "tab": "英雄",
+  "section": "战宠",
+  "name": "独角",
+  "title": "部落冲突 coc 独角（马）升级数据",
+  "description": "独角不轻易相信他人，但它绝对值得您付出爱心和耐心与它建立信任，因为它会像天使一样治愈所有伤痛！",
+  "module": "upgrade-home",
+  "img_folder": "home_heroes/0283",
+  "canonical": "/upgrade/0283-Unicorn",
+  "wiki": "https://clashofclans.fandom.com/wiki/Unicorn",
+  "info_image": {
+    "level": "info",
+    "src": "Unicorn_info.png",
+    "url": "https://static.clashpost.com/upgrade/home_heroes/0283/Unicorn_info.png"
+  },
+  "image_groups": [],
+  "building_num": [],
+  "properties": [
+    {
+      "key": "治疗偏好",
+      "value": "英雄"
+    },
+    {
+      "key": "恢复类型",
+      "value": "单个目标"
+    },
+    {
+      "key": "作用目标",
+      "value": "地面和空中目标"
+    },
+    {
+      "key": "占据人口",
+      "value": "20"
+    },
+    {
+      "key": "移动速度",
+      "value": "2 格/秒"
+    },
+    {
+      "key": "治疗速度",
+      "value": "1 秒/次"
+    },
+    {
+      "key": "独角手长",
+      "value": "2.5 格"
+    },
+    {
+      "key": "所需战宠小屋等级",
+      "value": "4"
+    },
+    {
+      "key": "所需大本等级",
+      "value": "14"
+    }
+  ],
+  "tables": [],
+  "timeline": [],
+  "notes": []
+}

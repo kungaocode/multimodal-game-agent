@@ -1,0 +1,45 @@
+{
+  "id": "07e4",
+  "link": "07e4-Electro-Fangs",
+  "tab": "英雄",
+  "section": "装备（飞龙公爵）",
+  "name": "雷电獠牙",
+  "title": "部落冲突 coc 雷电獠牙装备升级数据",
+  "description": "雷电獠牙是飞龙公爵的普通装备。带上它后，飞龙公爵的攻击会附带连锁闪电，能对初始目标附近的单位造成递减伤害，同时还会提高飞龙公爵的生命值。",
+  "module": "upgrade-home",
+  "img_folder": "home_heroes/07e4",
+  "canonical": "/upgrade/07e4-Electro-Fangs",
+  "wiki": "https://clashofclans.fandom.com/wiki/Electro_Fangs",
+  "info_image": {
+    "level": "info",
+    "src": "Electro_Fangs_info.png",
+    "url": "https://static.clashpost.com/upgrade/home_heroes/07e4/Electro_Fangs_info.png"
+  },
+  "image_groups": [],
+  "building_num": [],
+  "properties": [
+    {
+      "key": "技能类型",
+      "value": "被动技能"
+    },
+    {
+      "key": "装备稀有度",
+      "value": "普通"
+    },
+    {
+      "key": "所需铁匠铺等级",
+      "value": "10"
+    },
+    {
+      "key": "所需大本等级",
+      "value": "17"
+    },
+    {
+      "key": "连锁伤害衰减",
+      "value": "每跳减少 20%"
+    }
+  ],
+  "tables": [],
+  "timeline": [],
+  "notes": []
+}

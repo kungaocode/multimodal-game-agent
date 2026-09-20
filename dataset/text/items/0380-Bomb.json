@@ -1,0 +1,375 @@
+{
+  "id": "0380",
+  "link": "0380-Bomb",
+  "tab": "建筑",
+  "section": "陷阱",
+  "name": "隐形炸弹",
+  "title": "部落冲突 coc 隐形炸弹（小炸弹）升级数据",
+  "description": "还在找“危险，请勿靠近”的警示牌吗？别浪费时间了，隐形炸弹是不会让你发现的，除非......",
+  "module": "upgrade-home",
+  "img_folder": "home_buildings/0380",
+  "canonical": "/upgrade/0380-Bomb",
+  "wiki": "https://clashofclans.fandom.com/wiki/Bomb",
+  "info_image": {
+    "level": "info",
+    "src": "Bomb_info.png",
+    "url": "https://static.clashpost.com/upgrade/home_buildings/0380/Bomb_info.png"
+  },
+  "image_groups": [
+    {
+      "group": "常规模型",
+      "images": [
+        {
+          "level": "1 - 2 级",
+          "src": "Bomb1.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0380/Bomb1.png"
+        },
+        {
+          "level": "3 - 4 级",
+          "src": "Bomb3.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0380/Bomb3.png"
+        },
+        {
+          "level": "5 - 6 级",
+          "src": "Bomb5.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0380/Bomb5.png"
+        },
+        {
+          "level": "7 - 8 级",
+          "src": "Bomb7.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0380/Bomb7.png"
+        },
+        {
+          "level": "9 - 10 级",
+          "src": "Bomb9.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0380/Bomb9.png"
+        },
+        {
+          "level": "11 - 12 级",
+          "src": "Bomb11.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0380/Bomb11.png"
+        },
+        {
+          "level": "13 - 14 级",
+          "src": "Bomb13.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0380/Bomb13.png"
+        }
+      ]
+    },
+    {
+      "group": "未重新布置",
+      "images": [
+        {
+          "level": "1 - 2 级",
+          "src": "Bomb1_unarmed.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0380/Bomb1_unarmed.png"
+        },
+        {
+          "level": "3 - 4 级",
+          "src": "Bomb3_unarmed.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0380/Bomb3_unarmed.png"
+        },
+        {
+          "level": "5 - 6 级",
+          "src": "Bomb5_unarmed.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0380/Bomb5_unarmed.png"
+        },
+        {
+          "level": "7 - 8 级",
+          "src": "Bomb7_unarmed.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0380/Bomb7_unarmed.png"
+        },
+        {
+          "level": "9 - 10 级",
+          "src": "Bomb9_unarmed.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0380/Bomb9_unarmed.png"
+        },
+        {
+          "level": "11 - 12 级",
+          "src": "Bomb11_unarmed.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0380/Bomb11_unarmed.png"
+        },
+        {
+          "level": "13 - 14 级",
+          "src": "Bomb13_unarmed.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0380/Bomb13_unarmed.png"
+        }
+      ]
+    }
+  ],
+  "building_num": [
+    {
+      "title": "大本等级",
+      "num": "1 - 2, 3 - 4, 5 - 6, 7 - 12, 13, 14 - 18"
+    },
+    {
+      "title": "建筑数量",
+      "num": "    0,     2,     4,      6,  7,       8"
+    }
+  ],
+  "properties": [
+    {
+      "key": "占地面积",
+      "value": "1×1"
+    },
+    {
+      "key": "伤害类型",
+      "value": "范围伤害"
+    },
+    {
+      "key": "作用目标",
+      "value": "仅地面目标"
+    },
+    {
+      "key": "触发半径",
+      "value": "1.5 格"
+    },
+    {
+      "key": "伤害半径",
+      "value": "3 格"
+    },
+    {
+      "key": "爆炸延时",
+      "value": "1.5 秒"
+    }
+  ],
+  "tables": [
+    {
+      "label": "升级数据",
+      "headers": [
+        "等级",
+        "爆炸伤害",
+        "升级费用",
+        "升级时间",
+        "升级后可获得的经验",
+        "所需大本等级"
+      ],
+      "rows": [
+        [
+          "1",
+          "20",
+          "400",
+          "0",
+          "",
+          "3"
+        ],
+        [
+          "2",
+          "24",
+          "1k",
+          "0, 0, 6",
+          "",
+          "3"
+        ],
+        [
+          "3",
+          "29",
+          "10k",
+          "0, 0,20",
+          "",
+          "5"
+        ],
+        [
+          "4",
+          "35",
+          "40k",
+          "0, 0,40",
+          "",
+          "7"
+        ],
+        [
+          "5",
+          "42",
+          "100k",
+          "0, 1",
+          "",
+          "8"
+        ],
+        [
+          "6",
+          "54",
+          "230k",
+          "0, 3",
+          "",
+          "9"
+        ],
+        [
+          "7",
+          "72",
+          "330k",
+          "0, 5",
+          "",
+          "10"
+        ],
+        [
+          "8",
+          "92",
+          "500k",
+          "0, 6",
+          "",
+          "11"
+        ],
+        [
+          "9",
+          "125",
+          "750k",
+          "0,12",
+          "",
+          "13"
+        ],
+        [
+          "10",
+          "140",
+          "1.3M",
+          "1",
+          "",
+          "14"
+        ],
+        [
+          "11",
+          "155",
+          "2.5M",
+          "2",
+          "",
+          "15"
+        ],
+        [
+          "12",
+          "170",
+          "4M",
+          "3",
+          "",
+          "16"
+        ],
+        [
+          "13",
+          "185",
+          "8.5M",
+          "4,12",
+          "",
+          "17"
+        ],
+        [
+          "14",
+          "200",
+          "14M",
+          "8",
+          "",
+          "18"
+        ]
+      ],
+      "extra_info": [
+        {
+          "column": 2,
+          "type": "cost",
+          "gpClass": "building",
+          "icon": "Gold"
+        },
+        {
+          "column": 3,
+          "type": "time",
+          "gpClass": "building"
+        },
+        {
+          "column": 4,
+          "type": "exp",
+          "icon": "Exp"
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2025/11/17",
+      "rows": [
+        "18 本推出，并在 18 本新增 14 级隐形炸弹。",
+        "13 级隐形炸弹的升级时间和升级费用减少。"
+      ]
+    },
+    {
+      "date": "2025/03/24",
+      "rows": [
+        "3 ~ 12 级隐形炸弹的升级时间减少。",
+        "4 ~ 12 级隐形炸弹的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2024/11/25",
+      "rows": [
+        "17 本推出，并在 17 本新增 13 级隐形炸弹。",
+        "6 ~ 12 级隐形炸弹的升级时间减少。",
+        "9 ~ 12 级隐形炸弹的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2024/06/18",
+      "rows": [
+        "5 ~ 11 级隐形炸弹的升级时间减少。",
+        "10 ~ 11 级隐形炸弹的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2023/12/12",
+      "rows": [
+        "16 本推出，并在 16 本新增 12 级隐形炸弹。",
+        "3 ~ 10 级隐形炸弹的升级时间减少。",
+        "4 ~ 10 级隐形炸弹的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2023/06/12",
+      "rows": [
+        "9 级隐形炸弹的升级费用和升级时间减少。"
+      ]
+    },
+    {
+      "date": "2022/10/10",
+      "rows": [
+        "15 本推出，并在 15 本新增 11 级隐形炸弹。",
+        "7 ~ 10 级隐形炸弹的升级费用和升级时间减少。"
+      ]
+    },
+    {
+      "date": "2021/12/09",
+      "rows": [
+        "6 ~ 8 级隐形炸弹的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2021/04/12",
+      "rows": [
+        "14 本推出，并在 14 本新增 10 级隐形炸弹。",
+        "14 本新解锁一个隐形炸弹。",
+        "5 ~ 7 级隐形炸弹的升级费用降低。",
+        "2、5、6 级隐形炸弹的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2021/01/20",
+      "rows": [
+        "9 级隐形炸弹的伤害从 112 提升至 125。"
+      ]
+    },
+    {
+      "date": "2020/03/30",
+      "rows": [
+        "5 ~ 7 级隐形炸弹的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2019/12/09",
+      "rows": [
+        "13 本推出，并在 13 本新增 9 级隐形炸弹。",
+        "13 本新解锁一个隐形炸弹。"
+      ]
+    },
+    {
+      "date": "2019/04/02",
+      "rows": [
+        "7 ~ 8 级隐形炸弹的伤害提高。",
+        "玩家上线后，所有的陷阱将自动被重新布置，重新布置不再需要花费金币。然而，如果玩家不上线，陷阱就不会被重新布置，所以你仍然可以攻击到陷阱失效的村庄。"
+      ]
+    }
+  ],
+  "notes": []
+}

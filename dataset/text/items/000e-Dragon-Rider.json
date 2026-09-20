@@ -1,0 +1,302 @@
+{
+  "id": "000e",
+  "link": "000e-Dragon-Rider",
+  "tab": "科技",
+  "section": "圣水兵",
+  "name": "龙骑士",
+  "title": "部落冲突 coc 龙骑士升级数据",
+  "description": "这台热衷破坏的飞行机器很乐意，甚至是非常兴奋能够摧毁范围内的任何防御建筑。坐在里面的骷髅兵发誓说他绝不会碰那些控制装置。",
+  "module": "upgrade-home",
+  "img_folder": "home_tech/000e",
+  "canonical": "/upgrade/000e-Dragon-Rider",
+  "wiki": "https://clashofclans.fandom.com/wiki/Dragon_Rider",
+  "info_image": {
+    "level": "info",
+    "src": "Dragon_Rider_info.png",
+    "url": "https://static.clashpost.com/upgrade/home_tech/000e/Dragon_Rider_info.png"
+  },
+  "image_groups": [
+    {
+      "group": "",
+      "images": [
+        {
+          "level": "1 级",
+          "src": "Dragon_Rider1.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/000e/Dragon_Rider1.png"
+        },
+        {
+          "level": "2 级",
+          "src": "Dragon_Rider2.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/000e/Dragon_Rider2.png"
+        },
+        {
+          "level": "3 级",
+          "src": "Dragon_Rider3.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/000e/Dragon_Rider3.png"
+        },
+        {
+          "level": "4 级",
+          "src": "Dragon_Rider4.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/000e/Dragon_Rider4.png"
+        },
+        {
+          "level": "5 级",
+          "src": "Dragon_Rider5.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/000e/Dragon_Rider5.png"
+        },
+        {
+          "level": "6 级",
+          "src": "Dragon_Rider6.png",
+          "url": "https://static.clashpost.com/upgrade/home_tech/000e/Dragon_Rider6.png"
+        }
+      ]
+    }
+  ],
+  "building_num": [],
+  "properties": [
+    {
+      "key": "部队类型",
+      "value": "空中单位"
+    },
+    {
+      "key": "攻击偏好",
+      "value": "防御建筑 (偏好类型 1)"
+    },
+    {
+      "key": "伤害类型",
+      "value": "单体伤害"
+    },
+    {
+      "key": "攻击的目标",
+      "value": "地面和空中目标"
+    },
+    {
+      "key": "占据人口",
+      "value": "25"
+    },
+    {
+      "key": "移动速度",
+      "value": "2.5 格/秒"
+    },
+    {
+      "key": "攻击速度",
+      "value": "1.2 秒/次"
+    },
+    {
+      "key": "攻击距离",
+      "value": "3.5 格"
+    },
+    {
+      "key": "死亡伤害半径",
+      "value": "2 格"
+    },
+    {
+      "key": "死亡伤害延时",
+      "value": "0.6 秒"
+    },
+    {
+      "key": "所需训练营等级",
+      "value": "15"
+    },
+    {
+      "key": "所需大本等级",
+      "value": "13"
+    },
+    {
+      "key": "训练时间",
+      "value": "无"
+    },
+    {
+      "key": "捐赠费用",
+      "value": "13,13,39000,Elixir"
+    }
+  ],
+  "tables": [
+    {
+      "label": "升级数据",
+      "headers": [
+        "等级",
+        "每秒伤害",
+        "每次伤害",
+        "死亡伤害",
+        "生命值",
+        "升级花费",
+        "升级时间",
+        "所需实验室等级",
+        "所需大本等级"
+      ],
+      "rows": [
+        [
+          "1",
+          "340",
+          "408",
+          "700",
+          "4100",
+          "\\",
+          "\\",
+          "1",
+          "13"
+        ],
+        [
+          "2",
+          "370",
+          "444",
+          "800",
+          "4400",
+          "7.5M",
+          "6",
+          "11",
+          "13"
+        ],
+        [
+          "3",
+          "400",
+          "480",
+          "900",
+          "4700",
+          "12M",
+          "8",
+          "12",
+          "14"
+        ],
+        [
+          "4",
+          "430",
+          "516",
+          "1000",
+          "5100",
+          "14.5M",
+          "9",
+          "14",
+          "16"
+        ],
+        [
+          "5",
+          "470",
+          "564",
+          "1100",
+          "5600",
+          "19M",
+          "10,6",
+          "15",
+          "17"
+        ],
+        [
+          "6",
+          "520",
+          "624",
+          "1200",
+          "6200",
+          "29.5M",
+          "15,12",
+          "16",
+          "18"
+        ]
+      ],
+      "extra_info": [
+        {
+          "column": 5,
+          "type": "cost",
+          "gpClass": "research",
+          "icon": "Elixir"
+        },
+        {
+          "column": 6,
+          "type": "time",
+          "gpClass": "research"
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2025/11/17",
+      "rows": [
+        "18 本推出，并在 18 本新增 6 级龙骑士。",
+        "5 级龙骑士的升级费用和升级时间减少。"
+      ]
+    },
+    {
+      "date": "2025/10/06",
+      "rows": [
+        "2 ~ 3 级龙骑士的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2025/06/30",
+      "rows": [
+        "4 ~ 5 级龙骑士的生命值增加。"
+      ]
+    },
+    {
+      "date": "2025/03/27",
+      "rows": [
+        "部队的训练时间取消，但增加了捐赠费用。"
+      ]
+    },
+    {
+      "date": "2025/03/24",
+      "rows": [
+        "2 ~ 4 级龙骑士的升级时间减少。",
+        "4 级龙骑士的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2025/02/10",
+      "rows": [
+        "龙骑士的训练时间由 4:10 改为 3:30"
+      ]
+    },
+    {
+      "date": "2024/11/25",
+      "rows": [
+        "17 本推出，并在 17 本新增 5 级龙骑士。",
+        "2 ~ 4 级龙骑士的升级费用和升级时间减少。"
+      ]
+    },
+    {
+      "date": "2023/12/12",
+      "rows": [
+        "16 本推出，同时在 16 本新增 4 级龙骑士。",
+        "3 级龙骑士的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2023/06/12",
+      "rows": [
+        "2 级龙骑士的升级费用和升级时间减少。"
+      ]
+    },
+    {
+      "date": "2022/10/10",
+      "rows": [
+        "2 ~ 3 级龙骑士的升级费用和升级时间减少。"
+      ]
+    },
+    {
+      "date": "2022/05/02",
+      "rows": [
+        "家乡所有空军的攻击距离减少 0.5 格（超级飞龙除外，这玩意削了 1 格）。"
+      ]
+    },
+    {
+      "date": "2022/01/20",
+      "rows": [
+        "2 ~ 3 级龙骑士的生命值减少。"
+      ]
+    },
+    {
+      "date": "2021/09/27",
+      "rows": [
+        "龙骑士的射程降低 0.5 格。射程的降低意味着龙骑士需要更加靠近攻击目标才能发起远程攻击。"
+      ]
+    },
+    {
+      "date": "2021/06/15",
+      "rows": [
+        "13 本可解锁新兵种：龙骑士。"
+      ]
+    }
+  ],
+  "notes": []
+}

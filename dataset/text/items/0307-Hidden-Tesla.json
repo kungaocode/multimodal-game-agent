@@ -1,0 +1,477 @@
+{
+  "id": "0307",
+  "link": "0307-Hidden-Tesla",
+  "tab": "建筑",
+  "section": "防御建筑",
+  "name": "特斯拉电磁塔",
+  "title": "部落冲突 coc 特斯拉电磁塔（电塔）升级数据",
+  "description": "隐藏在地下的特斯拉电磁塔就像一个危险陷阱！法师在这个防御建筑中注入了雷电的力量，当敌军地面或空中部队靠近时，特斯拉电磁塔会弹出并运用雷电之力攻击这些倒霉蛋。",
+  "module": "upgrade-home",
+  "img_folder": "home_buildings/0307",
+  "canonical": "/upgrade/0307-Hidden-Tesla",
+  "wiki": "https://clashofclans.fandom.com/wiki/Hidden_Tesla",
+  "info_image": {
+    "level": "info",
+    "src": "Hidden_Tesla17.png",
+    "url": "https://static.clashpost.com/upgrade/home_buildings/0307/Hidden_Tesla17.png"
+  },
+  "image_groups": [
+    {
+      "group": "",
+      "images": [
+        {
+          "level": "1 级",
+          "src": "Hidden_Tesla1.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0307/Hidden_Tesla1.png"
+        },
+        {
+          "level": "2 级",
+          "src": "Hidden_Tesla2.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0307/Hidden_Tesla2.png"
+        },
+        {
+          "level": "3 级",
+          "src": "Hidden_Tesla3.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0307/Hidden_Tesla3.png"
+        },
+        {
+          "level": "4 级",
+          "src": "Hidden_Tesla4.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0307/Hidden_Tesla4.png"
+        },
+        {
+          "level": "5 级",
+          "src": "Hidden_Tesla5.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0307/Hidden_Tesla5.png"
+        },
+        {
+          "level": "6 级",
+          "src": "Hidden_Tesla6.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0307/Hidden_Tesla6.png"
+        },
+        {
+          "level": "7 级",
+          "src": "Hidden_Tesla7.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0307/Hidden_Tesla7.png"
+        },
+        {
+          "level": "8 级",
+          "src": "Hidden_Tesla8.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0307/Hidden_Tesla8.png"
+        },
+        {
+          "level": "9 级",
+          "src": "Hidden_Tesla9.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0307/Hidden_Tesla9.png"
+        },
+        {
+          "level": "10 级",
+          "src": "Hidden_Tesla10.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0307/Hidden_Tesla10.png"
+        },
+        {
+          "level": "11 级",
+          "src": "Hidden_Tesla11.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0307/Hidden_Tesla11.png"
+        },
+        {
+          "level": "12 级",
+          "src": "Hidden_Tesla12.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0307/Hidden_Tesla12.png"
+        },
+        {
+          "level": "13 级",
+          "src": "Hidden_Tesla13.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0307/Hidden_Tesla13.png"
+        },
+        {
+          "level": "14 级",
+          "src": "Hidden_Tesla14.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0307/Hidden_Tesla14.png"
+        },
+        {
+          "level": "15 级",
+          "src": "Hidden_Tesla15.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0307/Hidden_Tesla15.png"
+        },
+        {
+          "level": "16 级",
+          "src": "Hidden_Tesla16.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0307/Hidden_Tesla16.png"
+        },
+        {
+          "level": "17 级",
+          "src": "Hidden_Tesla17.png",
+          "url": "https://static.clashpost.com/upgrade/home_buildings/0307/Hidden_Tesla17.png"
+        }
+      ]
+    }
+  ],
+  "building_num": [
+    {
+      "title": "大本等级",
+      "num": "1 - 6, 7, 8, 9 - 11, 12 - 18"
+    },
+    {
+      "title": "建筑数量",
+      "num": "    0, 2, 3,      4,       5"
+    }
+  ],
+  "properties": [
+    {
+      "key": "占地面积",
+      "value": "2×2"
+    },
+    {
+      "key": "判定面积",
+      "value": "1×1"
+    },
+    {
+      "key": "伤害类型",
+      "value": "单体伤害"
+    },
+    {
+      "key": "攻击的目标",
+      "value": "地面和空中目标"
+    },
+    {
+      "key": "触发距离",
+      "value": "6 格"
+    },
+    {
+      "key": "射程",
+      "value": "7 格"
+    },
+    {
+      "key": "攻速",
+      "value": "0.6 秒/次"
+    }
+  ],
+  "tables": [
+    {
+      "label": "升级数据",
+      "headers": [
+        "等级",
+        "每秒伤害",
+        "每次伤害",
+        "生命值",
+        "升级费用",
+        "升级时间",
+        "升级后可获得的经验",
+        "所需大本等级"
+      ],
+      "rows": [
+        [
+          "1",
+          "34",
+          "20.4",
+          "600",
+          "250k",
+          "0, 2",
+          "",
+          "7"
+        ],
+        [
+          "2",
+          "40",
+          "24",
+          "630",
+          "350k",
+          "0, 3",
+          "",
+          "7"
+        ],
+        [
+          "3",
+          "48",
+          "28.8",
+          "660",
+          "500k",
+          "0, 4",
+          "",
+          "7"
+        ],
+        [
+          "4",
+          "55",
+          "33",
+          "690",
+          "600k",
+          "0, 6",
+          "",
+          "8"
+        ],
+        [
+          "5",
+          "64",
+          "38.4",
+          "730",
+          "800k",
+          "0,12",
+          "",
+          "8"
+        ],
+        [
+          "6",
+          "75",
+          "45",
+          "770",
+          "1.2M",
+          "1",
+          "",
+          "8"
+        ],
+        [
+          "7",
+          "87",
+          "52.2",
+          "810",
+          "1.4M",
+          "1, 6",
+          "",
+          "9"
+        ],
+        [
+          "8",
+          "99",
+          "59.4",
+          "850",
+          "1.6M",
+          "1,12",
+          "",
+          "10"
+        ],
+        [
+          "9",
+          "110",
+          "66",
+          "900",
+          "2.1M",
+          "1,18",
+          "",
+          "11"
+        ],
+        [
+          "10",
+          "120",
+          "72",
+          "980",
+          "3M",
+          "2",
+          "",
+          "12"
+        ],
+        [
+          "11",
+          "130",
+          "78",
+          "1100",
+          "3.1M",
+          "2,12",
+          "",
+          "13"
+        ],
+        [
+          "12",
+          "140",
+          "84",
+          "1200",
+          "3.7M",
+          "3",
+          "",
+          "13"
+        ],
+        [
+          "13",
+          "150",
+          "90",
+          "1350",
+          "5.1M",
+          "3,12",
+          "",
+          "14"
+        ],
+        [
+          "14",
+          "160",
+          "96",
+          "1450",
+          "6.5M",
+          "4",
+          "",
+          "15"
+        ],
+        [
+          "15",
+          "170",
+          "102",
+          "1550",
+          "8.2M",
+          "5",
+          "",
+          "16"
+        ],
+        [
+          "16",
+          "180",
+          "108",
+          "1650",
+          "15M",
+          "9",
+          "",
+          "17"
+        ],
+        [
+          "17",
+          "190",
+          "114",
+          "1750",
+          "25M",
+          "13",
+          "",
+          "18"
+        ]
+      ],
+      "extra_info": [
+        {
+          "column": 4,
+          "type": "cost",
+          "gpClass": "building",
+          "icon": "Gold"
+        },
+        {
+          "column": 5,
+          "type": "time",
+          "gpClass": "building"
+        },
+        {
+          "column": 6,
+          "type": "exp",
+          "icon": "Exp"
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026/02/23",
+      "rows": [
+        "在 18 本添加了 17 级特斯拉电磁塔。",
+        "移除了特斯拉电磁塔的充能等级。"
+      ]
+    },
+    {
+      "date": "2025/11/17",
+      "rows": [
+        "16 级及两个充能等级的特斯拉电磁塔的升级时间和升级费用减少。"
+      ]
+    },
+    {
+      "date": "2025/10/06",
+      "rows": [
+        "13 ~ 15 级特斯拉电磁塔的升级时间减少。"
+      ]
+    },
+    {
+      "date": "2025/03/24",
+      "rows": [
+        "3、7 ~ 11、13 ~ 15 级特斯拉电磁塔的升级时间减少。",
+        "3 ~ 5、7、9 ~ 15 级特斯拉电磁塔的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2025/02/10",
+      "rows": [
+        "17 本新增 16 级特斯拉电磁塔。",
+        "4、5、12 级特斯拉电磁塔的升级时间减少。",
+        "12 级特斯拉电磁塔的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2024/11/25",
+      "rows": [
+        "7 ~ 8、11 ~ 15 级特斯拉电磁塔的升级时间减少。",
+        "11 ~ 15 级特斯拉电磁塔的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2024/09/09",
+      "rows": [
+        "超级充能推出，特斯拉电磁塔是第一批可以充能的建筑之一。"
+      ]
+    },
+    {
+      "date": "2024/06/18",
+      "rows": [
+        "10 ~ 14 级特斯拉电磁塔的升级时间减少。",
+        "13 ~ 14 级特斯拉电磁塔的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2024/02/27",
+      "rows": [
+        "16 本新增 15 级特斯拉电磁塔。"
+      ]
+    },
+    {
+      "date": "2023/12/12",
+      "rows": [
+        "3 ~ 14 级特斯拉电磁塔的升级时间减少。",
+        "1 ~ 9、13 级特斯拉电磁塔的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2023/06/12",
+      "rows": [
+        "15 本新增 14 级特斯拉电磁塔。",
+        "10 ~ 12 级特斯拉电磁塔的升级时间减少。",
+        "10 ~ 12 级特斯拉电磁塔的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2022/10/10",
+      "rows": [
+        "8 ~ 13 级特斯拉电磁塔的升级费用和升级时间减少。"
+      ]
+    },
+    {
+      "date": "2021/12/09",
+      "rows": [
+        "2 ~ 12 级特斯拉电磁塔的升级费用降低。"
+      ]
+    },
+    {
+      "date": "2021/04/12",
+      "rows": [
+        "14 本推出，并在 14 本新增 13 级特斯拉电磁塔。",
+        "1 ~ 9 级特斯拉电磁塔的升级费用和升级时间减少。"
+      ]
+    },
+    {
+      "date": "2020/10/12",
+      "rows": [
+        "13 本新增 12 级特斯拉电磁塔。"
+      ]
+    },
+    {
+      "date": "2019/12/09",
+      "rows": [
+        "13 本开放，新增 11 级特斯拉电磁塔。"
+      ]
+    },
+    {
+      "date": "2019/09/11",
+      "rows": [
+        "10 级特斯拉电磁塔的生命值由 950 提高到 980。"
+      ]
+    },
+    {
+      "date": "2019/04/02",
+      "rows": [
+        "1 ~ 8 级电塔的升级时间减少。",
+        "1 ~ 9 级电塔的升级费用降低。"
+      ]
+    }
+  ],
+  "notes": []
+}
