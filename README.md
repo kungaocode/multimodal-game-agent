@@ -4,8 +4,7 @@
 
 ## 项目进度
 
-阶段状态、最近交付与下一步建议见 [PROGRESS.md](PROGRESS.md)；总计划见
-[项目阶段拆分与技术栈汇总.md](项目阶段拆分与技术栈汇总.md)。
+阶段状态、测试进度、最近交付与下一步建议见 [PROGRESS.md](PROGRESS.md)。
 
 ## 模块速览
 
@@ -25,7 +24,7 @@
 ```bash
 conda activate multimodal-agent
 
-# 全部测试（当前 134 个）
+# 全部测试（当前 171 个）
 python -m pytest tests -ra
 
 # 在模拟环境跑一次完整打资源闭环（演示）

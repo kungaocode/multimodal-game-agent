@@ -1,7 +1,7 @@
 # 项目进度（Progress）
 
-> 最后更新：2026-09-04
-> 对应总计划：`项目阶段拆分与技术栈汇总.md`（阶段 0~15）
+> 最后更新：2026-09-19（同步 GitHub 时已清理内部信息，仅保留测试进度）
+> 对应阶段拆分计划（阶段 0~15）
 
 ## 阶段总览
 
@@ -20,13 +20,13 @@
 | 10 | 捐兵模块 | ⬜ | 后续模块（MVP 不做） |
 | 11 | Android 客户端 | ⬜ | 未开始 |
 | 12 | HarmonyOS 客户端 | ⬜ | 未开始 |
-| 13 | 实验评估体系 | 🔄 | 状态转换识别测试工具+基线完成；后续计划见 `后续开发计划.md` |
+| 13 | 实验评估体系 | 🔄 | 状态转换识别测试工具+基线完成；后续计划见「接下来测试重点」 |
 | 14 | AI Agent 安全研究 | 🔄 | security/audit 强制审计已通过；动作校验器/风险分级已落地（executor/validator）；级联路由含触发率/成本统计与样本审计 |
 | 15 | 真机测试与交付 | ⬜ | 未开始 |
 
 ## 最近交付（2026-09-06 · 战斗开始后的行为逻辑）
 
-> 对应方案：`战斗开始后行为逻辑落地计划.md`（解决第6轮「过早结束战斗」「资源列表缺失」；改动前已 `cp` 备份 3 源文件至 `.backup_20260906/`，因根目录 `.git` 无 HEAD）
+> 解决第6轮「过早结束战斗」「资源列表缺失」；改动前已备份 3 个源文件
 
 **代码改动（3 个源文件）**
 1. `decision/battle_fsm.py`：新增极小组件 `EmptyTargetGuard`（连续 N 帧无可获取目标才放行结束，`threshold` 默认 3，可配）；`BattleFSM.__init__` 加 `empty_frames_threshold`；BATTLE 分支改为「先算法判可获取目标→有则 deploy 并清空判空计数→return_button 被动结算→end_battle_button+连续判空达阈值才主动结束」；进入新战斗时守卫复位；`BattleSignals.enemy_resources` 语义注释明确每项都是「算法会打分的候选」。
@@ -84,36 +84,6 @@
   3. **退出到桌面无恢复逻辑**：step13~16 手机已退回桌面（App 图标可见），本地模型仍判「村庄待机」、教练只 wait，没有「检测到桌面 → 重新拉起 App/回到村庄」的动作
 - 统计：16 步 / 11 次执行 / 教练纠正率 100%（本地模型全程 wait，待回流重训）
 
-## 真机接入方式（之后测试直接复制使用 · 2026-09-03 深晚快照）
-
-| 项 | 值 |
-|---|---|
-| 电脑局域网 IP（后端地址，手机访问） | `http://192.168.31.250:8000` |
-| 控制台页面 | `http://192.168.31.250:8000/static/index.html` |
-| 后端进程 | ✅ 运行中（uvicorn 0.0.0.0:8000；`/health` ok：detector=fsm_v4、Qwen 教练已配置、OCR 未启用） |
-| ADB 设备 | ⚠️ 当前 `adb devices` 为空，手机未连接；测试前需重新配对+连接（见下） |
-| 历史 serial（USB） | `2WH0224410005200` |
-| 手机无线调试 serial | `<手机IP>:<连接端口>`（无线调试界面查看，端口随连接变化） |
-| ADB 路径 | `tools/android-platform-tools/platform-tools/adb` |
-
-重新连接（手机开「开发者选项→无线调试」→ 配对 → 连接 → 弹窗勾选始终允许）：
-```bash
-ADB=tools/android-platform-tools/platform-tools/adb
-$ADB pair <手机IP>:<配对端口> <6位配对码>   # 配对码 1~2 分钟有效
-$ADB connect <手机IP>:<连接端口>
-$ADB devices                                 # 应显示 device
-```
-
-命令行直跑会话（与手机浏览器控制台等效）：
-```bash
-source activate multimodal-agent
-export VISION_MODEL_BASE_URL='https://dashscope.aliyuncs.com/compatible-mode/v1'
-export VISION_MODEL_NAME='qwen3-vl-plus'
-export VISION_MODEL_API_KEY="$(sed -n '2p' api.txt)"
-python -m tools.coach_session --module farm --serial <手机IP>:<连接端口>   --max-steps 20 --step-delay 2.0 --weights runs/detect/fsm_v4/weights/best.pt
-```
-完整手册见 `上机测试操作手册.md`。
-
 ## 接下来测试重点（按优先级，用户确认）
 
 1. **① 下兵逻辑（最高优先）**
@@ -151,12 +121,12 @@ python -m tools.coach_session --module farm --serial <手机IP>:<连接端口>  
 ## 最近交付（2026-09-03 上午 · 首轮真机上机会话）
 
 **首轮 ADB Coach 上机会话成功** `dataset/coach_sessions/20260903_101446_3f89db17/`
-- 设备：HBN-AL10（HONOR，USB ADB serial `2WH0224410005200`）；游戏 `com.supercell.clashofclans` 前台
+- 设备：Android 真机（USB ADB）；游戏 Clash of Clans 前台
 - 链路：ADB 截屏 → fsm_v4 本地感知 → qwen3-vl-plus 教练审查 → 纠正动作真机执行 → 数据自动记录（**无需录屏**）
 - 结果：8/8 步完成；8 截图+8 本地输出+8 教练输出；教练批改 7/8（纠错率 87.5%）；实际执行 4 次点击
 - 流程：村庄待机 →（教练纠正点击进攻/搜索对手/进攻）→ 战斗中（开战倒计时）→ 因 max_steps=8 在第 8 步停止
 - 结论：本地 fsm_v4 仍弱（符合预期），强模型教练全程在带；每步纠错即高质量蒸馏样本，
-  证明「强模型指导→主动采集→回流训练」上机路径可行；下一步按 `打资源测试与蒸馏训练计划.md` 多轮采集后重训 v6
+  证明「强模型指导→主动采集→回流训练」上机路径可行；下一步按计划多轮采集后重训 v6
 
 ## 最近交付（2026-09-03）
 
@@ -165,7 +135,7 @@ python -m tools.coach_session --module farm --serial <手机IP>:<连接端口>  
     - v5 检测器：`runs/detect/fsm_v5/weights/best.pt`，mAP50 0.084 / mAP50-95 0.029，数据量不足，未达真机门槛
     - v5 状态分类器：`runs/state_classifier_v5/best.pt`，val accuracy 0.8125
     - 打资源与捐兵 v5 dry-run 均跑通：`dataset/coach_sessions/v5_regression_farm/`、`dataset/coach_sessions/v5_regression_donation/`
-    - 控制台重训默认输出已改到 v5，批量标注/训练命令已写入 `部署与安卓鸿蒙接入.md`
+    - 控制台重训默认输出已改到 v5，批量标注/训练命令见 `tools/labeling/` 脚本
 
 ## 最近交付（2026-09-02）
 
@@ -221,7 +191,7 @@ python -m tools.coach_session --module farm --serial <手机IP>:<连接端口>  
    - `llm_samples_to_yolo.py`：回流样本→YOLO（已产出 llm_finetune 2 图 9 框）
    - `ocr_buttons_to_yolo.py`：OCR 半自动按钮标注（已产出 fsm_real_buttons 9 图 29 框）
    - `finetune_fsm.py`：6 合成 + 回流 + OCR 按钮 → 12 类微调（farm 基线训练完成后运行）
-9. **后续开发计划** `后续开发计划.md`（架构/API 配置/数据/训练/测试/里程碑/用户待办）
+9. **后续开发计划**（架构/API 配置/数据/训练/测试/里程碑/用户待办）
 
 ## 训练结果与诊断（2026-09-02 晚 · 两阶段训练已完成并自动停止）
 
@@ -247,21 +217,21 @@ python -m tools.coach_session --module farm --serial <手机IP>:<连接端口>  
    （训练见过其中 6 张），当前 100% 数字不能代表泛化能力，需独立评测集；
 3. 合成 ↔ 真实域差异：资源建筑 0/6 与此前一致。
 
-**下一步修法**（与 `后续开发计划.md` 第 5/6 节一致）
+**下一步修法**
 - 用户扩充每类按钮 ≥20 框 + 战斗结束/结算截图（独立评测集）；
 - 重训时启用类别权重（按钮类 loss 加权）+ imgsz 640 + 独立验证集 —— 已记录待实现。
 
 ## 质量门槛（强制）
 
 ```bash
-# 全部测试（当前 134 个）
+# 全部测试（当前 171 个）
 source activate multimodal-agent && python -m pytest tests -ra
 
 # 代码审计（合并前必须通过，当前 0 发现）
 python -m security.audit
 ```
 
-## 下一步建议（按优先级；打资源测试入口与完整蒸馏路线见 `打资源测试与蒸馏训练计划.md`）
+## 下一步建议（按优先级）
 
 **打资源测试（本次）**
 1. 跑 T1 Simulator 闭环 → T2 状态转换识别（--ocr 看 YOLO 独立 vs OCR 兜底差距）→ T3 Coach 视频 dry-run → T4 API 冒烟
