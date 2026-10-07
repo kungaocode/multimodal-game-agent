@@ -14,6 +14,7 @@ from state.game_state import BuilderStatus, Building, GameState, Resources
 from .classifier import BuildingClassifier
 from .detector import Detector
 from .ocr import OCRReader
+from .resources_ocr import check_resources_full
 from .vision_model import VisionModel
 
 
@@ -105,7 +106,9 @@ class GameStateExtractor:
                     {"text": r.text, "confidence": r.confidence, "bbox": r.bbox}
                     for r in ocr_results
                 ]
-                state.resources = self._heuristic_resources(ocr_results)
+                status = check_resources_full(ocr_results, pil_image.height)
+                state.resource_status = status
+                state.resources = status.amounts
             except Exception as exc:  # noqa: BLE001
                 state.warnings.append(f"ocr: {exc}")
 

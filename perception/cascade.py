@@ -14,6 +14,7 @@ from __future__ import annotations
 
 import json
 import os
+import re
 import time
 from dataclasses import dataclass, field
 from pathlib import Path
@@ -215,13 +216,10 @@ def _llm_objects_to_buildings(state: GameState, objects: list[Any]) -> int:
     for obj in objects:
         if not isinstance(obj, dict):
             continue
-        coords = obj.get("coords")
-        if not isinstance(coords, (list, tuple)) or len(coords) < 2:
+        coords = _parse_llm_coords(obj)
+        if coords is None:
             continue
-        try:
-            cx, cy = int(coords[0]), int(coords[1])
-        except (TypeError, ValueError):
-            continue
+        cx, cy = coords
         if cx <= 0 or cy <= 0 or not isinstance(obj.get("type"), str) or not obj["type"]:
             continue
         conf = float(obj.get("confidence") or 0.5)
@@ -234,6 +232,39 @@ def _llm_objects_to_buildings(state: GameState, objects: list[Any]) -> int:
         )
         merged += 1
     return merged
+
+
+def _parse_llm_coords(obj: dict[str, Any]) -> tuple[int, int] | None:
+    """从 LLM 物件中提取像素坐标，兼容 coords / position_estimate / bbox 与字符串表示。"""
+    for key in ("coords", "position_estimate"):
+        pair = _number_pair(obj.get(key))
+        if pair is not None:
+            return pair
+    bbox = obj.get("bbox")
+    if isinstance(bbox, (list, tuple)) and len(bbox) >= 4:
+        pair = _number_pair(bbox)
+        if pair is not None:
+            return pair
+    return None
+
+
+def _number_pair(raw: Any) -> tuple[int, int] | None:
+    """解析 [x, y] / "x, y" / bbox 形式的值，返回中心或前两个数字。"""
+    if isinstance(raw, str):
+        values = re.findall(r"-?\d+(?:\.\d+)?", raw)
+        if len(values) < 2:
+            return None
+        raw = values
+    if not isinstance(raw, (list, tuple)) or len(raw) < 2:
+        return None
+    try:
+        numbers = [float(v) for v in raw[:4]]
+    except (TypeError, ValueError):
+        return None
+    if len(numbers) >= 4:
+        x1, y1, x2, y2 = numbers[:4]
+        return (int(round((x1 + x2) / 2)), int(round((y1 + y2) / 2)))
+    return (int(round(numbers[0])), int(round(numbers[1])))
 
 
 class CascadeExtractor:

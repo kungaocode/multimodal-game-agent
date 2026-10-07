@@ -126,6 +126,25 @@ def test_llm_objects_to_buildings_merges_valid():
     assert state.buildings[0].position == (100, 200)
 
 
+def test_llm_objects_to_buildings_accepts_string_and_position_estimate():
+    """兼容 omni 类模型常见的字符串坐标 / position_estimate / bbox 输出。"""
+    state = GameState()
+    objects = [
+        {"type": "金矿", "position_estimate": "[100, 200]", "confidence": 0.9},
+        {"type": "圣水收集器", "coords": "640, 360", "confidence": 0.8},
+        {"type": "储金罐", "position_estimate": [50, 60], "confidence": 0.7},
+        {"type": "圣水瓶", "bbox": [100, 200, 140, 240], "confidence": 0.6},
+        {"type": "坏数据", "coords": "画面中心"},  # 无可解析数字
+        {"type": "坏数据", "coords": ["a", "b"]},  # 非法类型
+    ]
+    merged = _llm_objects_to_buildings(state, objects)
+    assert merged == 4
+    assert state.buildings[0].position == (100, 200)
+    assert state.buildings[1].position == (640, 360)
+    assert state.buildings[2].position == (50, 60)
+    assert state.buildings[3].position == (120, 220)
+
+
 # ---------- 样本回流 ----------
 
 def test_recorder_saves_meta_and_image(tmp_path):

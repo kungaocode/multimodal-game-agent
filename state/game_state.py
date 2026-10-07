@@ -13,18 +13,36 @@ class Resources(BaseModel):
     dark_elixir: int = 0
 
 
+class ResourceThresholds(BaseModel):
+    """资源触发策略：低于 low 才进入打资源环，回升到 resume 才退出。
+
+    阈值不是大模型判断结果，而是固定配置；模型只负责从画面读数。
+    """
+
+    gold_low: int = 500_000
+    gold_resume: int = 1_500_000
+    elixir_low: int = 500_000
+    elixir_resume: int = 1_500_000
+    dark_low: int = 5_000
+    dark_resume: int = 15_000
+    donation_safety_buffer: int = 10_000
+
+
 class ResourceStatus(BaseModel):
     """自己某项资源是否装满（由顶栏数字 vs 容量表得出）。
 
     detected 表示识别到几个顶栏数字（按金→圣水→黑油顺序）。
     all_full：至少识别到 2 项（金+圣水）且识别到的每项都满才为 True。
     只识别到 1 项时信息不足，不判全满（避免漏读导致误停）。
+
+    amounts 保存同一帧 OCR 读到的原始数值，供资源阈值判定与节能采集验证使用。
     """
 
     gold_full: bool = False
     elixir_full: bool = False
     dark_full: bool = False
     detected: int = 0
+    amounts: Resources = Field(default_factory=Resources)
 
     @property
     def all_full(self) -> bool:
@@ -55,6 +73,7 @@ class Building(BaseModel):
 
 class GameState(BaseModel):
     resources: Resources = Field(default_factory=Resources)
+    resource_status: ResourceStatus = Field(default_factory=ResourceStatus)
     builders: BuilderStatus = Field(default_factory=BuilderStatus)
     buildings: list[Building] = Field(default_factory=list)
     screen_text: list[dict[str, Any]] = Field(default_factory=list)

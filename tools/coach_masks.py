@@ -39,6 +39,23 @@ def green_mask(screenshot: Image.Image):
     return (G > R + 18) & (G > B + 10) & (G > 100)
 
 
+def wall_mask(screenshot: Image.Image):
+    """Per-pixel conservative wall mask: gray stone and warm brown wall lines.
+
+    Wall colors vary a lot between themes, so this intentionally only marks
+    clearly stone/gray or brownish blocks. False negatives are safer than
+    false positives: the loot estimator treats a missing wall layer as a
+    cheaper crossing instead of wrongly blocking an accessible target.
+    """
+    import numpy as np
+
+    a = np.asarray(screenshot.convert("RGB")).astype(int)
+    R, G, B = a[..., 0], a[..., 1], a[..., 2]
+    gray_stone = (abs(R - G) <= 25) & (abs(G - B) <= 25) & (R > 80) & (R < 190)
+    warm_brown = (R > G + 15) & (G > B + 15) & (R > 90) & (R < 190)
+    return gray_stone | warm_brown
+
+
 def no_land_mask(
     screenshot: Image.Image,
     ui_ratio: float = 0.86,

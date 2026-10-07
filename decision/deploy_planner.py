@@ -15,7 +15,9 @@ import math
 from dataclasses import dataclass, field, replace
 from typing import Any, Callable
 
+from .battle_memory import BattleMemory
 from .farm_fsm import FarmSignals
+from .loot_estimator import LootEstimate, LootEstimator
 from .resource_policy import RESOURCE_NAMES, ResourcePolicy
 
 
@@ -38,6 +40,9 @@ class DeployPlan:
     repeat_count: int = 1
     reason: str = "top_scored_target"
     candidate_count: int = 0
+    loot_estimate: LootEstimate | None = None
+    troops_needed: int | None = None
+    expected_loot: int | None = None
 
 
 class DeployPlanner:
@@ -56,10 +61,18 @@ class DeployPlanner:
         landing_planner: LandingPlanner | None = None,
         max_consecutive_per_target: int = 2,
         match_radius: float = 48.0,
+        loot_estimator: LootEstimator | None = None,
+        battle_memory: BattleMemory | None = None,
+        green_provider: Callable[[FarmSignals, Any], object | None] | None = None,
+        wall_mask_provider: Callable[[FarmSignals, Any], object | None] | None = None,
     ) -> None:
         self.policy = policy or ResourcePolicy()
         self.mask_provider = mask_provider
         self.landing_planner = landing_planner
+        self.loot_estimator = loot_estimator
+        self.battle_memory = battle_memory
+        self.green_provider = green_provider
+        self.wall_mask_provider = wall_mask_provider
         self.max_consecutive_per_target = max(1, int(max_consecutive_per_target))
         self.match_radius = float(match_radius)
         self.last_target: tuple[str, tuple[int, int]] | None = None
@@ -72,6 +85,7 @@ class DeployPlanner:
         detections: list[dict] | None = None,
         requested_name: str | None = None,
         requested_coords: tuple[int, int] | list[int] | None = None,
+        commit: bool = True,
     ) -> DeployPlan | None:
         """选择最终 deploy 目标与落点；没有可打目标时返回 None。"""
         effective_signals = self._with_requested_candidate(
@@ -80,13 +94,28 @@ class DeployPlanner:
             requested_coords,
             screenshot,
         )
+        if self.battle_memory is not None:
+            self.battle_memory.observe(effective_signals, detections=detections)
         scored = self._scored(effective_signals, screenshot)
+        qualified = self._qualify(scored, effective_signals, screenshot, detections)
+        scored = [target for target, _ in qualified]
         if not scored:
             return None
 
         selected = self._select(scored, requested_name, requested_coords)
         if selected is None:
             return None
+        estimate = next(
+            (
+                est
+                for target, est in qualified
+                if target.name == selected.name
+                and self._same_target(
+                    target.name, target.coords, selected.name, selected.coords
+                )
+            ),
+            None,
+        )
 
         previous = self.last_target
         previous_repeat_count = self.last_repeat_count
@@ -116,6 +145,14 @@ class DeployPlanner:
             detections,
             requested_coords,
         )
+        if (
+            estimate is not None
+            and estimate.accessible
+            and estimate.landing_point is not None
+        ):
+            landing = estimate.landing_point
+        if self.battle_memory is not None and commit:
+            self.battle_memory.mark_deploy(selected.name, target_coords, estimate)
         return DeployPlan(
             target_name=selected.name,
             target_coords=target_coords,
@@ -125,12 +162,27 @@ class DeployPlanner:
             repeat_count=repeat_count,
             reason=reason,
             candidate_count=len(scored),
+            loot_estimate=estimate,
+            troops_needed=estimate.troops_needed if estimate is not None else None,
+            expected_loot=estimate.expected_loot if estimate is not None else None,
+        )
+
+    def commit(self, plan: DeployPlan | None) -> None:
+        """把一次已执行（或已确定为会被执行）的下兵记入战斗记忆。"""
+        if plan is None or self.battle_memory is None:
+            return
+        self.battle_memory.mark_deploy(
+            plan.target_name,
+            plan.target_coords,
+            plan.loot_estimate,
         )
 
     def reset(self) -> None:
         """清空连续目标状态，通常用于进入下一场战斗。"""
         self.last_target = None
         self.last_repeat_count = 0
+        if self.battle_memory is not None:
+            self.battle_memory.reset()
 
     def _with_requested_candidate(
         self,
@@ -173,6 +225,74 @@ class DeployPlanner:
                 landable_provider=lambda _signals: self.mask_provider(_signals, screenshot),
             )
         return policy.scored(signals)
+
+    def _provider_value(
+        self,
+        provider: Callable[[FarmSignals, Any], object | None] | None,
+        signals: FarmSignals,
+        screenshot: Any,
+    ) -> object | None:
+        if provider is None:
+            return None
+        try:
+            return provider(signals, screenshot)
+        except Exception:
+            return None
+
+    def _defense_coords(self, signals: FarmSignals) -> tuple[tuple[int, int], ...]:
+        if self.policy.defense_provider is not None:
+            return tuple(self.policy.defense_provider(signals))
+        return tuple(self.policy.config.defenses)
+
+    def _estimate(
+        self,
+        target,
+        signals: FarmSignals,
+        screenshot: Any,
+        detections: list[dict] | None,
+    ) -> LootEstimate | None:
+        """对单个候选做可获取性/兵力估算；没有估算器时返回 None（保持旧行为）。"""
+        if self.loot_estimator is None:
+            return None
+        capacity = None
+        looted = 0
+        if self.battle_memory is not None:
+            capacity = self.battle_memory.capacity(target.name, target.coords)
+            looted = self.battle_memory.looted(target.name, target.coords)
+        return self.loot_estimator.estimate(
+            target.name,
+            target.coords,
+            screenshot=screenshot,
+            detections=detections,
+            no_land_mask=self._provider_value(self.mask_provider, signals, screenshot),
+            green_mask=self._provider_value(self.green_provider, signals, screenshot),
+            wall_mask=self._provider_value(self.wall_mask_provider, signals, screenshot),
+            defenses=self._defense_coords(signals),
+            capacity=capacity,
+            looted=looted,
+        )
+
+    def _qualify(
+        self,
+        scored: list,
+        signals: FarmSignals,
+        screenshot: Any,
+        detections: list[dict] | None,
+    ) -> list[tuple]:
+        """过滤记忆已打空或估算不可获取的目标。"""
+        if self.loot_estimator is None and self.battle_memory is None:
+            return [(target, None) for target in scored]
+        qualified: list[tuple] = []
+        for target in scored:
+            if self.battle_memory is not None and self.battle_memory.is_depleted(
+                target.name, target.coords
+            ):
+                continue
+            estimate = self._estimate(target, signals, screenshot, detections)
+            if estimate is not None and not estimate.accessible:
+                continue
+            qualified.append((target, estimate))
+        return qualified
 
     def _select(
         self,

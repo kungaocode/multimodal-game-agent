@@ -46,12 +46,12 @@ class VisionModel:
         base_url: str | None = None,
         api_key: str | None = None,
         model: str | None = None,
-        timeout: float = 60.0,
+        timeout: float = 120.0,
     ) -> None:
         self.base_url = base_url or os.getenv("VISION_MODEL_BASE_URL", "")
         self.api_key = api_key or os.getenv("VISION_MODEL_API_KEY", "")
         self.model = model or os.getenv("VISION_MODEL_NAME", "qwen-vl-max")
-        self.timeout = timeout
+        self.timeout = float(os.getenv("VISION_MODEL_TIMEOUT", timeout))
         # 默认不信任环境代理变量：本机常见 socks5:// 代理会让 httpx 直接崩溃。
         # 需要走系统代理时设置 VISION_TRUST_ENV=1。
         self.trust_env = os.getenv("VISION_TRUST_ENV", "0") == "1"
@@ -165,6 +165,10 @@ class VisionModel:
         # qwen3 系列思考模型可能同时返回 reasoning_content，正文仍在 content 字段
         content = raw_message.get("content") or ""
         parsed = _extract_json(content)
+        if isinstance(parsed, list):
+            # 部分 omni 模型在强制 JSON 输出时会把根节点写成数组，按 objects 兼容
+            objects = parsed if all(isinstance(item, dict) for item in parsed) else []
+            return VisionModelResponse(description="", objects=objects, raw=data)
         return VisionModelResponse(
             description=parsed.get("description", ""),
             objects=parsed.get("objects", []),

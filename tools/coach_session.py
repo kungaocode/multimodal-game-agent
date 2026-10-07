@@ -13,14 +13,17 @@ import os
 import time
 from dataclasses import replace
 from pathlib import Path
+from typing import Any
 
 from PIL import Image
 
+from decision.battle_memory import BattleMemory
 from decision.battle_fsm import BattleFSM, BattleSignals, BattleState, EmptyTargetGuard
 from decision.coach import CoachReviewer, CoachVerdict
 from decision.deploy_planner import DeployPlanner
 from decision.donation_fsm import DonationFSM, DonationSignals
 from decision.farm_fsm import FarmSignals
+from decision.loot_estimator import LootConfig, LootEstimator
 from decision.resource_policy import ResourcePolicy
 from executor.adb_executor import AdbExecutor
 from executor.action import AgentAction
@@ -35,6 +38,7 @@ from tools.coach_masks import (
     plan_deploy_point as _plan_deploy_point,
     red_zone_mask as _red_zone_mask,
     snap_deploy_point as _snap_deploy_point,
+    wall_mask as _wall_mask,
 )
 from tools.coach_recorder import TrainingDataRecorder
 
@@ -72,8 +76,9 @@ def _validated_action(action: dict, screenshot: Image.Image) -> dict:
     return {"kind": "wait", "target": check.reason, "coords": None, "troop_coords": None}
 
 
-# 护栏识别为「结束/返回」类动作的目标名：这类动作必须先过 deploy_planner 判空
-_END_ACTION_TARGETS = ("结束战斗", "返回按钮")
+# 护栏识别为「结束/返回」类动作的目标名：这类动作必须先过 deploy_planner 判空。
+# 同时保留旧名，兼容历史教练/测试数据。
+_END_ACTION_TARGETS = ("结束战斗按钮", "返回按钮", "结束战斗", "返回")
 
 
 def _deploy_action_from_plan(plan, troop_coords=None) -> dict:
@@ -87,8 +92,28 @@ def _deploy_action_from_plan(plan, troop_coords=None) -> dict:
         "target_breakdown": plan.breakdown,
         "target_repeat_count": plan.repeat_count,
         "target_reason": plan.reason,
+        "target_troops_needed": plan.troops_needed,
+        "target_expected_loot": plan.expected_loot,
+        "target_loot_estimate": plan.loot_estimate.to_dict() if plan.loot_estimate else None,
         "landing_planned": True,
     }
+
+
+def make_farm_planner(troop_budget: int = 30) -> DeployPlanner:
+    """构造 CLI/API 共用的完整下兵决策链（打分 + 落点 + 可获取性 + 战斗记忆）。"""
+    policy = ResourcePolicy()
+    return DeployPlanner(
+        policy=policy,
+        mask_provider=lambda _signals, screenshot: _no_land_mask(screenshot) if screenshot else None,
+        landing_planner=lambda name, coords, shot, dets, requested: (
+            _plan_deploy_point(requested or coords, name, dets, shot) if shot else coords
+        ),
+        loot_estimator=LootEstimator(LootConfig(troop_budget=max(1, int(troop_budget)))),
+        battle_memory=BattleMemory(),
+        green_provider=lambda _signals, screenshot: _green_mask(screenshot) if screenshot else None,
+        wall_mask_provider=lambda _signals, screenshot: _wall_mask(screenshot) if screenshot else None,
+        max_consecutive_per_target=2,
+    )
 
 
 def _backfill_resources(signals, verdict):
@@ -133,7 +158,12 @@ def _battle_end_guard(
         guard.on_targets()
         return final_action, None
     if kind == "tap" and target in _END_ACTION_TARGETS:
-        plan = deploy_planner.plan(signals, screenshot=screenshot, detections=detections)
+        plan = deploy_planner.plan(
+            signals,
+            screenshot=screenshot,
+            detections=detections,
+            commit=False,
+        )
         if plan is not None:
             guard.on_targets()
             return _deploy_action_from_plan(
@@ -155,6 +185,75 @@ def _battle_end_guard(
                 None,
             )
     return final_action, None
+
+
+def _apply_battle_decision_chain(
+    signals,
+    verdict,
+    final_action: dict,
+    fsm_farm,
+    deploy_planner,
+    guard,
+    *,
+    screenshot=None,
+    detections: list[dict] | None = None,
+    local_state: str | None = None,
+) -> tuple[dict, object | None, Any]:
+    """CLI/API 共用的战斗决策链，保证两者的下兵/撤退判断完全一致。"""
+    signals = _backfill_resources(signals, verdict)
+    deploy_plan: object | None = None
+    if fsm_farm is not None and fsm_farm.state is BattleState.BATTLE:
+        final_action, deploy_plan = _battle_end_guard(
+            signals,
+            deploy_planner,
+            final_action,
+            guard,
+            screenshot=screenshot,
+            detections=detections,
+        )
+        if deploy_plan is not None:
+            logger.info(
+                "  End guard: 算法仍有可获取目标，改下兵 %s (score=%.3f)",
+                deploy_plan.target_name,
+                deploy_plan.score,
+            )
+
+    if final_action.get("kind") == "deploy":
+        if deploy_plan is None:
+            deploy_plan = deploy_planner.plan(
+                signals,
+                screenshot=screenshot,
+                detections=detections,
+                requested_name=final_action.get("target"),
+                requested_coords=(
+                    tuple(final_action["coords"]) if final_action.get("coords") else None
+                ),
+                commit=False,
+            )
+        if deploy_plan is None:
+            logger.info("  Deploy rejected: no scoreable target")
+            final_action = {
+                "kind": "wait",
+                "target": "无可打分目标，等待下一帧",
+                "coords": None,
+                "troop_coords": None,
+            }
+        else:
+            final_action = _deploy_action_from_plan(
+                deploy_plan,
+                troop_coords=final_action.get("troop_coords"),
+            )
+            logger.info(
+                "  Deploy plan: %s score=%.3f repeat=%d reason=%s",
+                deploy_plan.target_name,
+                deploy_plan.score,
+                deploy_plan.repeat_count,
+                deploy_plan.reason,
+            )
+    elif local_state == "战斗结束":
+        guard.reset()
+        deploy_planner.reset()
+    return final_action, deploy_plan, signals
 
 
 def _local_perceive_and_decide(
@@ -198,6 +297,7 @@ def _local_perceive_and_decide(
             reinforce_button=first("增援按钮"),
             close_button=first("关闭按钮"),
             confirm_button=first("捐赠确认按钮"),
+            troop_bar_coords=first("兵种选择栏"),
         )
         assert fsm_donation is not None
         action = fsm_donation.step(signals)
@@ -255,6 +355,12 @@ def main(argv: list[str] | None = None) -> None:
         default=3,
         help="战斗内连续多少帧无可获取目标才放行点结束战斗（默认 3）",
     )
+    parser.add_argument(
+        "--troop-budget",
+        type=int,
+        default=30,
+        help="单场战斗可投入的估算兵力预算（默认 30）",
+    )
     args = parser.parse_args(argv)
 
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
@@ -308,15 +414,8 @@ def main(argv: list[str] | None = None) -> None:
             raise RuntimeError("No ADB device connected. Use --serial or connect device.")
         logger.info("ADB connected: %s", ", ".join(adb.devices()))
 
-    policy = ResourcePolicy()
-    deploy_planner = DeployPlanner(
-        policy=policy,
-        mask_provider=lambda _signals, screenshot: _no_land_mask(screenshot) if screenshot else None,
-        landing_planner=lambda name, coords, shot, dets, requested: (
-            _plan_deploy_point(requested or coords, name, dets, shot) if shot else coords
-        ),
-        max_consecutive_per_target=2,
-    )
+    deploy_planner = make_farm_planner(args.troop_budget)
+    policy = deploy_planner.policy
     fsm_farm = (
         BattleFSM(policy=policy, empty_frames_threshold=max(1, args.end_empty_frames))
         if args.module == "farm"
@@ -398,57 +497,17 @@ def main(argv: list[str] | None = None) -> None:
 
         deploy_plan = None
         if args.module == "farm":
-            # (a) 资源回填：教练枚举的可见资源建筑并入 signals（真机 0 检出时，
-            #     这是算法能看到的全部资源，决定「打不打光/何时可结束」）。
-            signals = _backfill_resources(signals, verdict)
-            # (b) 战斗内过早结束护栏：只有算法连续判空达阈值才放行「结束/返回」。
-            if fsm_farm is not None and fsm_farm.state is BattleState.BATTLE:
-                final_action, deploy_plan = _battle_end_guard(
-                    signals,
-                    deploy_planner,
-                    final_action,
-                    guard,
-                    screenshot=screenshot,
-                    detections=detections,
-                )
-                if deploy_plan is not None:
-                    logger.info(
-                        "  End guard: 算法仍有可获取目标，改下兵 %s (score=%.3f)",
-                        deploy_plan.target_name,
-                        deploy_plan.score,
-                    )
-
-        if final_action.get("kind") == "deploy":
-            if deploy_plan is None:
-                deploy_plan = deploy_planner.plan(
-                    signals,
-                    screenshot=screenshot,
-                    detections=detections,
-                    requested_name=final_action.get("target"),
-                    requested_coords=tuple(final_action["coords"]) if final_action.get("coords") else None,
-                )
-            if deploy_plan is None:
-                logger.info("  Deploy rejected: no scoreable target")
-                final_action = {
-                    "kind": "wait",
-                    "target": "无可打分目标，等待下一帧",
-                    "coords": None,
-                    "troop_coords": None,
-                }
-            else:
-                final_action = _deploy_action_from_plan(
-                    deploy_plan, troop_coords=final_action.get("troop_coords")
-                )
-                logger.info(
-                    "  Deploy plan: %s score=%.3f repeat=%d reason=%s",
-                    deploy_plan.target_name,
-                    deploy_plan.score,
-                    deploy_plan.repeat_count,
-                    deploy_plan.reason,
-                )
-        elif local_state == "战斗结束":
-            guard.reset()
-            deploy_planner.reset()
+            final_action, deploy_plan, signals = _apply_battle_decision_chain(
+                signals,
+                verdict,
+                final_action,
+                fsm_farm,
+                deploy_planner,
+                guard,
+                screenshot=screenshot,
+                detections=detections,
+                local_state=local_state,
+            )
 
         final_action = _validated_action(final_action, screenshot)
         exec_result = _execute_action(
@@ -461,6 +520,9 @@ def main(argv: list[str] | None = None) -> None:
             screenshot=screenshot,
             detections=detections,
         )
+        if args.module == "farm" and deploy_plan is not None:
+            if final_action.get("kind") == "deploy" and bool(exec_result.get("executed", False)):
+                deploy_planner.commit(deploy_plan)
         recorder.record(
             step=step,
             screenshot=screenshot,

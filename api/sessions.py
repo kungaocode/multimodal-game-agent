@@ -22,15 +22,17 @@ from pydantic import BaseModel, Field
 
 from decision.coach import CoachReviewer
 from decision.donation_fsm import DonationFSM
-from decision.battle_fsm import BattleFSM
+from decision.battle_fsm import BattleFSM, EmptyTargetGuard
 from executor.adb_executor import AdbExecutor
-from executor.action import ALLOWED_ACTION_KINDS
-from executor.validator import ActionValidator
-from perception.fsm_labels import EXTENDED_FSM_ORDER
 from tools.coach_retrain import extract_state_labels, extract_yolo_data
 from tools.coach_executor import execute_action as _execute_action
 from tools.coach_recorder import TrainingDataRecorder
-from tools.coach_session import _local_perceive_and_decide, _validated_action
+from tools.coach_session import (
+    _apply_battle_decision_chain,
+    _local_perceive_and_decide,
+    _validated_action,
+    make_farm_planner,
+)
 
 logger = logging.getLogger(__name__)
 
@@ -60,6 +62,8 @@ class SessionStartRequest(BaseModel):
     video_fps: float = Field(default=0.5, ge=0.05, le=10)
     enable_coach: bool = True
     weights: str | None = None
+    end_empty_frames: int = Field(default=3, ge=1, le=30)
+    troop_budget: int = Field(default=30, ge=1, le=200)
 
 
 class RetrainRequest(BaseModel):
@@ -255,8 +259,22 @@ class SessionManager:
                 total_steps = request.max_steps
 
             self._update(session_id, total_steps=total_steps)
-            fsm_farm = BattleFSM() if request.module == "farm" else None
+            fsm_farm = (
+                BattleFSM(empty_frames_threshold=max(1, request.end_empty_frames))
+                if request.module == "farm"
+                else None
+            )
             fsm_donation = DonationFSM() if request.module == "donation" else None
+            deploy_planner = (
+                make_farm_planner(troop_budget=request.troop_budget)
+                if request.module == "farm"
+                else None
+            )
+            guard = (
+                fsm_farm.empty_guard
+                if fsm_farm is not None
+                else EmptyTargetGuard(threshold=max(1, request.end_empty_frames))
+            )
             recorder = TrainingDataRecorder(out_dir)
 
             for step in range(1, total_steps + 1):
@@ -268,15 +286,6 @@ class SessionManager:
                 local_state, local_action, detections, signals = _local_perceive_and_decide(
                     screenshot, detector, fsm_farm, fsm_donation, request.module
                 )
-                validator = ActionValidator(
-                    image_size=screenshot.size,
-                    allowed_kinds=ALLOWED_ACTION_KINDS,
-                    allowed_targets=EXTENDED_FSM_ORDER,
-                )
-                check = validator.validate(_to_agent_action(local_action))
-                if not check.allowed:
-                    local_action = {"kind": "wait", "target": check.reason, "coords": None}
-
                 verdict = None
                 if coach is not None:
                     verdict = coach.review(
@@ -301,6 +310,20 @@ class SessionManager:
                 if verdict and not verdict.approved and verdict.corrected_state:
                     local_state = verdict.corrected_state
 
+                deploy_plan = None
+                if request.module == "farm":
+                    final_action, deploy_plan, signals = _apply_battle_decision_chain(
+                        signals,
+                        verdict,
+                        final_action,
+                        fsm_farm,
+                        deploy_planner,
+                        guard,
+                        screenshot=screenshot,
+                        detections=detections,
+                        local_state=local_state,
+                    )
+
                 final_action = _validated_action(final_action, screenshot)
                 result = _execute_action(
                     final_action,
@@ -312,6 +335,11 @@ class SessionManager:
                     screenshot=screenshot,
                     detections=detections,
                 )
+                if request.module == "farm" and deploy_plan is not None:
+                    if final_action.get("kind") == "deploy" and bool(
+                        result.get("executed", False)
+                    ):
+                        deploy_planner.commit(deploy_plan)
                 recorder.record(
                     step=step,
                     screenshot=screenshot,
@@ -454,12 +482,6 @@ class SessionManager:
             job = self._retrain_jobs.get(job_id)
             if job is not None:
                 job.update(fields)
-
-
-def _to_agent_action(action: dict[str, Any]) -> Any:
-    from executor.action import AgentAction
-
-    return AgentAction.from_dict(action)
 
 
 def _safe_path(path: Path) -> Path:

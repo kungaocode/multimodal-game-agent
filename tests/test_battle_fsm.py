@@ -58,7 +58,7 @@ def test_searching_next_button_keeps_searching():
     fsm.state = BattleState.SEARCHING
     action = fsm.step(_sig(next_button=(300, 400)))
     assert action.kind == "tap"
-    assert action.target == "下一个"
+    assert action.target == "下一个按钮"
     assert fsm.state is BattleState.SEARCHING
 
 
@@ -102,7 +102,7 @@ def test_battle_end_button_requires_consecutive_empty_frames():
     assert fsm.state is BattleState.BATTLE
     action3 = fsm.step(sig)
     assert action3.kind == "tap"
-    assert action3.target == "结束战斗"
+    assert action3.target == "结束战斗按钮"
     assert fsm.state is BattleState.BATTLE_OVER
 
 

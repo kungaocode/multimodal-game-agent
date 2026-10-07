@@ -1,7 +1,122 @@
 # 项目进度（Progress）
 
-> 最后更新：2026-09-19（同步 GitHub 时已清理内部信息，仅保留测试进度）
+> 最后更新：2026-10-07（ADB 三环接线：组合村庄环 + 阻塞切战斗）
 > 对应阶段拆分计划（阶段 0~15）
+
+## 本地 YOLO 能力核查（2026-10-06）
+
+**结论：当前 `fsm_v4` / `fsm_v5` 尚不能独立完成「打资源 + 捐兵」端到端闭环。**
+框架本身已覆盖两个模块所需类别，缺的是真实场景训练数据与模型质量，不适宜现阶段直接用云端 4B
+全文替换；已具备的级联感知（本地优先 + VL 兜底 + 样本回流）是更稳的实现方式。
+
+核查证据：
+- 历史 coach 会话共 185 步：本地动作全部为 `wait`，`tap=0`、`deploy=0`；真机执行全部来自教练纠正。
+- `fsm_v4`（10 epochs，coach_training_v4 仅 14 图/47 框且无资源建筑标注）：mAP50=0.4975，虚高。
+- `fsm_v5`（10 epochs，video_batch_v5 84 图/488 框）：mAP50=0.0846、mAP50-95=0.0292。
+- 实拍推理：打资源战斗帧在 conf=0.1/0.25 均 0 检出；捐兵帧只把多个绿条误检为「增援按钮」，
+  消息列表/关闭/确认/兵种选择栏均未检出。
+- 17 类标注总量偏少且不均衡：返回按钮 6、搜索对手 12、下一个 12、关闭 10、捐赠确认 11。
+
+## 最近交付（2026-10-06 · 下兵掠夺核心逻辑 + 捐兵闭环）
+
+### 本轮核心改动
+
+**下兵与掠夺判断（主线一）**
+- `decision/loot_estimator.py`：新增确定性可获取性估算器。输入可下兵掩码/城墙掩码或墙段/防御坐标/容量/已抢量/兵力预算，输出落点、落点距建筑距离、城墙穿越兵力、步行损耗、所需兵力、预期收益、风险分和效率分；不同落点直接改变收益系数与兵力成本。
+- `decision/battle_memory.py`：新增战斗内目标记忆，维护容量、已抢/剩余、下兵轮次、连续可见帧和打空判定，供 planner 排除已打空目标并支撑撤退判空。
+- `decision/deploy_planner.py`：分数排序后接入 `LootEstimator` + `BattleMemory`，同一目标连续部署轮换，教练候选回填，`commit=False/commit()` 保证只有执行成功的波次才记入记忆。
+- `executor/simulator.py`：模拟器不再要求落点等于建筑中心；增加 `radius`、`wall_segments`、空投距离/步行损耗/墙体代价/收益衰减，落点不同会得到不同的掠夺结果和兵力消耗。
+- `tools/coach_masks.py`：新增 `wall_mask()` 灰度墙体识别，供估算器计算城墙穿越。
+- 结束判定：`_battle_end_guard` 与记忆联动，连续 N 帧无可获取目标才放行结束/返回，已打空资源不会被重复下兵。
+
+**捐兵闭环（主线二）**
+- `executor/donation_simulator.py`：新增五屏捐兵确定性模拟器（村庄→消息列表→请求详情→增援选择→完成），必须选兵种才能确认；支持多请求自动回到消息列表继续下一单。
+- `tasks/donation.py`：新增 `DonationTask`，串起感知→FSM→校验→执行→验证→日志。
+- `decision/donation_fsm.py`：补全捐兵 FSM，所有 tap 带坐标和目标名；增加 `more_requests` 信号；进入新请求时重置兵种选择状态。
+- API 与 CLI 共用同一 `_apply_battle_decision_chain`，`api/sessions.py` 已接入回填/planner/结束护栏/执行后 commit，并新增 `end_empty_frames`、`troop_budget` 参数。
+
+**验证**
+- `python -m pytest tests -q -o addopts=''`：213 passed
+- `python -m security.audit`：0 findings
+- 新增测试：`tests/test_loot_estimator.py`、`tests/test_battle_memory.py`、`tests/test_donation_fsm.py`、`tests/test_donation_task.py`
+
+### 三环调度补测（2026-10-06）
+
+- `state/game_state.py`：新增 `ResourceThresholds`，金/圣水/黑油分别配置 `low / resume`，捐兵缺口另带安全缓冲。
+- `decision/resource_gate.py`：确定性滞回：低于 `low` 进入打资源环，回升到 `resume` 才解除，避免临界值附近抖动。
+- `decision/arbiter.py` + `tasks/agent_loop.py`：三环仲裁统一为 采集 > 打资源 > 捐兵；采集环与打资源环互斥；
+  捐兵 `BLOCKED` 的缺口转成 `FarmObjective`，资源补足后自动放行捐兵环。
+- `decision/collector_fsm.py` / `executor/collector_simulator.py` / `tasks/collector.py`：本地 YOLO 只需报出
+  金/圣水/黑油采集图标，FSM 负责点图标并验证顶栏到账。
+- `tasks/donation.py`：`BLOCKED` 结果现在携带完整 `resource_type / required / available / missing`，
+  仲裁器按缺口生成打资源目标而不是按整条需求重复刷资源。
+- `tasks/resource.py`：支持只打目标资源类型；混合村庄中非目标资源不会阻塞战斗结束，且已满足目标时直接返回，不再空等。
+
+### qwen3.8-omni-flash 云端联调（2026-10-06）
+
+- 用 `api.txt` 第 4 行密钥 + `https://ws-avxkjb2tq5lq1gwm.cn-beijing.maas.aliyuncs.com/compatible-mode/v1` 接入，
+  `qwen3.8-omni-flash` 经现有 `VisionModel.chat()` 直接返回 JSON，无需改模型结构。
+- 真实回归图验证：farm 截图能返回带像素 `coords` 的金矿/圣水/黑油等资源建筑与按钮；
+  `/perceive?mode=llm` + `/plan`（FastAPI 真实链路）联调通过，规则层无候选时可用 LLM 候选补入。
+- 兼容性修正：
+  - `perception/vision_model.py`：默认超时 60s → 120s，新增 `VISION_MODEL_TIMEOUT` 环境变量；
+    JSON 根节点为数组时按 `objects` 兼容，避免 omni 系列偶发数组输出导致崩溃。
+  - `perception/cascade.py`：LLM 物件坐标兼容 `coords` / `position_estimate` / `bbox` 及 `"[x, y]"`、`"x, y"` 字符串表示。
+- `run_api.sh`：一键启动 FastAPI；自动 cd 到项目根目录、复用 `multimodal-agent` 环境、读取 `api.txt` 密钥。
+- 验证：`python -m pytest tests -q -o addopts=''` → 215 passed；`python -m security.audit` → 0 findings。
+- 云端模型用途固定在画面感知/目标识别；三环仲裁仍由本地 `AgentArbiter` 等确定性逻辑负责。
+
+### ADB 三环接线（2026-10-07）
+
+- `tasks/adb_agent.py`：新增 `AdbAgent`，把真机 ADB 接到 `AgentLoop` 四个端口
+  （`perceive_village / run_collect / run_farm / run_donate / run_village`），
+  复用 `AdbExecutor`、`CascadeExtractor`（本地 YOLO + 云端 Qwen 兜底）、
+  `BattleFSM`、`DonationFSM`、`CollectorFSM` 与 CLI/API 共用的下兵决策链。
+- `tasks/agent_loop.py`：`AgentPorts` 新增可选 `run_village`，有该端口时优先走
+  「组合村庄环」：先采集免费图标 → 资源阈值检查 → 捐兵检测；`BLOCKED`/`LOW`
+  立即调用 `run_farm` 补缺口，战斗结束下一轮自动回到村庄环。
+- 修复 `AdbAgent._perceive_state` 未写 `_state_cache` 的问题，`perceive_village`
+  现在读取最近一帧缓存，避免一次快照重复截屏。
+- 验证：`python -m pytest tests -q -o addopts=''` → 221 passed；
+  `python -m py_compile tasks/adb_agent.py tasks/agent_loop.py decision/arbiter.py`
+  通过；新增 `tests/test_adb_agent_ports.py` 覆盖缓存回归、BLOCKED→FARM→重新村庄、
+  LOW→FARM 三种接线。
+
+### 当前进度（同步后）
+
+| 模块 | 状态 | 本轮备注 |
+|------|------|---------|
+| 阶段 0-4 / 7 / 8 | ✅ | 环境/数据/感知/状态机/资源打分/模拟闭环/动作校验均完成 |
+| 阶段 6 / 级联感知 | ✅ | qwen3.8-omni-flash 真实联调 + cascade 路由 + 样本回流 + `/cascade/stats` |
+| CLI coach 会话 | ✅ | 已含资源回填、DeployPlanner、可获取性估算、战斗记忆、判空护栏 |
+| 后端 API（阶段 9） | 🔄 | `/perceive`、`/plan`、`/cascade/stats`、`/session/*` 可用；API 会话已复用 CLI 决策链；`/execute`、`/verify` 仍缺失 |
+| 捐兵（阶段 10） | ✅ | FSM + 校验器白名单 + 五屏确定性模拟器 + DonationTask 闭环 |
+| 三环调度 | ✅ | 采集优先、打资源/捐兵仲裁、资源阈值滞回、阻塞缺口注入目标；`AgentPorts` 已留好 API 接线边界 |
+| Android / HarmonyOS（阶段 11/12） | 🔄 | `tasks/adb_agent.py` 接线完成，等用户连接真机/模拟器后冒烟 |
+| 阶段 13 评估 | 🔄 | 状态转换工具与基线在；真机本地 YOLO 检出力弱 |
+| 阶段 14 安全 | ✅ | 审计通过；validator/风险分级在 |
+| 阶段 15 真机 | ⬜ | 未在本轮执行 |
+| 数据资产 | ✅ | 20 个含 `session_summary.json` 的教练目录；resource 5 视频 + donate 6 视频可 dry-run |
+
+### 遗留问题（按优先级）
+
+| # | 级别 | 问题 | 位置 | 说明 |
+|---|------|------|------|------|
+| P2-2 | 中 | `/execute`、`/verify` 未实现 | `api/main.py` | 阶段 9 收尾项缺失，移动端没有单动作执行与验证接口 |
+| P3-1 | 低 | 真机本地模型检出力弱 | PROGRESS 历史 Eval | 重训数据不足；`fsm_real_buttons` 与 `final_test_dataset` 疑似同源，需拆分核实 |
+| P3-2 | 低 | 捐兵真实录制视频中 `more_requests` 尚未由 OCR/检测器产出 | `perception/fsm_labels.py` | 模拟器已用该信号打通多请求；真机识别仍需补一个「还有新请求」信号，否则默认按单请求回村庄 |
+| P3-3 | 低 | `api.txt` 含凭据（已 gitignore，未入库） | 工作区根目录 | 建议迁到环境变量并轮换密钥；本轮未打印/提交 |
+
+### 后续推进与测试计划（2026-10 起）
+
+| 阶段 | 工作项 | 验收 / 测试 |
+|------|--------|-----------|
+| 1 真机下兵验收 | dry-run resource 视频并记录落点、墙体代价、重复轮换和判空帧数 | 落点 100% 在可下兵草地；无刚开战就结束；同一目标轮换符合 `max_consecutive_per_target` |
+| 2 真机捐兵验收 | dry-run donate 视频并核对五屏转移，补真实 `more_requests` 感知 | 每一单都选兵种再确认；多请求不提前回村；无全 wait |
+| 3 接 API 三环 | 用 `AgentPorts` 接真实 ADB/OCR/Qwen：感知村庄、执行采集、执行打资源、恢复捐兵 | mock + 模拟器契约测试通过（`tests/test_adb_agent_ports.py`）；下一步等设备连接后做真机三环冒烟 |
+| 4 补 P2-2 | 实现 `/execute`（validator + ADB/simulator）与 `/verify`（前后 GameState 对比） | API 契约测试 + simulator 回归 |
+| 5 数据/模型 | 拆分 train/val，用现有 coach 会话 + 新采集回流重训 v6 | YOLO 真机关键按钮/资源检出率上升；教练纠正率下降；汇总对比表 |
+| 6 真机 | 恢复逻辑（桌面→拉起 App）、结束判定 3 帧护栏、误点右下角图标回归 | 按「下次上机验收口径」逐条记录 |
 
 ## 阶段总览
 
@@ -17,7 +132,7 @@
 | 7 | Agent 闭环 | ✅ | ResourceTask + Simulator 完成打资源闭环（阶段 3/4/7 一起交付） |
 | 8 | 行为执行器与模拟环境 | ✅ | `executor/`：AgentAction schema + ActionValidator 白名单/越界校验 + Simulator 确定性仿真 |
 | 9 | 后端 API 封装 | 🔄 | `/health`、`/perceive`、`/perceive/base64`、`/plan` 均可用并已真实联调；`/execute`、`/verify` 未加 |
-| 10 | 捐兵模块 | ⬜ | 后续模块（MVP 不做） |
+| 10 | 捐兵模块 | ✅ | 捐兵 FSM + 五屏确定性模拟器 + DonationTask 闭环；真实 `more_requests` 感知待补 |
 | 11 | Android 客户端 | ⬜ | 未开始 |
 | 12 | HarmonyOS 客户端 | ⬜ | 未开始 |
 | 13 | 实验评估体系 | 🔄 | 状态转换识别测试工具+基线完成；后续计划见「接下来测试重点」 |

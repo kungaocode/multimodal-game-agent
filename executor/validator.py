@@ -12,7 +12,7 @@ from __future__ import annotations
 from dataclasses import dataclass
 from typing import Any, Sequence
 
-from .action import ALLOWED_ACTION_KINDS, FARM_ALLOWED_TARGETS
+from .action import ALLOWED_ACTION_KINDS, ALLOWED_TARGETS
 
 # 每种动作的基准风险等级
 KIND_RISK: dict[str, str] = {
@@ -43,7 +43,7 @@ class ActionValidator:
         self.image_size = (int(image_size[0]), int(image_size[1]))
         self.allowed_kinds = tuple(allowed_kinds) if allowed_kinds is not None else ALLOWED_ACTION_KINDS
         self.allowed_targets = (
-            tuple(allowed_targets) if allowed_targets is not None else FARM_ALLOWED_TARGETS
+            tuple(allowed_targets) if allowed_targets is not None else ALLOWED_TARGETS
         )
         self.margin = margin
 

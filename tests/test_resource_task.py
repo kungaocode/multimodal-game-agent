@@ -1,9 +1,15 @@
 """Tests for the end-to-end resource task closed loop (阶段 3/7)."""
 
-from decision.farm_fsm import FarmFSM
-from executor.simulator import Simulator, default_farm_world
+from decision.farm_fsm import FarmFSM, FarmObjective
+from executor.simulator import (
+    DefenseSite,
+    ResourceSite,
+    Simulator,
+    SimVillage,
+    default_farm_world,
+)
 from executor.validator import ActionValidator
-from state.game_state import ResourceStatus
+from state.game_state import ResourceStatus, Resources
 from tasks.resource import ResourceTask
 
 
@@ -84,3 +90,55 @@ def test_simulator_can_be_reused_with_reset():
     second = task.run(simulator)
     assert second.status == "SUCCESS"
     assert second.total_loot == first.total_loot  # 确定性：两次结果一致
+
+
+def test_objective_only_farms_target_types():
+    simulator = Simulator(
+        [
+            SimVillage(
+                name="混合村",
+                resources=[
+                    ResourceSite("圣水收集器", (400, 400), capacity=3_000),
+                    ResourceSite("金矿", (800, 400), capacity=5_000),
+                ],
+                defenses=[DefenseSite((600, 600))],
+            )
+        ]
+    )
+
+    result = ResourceTask().run(
+        simulator,
+        max_steps=40,
+        objective=FarmObjective(
+            requirements={"elixir": 2_000},
+            target_types=("elixir",),
+        ),
+    )
+
+    assert result.status == "SUCCESS"
+    assert result.total_loot == 3_000
+    assert simulator.own_amounts.elixir == 3_000
+    assert simulator.own_amounts.gold == 0
+
+
+def test_objective_already_met_returns_without_attacking():
+    own = ResourceStatus(
+        detected=2,
+        amounts=Resources(elixir=3_000),
+    )
+    simulator = Simulator(
+        [SimVillage(resources=[ResourceSite("圣水收集器", (400, 400), capacity=3_000)])],
+        own_resources=own,
+    )
+
+    result = ResourceTask().run(
+        simulator,
+        objective=FarmObjective(
+            requirements={"elixir": 2_000},
+            target_types=("elixir",),
+        ),
+    )
+
+    assert result.status == "SUCCESS"
+    assert result.steps == 0
+    assert simulator.screen == Simulator.SCREEN_VILLAGE

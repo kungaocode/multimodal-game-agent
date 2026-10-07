@@ -49,6 +49,14 @@ class FarmSignals:
     resources: ResourceStatus = field(default_factory=ResourceStatus)  # 自己资源是否满
 
 
+@dataclass(frozen=True)
+class FarmObjective:
+    """打资源环的目标：需要补到多少资源、只打哪些资源类型。"""
+
+    requirements: dict[str, int] = field(default_factory=dict)
+    target_types: tuple[str, ...] = ("gold", "elixir", "dark_elixir")
+
+
 @dataclass
 class FarmAction:
     """FSM 给出的动作。kind: tap(点击) / deploy(下兵) / wait(等待) / stop(结束)。"""

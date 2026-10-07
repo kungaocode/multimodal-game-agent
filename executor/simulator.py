@@ -17,13 +17,20 @@ perceive() 输出与 FarmFSM 兼容的 FarmSignals —— 即「检测器 + OCR�
 
 from __future__ import annotations
 
+import math
 from dataclasses import dataclass, field
 from typing import Any
 
-from state.game_state import ResourceStatus
+from state.game_state import ResourceStatus, Resources
 
 from decision.farm_fsm import FarmSignals
-from decision.resource_policy import full_resource_names
+from decision.resource_policy import RESOURCE_TYPE_BY_BUILDING, full_resource_names
+
+_OWN_RESOURCE_FIELD: dict[str, str] = {
+    "gold": "gold",
+    "elixir": "elixir",
+    "dark": "dark_elixir",
+}
 
 
 @dataclass
@@ -34,6 +41,8 @@ class ResourceSite:
     coords: tuple[int, int]
     amount: int = 0
     capacity: int = 0
+    # 落点可接近半径：真实下兵只会落在草地/可下兵点，通常不会正好是建筑中心。
+    radius: float = 160.0
 
 
 @dataclass
@@ -49,6 +58,8 @@ class SimVillage:
 
     resources: list[ResourceSite] = field(default_factory=list)
     defenses: list[DefenseSite] = field(default_factory=list)
+    # 直线（墙段起点, 墙段终点）表示的城墙，供落点→建筑中心的穿越估算。
+    wall_segments: list[tuple[tuple[int, int], tuple[int, int]]] = field(default_factory=list)
     name: str = "村庄"
 
 
@@ -73,6 +84,10 @@ class Simulator:
         image_size: tuple[int, int] = (1280, 720),
         troops_per_battle: int = 30,
         loot_per_deploy: int = 1000,
+        optimal_landing_px: float = 120.0,
+        max_landing_px: float = 260.0,
+        walk_px_per_extra_troop: float = 180.0,
+        wall_breaker_cost: int = 3,
         attack_button: tuple[int, int] | None = None,
         return_button: tuple[int, int] | None = None,
         own_resources: ResourceStatus | None = None,
@@ -81,10 +96,20 @@ class Simulator:
         self.image_size = (int(image_size[0]), int(image_size[1]))
         self.troops_per_battle = troops_per_battle
         self.loot_per_deploy = loot_per_deploy
+        self.optimal_landing_px = float(optimal_landing_px)
+        self.max_landing_px = float(max_landing_px)
+        self.walk_px_per_extra_troop = float(walk_px_per_extra_troop)
+        self.wall_breaker_cost = int(wall_breaker_cost)
         w, h = self.image_size
         self.attack_button = attack_button or (w - 160, h - 80)
         self.return_button = return_button or (w - 120, h - 40)
         self.own_resources = own_resources or ResourceStatus()
+        self.target_resource_types: tuple[str, ...] | None = None
+        self._initial_amounts = Resources(
+            gold=self.own_resources.amounts.gold,
+            elixir=self.own_resources.amounts.elixir,
+            dark_elixir=self.own_resources.amounts.dark_elixir,
+        )
         self.reset()
 
     # ------------------------------------------------------------------ 状态
@@ -95,9 +120,21 @@ class Simulator:
         self.troops_left = self.troops_per_battle
         self.done = False
         self.total_loot = 0.0
+        self.own_amounts = Resources(
+            gold=self._initial_amounts.gold,
+            elixir=self._initial_amounts.elixir,
+            dark_elixir=self._initial_amounts.dark_elixir,
+        )
         for village in self.villages:
             for site in village.resources:
                 site.amount = site.capacity
+
+    def set_target_resource_types(self, target_types: tuple[str, ...] | None) -> None:
+        """限定本次打资源环只把指定资源类型视为可抢目标。
+
+        由 ResourceTask 从 FarmObjective 注入；不传或传 None 表示不限制。
+        """
+        self.target_resource_types = tuple(target_types) if target_types else None
 
     @property
     def current_village(self) -> SimVillage | None:
@@ -110,7 +147,14 @@ class Simulator:
         if village is None:
             return []
         skip = full_resource_names(self.own_resources)
-        return [s for s in village.resources if s.amount > 0 and s.name not in skip]
+        sites = [s for s in village.resources if s.amount > 0 and s.name not in skip]
+        if self.target_resource_types is not None:
+            sites = [
+                s
+                for s in sites
+                if _resource_type_of(s.name) in self.target_resource_types
+            ]
+        return sites
 
     def _battle_over(self, village: SimVillage | None) -> bool:
         return self.troops_left <= 0 or not self._lootable_sites(village)
@@ -177,25 +221,73 @@ class Simulator:
             return SimulationResult(
                 "deploy", 0.0, False, {"reason": "兵力用尽", "screen_changed": False}
             )
-        site = next(
+        if coords is None:
+            return SimulationResult(
+                "deploy", 0.0, False, {"reason": "缺少落点", "screen_changed": False}
+            )
+        site = min(
             (
                 s
                 for s in village.resources
-                if s.name == target and s.amount > 0 and s.coords == coords
+                if s.name == target and s.amount > 0
+                and math.dist(coords, s.coords) <= max(s.radius, self.max_landing_px)
             ),
-            None,
+            key=lambda s: math.dist(coords, s.coords),
+            default=None,
         )
         if site is None:
             return SimulationResult(
                 "deploy",
                 0.0,
                 False,
-                {"reason": "目标不存在或已抢空", "screen_changed": False},
+                {"reason": "目标不存在、已抢空或落点过远", "screen_changed": False},
             )
-        loot = min(site.amount, self.loot_per_deploy)
+
+        # 落点不同 → 步行损耗与收益系数不同；城墙穿越按估算器同一算法计算额外兵力。
+        from decision.loot_estimator import wall_crossing_cost
+
+        dist = math.dist(coords, site.coords)
+        if dist > self.max_landing_px:
+            return SimulationResult(
+                "deploy",
+                0.0,
+                False,
+                {"reason": f"落点距建筑 {dist:.0f}px 过远", "screen_changed": False},
+            )
+        wall_cost = wall_crossing_cost(
+            coords,
+            site.coords,
+            wall_segments=getattr(village, "wall_segments", []),
+            wall_breaker_cost=self.wall_breaker_cost,
+        )
+        walk_extra = 0
+        if dist > self.optimal_landing_px and self.walk_px_per_extra_troop > 0:
+            walk_extra = int(
+                math.ceil((dist - self.optimal_landing_px) / self.walk_px_per_extra_troop)
+            )
+        troop_cost = 1 + wall_cost + walk_extra
+        if self.troops_left < troop_cost:
+            return SimulationResult(
+                "deploy",
+                0.0,
+                False,
+                {"reason": f"兵力不足支付城墙/步行损耗（需 {troop_cost}）", "screen_changed": False},
+            )
+
+        loot_factor = 1.0
+        if dist > self.optimal_landing_px and self.max_landing_px > self.optimal_landing_px:
+            span = self.max_landing_px - self.optimal_landing_px
+            falloff = min(1.0, (dist - self.optimal_landing_px) / span)
+            loot_factor = max(0.35, 1.0 - falloff * 0.8)
+        loot = min(site.amount, int(self.loot_per_deploy * loot_factor))
         site.amount -= loot
-        self.troops_left -= 1
+        self.troops_left -= troop_cost
         self.total_loot += loot
+        resource_type = RESOURCE_TYPE_BY_BUILDING.get(target)
+        own_field = _OWN_RESOURCE_FIELD.get(resource_type) if resource_type else None
+        if own_field is not None:
+            current = getattr(self.own_amounts, own_field, 0)
+            setattr(self.own_amounts, own_field, current + loot)
         if self._battle_over(village):
             self.screen = self.SCREEN_BATTLE_OVER
         return SimulationResult(
@@ -205,6 +297,11 @@ class Simulator:
             {
                 "looted": loot,
                 "remaining": site.amount,
+                "landing_dist": round(dist, 1),
+                "loot_factor": round(loot_factor, 3),
+                "wall_cost": wall_cost,
+                "walk_extra": walk_extra,
+                "troop_cost": troop_cost,
                 "reason": "收割资源",
                 "screen_changed": False,
             },
@@ -234,3 +331,10 @@ def default_farm_world() -> list[SimVillage]:
             defenses=[DefenseSite((300, 500)), DefenseSite((900, 600))],
         ),
     ]
+
+
+def _resource_type_of(name: str) -> str | None:
+    resource_type = RESOURCE_TYPE_BY_BUILDING.get(name)
+    if resource_type == "dark":
+        return "dark_elixir"
+    return resource_type

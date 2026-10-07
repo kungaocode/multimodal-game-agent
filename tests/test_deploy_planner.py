@@ -1,8 +1,10 @@
 """Tests for final deploy target selection and repeat rotation."""
 
 from decision.battle_fsm import BattleFSM, BattleSignals, BattleState
+from decision.battle_memory import BattleMemory
 from decision.deploy_planner import DeployPlanner
 from decision.farm_fsm import FarmSignals
+from decision.loot_estimator import LootConfig, LootEstimator
 from decision.resource_policy import PolicyConfig, ResourcePolicy
 from state.game_state import ResourceStatus
 
@@ -71,6 +73,23 @@ def test_landing_planner_and_breakdown_are_exposed():
     assert plan is not None
     assert plan.landing_point == (640, 357)
     assert plan.breakdown["value"] > 0.9
+
+
+def test_battle_memory_depletes_target_after_planned_force():
+    """估算兵力打满后，同一资源点从候选里消失 → 结束/判空依据成立。"""
+    planner = DeployPlanner(
+        policy=ResourcePolicy(PolicyConfig(image_size=(1280, 720), deploy_point=(640, 700))),
+        loot_estimator=LootEstimator(LootConfig(troop_budget=30, min_expected_loot=0)),
+        battle_memory=BattleMemory(),
+    )
+    signals = _signals(("金矿", (640, 360)))
+    first = planner.plan(signals, commit=False)
+    second = planner.plan(signals, commit=False)
+    assert first is not None
+    assert second is not None
+    planner.commit(first)
+    planner.commit(second)
+    assert planner.plan(signals, commit=False) is None
 
 
 def test_battle_search_uses_scored_target_not_raw_first():

@@ -24,6 +24,35 @@ FARM_ALLOWED_TARGETS: tuple[str, ...] = (
     "返回按钮",
 )
 
+# 战斗界面额外按钮（与 decision.battle_fsm 输出保持一致）
+BATTLE_UI_TARGETS: tuple[str, ...] = (
+    "搜索对手按钮",
+    "下一个按钮",
+    "结束战斗按钮",
+)
+
+# 捐兵流程按钮/面板
+DONATION_UI_TARGETS: tuple[str, ...] = (
+    "消息列表按钮",
+    "请求条目",
+    "关闭按钮",
+    "捐赠确认按钮",
+    "兵种选择栏",
+    "增援按钮",
+)
+
+# 村庄采集环：点击采集器上方可收图标
+COLLECTOR_TARGETS: tuple[str, ...] = (
+    "金币采集图标",
+    "圣水采集图标",
+    "黑油采集图标",
+)
+
+# 全部可执行目标（默认校验白名单）
+ALLOWED_TARGETS: tuple[str, ...] = (
+    FARM_ALLOWED_TARGETS + BATTLE_UI_TARGETS + DONATION_UI_TARGETS + COLLECTOR_TARGETS
+)
+
 
 @dataclass(frozen=True)
 class AgentAction:

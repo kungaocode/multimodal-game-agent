@@ -21,8 +21,8 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 from typing import Any
 
-from decision.farm_fsm import FarmAction, FarmFSM
-from decision.resource_policy import ResourcePolicy
+from decision.farm_fsm import FarmAction, FarmFSM, FarmObjective, FarmState
+from decision.resource_policy import RESOURCE_TYPE_BY_BUILDING, ResourcePolicy
 from executor.simulator import Simulator
 from executor.validator import ActionValidator
 
@@ -82,13 +82,30 @@ class ResourceTask:
         self.policy = policy if policy is not None else ResourcePolicy()
         self.validator = validator if validator is not None else ActionValidator()
 
-    def run(self, simulator: Simulator, max_steps: int = 300) -> TaskResult:
+    def run(
+        self,
+        simulator: Simulator,
+        max_steps: int = 300,
+        objective: FarmObjective | None = None,
+    ) -> TaskResult:
         """在给定模拟环境上跑完一次完整打资源任务。
 
         默认 FSM 在首次 run 时构建，并把模拟环境当前村庄的防御坐标动态喂给打分策略。
         """
         if self.fsm is None:
             policy = self.policy
+            if objective is not None:
+                base_policy = self.policy
+
+                def objective_policy(signals):
+                    targets = base_policy(signals)
+                    return [
+                        (name, coords)
+                        for name, coords in targets
+                        if _objective_matches(name, objective.target_types)
+                    ]
+
+                policy = objective_policy
             if isinstance(policy, ResourcePolicy):
                 policy = ResourcePolicy(
                     config=policy.config,
@@ -103,8 +120,13 @@ class ResourceTask:
             self.fsm.state = type(self.fsm.state).VILLAGE
             self.fsm.history = [self.fsm.state.value]
 
+        simulator.set_target_resource_types(
+            objective.target_types if objective is not None else None
+        )
         records: list[StepRecord] = []
         total_loot = 0.0
+        if objective is not None and self._objective_met(simulator, objective):
+            return TaskResult("SUCCESS", "目标资源已补足", 0, total_loot, records)
         for step_no in range(1, max_steps + 1):
             signals = simulator.perceive()
             action = self.fsm.step(signals)
@@ -131,10 +153,26 @@ class ResourceTask:
 
             if action.kind == "stop":
                 return TaskResult("STOP", "己方资源已满，任务停止", step_no, total_loot, records)
+            if (
+                objective is not None
+                and self.fsm.state is FarmState.VILLAGE
+                and self._objective_met(simulator, objective)
+            ):
+                return TaskResult("SUCCESS", "目标资源已补足", step_no, total_loot, records)
             if action.kind == "wait" and simulator.done:
                 return TaskResult("SUCCESS", "所有村庄已搜刮完毕", step_no, total_loot, records)
 
         return TaskResult("MAX_STEPS", f"超过最大步数 {max_steps}", max_steps, total_loot, records)
+
+    @staticmethod
+    def _objective_met(simulator: Simulator, objective: FarmObjective) -> bool:
+        if not objective.requirements:
+            return False
+        amounts = getattr(simulator, "own_amounts", simulator.own_resources.amounts)
+        return all(
+            getattr(amounts, resource_type, 0) >= need
+            for resource_type, need in objective.requirements.items()
+        )
 
     @staticmethod
     def _verify(action: FarmAction, result: Any) -> bool:
@@ -144,3 +182,12 @@ class ResourceTask:
         if action.kind == "tap":
             return bool(result.info.get("screen_changed", False))
         return True  # wait / stop 只改变决策侧状态，无需验证
+
+
+def _objective_matches(name: str, target_types: tuple[str, ...]) -> bool:
+    resource_type = RESOURCE_TYPE_BY_BUILDING.get(name)
+    if resource_type is None:
+        return False
+    if resource_type in target_types:
+        return True
+    return resource_type == "dark" and "dark_elixir" in target_types

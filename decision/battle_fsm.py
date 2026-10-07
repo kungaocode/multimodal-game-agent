@@ -156,7 +156,7 @@ class BattleFSM:
                 return self._transit(BattleState.BATTLE, BattleAction("deploy", name, coords))
             # 不值得（或资源未检出无法评估）→ 点「下一个」继续搜索
             if signals.next_button is not None:
-                return BattleAction("tap", "下一个", signals.next_button)
+                return BattleAction("tap", "下一个按钮", signals.next_button)
             if worth is False:
                 return BattleAction("wait", "对手不值得，等待「下一个」按钮")
             return BattleAction("wait", "等待搜索结果/评估")
@@ -175,7 +175,8 @@ class BattleFSM:
             # ③ 主动结束：连续 N 帧无可获取目标 且 结束按钮可见 → 才 tap 结束
             if signals.end_battle_button is not None and self.empty_guard.on_empty():
                 return self._transit(
-                    BattleState.BATTLE_OVER, BattleAction("tap", "结束战斗", signals.end_battle_button)
+                    BattleState.BATTLE_OVER,
+                    BattleAction("tap", "结束战斗按钮", signals.end_battle_button),
                 )
             return BattleAction("wait", "等待识别敌方资源建筑/判空确认")
 

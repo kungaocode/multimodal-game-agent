@@ -96,6 +96,50 @@ def test_vision_model_retries_without_response_format_on_400(monkeypatch):
     assert result.objects[0]["type"] == "gold_mine"
 
 
+def test_vision_model_handles_list_root_from_json_mode(monkeypatch):
+    """部分 omni 模型会把 JSON 根节点写成数组，describe() 应兼容为 objects。"""
+    import httpx
+    from PIL import Image
+
+    from perception.vision_model import VisionModel
+
+    class FakeClient:
+        def __init__(self, *args, **kwargs):
+            pass
+
+        def __enter__(self):
+            return self
+
+        def __exit__(self, *args):
+            return False
+
+        def post(self, url, json, headers):
+            return httpx.Response(
+                200,
+                request=httpx.Request("POST", url),
+                json={
+                    "choices": [
+                        {
+                            "message": {
+                                "content": (
+                                    '[{"type": "gold_mine", "position_estimate": [100, 200], '
+                                    '"confidence": 0.9}, {"type": "elixir_collector", '
+                                    '"position_estimate": [300, 400], "confidence": 0.8}]'
+                                )
+                            }
+                        }
+                    ]
+                },
+            )
+
+    monkeypatch.setattr(httpx, "Client", FakeClient)
+    model = VisionModel(base_url="http://fake/v1", api_key="k")
+    result = model.describe(Image.new("RGB", (64, 64), "white"))
+    assert result.description == ""
+    assert len(result.objects) == 2
+    assert result.objects[0]["type"] == "gold_mine"
+
+
 def test_vision_model_chat_returns_full_json(monkeypatch):
     """chat() 返回模型输出的完整 JSON（summary + steps），不做 describe 字段过滤。"""
     import httpx

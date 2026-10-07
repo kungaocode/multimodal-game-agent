@@ -14,7 +14,7 @@ import re
 from dataclasses import dataclass
 from typing import Any, Iterable
 
-from state.game_state import ResourceStatus
+from state.game_state import Resources, ResourceStatus
 
 # 顶栏高度占全屏的比例：高于这条线的数字才认为属于顶栏
 TOP_FRACTION = 0.16
@@ -83,6 +83,11 @@ def check_resources_full(
     numbers = topbar_numbers(entries, image_height)
 
     status = ResourceStatus(detected=min(3, len(numbers)))
+    status.amounts = Resources(
+        gold=numbers[0] if len(numbers) >= 1 else 0,
+        elixir=numbers[1] if len(numbers) >= 2 else 0,
+        dark_elixir=numbers[2] if len(numbers) >= 3 else 0,
+    )
     if len(numbers) >= 1:
         status.gold_full = numbers[0] >= caps.gold
     if len(numbers) >= 2:
